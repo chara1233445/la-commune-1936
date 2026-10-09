@@ -1,0 +1,61 @@
+{
+  "version": "1936-frontpage-v4",
+  "edition": "一九三六年一月",
+  "position": "工团派报社；倾向工团内部整顿，维护会员委任与行业联合",
+  "lead": {
+    "title": "诉CGT案",
+    "fr": "L’AFFAIRE DE LA C.G.T.",
+    "eventYear": 1934,
+    "followUpYear": 1936
+  },
+  "establishedFacts": [
+    "CGT参与革命并成为经济与政治决策中心",
+    "1934年诉CGT案引发第一届工团—无政府主义者联合政府集体辞职",
+    "旧联盟决裂，部分无政府主义者仍同情建制派",
+    "工团内部存在改革限制与维护工团原则两种主张"
+  ],
+  "additions": "社论、读者来信、合作社广告和本期编务为文游内报纸内容；未设定法院判决、具体违法罪名或新的政府组成。",
+  "images": [
+    {
+      "file": "cgt-assembly-1934.png",
+      "caption": "巴黎工会代表集会 · 1934年事件设定插画",
+      "generated": true
+    },
+    {
+      "file": "printing-cooperative-1936.png",
+      "caption": "印刷合作社的清晨 · 设定插画",
+      "generated": true
+    }
+  ],
+  "crossPage": {
+    "assembly": 650,
+    "majority": 326,
+    "syndicalist": 210,
+    "formerAlliance": 335,
+    "defenceBudgetYiMark": 33.6,
+    "activeStrength": 524000
+  },
+  "editorial": {
+    "title": "把账簿拿到会员面前",
+    "fr": "LES COMPTES DEVANT LES SYNDIQUÉS",
+    "stance": "工团派内部的辩护与整顿主张：维护工会组织生产的权力，要求会员查账和检验委任，争取旧无政府派伙伴，批评雅各宾与索雷尔的集权主张。"
+  },
+  "proseReference": [
+    {
+      "title": "《无产阶级革命》1936年2月号：罗默的回忆节选",
+      "url": "https://revolutionproletarienne.wordpress.com/archives/n-215-complet-1936/",
+      "purpose": "记述具体地点、组织来往与政治分歧的写法；不移植其中1914年后的事件。"
+    },
+    {
+      "title": "1906年亚眠大会记录与宪章原文",
+      "url": "https://anarcho-syndicalisme.org/qui-sommes-nous/la-charte-damiens/",
+      "purpose": "工会从抵抗组织到生产与分配组织的历史主张，以及委任、独立性与党派关系。"
+    },
+    {
+      "title": "法国工团报刊馆藏目录",
+      "url": "https://www.ihs.cgt.fr/presse-numerisee/",
+      "purpose": "报社身份与工团报刊传统的参考。"
+    }
+  ],
+  "proseMethod": "报道从革命工会承担生产后产生的权限争论写起；社论以党派报纸身份辩护并责问本派机关；来信由具体行业代表讲述自身遭遇。保留架空世界线，不移植现实人民阵线事件。"
+}
