@@ -1,0 +1,434 @@
+{
+  "year": 1936,
+  "version": "1936-opening-support-v1",
+  "status": "文游开局拟定；非实际调查、非MOD官方数据",
+  "title": "全国政治支持意向",
+  "basis": "依用户提供的阶层政治描述设定的综合态度模型；包括合法党派、被封禁组织的社会支持、拒绝体制与未决定者。",
+  "classes": [
+    {
+      "id": "workers",
+      "name": "工人",
+      "weight": 48,
+      "support": {
+        "syndicalist": 38,
+        "anarchist": 22,
+        "communist": 17,
+        "jacobin": 6,
+        "sorelian": 9,
+        "social-republican": 2,
+        "young-republican": 2,
+        "taxpayer": 0.5,
+        "christian": 0.5,
+        "independent": 1,
+        "farmer-front": 0,
+        "anti-commune": 0.5,
+        "undecided": 1.5
+      }
+    },
+    {
+      "id": "farmers",
+      "name": "农民",
+      "weight": 27,
+      "support": {
+        "syndicalist": 7,
+        "anarchist": 23,
+        "communist": 20,
+        "jacobin": 3,
+        "sorelian": 3,
+        "social-republican": 3,
+        "young-republican": 7,
+        "taxpayer": 4,
+        "christian": 8,
+        "independent": 4,
+        "farmer-front": 10,
+        "anti-commune": 4,
+        "undecided": 4
+      }
+    },
+    {
+      "id": "petty-bourgeois",
+      "name": "小市民",
+      "weight": 8,
+      "support": {
+        "syndicalist": 3,
+        "anarchist": 4,
+        "communist": 4,
+        "jacobin": 26,
+        "sorelian": 21,
+        "social-republican": 11,
+        "young-republican": 9,
+        "taxpayer": 3,
+        "christian": 2,
+        "independent": 3,
+        "farmer-front": 0,
+        "anti-commune": 12,
+        "undecided": 2
+      }
+    },
+    {
+      "id": "old-middle",
+      "name": "旧中产阶级",
+      "weight": 6,
+      "support": {
+        "syndicalist": 2,
+        "anarchist": 4,
+        "communist": 2,
+        "jacobin": 10,
+        "sorelian": 7,
+        "social-republican": 9,
+        "young-republican": 6,
+        "taxpayer": 19,
+        "christian": 14,
+        "independent": 5,
+        "farmer-front": 1,
+        "anti-commune": 18,
+        "undecided": 3
+      }
+    },
+    {
+      "id": "new-middle",
+      "name": "新中产阶级",
+      "weight": 6,
+      "support": {
+        "syndicalist": 74,
+        "anarchist": 2,
+        "communist": 4,
+        "jacobin": 8,
+        "sorelian": 4,
+        "social-republican": 2,
+        "young-republican": 1,
+        "taxpayer": 1,
+        "christian": 0,
+        "independent": 2,
+        "farmer-front": 0,
+        "anti-commune": 0.5,
+        "undecided": 1.5
+      }
+    },
+    {
+      "id": "unemployed",
+      "name": "失业者",
+      "weight": 3,
+      "support": {
+        "syndicalist": 20,
+        "anarchist": 18,
+        "communist": 30,
+        "jacobin": 10,
+        "sorelian": 9,
+        "social-republican": 3,
+        "young-republican": 3,
+        "taxpayer": 0,
+        "christian": 1,
+        "independent": 1,
+        "farmer-front": 0,
+        "anti-commune": 3,
+        "undecided": 2
+      }
+    },
+    {
+      "id": "military",
+      "name": "军队",
+      "weight": 2,
+      "support": {
+        "syndicalist": 12,
+        "anarchist": 6,
+        "communist": 22,
+        "jacobin": 24,
+        "sorelian": 24,
+        "social-republican": 4,
+        "young-republican": 3,
+        "taxpayer": 1,
+        "christian": 1,
+        "independent": 1,
+        "farmer-front": 0,
+        "anti-commune": 1,
+        "undecided": 1
+      }
+    }
+  ],
+  "categories": [
+    {
+      "id": "syndicalist",
+      "name": "革命工团委员会",
+      "short": "工团",
+      "color": "#b52032",
+      "kind": "parliamentary",
+      "base": "工会组织工人、工会庇护下的新中产",
+      "position": "依靠工会网络仍居首位；诉CGT案后的垄断争议削弱了跨群体号召力。"
+    },
+    {
+      "id": "anarchist",
+      "name": "联邦无政府主义者协会",
+      "short": "无政府",
+      "color": "#25282e",
+      "kind": "parliamentary",
+      "base": "城市工人、自治诉求较强的进步农民",
+      "position": "地方自治与反官僚诉求构成支持基础；与共产党的共同反对派关系仍须协调。"
+    },
+    {
+      "id": "communist",
+      "name": "法国共产党",
+      "short": "共产党",
+      "color": "#b74a28",
+      "kind": "parliamentary",
+      "base": "未受工会庇护的工人、进步农民、失业者与部分基层官兵",
+      "position": "福利、农村投资和反工会垄断可以扩大支持；多条马克思主义路线并存。"
+    },
+    {
+      "id": "jacobin",
+      "name": "法国人民党",
+      "short": "雅各宾",
+      "color": "#8a6508",
+      "kind": "parliamentary",
+      "base": "激进小市民、技术人员与部分基层官兵",
+      "position": "集中规划与强执行力吸引不满现状者；革命专制主张限制温和派合作。"
+    },
+    {
+      "id": "sorelian",
+      "name": "法国国家工团主义者联盟",
+      "short": "索雷尔",
+      "color": "#623a58",
+      "kind": "parliamentary",
+      "base": "部分工人、激进小市民与基层官兵",
+      "position": "民族动员与战备诉求扩张支持；瓦鲁瓦派与青年先锋派仍有分歧。"
+    },
+    {
+      "id": "social-republican",
+      "name": "社会主义共和联盟",
+      "short": "社会共和",
+      "color": "#655ca3",
+      "kind": "parliamentary",
+      "base": "温和小市民、部分旧中产与民主派将官",
+      "position": "共和主义和渐进改革形成温和桥梁；组织动员规模有限。"
+    },
+    {
+      "id": "young-republican",
+      "name": "青年共和联盟",
+      "short": "青年共和",
+      "color": "#226c5b",
+      "kind": "parliamentary",
+      "base": "天主教社会主义者、温和小市民与部分乡村群体",
+      "position": "兼顾宗教、共和与社会保障；更愿与温和改革派合作。"
+    },
+    {
+      "id": "taxpayer",
+      "name": "全国纳税人联合",
+      "short": "纳税人",
+      "color": "#6b6541",
+      "kind": "parliamentary",
+      "base": "旧中产、商贩及有产经营者",
+      "position": "税负与财产议题构成稳定支持；与公社主流制度保持距离。"
+    },
+    {
+      "id": "christian",
+      "name": "法国基督徒联盟",
+      "short": "基督徒",
+      "color": "#2b6383",
+      "kind": "parliamentary",
+      "base": "宗教保守乡村群体与部分旧中产",
+      "position": "公开宗教表达与财产保护是主要诉求；与其他反建制组织关系密切。"
+    },
+    {
+      "id": "independent",
+      "name": "独立人士",
+      "short": "独立",
+      "color": "#62686e",
+      "kind": "parliamentary",
+      "base": "地方代表、小型工会与个人政治明星的支持者",
+      "position": "支持分散且依赖地方声望，缺乏统一政治路线。"
+    },
+    {
+      "id": "farmer-front",
+      "name": "农民阵线",
+      "short": "农民阵线",
+      "color": "#7e7650",
+      "kind": "banned",
+      "base": "部分富农与反动乡村群体",
+      "position": "已被封禁；所列为社会支持意向，不能参加选举或据此取得议席。"
+    },
+    {
+      "id": "anti-commune",
+      "name": "拒绝公社体制",
+      "short": "拒绝体制",
+      "color": "#596d7c",
+      "kind": "extra-parliamentary",
+      "base": "拒绝承认现行体制的小市民、旧中产与部分乡村群体",
+      "position": "未转化为合法参选组织的体制外倾向，不能视为某一政党的选票。"
+    },
+    {
+      "id": "undecided",
+      "name": "未决定",
+      "short": "未决定",
+      "color": "#b4ad9f",
+      "kind": "undecided",
+      "base": "尚未形成明确政治选择者",
+      "position": "保留其比例，不将其重新分摊给各派。"
+    }
+  ],
+  "aggregate": [
+    {
+      "id": "syndicalist",
+      "name": "革命工团委员会",
+      "short": "工团",
+      "color": "#b52032",
+      "kind": "parliamentary",
+      "base": "工会组织工人、工会庇护下的新中产",
+      "position": "依靠工会网络仍居首位；诉CGT案后的垄断争议削弱了跨群体号召力。",
+      "rawPercent": 25.77,
+      "percent": 25.8
+    },
+    {
+      "id": "anarchist",
+      "name": "联邦无政府主义者协会",
+      "short": "无政府",
+      "color": "#25282e",
+      "kind": "parliamentary",
+      "base": "城市工人、自治诉求较强的进步农民",
+      "position": "地方自治与反官僚诉求构成支持基础；与共产党的共同反对派关系仍须协调。",
+      "rawPercent": 18.11,
+      "percent": 18.1
+    },
+    {
+      "id": "communist",
+      "name": "法国共产党",
+      "short": "共产党",
+      "color": "#b74a28",
+      "kind": "parliamentary",
+      "base": "未受工会庇护的工人、进步农民、失业者与部分基层官兵",
+      "position": "福利、农村投资和反工会垄断可以扩大支持；多条马克思主义路线并存。",
+      "rawPercent": 15.58,
+      "percent": 15.6
+    },
+    {
+      "id": "jacobin",
+      "name": "法国人民党",
+      "short": "雅各宾",
+      "color": "#8a6508",
+      "kind": "parliamentary",
+      "base": "激进小市民、技术人员与部分基层官兵",
+      "position": "集中规划与强执行力吸引不满现状者；革命专制主张限制温和派合作。",
+      "rawPercent": 7.63,
+      "percent": 7.6
+    },
+    {
+      "id": "sorelian",
+      "name": "法国国家工团主义者联盟",
+      "short": "索雷尔",
+      "color": "#623a58",
+      "kind": "parliamentary",
+      "base": "部分工人、激进小市民与基层官兵",
+      "position": "民族动员与战备诉求扩张支持；瓦鲁瓦派与青年先锋派仍有分歧。",
+      "rawPercent": 8.22,
+      "percent": 8.2
+    },
+    {
+      "id": "social-republican",
+      "name": "社会主义共和联盟",
+      "short": "社会共和",
+      "color": "#655ca3",
+      "kind": "parliamentary",
+      "base": "温和小市民、部分旧中产与民主派将官",
+      "position": "共和主义和渐进改革形成温和桥梁；组织动员规模有限。",
+      "rawPercent": 3.48,
+      "percent": 3.5
+    },
+    {
+      "id": "young-republican",
+      "name": "青年共和联盟",
+      "short": "青年共和",
+      "color": "#226c5b",
+      "kind": "parliamentary",
+      "base": "天主教社会主义者、温和小市民与部分乡村群体",
+      "position": "兼顾宗教、共和与社会保障；更愿与温和改革派合作。",
+      "rawPercent": 4.14,
+      "percent": 4.1
+    },
+    {
+      "id": "taxpayer",
+      "name": "全国纳税人联合",
+      "short": "纳税人",
+      "color": "#6b6541",
+      "kind": "parliamentary",
+      "base": "旧中产、商贩及有产经营者",
+      "position": "税负与财产议题构成稳定支持；与公社主流制度保持距离。",
+      "rawPercent": 2.78,
+      "percent": 2.8
+    },
+    {
+      "id": "christian",
+      "name": "法国基督徒联盟",
+      "short": "基督徒",
+      "color": "#2b6383",
+      "kind": "parliamentary",
+      "base": "宗教保守乡村群体与部分旧中产",
+      "position": "公开宗教表达与财产保护是主要诉求；与其他反建制组织关系密切。",
+      "rawPercent": 3.45,
+      "percent": 3.4
+    },
+    {
+      "id": "independent",
+      "name": "独立人士",
+      "short": "独立",
+      "color": "#62686e",
+      "kind": "parliamentary",
+      "base": "地方代表、小型工会与个人政治明星的支持者",
+      "position": "支持分散且依赖地方声望，缺乏统一政治路线。",
+      "rawPercent": 2.27,
+      "percent": 2.3
+    },
+    {
+      "id": "farmer-front",
+      "name": "农民阵线",
+      "short": "农民阵线",
+      "color": "#7e7650",
+      "kind": "banned",
+      "base": "部分富农与反动乡村群体",
+      "position": "已被封禁；所列为社会支持意向，不能参加选举或据此取得议席。",
+      "rawPercent": 2.76,
+      "percent": 2.8
+    },
+    {
+      "id": "anti-commune",
+      "name": "拒绝公社体制",
+      "short": "拒绝体制",
+      "color": "#596d7c",
+      "kind": "extra-parliamentary",
+      "base": "拒绝承认现行体制的小市民、旧中产与部分乡村群体",
+      "position": "未转化为合法参选组织的体制外倾向，不能视为某一政党的选票。",
+      "rawPercent": 3.5,
+      "percent": 3.5
+    },
+    {
+      "id": "undecided",
+      "name": "未决定",
+      "short": "未决定",
+      "color": "#b4ad9f",
+      "kind": "undecided",
+      "base": "尚未形成明确政治选择者",
+      "position": "保留其比例，不将其重新分摊给各派。",
+      "rawPercent": 2.31,
+      "percent": 2.3
+    }
+  ],
+  "metadata": {
+    "weightMeaning": "内部政治态度样本的阶层权重；不宣称是人口普查、GDP结构、真实投票率或实际选民人数。",
+    "exclusiveClassification": "七类互斥归类。现役军人优先归入军队，失业人员归入失业者；其余按主要职业与政治经济地位归入工人、农民、小市民、旧中产或新中产。军人和失业者不再计入原职业阶层。",
+    "rounding": "阶层支持各合计100%；全国原始比例按阶层权重计算。展示到小数点后一位，使用最大余数法确保合计100%；同余数先比较原始份额，再按类别顺序。",
+    "formula": "全国类别支持率 = Σ(阶层权重 × 阶层内类别支持率 ÷ 100)",
+    "notElection": "这是综合政治态度，不能按比例换算劳工总议会席位，不能代替各公安委事务职位的候选人投票；农民阵线与拒绝体制者也不计为合法参选政党的选票。",
+    "uncertainty": "没有真实样本量、置信区间、调查误差或已发生的同比变化；避免给出未经设定的变化箭头。",
+    "regionMechanism": "地区内部使用同一七阶层分类，由各地区主要产业和城乡结构设置各阶层占比，再合成全国权重。任何阶层政策变动先改变该阶层支持矩阵，再经地区阶层构成传播，最后加权为全国综合结果；不另叠加一遍地区支持以免双重计数。",
+    "regionalBaseline": "当前只确定全国有效权重；没有用户给出的地区人口或选民权重，暂不声称已确定各省份具体数值。",
+    "display": "页面只公开全国综合比例及文字支持基础，不公开阶层或地区百分比图。"
+  },
+  "rationale": [
+    "工人为最大权重，工团依靠工会和新中产网络居首；无政府主义者与共产党合计具有相当反对力量。",
+    "进步农民支持自治派与共产党；宗教、财产和体制反对倾向分散在基督徒、纳税人、农民阵线及拒绝体制者之间。",
+    "小市民的激进部分推高雅各宾与索雷尔支持；温和部分投向两个共和组织。",
+    "旧中产多数支持财产与共和主义诉求，并保留拒绝体制倾向；新中产显著偏向工团建制。",
+    "失业者侧重福利左翼，军队内部的基层激进倾向使共产、雅各宾及索雷尔占优势；两类权重独立于工人，避免重计。",
+    "全国支持与现有议会席位差异符合地方逐级选举、工会组织优势以及体制外意向的存在。"
+  ],
+  "sourceNote": "依据用户DOCX中的定性阶层倾向拟定1936年开局基准；所有权重和百分比均为新增文游参数。",
+  "visibleScope": "全国综合支持度；阶层与地区分项不作为民调分表展示。"
+}
