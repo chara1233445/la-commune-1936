@@ -127,6 +127,7 @@ document.querySelectorAll('[data-vote-office]').forEach(b=>b.addEventListener('c
   function support() {
     const box = document.getElementById('vote-results');
     if (document.getElementById('committee-page').hidden || !allowed()) return;
+    seen.add(box); if (observer) observer.unobserve(box);
     entrance(box.querySelector('.vote-result-head'));
     box.querySelectorAll('.support-row').forEach((row, i) => {
       bar(row.querySelector('.support-track i'), i * 22);
