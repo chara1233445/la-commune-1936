@@ -1,0 +1,213 @@
+{
+  "status": "文游拟定；非MOD官方统计",
+  "reference": "https://zhuanlan.zhihu.com/p/1932755189477147207",
+  "version": "1936-opening-v1",
+  "year": 1936,
+  "period": "1936年开局 · 年化基准",
+  "currency": "帝国马克",
+  "currencyCode": "ℳ",
+  "goldGramsPerMark": 0.3584,
+  "francsPerMark": 6,
+  "populationMillion": 38.46,
+  "populationGrowthPct": 0.3,
+  "urbanPct": 53,
+  "gdpYiMark": 560,
+  "realGrowthPct": 3.2,
+  "inflationPct": 4.8,
+  "basicEducationPct": 94,
+  "higherEducationPct": 3.2,
+  "unemploymentPct": 4.5,
+  "debtPct": 72,
+  "revenuePctGDP": 23,
+  "spendingPctGDP": 25,
+  "urbanGDPShare": 72,
+  "governance": [
+    {
+      "name": "行政力量",
+      "value": 32,
+      "description": "联邦政策的全国执行能力。货币统筹较强，地方经济干预较弱。"
+    },
+    {
+      "name": "腐败",
+      "value": 48,
+      "description": "工会与地方委员会的利益固化程度；数值越高，问题越严重。"
+    },
+    {
+      "name": "稳定度",
+      "value": 44,
+      "description": "诉CGT案后，旧执政联盟解体，制度合法性与改革方向存在争议。"
+    },
+    {
+      "name": "内部消费",
+      "value": 68,
+      "description": "工资与合作社保障支撑需求，农村消费能力仍明显落后。"
+    },
+    {
+      "name": "外资投入",
+      "value": 18,
+      "description": "外部资本参与度较低；对外贸易活跃不等于外商投资充足。"
+    },
+    {
+      "name": "金融信心",
+      "value": 42,
+      "description": "统一货币改善结算，但地方银行差异及政治危机抑制信用扩张。"
+    }
+  ],
+  "living": [
+    {
+      "name": "贫困",
+      "share": 8,
+      "subsidy": 180,
+      "color": "#a8b798",
+      "description": "收入难以覆盖基本生活，依赖公社救济和廉价生活物资。",
+      "populationMillion": 3.0768,
+      "totalSubsidyYi": 5.53824
+    },
+    {
+      "name": "温饱",
+      "share": 32,
+      "subsidy": 60,
+      "color": "#78896e",
+      "description": "基本食品与住所可得到保障，但家庭积蓄和抗风险能力有限。",
+      "populationMillion": 12.3072,
+      "totalSubsidyYi": 7.38432
+    },
+    {
+      "name": "小康",
+      "share": 35,
+      "subsidy": 0,
+      "color": "#536b60",
+      "description": "生活较稳定，有少量可支配收入，代表多数稳定就业家庭。",
+      "populationMillion": 13.461000000000002,
+      "totalSubsidyYi": 0
+    },
+    {
+      "name": "中产",
+      "share": 17,
+      "subsidy": 0,
+      "color": "#a88c5c",
+      "description": "技术人员及其他较高收入家庭，可承担教育和耐用品支出。",
+      "populationMillion": 6.538200000000001,
+      "totalSubsidyYi": 0
+    },
+    {
+      "name": "小资",
+      "share": 6,
+      "subsidy": 0,
+      "color": "#8a6957",
+      "description": "沿用参考表的生活档位名称，指较宽裕的小业主及专业家庭。",
+      "populationMillion": 2.3076,
+      "totalSubsidyYi": 0
+    },
+    {
+      "name": "富裕",
+      "share": 2,
+      "subsidy": 0,
+      "color": "#4c535c",
+      "description": "少量高收入家庭，包含成功经营者和高收入专业人员。",
+      "populationMillion": 0.7692,
+      "totalSubsidyYi": 0
+    }
+  ],
+  "sectors": [
+    {
+      "name": "农业",
+      "share": 22,
+      "color": "#78896e",
+      "note": "合作社与家庭农场并存；机械化与加工物流仍是瓶颈。",
+      "outputYi": 123.2
+    },
+    {
+      "name": "工业",
+      "share": 36,
+      "color": "#a3362d",
+      "note": "基础工业恢复较好；军工、化工与技术更新仍需追加投资。",
+      "outputYi": 201.6
+    },
+    {
+      "name": "服务业",
+      "share": 42,
+      "color": "#ab8952",
+      "note": "商业、运输及公共服务；公社间直接贸易推动服务网络发展。",
+      "outputYi": 235.2
+    }
+  ],
+  "budget": [
+    {
+      "name": "民生与社会服务",
+      "share": 35,
+      "amountYi": 49
+    },
+    {
+      "name": "国防",
+      "share": 24,
+      "amountYi": 33.6
+    },
+    {
+      "name": "城市建设与交通",
+      "share": 15,
+      "amountYi": 21
+    },
+    {
+      "name": "乡村建设与农业",
+      "share": 8,
+      "amountYi": 11.2
+    },
+    {
+      "name": "行政运行",
+      "share": 8,
+      "amountYi": 11.2
+    },
+    {
+      "name": "债务利息",
+      "share": 7,
+      "amountYi": 9.8
+    },
+    {
+      "name": "世界革命援助",
+      "share": 3,
+      "amountYi": 4.2
+    }
+  ],
+  "modes": [
+    {
+      "id": "cooperative",
+      "name": "合作社模式",
+      "city": "巴黎",
+      "line": "工会协调生产 · 地方公社协作",
+      "text": "工会参与经营与分配，中央通过银行和建设审批进行协调。既有工业组织能力较强，但行业利益固化，跨公社项目容易受阻。",
+      "effect": "预算取向：支持合作社设备更新、跨地区统一采购与农村信用。"
+    },
+    {
+      "id": "market",
+      "name": "市场模式",
+      "city": "加莱",
+      "line": "向地方与个体放权",
+      "text": "保留社会主义背景，让个体与地方获得更多经营自主权。适合贸易与小型经营，但统一结算、税收和公共保障仍需共同规则。",
+      "effect": "预算取向：降低小型经营壁垒，改善地方交易与信贷渠道。"
+    },
+    {
+      "id": "planned",
+      "name": "计划模式",
+      "city": "波尔多",
+      "line": "国家与技术专家统筹",
+      "text": "以集中规划推动项目协同和技术投资。技术官僚在生产组织中的作用增强，也会引发地方自治与工会参与权的争议。",
+      "effect": "预算取向：集中基础设施与工业投资，建立跨公社项目标准。"
+    },
+    {
+      "id": "controlled",
+      "name": "统制模式",
+      "city": "马赛",
+      "line": "政治动员与战备优先",
+      "text": "以共同政治目标组织生产，更重视军工和战备储备。配给与动员可强化军需保障，但会压缩民用消费和地方选择空间。",
+      "effect": "预算取向：增加军需、战略原料和储备投入；民生分配更依赖行政组织。"
+    }
+  ],
+  "perCapitaMark": 1456.0582423296933,
+  "nextPopulationMillion": 38.575379999999996,
+  "debtYiMark": 403.2,
+  "revenueYiMark": 128.8,
+  "spendingYiMark": 140,
+  "deficitYiMark": 11.199999999999989,
+  "subsidyYiMark": 12.92256
+}

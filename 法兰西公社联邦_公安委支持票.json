@@ -1,0 +1,1328 @@
+{
+  "year": 1936,
+  "status": "文游拟定支持票",
+  "unit": "票",
+  "basis": "每职位有效票2200万；派系票数按该职位候选人支持票汇总，各职位分别核算。",
+  "elections": [
+    {
+      "office": "劳动",
+      "party": "syndicalist",
+      "fr": "TRAVAIL",
+      "totalVotes": 22000000,
+      "support": [
+        {
+          "party": "syndicalist",
+          "name": "革命工团委员会",
+          "short": "工团",
+          "color": "#b52032",
+          "percent": 40,
+          "votes": 8800000
+        },
+        {
+          "party": "anarchist",
+          "name": "联邦无政府主义者协会",
+          "short": "无政府",
+          "color": "#25282e",
+          "percent": 23,
+          "votes": 5060000
+        },
+        {
+          "party": "communist",
+          "name": "法国共产党",
+          "short": "共产党",
+          "color": "#b74a28",
+          "percent": 17,
+          "votes": 3740000
+        },
+        {
+          "party": "jacobin",
+          "name": "法国人民党",
+          "short": "雅各宾",
+          "color": "#8a6508",
+          "percent": 7,
+          "votes": 1540000
+        },
+        {
+          "party": "sorelian",
+          "name": "法国国家工团主义者联盟",
+          "short": "索雷尔",
+          "color": "#623a58",
+          "percent": 5,
+          "votes": 1100000
+        },
+        {
+          "party": "social-republican",
+          "name": "社会主义共和联盟",
+          "short": "社会共和",
+          "color": "#655ca3",
+          "percent": 2,
+          "votes": 440000
+        },
+        {
+          "party": "young-republican",
+          "name": "青年共和联盟",
+          "short": "青年共和",
+          "color": "#226c5b",
+          "percent": 2,
+          "votes": 440000
+        },
+        {
+          "party": "taxpayer",
+          "name": "全国纳税人联合",
+          "short": "纳税人",
+          "color": "#6b6541",
+          "percent": 1,
+          "votes": 220000
+        },
+        {
+          "party": "christian",
+          "name": "法国基督徒联盟",
+          "short": "基督徒",
+          "color": "#2b6383",
+          "percent": 1,
+          "votes": 220000
+        },
+        {
+          "party": "independent",
+          "name": "独立人士",
+          "short": "独立",
+          "color": "#62686e",
+          "percent": 2,
+          "votes": 440000
+        }
+      ]
+    },
+    {
+      "office": "工业",
+      "party": "syndicalist",
+      "fr": "INDUSTRIE",
+      "totalVotes": 22000000,
+      "support": [
+        {
+          "party": "syndicalist",
+          "name": "革命工团委员会",
+          "short": "工团",
+          "color": "#b52032",
+          "percent": 35,
+          "votes": 7700000
+        },
+        {
+          "party": "anarchist",
+          "name": "联邦无政府主义者协会",
+          "short": "无政府",
+          "color": "#25282e",
+          "percent": 14,
+          "votes": 3080000
+        },
+        {
+          "party": "communist",
+          "name": "法国共产党",
+          "short": "共产党",
+          "color": "#b74a28",
+          "percent": 15,
+          "votes": 3300000
+        },
+        {
+          "party": "jacobin",
+          "name": "法国人民党",
+          "short": "雅各宾",
+          "color": "#8a6508",
+          "percent": 17,
+          "votes": 3740000
+        },
+        {
+          "party": "sorelian",
+          "name": "法国国家工团主义者联盟",
+          "short": "索雷尔",
+          "color": "#623a58",
+          "percent": 11,
+          "votes": 2420000
+        },
+        {
+          "party": "social-republican",
+          "name": "社会主义共和联盟",
+          "short": "社会共和",
+          "color": "#655ca3",
+          "percent": 2,
+          "votes": 440000
+        },
+        {
+          "party": "young-republican",
+          "name": "青年共和联盟",
+          "short": "青年共和",
+          "color": "#226c5b",
+          "percent": 1,
+          "votes": 220000
+        },
+        {
+          "party": "taxpayer",
+          "name": "全国纳税人联合",
+          "short": "纳税人",
+          "color": "#6b6541",
+          "percent": 2,
+          "votes": 440000
+        },
+        {
+          "party": "christian",
+          "name": "法国基督徒联盟",
+          "short": "基督徒",
+          "color": "#2b6383",
+          "percent": 1,
+          "votes": 220000
+        },
+        {
+          "party": "independent",
+          "name": "独立人士",
+          "short": "独立",
+          "color": "#62686e",
+          "percent": 2,
+          "votes": 440000
+        }
+      ]
+    },
+    {
+      "office": "交通",
+      "party": "syndicalist",
+      "fr": "TRANSPORTS",
+      "totalVotes": 22000000,
+      "support": [
+        {
+          "party": "syndicalist",
+          "name": "革命工团委员会",
+          "short": "工团",
+          "color": "#b52032",
+          "percent": 33,
+          "votes": 7260000
+        },
+        {
+          "party": "anarchist",
+          "name": "联邦无政府主义者协会",
+          "short": "无政府",
+          "color": "#25282e",
+          "percent": 24,
+          "votes": 5280000
+        },
+        {
+          "party": "communist",
+          "name": "法国共产党",
+          "short": "共产党",
+          "color": "#b74a28",
+          "percent": 15,
+          "votes": 3300000
+        },
+        {
+          "party": "jacobin",
+          "name": "法国人民党",
+          "short": "雅各宾",
+          "color": "#8a6508",
+          "percent": 12,
+          "votes": 2640000
+        },
+        {
+          "party": "sorelian",
+          "name": "法国国家工团主义者联盟",
+          "short": "索雷尔",
+          "color": "#623a58",
+          "percent": 7,
+          "votes": 1540000
+        },
+        {
+          "party": "social-republican",
+          "name": "社会主义共和联盟",
+          "short": "社会共和",
+          "color": "#655ca3",
+          "percent": 2,
+          "votes": 440000
+        },
+        {
+          "party": "young-republican",
+          "name": "青年共和联盟",
+          "short": "青年共和",
+          "color": "#226c5b",
+          "percent": 2,
+          "votes": 440000
+        },
+        {
+          "party": "taxpayer",
+          "name": "全国纳税人联合",
+          "short": "纳税人",
+          "color": "#6b6541",
+          "percent": 1,
+          "votes": 220000
+        },
+        {
+          "party": "christian",
+          "name": "法国基督徒联盟",
+          "short": "基督徒",
+          "color": "#2b6383",
+          "percent": 1,
+          "votes": 220000
+        },
+        {
+          "party": "independent",
+          "name": "独立人士",
+          "short": "独立",
+          "color": "#62686e",
+          "percent": 3,
+          "votes": 660000
+        }
+      ]
+    },
+    {
+      "office": "对外事务",
+      "party": "syndicalist",
+      "fr": "DIPLOMATIE",
+      "totalVotes": 22000000,
+      "support": [
+        {
+          "party": "syndicalist",
+          "name": "革命工团委员会",
+          "short": "工团",
+          "color": "#b52032",
+          "percent": 31,
+          "votes": 6820000
+        },
+        {
+          "party": "anarchist",
+          "name": "联邦无政府主义者协会",
+          "short": "无政府",
+          "color": "#25282e",
+          "percent": 22,
+          "votes": 4840000
+        },
+        {
+          "party": "communist",
+          "name": "法国共产党",
+          "short": "共产党",
+          "color": "#b74a28",
+          "percent": 18,
+          "votes": 3960000
+        },
+        {
+          "party": "jacobin",
+          "name": "法国人民党",
+          "short": "雅各宾",
+          "color": "#8a6508",
+          "percent": 12,
+          "votes": 2640000
+        },
+        {
+          "party": "sorelian",
+          "name": "法国国家工团主义者联盟",
+          "short": "索雷尔",
+          "color": "#623a58",
+          "percent": 8,
+          "votes": 1760000
+        },
+        {
+          "party": "social-republican",
+          "name": "社会主义共和联盟",
+          "short": "社会共和",
+          "color": "#655ca3",
+          "percent": 2,
+          "votes": 440000
+        },
+        {
+          "party": "young-republican",
+          "name": "青年共和联盟",
+          "short": "青年共和",
+          "color": "#226c5b",
+          "percent": 2,
+          "votes": 440000
+        },
+        {
+          "party": "taxpayer",
+          "name": "全国纳税人联合",
+          "short": "纳税人",
+          "color": "#6b6541",
+          "percent": 1,
+          "votes": 220000
+        },
+        {
+          "party": "christian",
+          "name": "法国基督徒联盟",
+          "short": "基督徒",
+          "color": "#2b6383",
+          "percent": 1,
+          "votes": 220000
+        },
+        {
+          "party": "independent",
+          "name": "独立人士",
+          "short": "独立",
+          "color": "#62686e",
+          "percent": 3,
+          "votes": 660000
+        }
+      ]
+    },
+    {
+      "office": "内政与自治",
+      "party": "anarchist",
+      "fr": "INTÉRIEUR",
+      "totalVotes": 22000000,
+      "support": [
+        {
+          "party": "syndicalist",
+          "name": "革命工团委员会",
+          "short": "工团",
+          "color": "#b52032",
+          "percent": 24,
+          "votes": 5280000
+        },
+        {
+          "party": "anarchist",
+          "name": "联邦无政府主义者协会",
+          "short": "无政府",
+          "color": "#25282e",
+          "percent": 34,
+          "votes": 7480000
+        },
+        {
+          "party": "communist",
+          "name": "法国共产党",
+          "short": "共产党",
+          "color": "#b74a28",
+          "percent": 14,
+          "votes": 3080000
+        },
+        {
+          "party": "jacobin",
+          "name": "法国人民党",
+          "short": "雅各宾",
+          "color": "#8a6508",
+          "percent": 9,
+          "votes": 1980000
+        },
+        {
+          "party": "sorelian",
+          "name": "法国国家工团主义者联盟",
+          "short": "索雷尔",
+          "color": "#623a58",
+          "percent": 6,
+          "votes": 1320000
+        },
+        {
+          "party": "social-republican",
+          "name": "社会主义共和联盟",
+          "short": "社会共和",
+          "color": "#655ca3",
+          "percent": 3,
+          "votes": 660000
+        },
+        {
+          "party": "young-republican",
+          "name": "青年共和联盟",
+          "short": "青年共和",
+          "color": "#226c5b",
+          "percent": 3,
+          "votes": 660000
+        },
+        {
+          "party": "taxpayer",
+          "name": "全国纳税人联合",
+          "short": "纳税人",
+          "color": "#6b6541",
+          "percent": 1,
+          "votes": 220000
+        },
+        {
+          "party": "christian",
+          "name": "法国基督徒联盟",
+          "short": "基督徒",
+          "color": "#2b6383",
+          "percent": 1,
+          "votes": 220000
+        },
+        {
+          "party": "independent",
+          "name": "独立人士",
+          "short": "独立",
+          "color": "#62686e",
+          "percent": 5,
+          "votes": 1100000
+        }
+      ]
+    },
+    {
+      "office": "公共卫生",
+      "party": "anarchist",
+      "fr": "SANTÉ",
+      "totalVotes": 22000000,
+      "support": [
+        {
+          "party": "syndicalist",
+          "name": "革命工团委员会",
+          "short": "工团",
+          "color": "#b52032",
+          "percent": 25,
+          "votes": 5500000
+        },
+        {
+          "party": "anarchist",
+          "name": "联邦无政府主义者协会",
+          "short": "无政府",
+          "color": "#25282e",
+          "percent": 30,
+          "votes": 6600000
+        },
+        {
+          "party": "communist",
+          "name": "法国共产党",
+          "short": "共产党",
+          "color": "#b74a28",
+          "percent": 20,
+          "votes": 4400000
+        },
+        {
+          "party": "jacobin",
+          "name": "法国人民党",
+          "short": "雅各宾",
+          "color": "#8a6508",
+          "percent": 9,
+          "votes": 1980000
+        },
+        {
+          "party": "sorelian",
+          "name": "法国国家工团主义者联盟",
+          "short": "索雷尔",
+          "color": "#623a58",
+          "percent": 3,
+          "votes": 660000
+        },
+        {
+          "party": "social-republican",
+          "name": "社会主义共和联盟",
+          "short": "社会共和",
+          "color": "#655ca3",
+          "percent": 4,
+          "votes": 880000
+        },
+        {
+          "party": "young-republican",
+          "name": "青年共和联盟",
+          "short": "青年共和",
+          "color": "#226c5b",
+          "percent": 4,
+          "votes": 880000
+        },
+        {
+          "party": "taxpayer",
+          "name": "全国纳税人联合",
+          "short": "纳税人",
+          "color": "#6b6541",
+          "percent": 1,
+          "votes": 220000
+        },
+        {
+          "party": "christian",
+          "name": "法国基督徒联盟",
+          "short": "基督徒",
+          "color": "#2b6383",
+          "percent": 1,
+          "votes": 220000
+        },
+        {
+          "party": "independent",
+          "name": "独立人士",
+          "short": "独立",
+          "color": "#62686e",
+          "percent": 3,
+          "votes": 660000
+        }
+      ]
+    },
+    {
+      "office": "邮政通讯",
+      "party": "anarchist",
+      "fr": "POSTES",
+      "totalVotes": 22000000,
+      "support": [
+        {
+          "party": "syndicalist",
+          "name": "革命工团委员会",
+          "short": "工团",
+          "color": "#b52032",
+          "percent": 27,
+          "votes": 5940000
+        },
+        {
+          "party": "anarchist",
+          "name": "联邦无政府主义者协会",
+          "short": "无政府",
+          "color": "#25282e",
+          "percent": 32,
+          "votes": 7040000
+        },
+        {
+          "party": "communist",
+          "name": "法国共产党",
+          "short": "共产党",
+          "color": "#b74a28",
+          "percent": 15,
+          "votes": 3300000
+        },
+        {
+          "party": "jacobin",
+          "name": "法国人民党",
+          "short": "雅各宾",
+          "color": "#8a6508",
+          "percent": 10,
+          "votes": 2200000
+        },
+        {
+          "party": "sorelian",
+          "name": "法国国家工团主义者联盟",
+          "short": "索雷尔",
+          "color": "#623a58",
+          "percent": 5,
+          "votes": 1100000
+        },
+        {
+          "party": "social-republican",
+          "name": "社会主义共和联盟",
+          "short": "社会共和",
+          "color": "#655ca3",
+          "percent": 2,
+          "votes": 440000
+        },
+        {
+          "party": "young-republican",
+          "name": "青年共和联盟",
+          "short": "青年共和",
+          "color": "#226c5b",
+          "percent": 2,
+          "votes": 440000
+        },
+        {
+          "party": "taxpayer",
+          "name": "全国纳税人联合",
+          "short": "纳税人",
+          "color": "#6b6541",
+          "percent": 1,
+          "votes": 220000
+        },
+        {
+          "party": "christian",
+          "name": "法国基督徒联盟",
+          "short": "基督徒",
+          "color": "#2b6383",
+          "percent": 1,
+          "votes": 220000
+        },
+        {
+          "party": "independent",
+          "name": "独立人士",
+          "short": "独立",
+          "color": "#62686e",
+          "percent": 5,
+          "votes": 1100000
+        }
+      ]
+    },
+    {
+      "office": "农业",
+      "party": "communist",
+      "fr": "AGRICULTURE",
+      "totalVotes": 22000000,
+      "support": [
+        {
+          "party": "syndicalist",
+          "name": "革命工团委员会",
+          "short": "工团",
+          "color": "#b52032",
+          "percent": 21,
+          "votes": 4620000
+        },
+        {
+          "party": "anarchist",
+          "name": "联邦无政府主义者协会",
+          "short": "无政府",
+          "color": "#25282e",
+          "percent": 19,
+          "votes": 4180000
+        },
+        {
+          "party": "communist",
+          "name": "法国共产党",
+          "short": "共产党",
+          "color": "#b74a28",
+          "percent": 29,
+          "votes": 6380000
+        },
+        {
+          "party": "jacobin",
+          "name": "法国人民党",
+          "short": "雅各宾",
+          "color": "#8a6508",
+          "percent": 7,
+          "votes": 1540000
+        },
+        {
+          "party": "sorelian",
+          "name": "法国国家工团主义者联盟",
+          "short": "索雷尔",
+          "color": "#623a58",
+          "percent": 4,
+          "votes": 880000
+        },
+        {
+          "party": "social-republican",
+          "name": "社会主义共和联盟",
+          "short": "社会共和",
+          "color": "#655ca3",
+          "percent": 4,
+          "votes": 880000
+        },
+        {
+          "party": "young-republican",
+          "name": "青年共和联盟",
+          "short": "青年共和",
+          "color": "#226c5b",
+          "percent": 5,
+          "votes": 1100000
+        },
+        {
+          "party": "taxpayer",
+          "name": "全国纳税人联合",
+          "short": "纳税人",
+          "color": "#6b6541",
+          "percent": 3,
+          "votes": 660000
+        },
+        {
+          "party": "christian",
+          "name": "法国基督徒联盟",
+          "short": "基督徒",
+          "color": "#2b6383",
+          "percent": 4,
+          "votes": 880000
+        },
+        {
+          "party": "independent",
+          "name": "独立人士",
+          "short": "独立",
+          "color": "#62686e",
+          "percent": 4,
+          "votes": 880000
+        }
+      ]
+    },
+    {
+      "office": "社会保障",
+      "party": "communist",
+      "fr": "SOLIDARITÉ",
+      "totalVotes": 22000000,
+      "support": [
+        {
+          "party": "syndicalist",
+          "name": "革命工团委员会",
+          "short": "工团",
+          "color": "#b52032",
+          "percent": 27,
+          "votes": 5940000
+        },
+        {
+          "party": "anarchist",
+          "name": "联邦无政府主义者协会",
+          "short": "无政府",
+          "color": "#25282e",
+          "percent": 22,
+          "votes": 4840000
+        },
+        {
+          "party": "communist",
+          "name": "法国共产党",
+          "short": "共产党",
+          "color": "#b74a28",
+          "percent": 30,
+          "votes": 6600000
+        },
+        {
+          "party": "jacobin",
+          "name": "法国人民党",
+          "short": "雅各宾",
+          "color": "#8a6508",
+          "percent": 7,
+          "votes": 1540000
+        },
+        {
+          "party": "sorelian",
+          "name": "法国国家工团主义者联盟",
+          "short": "索雷尔",
+          "color": "#623a58",
+          "percent": 3,
+          "votes": 660000
+        },
+        {
+          "party": "social-republican",
+          "name": "社会主义共和联盟",
+          "short": "社会共和",
+          "color": "#655ca3",
+          "percent": 3,
+          "votes": 660000
+        },
+        {
+          "party": "young-republican",
+          "name": "青年共和联盟",
+          "short": "青年共和",
+          "color": "#226c5b",
+          "percent": 3,
+          "votes": 660000
+        },
+        {
+          "party": "taxpayer",
+          "name": "全国纳税人联合",
+          "short": "纳税人",
+          "color": "#6b6541",
+          "percent": 1,
+          "votes": 220000
+        },
+        {
+          "party": "christian",
+          "name": "法国基督徒联盟",
+          "short": "基督徒",
+          "color": "#2b6383",
+          "percent": 1,
+          "votes": 220000
+        },
+        {
+          "party": "independent",
+          "name": "独立人士",
+          "short": "独立",
+          "color": "#62686e",
+          "percent": 3,
+          "votes": 660000
+        }
+      ]
+    },
+    {
+      "office": "财政",
+      "party": "jacobin",
+      "fr": "FINANCES",
+      "totalVotes": 22000000,
+      "support": [
+        {
+          "party": "syndicalist",
+          "name": "革命工团委员会",
+          "short": "工团",
+          "color": "#b52032",
+          "percent": 25,
+          "votes": 5500000
+        },
+        {
+          "party": "anarchist",
+          "name": "联邦无政府主义者协会",
+          "short": "无政府",
+          "color": "#25282e",
+          "percent": 12,
+          "votes": 2640000
+        },
+        {
+          "party": "communist",
+          "name": "法国共产党",
+          "short": "共产党",
+          "color": "#b74a28",
+          "percent": 17,
+          "votes": 3740000
+        },
+        {
+          "party": "jacobin",
+          "name": "法国人民党",
+          "short": "雅各宾",
+          "color": "#8a6508",
+          "percent": 30,
+          "votes": 6600000
+        },
+        {
+          "party": "sorelian",
+          "name": "法国国家工团主义者联盟",
+          "short": "索雷尔",
+          "color": "#623a58",
+          "percent": 6,
+          "votes": 1320000
+        },
+        {
+          "party": "social-republican",
+          "name": "社会主义共和联盟",
+          "short": "社会共和",
+          "color": "#655ca3",
+          "percent": 3,
+          "votes": 660000
+        },
+        {
+          "party": "young-republican",
+          "name": "青年共和联盟",
+          "short": "青年共和",
+          "color": "#226c5b",
+          "percent": 2,
+          "votes": 440000
+        },
+        {
+          "party": "taxpayer",
+          "name": "全国纳税人联合",
+          "short": "纳税人",
+          "color": "#6b6541",
+          "percent": 2,
+          "votes": 440000
+        },
+        {
+          "party": "christian",
+          "name": "法国基督徒联盟",
+          "short": "基督徒",
+          "color": "#2b6383",
+          "percent": 1,
+          "votes": 220000
+        },
+        {
+          "party": "independent",
+          "name": "独立人士",
+          "short": "独立",
+          "color": "#62686e",
+          "percent": 2,
+          "votes": 440000
+        }
+      ]
+    },
+    {
+      "office": "公共工程",
+      "party": "jacobin",
+      "fr": "TRAVAUX PUBLICS",
+      "totalVotes": 22000000,
+      "support": [
+        {
+          "party": "syndicalist",
+          "name": "革命工团委员会",
+          "short": "工团",
+          "color": "#b52032",
+          "percent": 26,
+          "votes": 5720000
+        },
+        {
+          "party": "anarchist",
+          "name": "联邦无政府主义者协会",
+          "short": "无政府",
+          "color": "#25282e",
+          "percent": 16,
+          "votes": 3520000
+        },
+        {
+          "party": "communist",
+          "name": "法国共产党",
+          "short": "共产党",
+          "color": "#b74a28",
+          "percent": 15,
+          "votes": 3300000
+        },
+        {
+          "party": "jacobin",
+          "name": "法国人民党",
+          "short": "雅各宾",
+          "color": "#8a6508",
+          "percent": 31,
+          "votes": 6820000
+        },
+        {
+          "party": "sorelian",
+          "name": "法国国家工团主义者联盟",
+          "short": "索雷尔",
+          "color": "#623a58",
+          "percent": 6,
+          "votes": 1320000
+        },
+        {
+          "party": "social-republican",
+          "name": "社会主义共和联盟",
+          "short": "社会共和",
+          "color": "#655ca3",
+          "percent": 1,
+          "votes": 220000
+        },
+        {
+          "party": "young-republican",
+          "name": "青年共和联盟",
+          "short": "青年共和",
+          "color": "#226c5b",
+          "percent": 1,
+          "votes": 220000
+        },
+        {
+          "party": "taxpayer",
+          "name": "全国纳税人联合",
+          "short": "纳税人",
+          "color": "#6b6541",
+          "percent": 1,
+          "votes": 220000
+        },
+        {
+          "party": "christian",
+          "name": "法国基督徒联盟",
+          "short": "基督徒",
+          "color": "#2b6383",
+          "percent": 1,
+          "votes": 220000
+        },
+        {
+          "party": "independent",
+          "name": "独立人士",
+          "short": "独立",
+          "color": "#62686e",
+          "percent": 2,
+          "votes": 440000
+        }
+      ]
+    },
+    {
+      "office": "国防",
+      "party": "sorelian",
+      "fr": "DÉFENSE",
+      "totalVotes": 22000000,
+      "support": [
+        {
+          "party": "syndicalist",
+          "name": "革命工团委员会",
+          "short": "工团",
+          "color": "#b52032",
+          "percent": 25,
+          "votes": 5500000
+        },
+        {
+          "party": "anarchist",
+          "name": "联邦无政府主义者协会",
+          "short": "无政府",
+          "color": "#25282e",
+          "percent": 9,
+          "votes": 1980000
+        },
+        {
+          "party": "communist",
+          "name": "法国共产党",
+          "short": "共产党",
+          "color": "#b74a28",
+          "percent": 14,
+          "votes": 3080000
+        },
+        {
+          "party": "jacobin",
+          "name": "法国人民党",
+          "short": "雅各宾",
+          "color": "#8a6508",
+          "percent": 20,
+          "votes": 4400000
+        },
+        {
+          "party": "sorelian",
+          "name": "法国国家工团主义者联盟",
+          "short": "索雷尔",
+          "color": "#623a58",
+          "percent": 28,
+          "votes": 6160000
+        },
+        {
+          "party": "social-republican",
+          "name": "社会主义共和联盟",
+          "short": "社会共和",
+          "color": "#655ca3",
+          "percent": 1,
+          "votes": 220000
+        },
+        {
+          "party": "young-republican",
+          "name": "青年共和联盟",
+          "short": "青年共和",
+          "color": "#226c5b",
+          "percent": 1,
+          "votes": 220000
+        },
+        {
+          "party": "taxpayer",
+          "name": "全国纳税人联合",
+          "short": "纳税人",
+          "color": "#6b6541",
+          "percent": 0.5,
+          "votes": 110000
+        },
+        {
+          "party": "christian",
+          "name": "法国基督徒联盟",
+          "short": "基督徒",
+          "color": "#2b6383",
+          "percent": 0.5,
+          "votes": 110000
+        },
+        {
+          "party": "independent",
+          "name": "独立人士",
+          "short": "独立",
+          "color": "#62686e",
+          "percent": 1,
+          "votes": 220000
+        }
+      ]
+    },
+    {
+      "office": "基础教育",
+      "party": "young-republican",
+      "fr": "INSTRUCTION",
+      "totalVotes": 22000000,
+      "support": [
+        {
+          "party": "syndicalist",
+          "name": "革命工团委员会",
+          "short": "工团",
+          "color": "#b52032",
+          "percent": 20,
+          "votes": 4400000
+        },
+        {
+          "party": "anarchist",
+          "name": "联邦无政府主义者协会",
+          "short": "无政府",
+          "color": "#25282e",
+          "percent": 20,
+          "votes": 4400000
+        },
+        {
+          "party": "communist",
+          "name": "法国共产党",
+          "short": "共产党",
+          "color": "#b74a28",
+          "percent": 17,
+          "votes": 3740000
+        },
+        {
+          "party": "jacobin",
+          "name": "法国人民党",
+          "short": "雅各宾",
+          "color": "#8a6508",
+          "percent": 10,
+          "votes": 2200000
+        },
+        {
+          "party": "sorelian",
+          "name": "法国国家工团主义者联盟",
+          "short": "索雷尔",
+          "color": "#623a58",
+          "percent": 3,
+          "votes": 660000
+        },
+        {
+          "party": "social-republican",
+          "name": "社会主义共和联盟",
+          "short": "社会共和",
+          "color": "#655ca3",
+          "percent": 5,
+          "votes": 1100000
+        },
+        {
+          "party": "young-republican",
+          "name": "青年共和联盟",
+          "short": "青年共和",
+          "color": "#226c5b",
+          "percent": 22,
+          "votes": 4840000
+        },
+        {
+          "party": "taxpayer",
+          "name": "全国纳税人联合",
+          "short": "纳税人",
+          "color": "#6b6541",
+          "percent": 0.5,
+          "votes": 110000
+        },
+        {
+          "party": "christian",
+          "name": "法国基督徒联盟",
+          "short": "基督徒",
+          "color": "#2b6383",
+          "percent": 0.5,
+          "votes": 110000
+        },
+        {
+          "party": "independent",
+          "name": "独立人士",
+          "short": "独立",
+          "color": "#62686e",
+          "percent": 2,
+          "votes": 440000
+        }
+      ]
+    },
+    {
+      "office": "司法",
+      "party": "social-republican",
+      "fr": "JUSTICE",
+      "totalVotes": 22000000,
+      "support": [
+        {
+          "party": "syndicalist",
+          "name": "革命工团委员会",
+          "short": "工团",
+          "color": "#b52032",
+          "percent": 22,
+          "votes": 4840000
+        },
+        {
+          "party": "anarchist",
+          "name": "联邦无政府主义者协会",
+          "short": "无政府",
+          "color": "#25282e",
+          "percent": 20,
+          "votes": 4400000
+        },
+        {
+          "party": "communist",
+          "name": "法国共产党",
+          "short": "共产党",
+          "color": "#b74a28",
+          "percent": 15,
+          "votes": 3300000
+        },
+        {
+          "party": "jacobin",
+          "name": "法国人民党",
+          "short": "雅各宾",
+          "color": "#8a6508",
+          "percent": 10,
+          "votes": 2200000
+        },
+        {
+          "party": "sorelian",
+          "name": "法国国家工团主义者联盟",
+          "short": "索雷尔",
+          "color": "#623a58",
+          "percent": 4,
+          "votes": 880000
+        },
+        {
+          "party": "social-republican",
+          "name": "社会主义共和联盟",
+          "short": "社会共和",
+          "color": "#655ca3",
+          "percent": 24,
+          "votes": 5280000
+        },
+        {
+          "party": "young-republican",
+          "name": "青年共和联盟",
+          "short": "青年共和",
+          "color": "#226c5b",
+          "percent": 1,
+          "votes": 220000
+        },
+        {
+          "party": "taxpayer",
+          "name": "全国纳税人联合",
+          "short": "纳税人",
+          "color": "#6b6541",
+          "percent": 1,
+          "votes": 220000
+        },
+        {
+          "party": "christian",
+          "name": "法国基督徒联盟",
+          "short": "基督徒",
+          "color": "#2b6383",
+          "percent": 1,
+          "votes": 220000
+        },
+        {
+          "party": "independent",
+          "name": "独立人士",
+          "short": "独立",
+          "color": "#62686e",
+          "percent": 2,
+          "votes": 440000
+        }
+      ]
+    },
+    {
+      "office": "科研与高教",
+      "party": "independent",
+      "fr": "RECHERCHE",
+      "totalVotes": 22000000,
+      "support": [
+        {
+          "party": "syndicalist",
+          "name": "革命工团委员会",
+          "short": "工团",
+          "color": "#b52032",
+          "percent": 20,
+          "votes": 4400000
+        },
+        {
+          "party": "anarchist",
+          "name": "联邦无政府主义者协会",
+          "short": "无政府",
+          "color": "#25282e",
+          "percent": 13,
+          "votes": 2860000
+        },
+        {
+          "party": "communist",
+          "name": "法国共产党",
+          "short": "共产党",
+          "color": "#b74a28",
+          "percent": 13,
+          "votes": 2860000
+        },
+        {
+          "party": "jacobin",
+          "name": "法国人民党",
+          "short": "雅各宾",
+          "color": "#8a6508",
+          "percent": 18,
+          "votes": 3960000
+        },
+        {
+          "party": "sorelian",
+          "name": "法国国家工团主义者联盟",
+          "short": "索雷尔",
+          "color": "#623a58",
+          "percent": 5,
+          "votes": 1100000
+        },
+        {
+          "party": "social-republican",
+          "name": "社会主义共和联盟",
+          "short": "社会共和",
+          "color": "#655ca3",
+          "percent": 1,
+          "votes": 220000
+        },
+        {
+          "party": "young-republican",
+          "name": "青年共和联盟",
+          "short": "青年共和",
+          "color": "#226c5b",
+          "percent": 1,
+          "votes": 220000
+        },
+        {
+          "party": "taxpayer",
+          "name": "全国纳税人联合",
+          "short": "纳税人",
+          "color": "#6b6541",
+          "percent": 1,
+          "votes": 220000
+        },
+        {
+          "party": "christian",
+          "name": "法国基督徒联盟",
+          "short": "基督徒",
+          "color": "#2b6383",
+          "percent": 1,
+          "votes": 220000
+        },
+        {
+          "party": "independent",
+          "name": "独立人士",
+          "short": "独立",
+          "color": "#62686e",
+          "percent": 27,
+          "votes": 5940000
+        }
+      ]
+    }
+  ]
+}

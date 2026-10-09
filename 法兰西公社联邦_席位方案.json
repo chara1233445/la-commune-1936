@@ -1,0 +1,168 @@
+{
+  "year": 1936,
+  "status": "用户授权拟定的席位方案",
+  "assemblyTotal": 650,
+  "assemblyHalfPlusOne": 326,
+  "committeeTotal": 15,
+  "assemblyElection": "地方议会逐级推选",
+  "committeeElection": "各事务职位全民直选、得票最高者当选",
+  "parties": [
+    {
+      "id": "syndicalist",
+      "name": "革命工团委员会",
+      "short": "工团",
+      "seats": 210,
+      "color": "#b52032",
+      "committee": 4
+    },
+    {
+      "id": "anarchist",
+      "name": "联邦无政府主义者协会",
+      "short": "无政府",
+      "seats": 125,
+      "color": "#25282e",
+      "committee": 3
+    },
+    {
+      "id": "communist",
+      "name": "法国共产党",
+      "short": "共产党",
+      "seats": 100,
+      "color": "#b74a28",
+      "committee": 2
+    },
+    {
+      "id": "jacobin",
+      "name": "法国人民党",
+      "short": "雅各宾",
+      "seats": 70,
+      "color": "#8a6508",
+      "committee": 2
+    },
+    {
+      "id": "sorelian",
+      "name": "法国国家工团主义者联盟",
+      "short": "索雷尔",
+      "seats": 50,
+      "color": "#623a58",
+      "committee": 1
+    },
+    {
+      "id": "social-republican",
+      "name": "社会主义共和联盟",
+      "short": "社会共和",
+      "seats": 25,
+      "color": "#655ca3",
+      "committee": 1
+    },
+    {
+      "id": "young-republican",
+      "name": "青年共和联盟",
+      "short": "青年共和",
+      "seats": 20,
+      "color": "#226c5b",
+      "committee": 1
+    },
+    {
+      "id": "taxpayer",
+      "name": "全国纳税人联合",
+      "short": "纳税人",
+      "seats": 12,
+      "color": "#6b6541",
+      "committee": 0
+    },
+    {
+      "id": "christian",
+      "name": "法国基督徒联盟",
+      "short": "基督徒",
+      "seats": 10,
+      "color": "#2b6383",
+      "committee": 0
+    },
+    {
+      "id": "independent",
+      "name": "独立人士",
+      "short": "独立",
+      "seats": 28,
+      "color": "#62686e",
+      "committee": 1
+    }
+  ],
+  "offices": [
+    {
+      "office": "劳动",
+      "party": "syndicalist",
+      "fr": "TRAVAIL"
+    },
+    {
+      "office": "工业",
+      "party": "syndicalist",
+      "fr": "INDUSTRIE"
+    },
+    {
+      "office": "交通",
+      "party": "syndicalist",
+      "fr": "TRANSPORTS"
+    },
+    {
+      "office": "对外事务",
+      "party": "syndicalist",
+      "fr": "DIPLOMATIE"
+    },
+    {
+      "office": "内政与自治",
+      "party": "anarchist",
+      "fr": "INTÉRIEUR"
+    },
+    {
+      "office": "公共卫生",
+      "party": "anarchist",
+      "fr": "SANTÉ"
+    },
+    {
+      "office": "邮政通讯",
+      "party": "anarchist",
+      "fr": "POSTES"
+    },
+    {
+      "office": "农业",
+      "party": "communist",
+      "fr": "AGRICULTURE"
+    },
+    {
+      "office": "社会保障",
+      "party": "communist",
+      "fr": "SOLIDARITÉ"
+    },
+    {
+      "office": "财政",
+      "party": "jacobin",
+      "fr": "FINANCES"
+    },
+    {
+      "office": "公共工程",
+      "party": "jacobin",
+      "fr": "TRAVAUX PUBLICS"
+    },
+    {
+      "office": "国防",
+      "party": "sorelian",
+      "fr": "DÉFENSE"
+    },
+    {
+      "office": "基础教育",
+      "party": "young-republican",
+      "fr": "INSTRUCTION"
+    },
+    {
+      "office": "司法",
+      "party": "social-republican",
+      "fr": "JUSTICE"
+    },
+    {
+      "office": "科研与高教",
+      "party": "independent",
+      "fr": "RECHERCHE"
+    }
+  ]
+}
