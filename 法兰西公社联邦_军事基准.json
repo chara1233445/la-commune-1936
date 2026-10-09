@@ -1,0 +1,342 @@
+{
+  "version": "1936-opening-military-v1",
+  "year": 1936,
+  "status": "文游拟定；不是MOD官方兵力统计",
+  "reference": "https://zhuanlan.zhihu.com/p/1965551403289261355",
+  "referenceTitle": "法伦施泰尔之梦 开发日志#3 公社军队",
+  "sourceBasis": "采用原文的联邦军与地方民兵并存、士兵委员会改革及军中四派争论。沿用用户政党名称；未移植原文新增党派。",
+  "additions": "人数、编制、军工产量、工程、人物现职和政治倾向为本次补充设定。将领选用KR及法国历史人物；职位与派系并非史实或MOD官方名单。",
+  "currency": "帝国马克",
+  "budgetYiMark": 33.6,
+  "gdpYiMark": 560,
+  "strength": {
+    "army": 430000,
+    "navy": 64000,
+    "air": 30000,
+    "active": 524000,
+    "trainedReserve": 1180000,
+    "localMilitia": 240000,
+    "localMilitiaBattalions": 192,
+    "armySupport": 96000
+  },
+  "reserveBasis": "预备役登记与民兵登记分别编列，同一人员不重复计入；预备役及地方民兵均不计入常备军。",
+  "divisions": [
+    {
+      "name": "步兵师",
+      "fr": "INFANTERIE",
+      "count": 30,
+      "personnel": 9000,
+      "color": "#365d6a",
+      "note": "旧式步枪与火炮为主，运输依赖铁路、马匹及有限汽车。"
+    },
+    {
+      "name": "山地师",
+      "fr": "TROUPES ALPINES",
+      "count": 4,
+      "personnel": 8000,
+      "color": "#6b7660",
+      "note": "负责阿尔卑斯与比利牛斯方向；山地运输与炮兵装备较轻。"
+    },
+    {
+      "name": "摩托化师",
+      "fr": "INFANTERIE MOTORISÉE",
+      "count": 2,
+      "personnel": 10000,
+      "color": "#a36d31",
+      "note": "作为机动预备队，车辆、无线电及维修人员尚有缺额。"
+    },
+    {
+      "name": "轻装甲师",
+      "fr": "DIVISIONS BLINDÉES",
+      "count": 2,
+      "personnel": 6000,
+      "color": "#7a455e",
+      "note": "由装甲试验部队整编，车型混杂，尚不足以承担大规模纵深作战。"
+    }
+  ],
+  "organisation": {
+    "districts": 4,
+    "corps": 12,
+    "divisions": 38,
+    "airWings": 24,
+    "aircraft": 720,
+    "serviceableAircraft": 432,
+    "warships": 36,
+    "ships": {
+      "carrier": 1,
+      "battleship": 2,
+      "cruiser": 5,
+      "destroyer": 16,
+      "submarine": 12
+    }
+  },
+  "branches": [
+    {
+      "id": "army",
+      "name": "联邦陆军",
+      "fr": "L’ARMÉE FÉDÉRALE",
+      "personnel": 430000,
+      "formation": "4个军区 · 12个军 · 38个师",
+      "equipment": "师属部队33.4万人；军区、军级直属、学校及补给部队9.6万人。",
+      "text": "联邦征募机关统一登记、分配新兵；参谋机关制定训练与作战计划。士兵委员会保留申诉及生活监督职能，老兵网络仍影响实际指挥。",
+      "warning": "步兵占主导；装甲与摩托化部队仍在整编。"
+    },
+    {
+      "id": "navy",
+      "name": "联邦海军",
+      "fr": "LA MARINE FÉDÉRALE",
+      "personnel": 64000,
+      "formation": "36艘主要作战舰艇 · 大西洋与地中海两支舰队",
+      "equipment": "航空母舰1艘、战列舰2艘、巡洋舰5艘、驱逐舰16艘、潜艇12艘；辅助舰艇另列。",
+      "text": "土伦承担地中海主力舰的修整，布雷斯特负责大西洋警戒与护航。海军以维护旧舰、保护港口和近海交通为先，新舰建设进度有限。",
+      "warning": "现役舰艇不等同随时可出航舰艇；老舰轮流检修。"
+    },
+    {
+      "id": "air",
+      "name": "联邦航空军",
+      "fr": "LES FORCES AÉRIENNES",
+      "personnel": 30000,
+      "formation": "24个航空联队 · 编册作战飞机720架",
+      "equipment": "战斗机联队12个（432架）、轰炸机联队6个（216架）、侦察联队6个（72架）；可用作战飞机432架。",
+      "text": "航空建设围绕防空、战场侦察和陆军支援展开。新型飞机正逐步替换旧机，但发动机、地勤与飞行训练限制了可用数量。",
+      "warning": "编册数与可用数分列；教练机、运输机不计入720架。"
+    },
+    {
+      "id": "militia",
+      "name": "地方公社民兵",
+      "fr": "LES MILICES COMMUNALES",
+      "personnel": 240000,
+      "formation": "192个登记营 · 非全日制服役",
+      "equipment": "主要承担地方警戒、交通设施保护与动员接收，不折算为野战师。",
+      "text": "地方公社负责日常组织与给养，联邦只能通过登记、联络和装备拨付协调。各营规模及训练时间不同，战时转隶仍需与地方委员会协商。",
+      "warning": "24万人单独登记；不计入52.4万常备军与118万预备役。"
+    }
+  ],
+  "budget": [
+    {
+      "name": "人员、给养与日常维护",
+      "amount": 16.8
+    },
+    {
+      "name": "装备采购与旧装整修",
+      "amount": 10.2
+    },
+    {
+      "name": "军工与基地工程",
+      "amount": 4.6
+    },
+    {
+      "name": "训练、院校与技术试验",
+      "amount": 2
+    }
+  ],
+  "industry": {
+    "productionSites": {
+      "arms": 26,
+      "aviation": 12,
+      "naval": 8
+    },
+    "annualTargets": [
+      {
+        "name": "步枪",
+        "number": 180000,
+        "unit": "支"
+      },
+      {
+        "name": "野战及反坦克炮",
+        "number": 480,
+        "unit": "门"
+      },
+      {
+        "name": "坦克与装甲车辆",
+        "number": 240,
+        "unit": "辆"
+      },
+      {
+        "name": "作战飞机",
+        "number": 420,
+        "unit": "架"
+      }
+    ]
+  },
+  "projects": [
+    {
+      "id": "paris",
+      "place": "巴黎—法兰西岛",
+      "fr": "PARIS",
+      "name": "汽车与装甲车间",
+      "amount": 1.15,
+      "progress": 62,
+      "stage": "设备安装",
+      "scope": "更新布洛涅、圣但尼的汽车、发动机与装甲车辆车间；优先保障两支摩托化师。",
+      "bottleneck": "工会间采购标准不同，机床与备件须统一。"
+    },
+    {
+      "id": "loire",
+      "place": "卢瓦尔—里昂工业带",
+      "fr": "LOIRE ET RHÔNE",
+      "name": "火炮与弹药工场",
+      "amount": 0.9,
+      "progress": 54,
+      "stage": "生产线改造",
+      "scope": "整修圣艾蒂安、圣沙蒙及勒克勒佐的军械与炮钢生产；扩大弹药与炮件供应。",
+      "bottleneck": "熟练钳工不足，军民订单争用冶金能力。"
+    },
+    {
+      "id": "southwest",
+      "place": "图卢兹—波尔多",
+      "fr": "TOULOUSE ET BORDEAUX",
+      "name": "航空装配与发动机",
+      "amount": 0.85,
+      "progress": 37,
+      "stage": "厂房扩建",
+      "scope": "扩大航空装配、发动机测试与维修车间；配套培养航空工人与地勤。",
+      "bottleneck": "发动机交付慢于机体装配，试飞能力有限。"
+    },
+    {
+      "id": "ports",
+      "place": "布雷斯特—土伦",
+      "fr": "BREST ET TOULON",
+      "name": "海军船坞整修",
+      "amount": 0.6,
+      "progress": 41,
+      "stage": "船坞施工",
+      "scope": "改善旧舰修理、锅炉更换及港口防空；维护大西洋与地中海舰队。",
+      "bottleneck": "船坞排期拥挤，新造舰与旧舰修理互相挤占。"
+    },
+    {
+      "id": "alps",
+      "place": "多菲内—下萨瓦",
+      "fr": "DAUPHINÉ ET SAVOIE",
+      "name": "水电与轻金属工程",
+      "amount": 0.55,
+      "progress": 28,
+      "stage": "基础施工",
+      "scope": "将水电和电化学产能接入军需轻金属供应，服务航空与车辆工业。",
+      "bottleneck": "跨公社输电、结算与建设审批尚未完全协调。"
+    },
+    {
+      "id": "depots",
+      "place": "中央区—南锡",
+      "fr": "CENTRE ET NANCY",
+      "name": "军械仓库与铁路节点",
+      "amount": 0.55,
+      "progress": 46,
+      "stage": "仓储扩建",
+      "scope": "整修军械储存、检验与铁路装卸设施，连接腹地生产与东北军区。",
+      "bottleneck": "车辆周转与地方运输优先权仍需协商。"
+    }
+  ],
+  "factions": [
+    {
+      "id": "conservative",
+      "name": "保守派",
+      "fr": "LES OFFICIERS CONSERVATEURS",
+      "color": "#365d6a",
+      "party": "主要与工团建制派合作",
+      "base": "资深军官与参谋机关",
+      "text": "强调统一指挥、军纪和职业训练，希望将军队与党派竞争隔开。"
+    },
+    {
+      "id": "moderate",
+      "name": "温和改革派",
+      "fr": "LES RÉFORMATEURS MODÉRÉS",
+      "color": "#b74a28",
+      "party": "部分与法国共产党合作",
+      "base": "年轻军官、专业士官与技术部门",
+      "text": "支持专业化与有限的士兵参与，寻求改革法案及预算支持。"
+    },
+    {
+      "id": "radical",
+      "name": "激进改革派",
+      "fr": "LES RÉFORMATEURS RADICAUX",
+      "color": "#8a6508",
+      "party": "本设定中与法国人民党接近",
+      "base": "少数政治化军官与动员干部",
+      "text": "主张把革命教育与军队整编同时推进，强调中央动员。"
+    },
+    {
+      "id": "sorelian",
+      "name": "索雷尔派",
+      "fr": "LES SORÉLIENS",
+      "color": "#623a58",
+      "party": "国家工团主义者联盟",
+      "base": "士兵委员会老兵与基层网络",
+      "text": "以革命军队传统凝聚支持，反对取消士兵委员会的政治影响。"
+    }
+  ],
+  "commanders": [
+    {
+      "name": "乔治·瓦鲁瓦",
+      "fr": "Georges Valois",
+      "office": "公安委国防事务代表",
+      "faction": "sorelian",
+      "kind": "文职事务代表",
+      "note": "负责国防预算、军需协调与军事行政；不兼任野战总司令。",
+      "brief": "沿用公安委国防职位由索雷尔派获胜的配置：616万票，28%。"
+    },
+    {
+      "name": "莫里斯·甘末林",
+      "fr": "Maurice Gamelin",
+      "office": "联邦总参谋长",
+      "faction": "conservative",
+      "kind": "现役将官",
+      "note": "主持全国作战计划与军区协调，维护参谋机关的职业指挥权。",
+      "brief": "重视火炮、铁路动员与阵地准备；警惕基层委员会越过指挥链。"
+    },
+    {
+      "name": "乔治·卡特鲁",
+      "fr": "Georges Catroux",
+      "office": "陆军总监",
+      "faction": "moderate",
+      "kind": "现役将官",
+      "note": "负责征募、军官教育及训练规程，推动军区执行共同标准。",
+      "brief": "支持渐进整编，并在士兵参与和军纪之间寻求妥协。"
+    },
+    {
+      "name": "夏尔·德莱斯特兰",
+      "fr": "Charles Delestraint",
+      "office": "装甲与机动部队总监",
+      "faction": "moderate",
+      "kind": "现役将官",
+      "note": "统筹两支轻装甲师与摩托化部队的装备试验、车辆维修和演练。",
+      "brief": "主张集中使用装甲部队，但目前车辆与无线电不足。"
+    },
+    {
+      "name": "路易—拉扎尔·卡恩",
+      "fr": "Louis-Lazare Kahn",
+      "office": "海军总监",
+      "faction": "moderate",
+      "kind": "海军技术军官",
+      "note": "统筹两洋舰队的舰艇维护、造舰标准与港口工程。",
+      "brief": "优先改善旧舰可用率，避免过度铺开新舰订单。"
+    },
+    {
+      "name": "约瑟夫·维耶曼",
+      "fr": "Joseph Vuillemin",
+      "office": "航空军总监",
+      "faction": "conservative",
+      "kind": "现役将官",
+      "note": "主管航空联队、飞行训练及地勤体系。",
+      "brief": "要求先补齐训练与发动机供应，再扩大作战联队。"
+    },
+    {
+      "name": "亨利·唐吉",
+      "fr": "Henri Tanguy",
+      "office": "士兵委员会联络总监",
+      "faction": "moderate",
+      "kind": "军队联络干部",
+      "note": "承担军方与士兵委员会之间的申诉、福利和整编联络。",
+      "brief": "倾向共产党支持的改革方案，反对委员会被单一派系控制。"
+    },
+    {
+      "name": "欧内斯特·珀蒂",
+      "fr": "Ernest Petit",
+      "office": "训练与动员局长",
+      "faction": "radical",
+      "kind": "现役将官",
+      "note": "管理预备役复训、动员名册及军地接收程序。",
+      "brief": "本次拟定为与雅各宾派接近的军中激进改革者。"
+    }
+  ]
+}
