@@ -1,148 +1,168 @@
 {
   "year": 1936,
-  "version": "1936-opening-support-v3-map",
+  "version": "1936-opening-support-v4-property",
   "status": "文游开局拟定；非实际调查、非MOD官方数据",
   "title": "全国政治支持意向",
-  "basis": "20个统计区的人口配置、阶层构成与参与系数，经地方政治环境修正后汇总的全国及地方态度模型。",
+  "basis": "20个统计区的人口配置、八个社会群体的构成与参与系数，经地方政治环境修正后汇总的全国及地方态度模型。",
   "classes": [
     {
       "id": "workers",
       "name": "工人",
-      "weight": 48.190986065861146,
+      "weight": 48.16988025057897,
       "support": {
-        "syndicalist": 39.04145785671069,
-        "anarchist": 21.866717493182374,
-        "communist": 16.436208511348827,
+        "syndicalist": 39.041457856710686,
+        "anarchist": 21.86671749318238,
+        "communist": 16.43620851134883,
         "jacobin": 6.050773392694369,
-        "sorelian": 9.124638900557645,
-        "social-republican": 1.8742619578749775,
+        "sorelian": 9.124638900557649,
+        "social-republican": 1.874261957874978,
         "young-republican": 1.8655652185970306,
-        "taxpayer": 0.46544988470918636,
-        "christian": 0.46544988470918636,
-        "independent": 0.9476773607789493,
+        "taxpayer": 0.46544988470918647,
+        "christian": 0.46544988470918647,
+        "independent": 0.9476773607789495,
         "farmer-front": 0,
-        "anti-commune": 0.46544988470918636,
+        "anti-commune": 0.46544988470918647,
         "undecided": 1.3963496541275595
       }
     },
     {
       "id": "farmers",
       "name": "农民",
-      "weight": 25.126036710035915,
+      "weight": 25.11503246353948,
       "support": {
-        "syndicalist": 6.885909426370343,
-        "anarchist": 22.84776381023699,
-        "communist": 19.85962541839687,
+        "syndicalist": 6.8859094263703415,
+        "anarchist": 22.847763810236987,
+        "communist": 19.859625418396874,
         "jacobin": 3.1246164324374375,
-        "sorelian": 3.0207124141853154,
-        "social-republican": 2.9240062437956933,
+        "sorelian": 3.0207124141853146,
+        "social-republican": 2.924006243795692,
         "young-republican": 6.780332140141389,
-        "taxpayer": 3.9520329257403377,
-        "christian": 8.34990966685989,
-        "independent": 3.9786936544599465,
-        "farmer-front": 10.470998790901268,
-        "anti-commune": 3.9520329257403377,
-        "undecided": 3.8533661507341797
+        "taxpayer": 3.952032925740337,
+        "christian": 8.349909666859888,
+        "independent": 3.9786936544599456,
+        "farmer-front": 10.470998790901263,
+        "anti-commune": 3.952032925740337,
+        "undecided": 3.8533661507341774
       }
     },
     {
       "id": "petty-bourgeois",
       "name": "小市民",
-      "weight": 10.422544554955707,
+      "weight": 10.417979877655963,
       "support": {
-        "syndicalist": 3.187566991862314,
+        "syndicalist": 3.1875669918623157,
         "anarchist": 4.022455784320448,
-        "communist": 3.963500001787395,
-        "jacobin": 27.011978994319186,
-        "sorelian": 21.569851701847075,
-        "social-republican": 10.579739943061632,
-        "young-republican": 8.611513561429197,
-        "taxpayer": 2.8629986670217678,
+        "communist": 3.9635000017873963,
+        "jacobin": 27.01197899431919,
+        "sorelian": 21.56985170184708,
+        "social-republican": 10.579739943061629,
+        "young-republican": 8.611513561429199,
+        "taxpayer": 2.8629986670217695,
         "christian": 1.9086657780145129,
-        "independent": 2.921068130234884,
+        "independent": 2.9210681302348855,
         "farmer-front": 0,
-        "anti-commune": 11.451994668087071,
+        "anti-commune": 11.451994668087078,
         "undecided": 1.9086657780145129
       }
     },
     {
       "id": "old-middle",
       "name": "旧中产阶级",
-      "weight": 4.9255177137937824,
+      "weight": 4.091232935967735,
       "support": {
-        "syndicalist": 2.2079969948566505,
-        "anarchist": 4.1012323589327275,
-        "communist": 2.023965586027449,
-        "jacobin": 10.810834006129308,
-        "sorelian": 7.388084016358584,
-        "social-republican": 8.864352557587893,
-        "young-republican": 5.877488811812671,
-        "taxpayer": 18.569601793355424,
-        "christian": 13.682864479314524,
-        "independent": 4.971935213844802,
-        "farmer-front": 0.9773474628081804,
-        "anti-commune": 17.592254330547245,
-        "undecided": 2.932042388424541
+        "syndicalist": 2.199115626646491,
+        "anarchist": 4.104545888190638,
+        "communist": 2.0274043113929596,
+        "jacobin": 10.794175079420144,
+        "sorelian": 7.3550454428501775,
+        "social-republican": 8.874424300823797,
+        "young-republican": 5.8819203940213525,
+        "taxpayer": 18.580109835622522,
+        "christian": 13.690607247300807,
+        "independent": 4.978840485115563,
+        "farmer-front": 0.9779005176643435,
+        "anti-commune": 17.602209317958188,
+        "undecided": 2.9337015529930306
+      }
+    },
+    {
+      "id": "big-bourgeois",
+      "name": "大资产阶级",
+      "weight": 0.87592377766803,
+      "support": {
+        "syndicalist": 1.145599793994555,
+        "anarchist": 0.5204958677459861,
+        "communist": 0,
+        "jacobin": 1.6747615184128095,
+        "sorelian": 2.207782147454498,
+        "social-republican": 2.9954530506471526,
+        "young-republican": 2.984841462528645,
+        "taxpayer": 44.712823281056465,
+        "christian": 31.79578544430683,
+        "independent": 3.0198927776417954,
+        "farmer-front": 0,
+        "anti-commune": 6.955328065942118,
+        "undecided": 1.9872365902691769
       }
     },
     {
       "id": "new-middle",
       "name": "新中产阶级",
-      "weight": 6.726200554866224,
+      "weight": 6.723254735366541,
       "support": {
-        "syndicalist": 75.09930164441147,
-        "anarchist": 1.925892639437561,
-        "communist": 3.7482106176499457,
-        "jacobin": 7.9619148325985405,
-        "sorelian": 3.979339394454187,
-        "social-republican": 1.821542065038344,
-        "young-republican": 0.9072076787319331,
-        "taxpayer": 0.9051237346538867,
+        "syndicalist": 75.09930164441145,
+        "anarchist": 1.9258926394375608,
+        "communist": 3.748210617649945,
+        "jacobin": 7.961914832598536,
+        "sorelian": 3.9793393944541857,
+        "social-republican": 1.8215420650383434,
+        "young-republican": 0.9072076787319328,
+        "taxpayer": 0.9051237346538865,
         "christian": 0,
-        "independent": 1.8412199237163787,
+        "independent": 1.8412199237163782,
         "farmer-front": 0,
-        "anti-commune": 0.45256186732694337,
-        "undecided": 1.35768560198083
+        "anti-commune": 0.45256186732694326,
+        "undecided": 1.3576856019808297
       }
     },
     {
       "id": "unemployed",
       "name": "失业者",
-      "weight": 2.112954194030385,
+      "weight": 2.112028800620549,
       "support": {
-        "syndicalist": 20.636814930965926,
-        "anarchist": 18.241058904632563,
-        "communist": 29.438790723598295,
-        "jacobin": 10.129988805387686,
-        "sorelian": 9.245255174871666,
-        "social-republican": 2.8489899888350694,
-        "young-republican": 2.837697028527097,
+        "syndicalist": 20.63681493096591,
+        "anarchist": 18.241058904632553,
+        "communist": 29.438790723598274,
+        "jacobin": 10.129988805387681,
+        "sorelian": 9.24525517487166,
+        "social-republican": 2.848989988835068,
+        "young-republican": 2.8376970285270957,
         "taxpayer": 0,
-        "christian": 0.9435497542268209,
-        "independent": 0.9601059178208112,
+        "christian": 0.9435497542268202,
+        "independent": 0.9601059178208108,
         "farmer-front": 0,
-        "anti-commune": 2.8306492626804616,
-        "undecided": 1.8870995084536417
+        "anti-commune": 2.830649262680461,
+        "undecided": 1.8870995084536404
       }
     },
     {
       "id": "military",
       "name": "军队",
-      "weight": 2.4957602064568283,
+      "weight": 2.494667158602732,
       "support": {
         "syndicalist": 11.944889309713854,
-        "anarchist": 5.877897158974692,
+        "anarchist": 5.877897158974689,
         "communist": 21.245364666377014,
-        "jacobin": 23.969614148899154,
-        "sorelian": 25.740193310053545,
-        "social-republican": 3.7590745135416976,
-        "young-republican": 2.79660919115951,
-        "taxpayer": 0.9296291665173113,
-        "christian": 0.9296291665173113,
-        "independent": 0.9478410352112887,
+        "jacobin": 23.96961414889916,
+        "sorelian": 25.740193310053538,
+        "social-republican": 3.7590745135416985,
+        "young-republican": 2.796609191159509,
+        "taxpayer": 0.9296291665173114,
+        "christian": 0.9296291665173114,
+        "independent": 0.9478410352112889,
         "farmer-front": 0,
-        "anti-commune": 0.9296291665173113,
-        "undecided": 0.9296291665173113
+        "anti-commune": 0.9296291665173114,
+        "undecided": 0.9296291665173114
       }
     }
   ],
@@ -216,7 +236,7 @@
       "short": "纳税人",
       "color": "#6b6541",
       "kind": "parliamentary",
-      "base": "旧中产、商贩及有产经营者",
+      "base": "大资产阶级、旧中产、商贩及有产经营者",
       "position": "税负与财产议题构成稳定支持；与公社主流制度保持距离。"
     },
     {
@@ -225,7 +245,7 @@
       "short": "基督徒",
       "color": "#2b6383",
       "kind": "parliamentary",
-      "base": "宗教保守乡村群体与部分旧中产",
+      "base": "大资产阶级、宗教保守乡村群体与部分旧中产",
       "position": "公开宗教表达与财产保护是主要诉求；与其他反建制组织关系密切。"
     },
     {
@@ -274,8 +294,8 @@
       "kind": "parliamentary",
       "base": "工会组织工人、工会庇护下的新中产",
       "position": "依靠工会网络仍居首位；诉CGT案后的垄断争议削弱了跨群体号召力。",
-      "rawPercent": 26.771092403576088,
-      "percent": 26.8
+      "rawPercent": 26.75066555675827,
+      "percent": 26.7
     },
     {
       "id": "anarchist",
@@ -285,8 +305,8 @@
       "kind": "parliamentary",
       "base": "城市工人、自治诉求较强的进步农民",
       "position": "地方自治与反官僚诉求构成支持基础；与共产党的共同反对派关系仍须协调。",
-      "rawPercent": 17.561436314061563,
-      "percent": 17.6
+      "rawPercent": 17.52431229957169,
+      "percent": 17.5
     },
     {
       "id": "communist",
@@ -296,7 +316,7 @@
       "kind": "parliamentary",
       "base": "未受工会庇护的工人、进步农民、失业者与部分基层官兵",
       "position": "福利、农村投资和反工会垄断可以扩大支持；多条马克思主义路线并存。",
-      "rawPercent": 14.827869747332956,
+      "rawPercent": 14.80467441572692,
       "percent": 14.8
     },
     {
@@ -307,8 +327,8 @@
       "kind": "parliamentary",
       "base": "激进小市民、技术人员与部分基层官兵",
       "position": "集中规划与强执行力吸引不满现状者；革命专制主张限制温和派合作。",
-      "rawPercent": 8.396645198787095,
-      "percent": 8.4
+      "rawPercent": 8.31699593471596,
+      "percent": 8.3
     },
     {
       "id": "sorelian",
@@ -318,8 +338,8 @@
       "kind": "parliamentary",
       "base": "部分工人、激进小市民与基层官兵",
       "position": "民族动员与战备诉求扩张支持；瓦鲁瓦派与青年先锋派仍有分歧。",
-      "rawPercent": 8.873687419312716,
-      "percent": 8.9
+      "rawPercent": 8.82630960081464,
+      "percent": 8.8
     },
     {
       "id": "social-republican",
@@ -329,7 +349,7 @@
       "kind": "parliamentary",
       "base": "温和小市民、部分旧中产与民主派将官",
       "position": "共和主义和渐进改革形成温和桥梁；组织动员规模有限。",
-      "rawPercent": 3.4537414777606443,
+      "rawPercent": 3.40511609141667,
       "percent": 3.4
     },
     {
@@ -340,7 +360,7 @@
       "kind": "parliamentary",
       "base": "天主教社会主义者、温和小市民与部分乡村群体",
       "position": "兼顾宗教、共和与社会保障；更愿与温和改革派合作。",
-      "rawPercent": 3.980475113107897,
+      "rawPercent": 3.9561498532249706,
       "percent": 4
     },
     {
@@ -349,10 +369,10 @@
       "short": "纳税人",
       "color": "#6b6541",
       "kind": "parliamentary",
-      "base": "旧中产、商贩及有产经营者",
+      "base": "大资产阶级、旧中产、商贩及有产经营者",
       "position": "税负与财产议题构成稳定支持；与公社主流制度保持距离。",
-      "rawPercent": 2.514422222656887,
-      "percent": 2.5
+      "rawPercent": 2.7508783811725874,
+      "percent": 2.8
     },
     {
       "id": "christian",
@@ -360,10 +380,10 @@
       "short": "基督徒",
       "color": "#2b6383",
       "kind": "parliamentary",
-      "base": "宗教保守乡村群体与部分旧中产",
+      "base": "大资产阶级、宗教保守乡村群体与部分旧中产",
       "position": "公开宗教表达与财产保护是主要诉求；与其他反建制组织关系密切。",
-      "rawPercent": 3.238327800945868,
-      "percent": 3.2
+      "rawPercent": 3.401874266194118,
+      "percent": 3.4
     },
     {
       "id": "independent",
@@ -373,7 +393,7 @@
       "kind": "parliamentary",
       "base": "地方代表、小型工会与个人政治明星的支持者",
       "position": "支持分散且依赖地方声望，缺乏统一政治路线。",
-      "rawPercent": 2.173512852472718,
+      "rawPercent": 2.157922561699535,
       "percent": 2.2
     },
     {
@@ -384,7 +404,7 @@
       "kind": "banned",
       "base": "部分富农与反动乡村群体",
       "position": "已被封禁；所列为社会支持意向，不能参加选举或据此取得议席。",
-      "rawPercent": 2.6790864225152,
+      "rawPercent": 2.6698029336513627,
       "percent": 2.7
     },
     {
@@ -395,8 +415,8 @@
       "kind": "extra-parliamentary",
       "base": "拒绝承认现行体制的小市民、旧中产与部分乡村群体",
       "position": "未转化为合法参选组织的体制外倾向，不能视为某一政党的选票。",
-      "rawPercent": 3.390844838768191,
-      "percent": 3.4
+      "rawPercent": 3.304300430252351,
+      "percent": 3.3
     },
     {
       "id": "undecided",
@@ -406,13 +426,13 @@
       "kind": "undecided",
       "base": "尚未形成明确政治选择者",
       "position": "保留其比例，不将其重新分摊给各派。",
-      "rawPercent": 2.1388581887021547,
+      "rawPercent": 2.130997674800917,
       "percent": 2.1
     }
   ],
   "metadata": {
-    "weightMeaning": "地区人口配置为文游设定，基准总人口沿用经济页3846万；七阶层构成为互斥政治态度群体，非职业人口普查。参与系数是相对政治表达强度，不是实测投票率。地区全国权重经归一化后合计100%。",
-    "exclusiveClassification": "七类互斥归类。现役军人优先归入军队，失业人员归入失业者；其余按主要职业与政治经济地位归入工人、农民、小市民、旧中产或新中产。军人和失业者不再计入原职业阶层。",
+    "weightMeaning": "地区人口配置为文游设定，基准总人口沿用经济页3846万；八阶层构成为互斥政治态度群体，非职业人口普查。参与系数是相对政治表达强度，不是实测投票率。地区全国权重经归一化后合计100%。",
+    "exclusiveClassification": "八类互斥分类。现役军人优先归入军队，失业人员归入失业者，其余按主要职业与政治经济地位归入工人、农民、小市民、旧中产、新中产或大资产阶级。军人和失业者不再计入原职业阶层；大资产所有者不再计入旧中产，地区分配从原有产群体中划出，不额外增加人口。",
     "rounding": "全国支持度、每区支持度与展示地区权重分别用最大余数法保留1位小数、合计100%；实际汇总与领先判断使用未舍入数值。",
     "formula": "地区权重 ∝ 地区人口配置 × Σ(地区阶层占比 × 阶层参与系数)；地区支持 = Σ(地区有效阶层权重 × 地方修正后的阶层支持)；全国支持 = Σ(地区权重 × 地区支持)。",
     "notElection": "这是综合政治态度，不能按比例换算劳工总议会席位，不能代替各公安委事务职位的候选人投票；农民阵线与拒绝体制者也不计为合法参选政党的选票。",
@@ -420,6 +440,8 @@
     "regionMechanism": "阶层政策先改变该阶层的支持向量，其他类别按比例调整以保持100%；随后应用地方倾向并归一化，再通过地区阶层构成汇总为全国支持，避免地区与阶层重复叠加。",
     "regionalBaseline": "已自定义20个KR实控范围内的统计区，包含人口配置、主要产业、阶层构成、相对参与强度与地方政治修正；四大城市倾向参考KPF日志，其余为新增文游设定。",
     "display": "页面展示全国民调及可点选地图中的20区支持度；阶层卡片只展示文字取向。",
+    "propertySettlement": "用户设定：大资产阶级是革命对象；公社出于稳定与团结，部分尊重其财产，并保留其投票权。该群体主要支持全国纳税人联合和法国基督徒联盟。",
+    "propertyAllocation": "大资产阶级从原旧中产的有产群体配置中单独划出，各区占比为0.3%至1.8%；巴黎、里昂及港口商贸地区较高。地区占比、参与系数与支持矩阵为新增文游参数，不改变3846万总人口。",
     "map": "本地绘制的法国大陆地理轮廓，按KR实控范围作示意调整；统计区边界不等同HOI4州或省界。填色为当地支持率最高的政治组织，不代表占领、席位或执政权。",
     "affinityMeaning": "地方修正为组织积累与经济利益的相对系数；不是加算固定百分点，也不预设地方党派必然执政。"
   },
@@ -502,7 +524,8 @@
     "old-middle": 0.95,
     "new-middle": 1.2,
     "unemployed": 0.85,
-    "military": 1.1
+    "military": 1.1,
+    "big-bourgeois": 1
   },
   "classBaseline": [
     {
@@ -579,6 +602,25 @@
         "farmer-front": 1,
         "anti-commune": 18,
         "undecided": 3
+      }
+    },
+    {
+      "id": "big-bourgeois",
+      "name": "大资产阶级",
+      "support": {
+        "syndicalist": 1,
+        "anarchist": 0.5,
+        "communist": 0,
+        "jacobin": 1.5,
+        "sorelian": 2,
+        "social-republican": 3,
+        "young-republican": 3,
+        "taxpayer": 45,
+        "christian": 32,
+        "independent": 3,
+        "farmer-front": 0,
+        "anti-commune": 7,
+        "undecided": 2
       }
     },
     {
@@ -659,10 +701,11 @@
         "workers": 57,
         "farmers": 3,
         "petty-bourgeois": 15,
-        "old-middle": 9,
+        "old-middle": 7.2,
         "new-middle": 11,
         "unemployed": 3,
-        "military": 2
+        "military": 2,
+        "big-bourgeois": 1.8
       },
       "affinity": {
         "syndicalist": 1.45,
@@ -672,16 +715,17 @@
       "concern": "工会职位、工资与生活成本",
       "coverage": "巴黎及法兰西岛腹地",
       "populationMillions": 5.9613,
-      "participationIndex": 1.0969,
-      "mass": 17.00195,
+      "participationIndex": 1.0978,
+      "mass": 17.015900000000002,
       "effectiveClassMix": {
-        "workers": 59.75932172486097,
-        "farmers": 2.4067827513902817,
-        "petty-bourgeois": 13.674901996535691,
-        "old-middle": 7.794694138025343,
-        "new-middle": 12.033913756951408,
-        "unemployed": 2.3247333394110674,
-        "military": 2.005652292825235
+        "workers": 59.710329750409905,
+        "farmers": 2.4048096192384767,
+        "petty-bourgeois": 13.663691018400437,
+        "old-middle": 6.230643104390599,
+        "big-bourgeois": 1.6396429222080524,
+        "new-middle": 12.024048096192383,
+        "unemployed": 2.322827473128074,
+        "military": 2.004008016032064
       },
       "classSupport": {
         "workers": {
@@ -744,6 +788,21 @@
           "anti-commune": 17.699115044247787,
           "undecided": 2.949852507374631
         },
+        "big-bourgeois": {
+          "syndicalist": 1.441781843492095,
+          "anarchist": 0.4971661529283087,
+          "communist": 0,
+          "jacobin": 1.6108183354877201,
+          "sorelian": 1.9886646117132347,
+          "social-republican": 2.982996917569852,
+          "young-republican": 2.982996917569852,
+          "taxpayer": 44.74495376354778,
+          "christian": 31.818633787411756,
+          "independent": 2.982996917569852,
+          "farmer-front": 0,
+          "anti-commune": 6.9603261409963215,
+          "undecided": 1.9886646117132347
+        },
         "new-middle": {
           "syndicalist": 80.11049723756905,
           "anarchist": 1.4932059130954158,
@@ -791,36 +850,36 @@
         }
       },
       "support": {
-        "syndicalist": 39.61752722575956,
-        "anarchist": 13.225134545926277,
-        "communist": 11.193567547550156,
-        "jacobin": 9.398504445530065,
-        "sorelian": 8.955493707707168,
-        "social-republican": 3.5484372062241976,
-        "young-republican": 3.038657713585055,
-        "taxpayer": 2.308648874492094,
-        "christian": 1.8176564298180438,
-        "independent": 1.600772923154112,
-        "farmer-front": 0.30943079602406226,
-        "anti-commune": 3.440526101489006,
-        "undecided": 1.5456424827401885
+        "syndicalist": 39.56427092837641,
+        "anarchist": 13.161179119157499,
+        "communist": 11.15375835700828,
+        "jacobin": 9.251795715054405,
+        "sorelian": 8.873545177582969,
+        "social-republican": 3.45659253269745,
+        "young-republican": 2.993179663686912,
+        "taxpayer": 2.7494052574472265,
+        "christian": 2.1234510074260595,
+        "independent": 1.5717899138857951,
+        "farmer-front": 0.2938608861967193,
+        "anti-commune": 3.276137806526313,
+        "undecided": 1.5310336349539488
       },
-      "rawWeight": 16.394077287087537,
+      "rawWeight": 16.400342658914436,
       "weight": 16.4,
       "supportDisplay": {
         "syndicalist": 39.6,
         "anarchist": 13.2,
-        "communist": 11.2,
-        "jacobin": 9.4,
-        "sorelian": 9,
-        "social-republican": 3.6,
+        "communist": 11.1,
+        "jacobin": 9.2,
+        "sorelian": 8.9,
+        "social-republican": 3.5,
         "young-republican": 3,
-        "taxpayer": 2.3,
-        "christian": 1.8,
+        "taxpayer": 2.7,
+        "christian": 2.1,
         "independent": 1.6,
         "farmer-front": 0.3,
-        "anti-commune": 3.4,
-        "undecided": 1.6
+        "anti-commune": 3.3,
+        "undecided": 1.5
       },
       "leadingPartyId": "syndicalist"
     },
@@ -843,10 +902,11 @@
         "workers": 60,
         "farmers": 15,
         "petty-bourgeois": 9,
-        "old-middle": 4,
+        "old-middle": 3.3,
         "new-middle": 6,
         "unemployed": 4,
-        "military": 2
+        "military": 2,
+        "big-bourgeois": 0.7
       },
       "affinity": {
         "anarchist": 1.8,
@@ -856,16 +916,17 @@
       "concern": "工会自治、港口就业与互助交换",
       "coverage": "加来海岸及阿图瓦，不含敦刻尔克",
       "populationMillions": 1.46148,
-      "participationIndex": 1.078,
-      "mass": 4.0964,
+      "participationIndex": 1.07835,
+      "mass": 4.097729999999999,
       "effectiveClassMix": {
-        "workers": 64.00742115027829,
-        "farmers": 12.244897959183673,
-        "petty-bourgeois": 8.348794063079778,
-        "old-middle": 3.525046382189239,
-        "new-middle": 6.679035250463821,
-        "unemployed": 3.1539888682745825,
-        "military": 2.0408163265306123
+        "workers": 63.986646265127284,
+        "farmers": 12.240923633328697,
+        "petty-bourgeois": 8.346084295451385,
+        "old-middle": 2.9072193629155656,
+        "big-bourgeois": 0.6491398896462187,
+        "new-middle": 6.676867436361107,
+        "unemployed": 3.152965178281634,
+        "military": 2.0401539388881162
       },
       "classSupport": {
         "workers": {
@@ -928,6 +989,21 @@
           "anti-commune": 17.50291715285881,
           "undecided": 2.9171528588098017
         },
+        "big-bourgeois": {
+          "syndicalist": 0.8181999600878068,
+          "anarchist": 0.8980243464378368,
+          "communist": 0,
+          "jacobin": 1.4967072440630613,
+          "sorelian": 1.9956096587507484,
+          "social-republican": 2.9934144881261227,
+          "young-republican": 2.9934144881261227,
+          "taxpayer": 44.90121732189184,
+          "christian": 31.929754540011974,
+          "independent": 2.9934144881261227,
+          "farmer-front": 0,
+          "anti-commune": 6.98463380562762,
+          "undecided": 1.9956096587507484
+        },
         "new-middle": {
           "syndicalist": 68.73584050747621,
           "anarchist": 4.07793384685093,
@@ -975,32 +1051,32 @@
         }
       },
       "support": {
-        "syndicalist": 24.116809493270882,
-        "anarchist": 29.453915281716064,
-        "communist": 13.902705085328625,
-        "jacobin": 7.605279480522798,
-        "sorelian": 8.498408565148766,
-        "social-republican": 2.988691667884232,
-        "young-republican": 3.04579928935844,
-        "taxpayer": 1.6978528320361925,
-        "christian": 1.8160800119055953,
-        "independent": 1.6110443418474734,
-        "farmer-front": 1.0795986600018364,
-        "anti-commune": 2.4430662772220364,
-        "undecided": 1.7407490137570643
+        "syndicalist": 24.10445885884969,
+        "anarchist": 29.40700986181516,
+        "communist": 13.886199629968814,
+        "jacobin": 7.552561483446997,
+        "sorelian": 8.46662884250546,
+        "social-republican": 2.9531843277811753,
+        "young-republican": 3.0282629965438965,
+        "taxpayer": 1.8748394488042401,
+        "christian": 1.9388079543400425,
+        "independent": 1.5999702549357668,
+        "farmer-front": 1.07325172715564,
+        "anti-commune": 2.3796758792768933,
+        "undecided": 1.735148734576237
       },
-      "rawWeight": 3.949940930235966,
+      "rawWeight": 3.9494928933358464,
       "weight": 3.9,
       "supportDisplay": {
         "syndicalist": 24.1,
-        "anarchist": 29.5,
+        "anarchist": 29.4,
         "communist": 13.9,
-        "jacobin": 7.6,
+        "jacobin": 7.5,
         "sorelian": 8.5,
         "social-republican": 3,
-        "young-republican": 3.1,
-        "taxpayer": 1.7,
-        "christian": 1.8,
+        "young-republican": 3,
+        "taxpayer": 1.9,
+        "christian": 1.9,
         "independent": 1.6,
         "farmer-front": 1.1,
         "anti-commune": 2.4,
@@ -1027,10 +1103,11 @@
         "workers": 65,
         "farmers": 10,
         "petty-bourgeois": 9,
-        "old-middle": 4,
+        "old-middle": 3.1,
         "new-middle": 7,
         "unemployed": 3,
-        "military": 2
+        "military": 2,
+        "big-bourgeois": 0.9
       },
       "affinity": {
         "syndicalist": 1.18,
@@ -1041,16 +1118,17 @@
       "concern": "工业重建、矿工待遇与工厂治理",
       "coverage": "北部省公社实控部分，不含敦刻尔克割让区",
       "populationMillions": 2.15376,
-      "participationIndex": 1.0950000000000002,
-      "mass": 6.132000000000001,
+      "participationIndex": 1.09545,
+      "mass": 6.13452,
       "effectiveClassMix": {
-        "workers": 68.26484018264838,
-        "farmers": 8.036529680365296,
-        "petty-bourgeois": 8.21917808219178,
-        "old-middle": 3.4703196347031957,
-        "new-middle": 7.6712328767123275,
-        "unemployed": 2.3287671232876708,
-        "military": 2.009132420091324
+        "workers": 68.23679766306084,
+        "farmers": 8.03322835364462,
+        "petty-bourgeois": 8.215801725318363,
+        "old-middle": 2.6883928978958416,
+        "big-bourgeois": 0.8215801725318362,
+        "new-middle": 7.668081610297138,
+        "unemployed": 2.3278104888402025,
+        "military": 2.008307088411155
       },
       "classSupport": {
         "workers": {
@@ -1113,6 +1191,21 @@
           "anti-commune": 17.81296387926769,
           "undecided": 2.9688273132112815
         },
+        "big-bourgeois": {
+          "syndicalist": 1.1762360446570972,
+          "anarchist": 0.4984051036682616,
+          "communist": 0,
+          "jacobin": 1.4952153110047848,
+          "sorelian": 2.1331738437001597,
+          "social-republican": 2.9904306220095696,
+          "young-republican": 2.9904306220095696,
+          "taxpayer": 44.856459330143544,
+          "christian": 31.89792663476874,
+          "independent": 2.9904306220095696,
+          "farmer-front": 0,
+          "anti-commune": 6.977671451355662,
+          "undecided": 1.9936204146730463
+        },
         "new-middle": {
           "syndicalist": 76.59649122807018,
           "anarchist": 1.7543859649122806,
@@ -1160,35 +1253,35 @@
         }
       },
       "support": {
-        "syndicalist": 35.70222905826537,
-        "anarchist": 16.640762630879784,
-        "communist": 15.301959675115045,
-        "jacobin": 7.625212852491858,
-        "sorelian": 9.315352255619876,
-        "social-republican": 2.9510657405662175,
-        "young-republican": 2.9119649220599215,
-        "taxpayer": 1.602854962964729,
-        "christian": 1.615990945553607,
-        "independent": 1.5237214323510628,
-        "farmer-front": 0.8110440275256011,
-        "anti-commune": 2.3223372541851455,
-        "undecided": 1.6755042424217625
+        "syndicalist": 35.678998229671684,
+        "anarchist": 16.607125925761807,
+        "communist": 15.278681178508505,
+        "jacobin": 7.557125777398427,
+        "sorelian": 9.271199244379574,
+        "social-republican": 2.904907061877974,
+        "young-republican": 2.888994037334235,
+        "taxpayer": 1.8239740010107988,
+        "christian": 1.7692594050819193,
+        "independent": 1.5090447348662552,
+        "farmer-front": 0.8029869481015848,
+        "anti-commune": 2.2396800358092075,
+        "undecided": 1.6680234201980295
       },
-      "rawWeight": 5.912761884632102,
+      "rawWeight": 5.91260115820872,
       "weight": 5.9,
       "supportDisplay": {
         "syndicalist": 35.7,
-        "anarchist": 16.7,
+        "anarchist": 16.6,
         "communist": 15.3,
-        "jacobin": 7.6,
+        "jacobin": 7.5,
         "sorelian": 9.3,
-        "social-republican": 3,
+        "social-republican": 2.9,
         "young-republican": 2.9,
-        "taxpayer": 1.6,
-        "christian": 1.6,
+        "taxpayer": 1.8,
+        "christian": 1.8,
         "independent": 1.5,
         "farmer-front": 0.8,
-        "anti-commune": 2.3,
+        "anti-commune": 2.2,
         "undecided": 1.7
       },
       "leadingPartyId": "syndicalist"
@@ -1212,10 +1305,11 @@
         "workers": 39,
         "farmers": 40,
         "petty-bourgeois": 9,
-        "old-middle": 4,
+        "old-middle": 3.6,
         "new-middle": 4,
         "unemployed": 3,
-        "military": 1
+        "military": 1,
+        "big-bourgeois": 0.4
       },
       "affinity": {
         "communist": 1.12,
@@ -1225,16 +1319,17 @@
       "concern": "农产品收购价与工农运输",
       "coverage": "索姆、瓦兹及埃纳的公社实控地区",
       "populationMillions": 1.46148,
-      "participationIndex": 1.013,
-      "mass": 3.8493999999999993,
+      "participationIndex": 1.0131999999999999,
+      "mass": 3.8501599999999994,
       "effectiveClassMix": {
-        "workers": 44.27443237907206,
-        "farmers": 34.74827245804541,
-        "petty-bourgeois": 8.884501480750247,
-        "old-middle": 3.751233958538993,
-        "new-middle": 4.738400789733466,
-        "unemployed": 2.5172754195459035,
-        "military": 1.0858835143139192
+        "workers": 44.265692854322936,
+        "farmers": 34.74141334386104,
+        "petty-bourgeois": 8.88274772996447,
+        "old-middle": 3.3754441373864985,
+        "big-bourgeois": 0.39478878799842093,
+        "new-middle": 4.7374654559810505,
+        "unemployed": 2.516778523489933,
+        "military": 1.0856691669956575
       },
       "classSupport": {
         "workers": {
@@ -1297,6 +1392,21 @@
           "anti-commune": 17.899761336515514,
           "undecided": 2.983293556085919
         },
+        "big-bourgeois": {
+          "syndicalist": 0.9996001599360257,
+          "anarchist": 0.5397840863654538,
+          "communist": 0,
+          "jacobin": 1.4994002399040385,
+          "sorelian": 1.9992003198720514,
+          "social-republican": 2.998800479808077,
+          "young-republican": 2.998800479808077,
+          "taxpayer": 44.982007197121156,
+          "christian": 31.987205117952822,
+          "independent": 2.998800479808077,
+          "farmer-front": 0,
+          "anti-commune": 6.997201119552179,
+          "undecided": 1.9992003198720514
+        },
         "new-middle": {
           "syndicalist": 73.52941176470587,
           "anarchist": 2.146263910969793,
@@ -1344,21 +1454,21 @@
         }
       },
       "support": {
-        "syndicalist": 22.97061426697815,
-        "anarchist": 19.59260516537362,
-        "communist": 17.342300932921994,
-        "jacobin": 7.092971262055937,
-        "sorelian": 7.607673697978999,
-        "social-republican": 3.3665692282550306,
-        "young-republican": 4.354161099508423,
-        "taxpayer": 2.577460952892149,
-        "christian": 3.6130810513615472,
-        "independent": 2.3395283679962273,
-        "farmer-front": 3.3707908211758366,
-        "anti-commune": 3.3817700003389093,
-        "undecided": 2.3904731531631747
+        "syndicalist": 22.962567090485447,
+        "anarchist": 19.574756796812114,
+        "communist": 17.33052333872896,
+        "jacobin": 7.060194536496769,
+        "sorelian": 7.587957350771403,
+        "social-republican": 3.344177145284444,
+        "young-republican": 4.342762894487774,
+        "taxpayer": 2.683673551603925,
+        "christian": 3.6864352412552326,
+        "independent": 2.3322574478657057,
+        "farmer-front": 3.3663958382814325,
+        "anti-commune": 3.341593685099452,
+        "undecided": 2.3867050828273366
       },
-      "rawWeight": 3.7117719502124604,
+      "rawWeight": 3.7108788422384937,
       "weight": 3.7,
       "supportDisplay": {
         "syndicalist": 23,
@@ -1366,13 +1476,13 @@
         "communist": 17.3,
         "jacobin": 7.1,
         "sorelian": 7.6,
-        "social-republican": 3.4,
+        "social-republican": 3.3,
         "young-republican": 4.3,
-        "taxpayer": 2.6,
-        "christian": 3.6,
+        "taxpayer": 2.7,
+        "christian": 3.7,
         "independent": 2.3,
         "farmer-front": 3.4,
-        "anti-commune": 3.4,
+        "anti-commune": 3.3,
         "undecided": 2.4
       },
       "leadingPartyId": "syndicalist"
@@ -1396,10 +1506,11 @@
         "workers": 42,
         "farmers": 34,
         "petty-bourgeois": 10,
-        "old-middle": 5,
+        "old-middle": 4.2,
         "new-middle": 5,
         "unemployed": 2,
-        "military": 2
+        "military": 2,
+        "big-bourgeois": 0.8
       },
       "affinity": {
         "syndicalist": 1.05,
@@ -1409,16 +1520,17 @@
       "concern": "港口订单、乳品流通与城乡贸易",
       "coverage": "上下诺曼底的公社实控地区",
       "populationMillions": 2.23068,
-      "participationIndex": 1.0287,
-      "mass": 5.96646,
+      "participationIndex": 1.0291,
+      "mass": 5.968779999999999,
       "effectiveClassMix": {
-        "workers": 46.95246427529892,
-        "farmers": 29.085253232234862,
-        "petty-bourgeois": 9.72100709633518,
-        "old-middle": 4.617478370759211,
-        "new-middle": 5.832604257801108,
-        "unemployed": 1.6525712063769806,
-        "military": 2.13862156119374
+        "workers": 46.93421436206394,
+        "farmers": 29.073948109999034,
+        "petty-bourgeois": 9.717228646390051,
+        "old-middle": 3.87717422990963,
+        "big-bourgeois": 0.7773782917112041,
+        "new-middle": 5.83033718783403,
+        "unemployed": 1.6519288698863086,
+        "military": 2.1377903022058113
       },
       "classSupport": {
         "workers": {
@@ -1481,6 +1593,21 @@
           "anti-commune": 17.892644135188867,
           "undecided": 2.9821073558648115
         },
+        "big-bourgeois": {
+          "syndicalist": 1.0463378176382663,
+          "anarchist": 0.4982561036372696,
+          "communist": 0,
+          "jacobin": 1.4947683109118088,
+          "sorelian": 1.9930244145490783,
+          "social-republican": 2.9895366218236177,
+          "young-republican": 2.9895366218236177,
+          "taxpayer": 44.843049327354265,
+          "christian": 31.888390632785253,
+          "independent": 3.288490284005979,
+          "farmer-front": 0,
+          "anti-commune": 6.975585450921774,
+          "undecided": 1.9930244145490783
+        },
         "new-middle": {
           "syndicalist": 74.78344562078922,
           "anarchist": 1.9249278152069296,
@@ -1528,35 +1655,35 @@
         }
       },
       "support": {
-        "syndicalist": 25.862459785605854,
-        "anarchist": 17.871432726037582,
-        "communist": 15.26020558486535,
-        "jacobin": 7.725358910155477,
-        "sorelian": 8.24384990248065,
-        "social-republican": 3.5105749644127715,
-        "young-republican": 4.256702875986286,
-        "taxpayer": 2.6246950264520352,
-        "christian": 3.413382208416899,
-        "independent": 2.513219895593938,
-        "farmer-front": 2.9327731573321625,
-        "anti-commune": 3.4707362728632076,
-        "undecided": 2.314608689797791
+        "syndicalist": 25.845125131533038,
+        "anarchist": 17.838995438957536,
+        "communist": 15.239592013618308,
+        "jacobin": 7.660565676496284,
+        "sorelian": 8.204751614246334,
+        "social-republican": 3.4663810233721595,
+        "young-republican": 4.234242065584041,
+        "taxpayer": 2.8327950645558415,
+        "christian": 3.557174225348435,
+        "independent": 2.497431282717406,
+        "farmer-front": 2.924292172752313,
+        "anti-commune": 3.3914750676069576,
+        "undecided": 2.3071792232113575
       },
-      "rawWeight": 5.75314045567222,
+      "rawWeight": 5.752856872435502,
       "weight": 5.8,
       "supportDisplay": {
         "syndicalist": 25.9,
-        "anarchist": 17.9,
-        "communist": 15.3,
+        "anarchist": 17.8,
+        "communist": 15.2,
         "jacobin": 7.7,
         "sorelian": 8.2,
         "social-republican": 3.5,
-        "young-republican": 4.3,
-        "taxpayer": 2.6,
-        "christian": 3.4,
+        "young-republican": 4.2,
+        "taxpayer": 2.8,
+        "christian": 3.6,
         "independent": 2.5,
         "farmer-front": 2.9,
-        "anti-commune": 3.5,
+        "anti-commune": 3.4,
         "undecided": 2.3
       },
       "leadingPartyId": "syndicalist"
@@ -1580,10 +1707,11 @@
         "workers": 27,
         "farmers": 52,
         "petty-bourgeois": 9,
-        "old-middle": 4,
+        "old-middle": 3.7,
         "new-middle": 3,
         "unemployed": 2,
-        "military": 3
+        "military": 3,
+        "big-bourgeois": 0.3
       },
       "affinity": {},
       "byClass": {
@@ -1599,16 +1727,17 @@
       "concern": "乡村福利、宗教生活与渔业销路",
       "coverage": "布列塔尼半岛；南特另归卢瓦尔统计区",
       "populationMillions": 2.3076,
-      "participationIndex": 0.9821000000000001,
-      "mass": 5.892600000000001,
+      "participationIndex": 0.9822500000000001,
+      "mass": 5.8935,
       "effectiveClassMix": {
-        "workers": 31.615925058548005,
-        "farmers": 46.594033194175736,
-        "petty-bourgeois": 9.164036248854496,
-        "old-middle": 3.869259749516342,
-        "new-middle": 3.6656144995417974,
-        "unemployed": 1.7309846247836267,
-        "military": 3.360146624579982
+        "workers": 31.611096971239498,
+        "farmers": 46.58691779078645,
+        "petty-bourgeois": 9.162636803257826,
+        "old-middle": 3.57851870705014,
+        "big-bourgeois": 0.30542122677526085,
+        "new-middle": 3.66505472130313,
+        "unemployed": 1.7307202850598116,
+        "military": 3.35963349452787
       },
       "classSupport": {
         "workers": {
@@ -1671,6 +1800,21 @@
           "anti-commune": 18,
           "undecided": 3
         },
+        "big-bourgeois": {
+          "syndicalist": 1,
+          "anarchist": 0.5,
+          "communist": 0,
+          "jacobin": 1.5,
+          "sorelian": 2,
+          "social-republican": 3,
+          "young-republican": 3,
+          "taxpayer": 45,
+          "christian": 32,
+          "independent": 3,
+          "farmer-front": 0,
+          "anti-commune": 7.000000000000001,
+          "undecided": 2
+        },
         "new-middle": {
           "syndicalist": 74,
           "anarchist": 2,
@@ -1718,32 +1862,32 @@
         }
       },
       "support": {
-        "syndicalist": 18.882529061568306,
-        "anarchist": 16.392578861213046,
-        "communist": 14.204839289257674,
-        "jacobin": 7.248257432920518,
-        "sorelian": 7.458521153519236,
-        "social-republican": 3.557187277131904,
-        "young-republican": 4.932829438312018,
-        "taxpayer": 3.419990538762587,
-        "christian": 6.6933203843126625,
-        "independent": 2.6540252178953154,
-        "farmer-front": 7.674197615737277,
-        "anti-commune": 4.239662669910128,
-        "undecided": 2.6420610594593112
+        "syndicalist": 18.876896707932023,
+        "anarchist": 16.379996639956566,
+        "communist": 14.196867056228005,
+        "jacobin": 7.222716848939925,
+        "sorelian": 7.4431800711338685,
+        "social-republican": 3.5396931787948516,
+        "young-republican": 4.923829769779824,
+        "taxpayer": 3.5017792905255662,
+        "christian": 6.749412012658148,
+        "independent": 2.6482750486077786,
+        "farmer-front": 7.670124182657754,
+        "anti-commune": 4.208167684518949,
+        "undecided": 2.6390615082667237
       },
-      "rawWeight": 5.681921180917014,
+      "rawWeight": 5.680300158105784,
       "weight": 5.7,
       "supportDisplay": {
         "syndicalist": 18.9,
         "anarchist": 16.4,
         "communist": 14.2,
         "jacobin": 7.2,
-        "sorelian": 7.5,
-        "social-republican": 3.6,
+        "sorelian": 7.4,
+        "social-republican": 3.5,
         "young-republican": 4.9,
-        "taxpayer": 3.4,
-        "christian": 6.7,
+        "taxpayer": 3.5,
+        "christian": 6.8,
         "independent": 2.7,
         "farmer-front": 7.7,
         "anti-commune": 4.2,
@@ -1771,10 +1915,11 @@
         "workers": 41,
         "farmers": 34,
         "petty-bourgeois": 10,
-        "old-middle": 5,
+        "old-middle": 4.2,
         "new-middle": 5,
         "unemployed": 3,
-        "military": 2
+        "military": 2,
+        "big-bourgeois": 0.8
       },
       "affinity": {
         "syndicalist": 1.08,
@@ -1789,16 +1934,17 @@
       "concern": "造船订单、地方贸易与农村运输",
       "coverage": "卢瓦尔河口、安茹、曼恩及旺代",
       "populationMillions": 2.3076,
-      "participationIndex": 1.0257,
-      "mass": 6.1542,
+      "participationIndex": 1.0261,
+      "mass": 6.1566,
       "effectiveClassMix": {
-        "workers": 45.9686068051087,
-        "farmers": 29.17032270644438,
-        "petty-bourgeois": 9.749439407234084,
-        "old-middle": 4.630983718436189,
-        "new-middle": 5.84966364434045,
-        "unemployed": 2.486107048844691,
-        "military": 2.1448766695914987
+        "workers": 45.950687067537274,
+        "farmers": 29.158951369262258,
+        "petty-bourgeois": 9.745638826625084,
+        "old-middle": 3.888509891823409,
+        "big-bourgeois": 0.7796511061300069,
+        "new-middle": 5.847383295975051,
+        "unemployed": 2.4851379007893963,
+        "military": 2.144040541857519
       },
       "classSupport": {
         "workers": {
@@ -1861,6 +2007,21 @@
           "anti-commune": 17.9140127388535,
           "undecided": 2.9856687898089174
         },
+        "big-bourgeois": {
+          "syndicalist": 1.0787055533359968,
+          "anarchist": 0.5393527766679984,
+          "communist": 0,
+          "jacobin": 1.4982021574111066,
+          "sorelian": 1.9976028765481422,
+          "social-republican": 2.9964043148222133,
+          "young-republican": 2.9964043148222133,
+          "taxpayer": 44.9460647223332,
+          "christian": 31.961646024770275,
+          "independent": 2.9964043148222133,
+          "farmer-front": 0,
+          "anti-commune": 6.991610067918498,
+          "undecided": 1.9976028765481422
+        },
         "new-middle": {
           "syndicalist": 75.3393665158371,
           "anarchist": 2.0361990950226243,
@@ -1908,32 +2069,32 @@
         }
       },
       "support": {
-        "syndicalist": 25.699820408562058,
-        "anarchist": 18.60720689136564,
-        "communist": 14.855332073052276,
-        "jacobin": 7.629659403611301,
-        "sorelian": 8.077828327821353,
-        "social-republican": 3.452129577607046,
-        "young-republican": 4.145478967873375,
-        "taxpayer": 2.563948406360926,
-        "christian": 3.8582470866922804,
-        "independent": 2.2172951924085007,
-        "farmer-front": 3.2137818235954674,
-        "anti-commune": 3.4352338183622284,
-        "undecided": 2.2440380226875463
+        "syndicalist": 25.682290086610426,
+        "anarchist": 18.57231436648612,
+        "communist": 14.834798478505688,
+        "jacobin": 7.564652884580685,
+        "sorelian": 8.03865459408063,
+        "social-republican": 3.40780361939624,
+        "young-republican": 4.122996634110907,
+        "taxpayer": 2.7733166427251392,
+        "christian": 4.002734124620614,
+        "independent": 2.2029358172053373,
+        "farmer-front": 3.2051577060660317,
+        "anti-commune": 3.355721383122697,
+        "undecided": 2.236623662489479
       },
-      "rawWeight": 5.934168165427738,
+      "rawWeight": 5.933882404919669,
       "weight": 5.9,
       "supportDisplay": {
         "syndicalist": 25.7,
         "anarchist": 18.6,
-        "communist": 14.9,
+        "communist": 14.8,
         "jacobin": 7.6,
-        "sorelian": 8.1,
-        "social-republican": 3.5,
+        "sorelian": 8,
+        "social-republican": 3.4,
         "young-republican": 4.1,
-        "taxpayer": 2.6,
-        "christian": 3.9,
+        "taxpayer": 2.8,
+        "christian": 4,
         "independent": 2.2,
         "farmer-front": 3.2,
         "anti-commune": 3.4,
@@ -1960,10 +2121,11 @@
         "workers": 27,
         "farmers": 52,
         "petty-bourgeois": 9,
-        "old-middle": 4,
+        "old-middle": 3.6,
         "new-middle": 4,
         "unemployed": 2,
-        "military": 2
+        "military": 2,
+        "big-bourgeois": 0.4
       },
       "affinity": {
         "independent": 1.15,
@@ -1973,16 +2135,17 @@
       "concern": "合作社信贷、收购价与乡村就业",
       "coverage": "普瓦图与夏朗德；不重复计入旺代",
       "populationMillions": 1.46148,
-      "participationIndex": 0.9831000000000001,
-      "mass": 3.73578,
+      "participationIndex": 0.9833000000000001,
+      "mass": 3.73654,
       "effectiveClassMix": {
-        "workers": 31.583765639304236,
-        "farmers": 46.54663818533211,
-        "petty-bourgeois": 9.1547146780592,
-        "old-middle": 3.8653239751805506,
-        "new-middle": 4.882514494964906,
-        "unemployed": 1.7292238836334044,
-        "military": 2.2378191435255825
+        "workers": 31.577341604800157,
+        "farmers": 46.537170751550896,
+        "petty-bourgeois": 9.15285263907251,
+        "old-middle": 3.4780840028475537,
+        "big-bourgeois": 0.4067934506254449,
+        "new-middle": 4.881521407505339,
+        "unemployed": 1.728872165158141,
+        "military": 2.237363978439947
       },
       "classSupport": {
         "workers": {
@@ -2045,6 +2208,21 @@
           "anti-commune": 17.781290131383976,
           "undecided": 2.963548355230663
         },
+        "big-bourgeois": {
+          "syndicalist": 0.9931472837421789,
+          "anarchist": 0.49657364187108943,
+          "communist": 0,
+          "jacobin": 1.4897209256132682,
+          "sorelian": 1.9862945674843577,
+          "social-republican": 2.9794418512265364,
+          "young-republican": 3.2177971993246595,
+          "taxpayer": 44.69162776839804,
+          "christian": 31.780713079749724,
+          "independent": 3.4263581289105165,
+          "farmer-front": 0,
+          "anti-commune": 6.952030986195252,
+          "undecided": 1.9862945674843577
+        },
         "new-middle": {
           "syndicalist": 73.71986451484361,
           "anarchist": 1.9924287706714485,
@@ -2092,35 +2270,35 @@
         }
       },
       "support": {
-        "syndicalist": 19.744854274332763,
-        "anarchist": 18.565686587967733,
-        "communist": 16.195266282208074,
-        "jacobin": 7.1004544634089966,
-        "sorelian": 7.266260005970895,
-        "social-republican": 3.587255648879716,
-        "young-republican": 5.466216980847411,
-        "taxpayer": 3.06583125572586,
-        "christian": 4.593525211516875,
-        "independent": 3.1677408692064426,
-        "farmer-front": 4.6394724493651935,
-        "anti-commune": 3.869398590563205,
-        "undecided": 2.7380373800068303
+        "syndicalist": 19.737243130680625,
+        "anarchist": 18.548660091052636,
+        "communist": 16.184337055024415,
+        "jacobin": 7.066894526099444,
+        "sorelian": 7.246139117994045,
+        "social-republican": 3.5642879533905476,
+        "young-republican": 5.453457030172537,
+        "taxpayer": 3.174476241393065,
+        "christian": 4.668426621507659,
+        "independent": 3.1590836677635497,
+        "farmer-front": 4.634711214333668,
+        "anti-commune": 3.828175506791628,
+        "undecided": 2.7341078437961723
       },
-      "rawWeight": 3.6022142194016498,
+      "rawWeight": 3.601369093538404,
       "weight": 3.6,
       "supportDisplay": {
         "syndicalist": 19.7,
         "anarchist": 18.5,
         "communist": 16.2,
         "jacobin": 7.1,
-        "sorelian": 7.3,
+        "sorelian": 7.2,
         "social-republican": 3.6,
         "young-republican": 5.5,
-        "taxpayer": 3.1,
-        "christian": 4.6,
+        "taxpayer": 3.2,
+        "christian": 4.7,
         "independent": 3.2,
         "farmer-front": 4.6,
-        "anti-commune": 3.9,
+        "anti-commune": 3.8,
         "undecided": 2.7
       },
       "leadingPartyId": "syndicalist"
@@ -2144,10 +2322,11 @@
         "workers": 38,
         "farmers": 32,
         "petty-bourgeois": 13,
-        "old-middle": 7,
+        "old-middle": 5.7,
         "new-middle": 6,
         "unemployed": 2,
-        "military": 2
+        "military": 2,
+        "big-bourgeois": 1.3
       },
       "affinity": {
         "jacobin": 2.15,
@@ -2157,16 +2336,17 @@
       "concern": "基础工程、技术管理与农业流通",
       "coverage": "阿基坦腹地及大西洋西南沿岸",
       "populationMillions": 2.03838,
-      "participationIndex": 1.0260999999999998,
-      "mass": 5.438329999999999,
+      "participationIndex": 1.0267499999999998,
+      "mass": 5.441774999999999,
       "effectiveClassMix": {
-        "workers": 42.58844167235163,
-        "farmers": 27.443718935776246,
-        "petty-bourgeois": 12.669330474612613,
-        "old-middle": 6.480849819705682,
-        "new-middle": 7.016859955170062,
-        "unemployed": 1.656758600526265,
-        "military": 2.1440405418575192
+        "workers": 42.56148039931824,
+        "farmers": 27.426345264183105,
+        "petty-bourgeois": 12.661309958607259,
+        "old-middle": 5.273922571219869,
+        "big-bourgeois": 1.2661309958607259,
+        "new-middle": 7.012417823228635,
+        "unemployed": 1.6557097638178722,
+        "military": 2.142683223764305
       },
       "classSupport": {
         "workers": {
@@ -2229,6 +2409,21 @@
           "anti-commune": 16.166696604993714,
           "undecided": 2.6944494341656187
         },
+        "big-bourgeois": {
+          "syndicalist": 0.9051109252791579,
+          "anarchist": 0.4919081115647597,
+          "communist": 0,
+          "jacobin": 3.1728073195927,
+          "sorelian": 1.9676324462590389,
+          "social-republican": 2.9514486693885584,
+          "young-republican": 2.9514486693885584,
+          "taxpayer": 44.27173004082838,
+          "christian": 31.482119140144622,
+          "independent": 2.9514486693885584,
+          "farmer-front": 0,
+          "anti-commune": 6.886713561906636,
+          "undecided": 1.9676324462590389
+        },
         "new-middle": {
           "syndicalist": 65.91789310611928,
           "anarchist": 1.9364833462432223,
@@ -2276,35 +2471,35 @@
         }
       },
       "support": {
-        "syndicalist": 21.519744916358448,
-        "anarchist": 16.28849106730787,
-        "communist": 13.909273455204708,
-        "jacobin": 16.089974646564226,
-        "sorelian": 7.763859145254105,
-        "social-republican": 3.4678262751907436,
-        "young-republican": 4.079823722747958,
-        "taxpayer": 2.7558962974513954,
-        "christian": 3.3811955533331233,
-        "independent": 2.2290313629555554,
-        "farmer-front": 2.725495031303501,
-        "anti-commune": 3.588351398607346,
-        "undecided": 2.2010371277210328
+        "syndicalist": 21.497703573791128,
+        "anarchist": 16.241194924696718,
+        "communist": 13.878861643091552,
+        "jacobin": 15.887692477550832,
+        "sorelian": 7.708234759729304,
+        "social-republican": 3.405771631009922,
+        "young-republican": 4.049791140579343,
+        "taxpayer": 3.1094295866601662,
+        "christian": 3.626415586762036,
+        "independent": 2.2109736190674507,
+        "farmer-front": 2.71296644894071,
+        "anti-commune": 3.478817573259423,
+        "undecided": 2.1921470348614305
       },
-      "rawWeight": 5.243892749519128,
+      "rawWeight": 5.244916500021396,
       "weight": 5.2,
       "supportDisplay": {
         "syndicalist": 21.5,
-        "anarchist": 16.3,
+        "anarchist": 16.2,
         "communist": 13.9,
-        "jacobin": 16.1,
-        "sorelian": 7.8,
-        "social-republican": 3.5,
+        "jacobin": 15.9,
+        "sorelian": 7.7,
+        "social-republican": 3.4,
         "young-republican": 4.1,
-        "taxpayer": 2.7,
-        "christian": 3.4,
+        "taxpayer": 3.1,
+        "christian": 3.6,
         "independent": 2.2,
         "farmer-front": 2.7,
-        "anti-commune": 3.6,
+        "anti-commune": 3.5,
         "undecided": 2.2
       },
       "leadingPartyId": "syndicalist"
@@ -2328,10 +2523,11 @@
         "workers": 31,
         "farmers": 45,
         "petty-bourgeois": 10,
-        "old-middle": 5,
+        "old-middle": 4.5,
         "new-middle": 4,
         "unemployed": 2,
-        "military": 3
+        "military": 3,
+        "big-bourgeois": 0.5
       },
       "affinity": {
         "anarchist": 1.1,
@@ -2342,16 +2538,17 @@
       "concern": "乡村教育、合作社与航空就业",
       "coverage": "加龙河上游、凯尔西、加斯科涅及比利牛斯腹地",
       "populationMillions": 2.0768400000000002,
-      "participationIndex": 0.998,
-      "mass": 5.389200000000001,
+      "participationIndex": 0.99825,
+      "mass": 5.39055,
       "effectiveClassMix": {
-        "workers": 35.721442885771545,
-        "farmers": 39.67935871743487,
-        "petty-bourgeois": 10.02004008016032,
-        "old-middle": 4.759519038076152,
-        "new-middle": 4.809619238476953,
-        "unemployed": 1.7034068136272544,
-        "military": 3.3066132264529062
+        "workers": 35.712496869521665,
+        "farmers": 39.66942148760331,
+        "petty-bourgeois": 10.017530678687704,
+        "old-middle": 4.282494365138993,
+        "big-bourgeois": 0.5008765339343851,
+        "new-middle": 4.808414725770097,
+        "unemployed": 1.7029802153769096,
+        "military": 3.3057851239669427
       },
       "classSupport": {
         "workers": {
@@ -2414,6 +2611,21 @@
           "anti-commune": 17.706079087153256,
           "undecided": 2.9510131811922093
         },
+        "big-bourgeois": {
+          "syndicalist": 0.9965122072745392,
+          "anarchist": 0.5480817140009966,
+          "communist": 0,
+          "jacobin": 1.4947683109118088,
+          "sorelian": 1.9930244145490783,
+          "social-republican": 3.288490284005979,
+          "young-republican": 2.9895366218236177,
+          "taxpayer": 44.843049327354265,
+          "christian": 31.888390632785253,
+          "independent": 2.9895366218236177,
+          "farmer-front": 0,
+          "anti-commune": 6.975585450921774,
+          "undecided": 1.9930244145490783
+        },
         "new-middle": {
           "syndicalist": 73.18037974683544,
           "anarchist": 2.1756329113924053,
@@ -2461,35 +2673,35 @@
         }
       },
       "support": {
-        "syndicalist": 20.08913370800996,
-        "anarchist": 18.913448082150182,
-        "communist": 17.78879729028519,
-        "jacobin": 7.465068213159906,
-        "sorelian": 7.644554199087379,
-        "social-republican": 3.9232969023475293,
-        "young-republican": 4.645578404399965,
-        "taxpayer": 2.9265566431310943,
-        "christian": 4.057238940010457,
-        "independent": 2.5038737600454404,
-        "farmer-front": 3.783104142976865,
-        "anti-commune": 3.785712185007264,
-        "undecided": 2.473637529388775
+        "syndicalist": 20.079732658709283,
+        "anarchist": 18.89086187767952,
+        "communist": 17.773296011137052,
+        "jacobin": 7.423879331749832,
+        "sorelian": 7.6198579013310646,
+        "social-republican": 3.8924474113174825,
+        "young-republican": 4.631305089385382,
+        "taxpayer": 3.0615000884355,
+        "christian": 4.150415516932567,
+        "independent": 2.4948174384673463,
+        "farmer-front": 3.777476080294539,
+        "anti-commune": 3.735451852970579,
+        "undecided": 2.468958741589862
       },
-      "rawWeight": 5.1965193001727545,
+      "rawWeight": 5.1955445859467435,
       "weight": 5.2,
       "supportDisplay": {
         "syndicalist": 20.1,
         "anarchist": 18.9,
         "communist": 17.8,
-        "jacobin": 7.5,
+        "jacobin": 7.4,
         "sorelian": 7.6,
         "social-republican": 3.9,
         "young-republican": 4.6,
-        "taxpayer": 2.9,
+        "taxpayer": 3.1,
         "christian": 4.1,
         "independent": 2.5,
         "farmer-front": 3.8,
-        "anti-commune": 3.8,
+        "anti-commune": 3.7,
         "undecided": 2.5
       },
       "leadingPartyId": "syndicalist"
@@ -2513,10 +2725,11 @@
         "workers": 29,
         "farmers": 50,
         "petty-bourgeois": 8,
-        "old-middle": 4,
+        "old-middle": 3.7,
         "new-middle": 4,
         "unemployed": 3,
-        "military": 2
+        "military": 2,
+        "big-bourgeois": 0.3
       },
       "affinity": {
         "communist": 1.25,
@@ -2526,16 +2739,17 @@
       "concern": "工坊劳动、农民福利与运输成本",
       "coverage": "利穆赞内陆",
       "populationMillions": 0.7692,
-      "participationIndex": 0.987,
-      "mass": 1.974,
+      "participationIndex": 0.98715,
+      "mass": 1.9743,
       "effectiveClassMix": {
-        "workers": 33.78926038500506,
-        "farmers": 44.57953394123607,
-        "petty-bourgeois": 8.105369807497468,
-        "old-middle": 3.8500506585612966,
-        "new-middle": 4.86322188449848,
-        "unemployed": 2.5835866261398173,
-        "military": 2.2289766970618037
+        "workers": 33.784126019348626,
+        "farmers": 44.57275996555742,
+        "petty-bourgeois": 8.104138175555894,
+        "old-middle": 3.560755710884871,
+        "big-bourgeois": 0.303905181583346,
+        "new-middle": 4.862482905333536,
+        "unemployed": 2.583194043458441,
+        "military": 2.228637998277871
       },
       "classSupport": {
         "workers": {
@@ -2598,6 +2812,21 @@
           "anti-commune": 17.839444995044598,
           "undecided": 2.973240832507433
         },
+        "big-bourgeois": {
+          "syndicalist": 0.9995002498750625,
+          "anarchist": 0.5497251374312845,
+          "communist": 0,
+          "jacobin": 1.4992503748125936,
+          "sorelian": 1.999000499750125,
+          "social-republican": 2.998500749625187,
+          "young-republican": 2.998500749625187,
+          "taxpayer": 44.97751124437781,
+          "christian": 31.984007996002,
+          "independent": 2.998500749625187,
+          "farmer-front": 0,
+          "anti-commune": 6.9965017491254375,
+          "undecided": 1.999000499750125
+        },
         "new-middle": {
           "syndicalist": 73.12252964426878,
           "anarchist": 2.173913043478261,
@@ -2645,36 +2874,36 @@
         }
       },
       "support": {
-        "syndicalist": 19.56726838021773,
-        "anarchist": 19.42484314414464,
-        "communist": 19.331292545962814,
-        "jacobin": 6.735802667109565,
-        "sorelian": 6.9580557613008995,
-        "social-republican": 3.3549885012908613,
-        "young-republican": 4.6734493790979625,
-        "taxpayer": 2.8544271528583844,
-        "christian": 4.221154293641556,
-        "independent": 2.550630515425947,
-        "farmer-front": 4.19282008820622,
-        "anti-commune": 3.5825665215533626,
-        "undecided": 2.552701049190059
+        "syndicalist": 19.561609921939684,
+        "anarchist": 19.4109722048353,
+        "communist": 19.32120173822428,
+        "jacobin": 6.710721973005884,
+        "sorelian": 6.943044103091793,
+        "social-republican": 3.3378391773337563,
+        "young-republican": 4.6646837528980125,
+        "taxpayer": 2.9363168075546775,
+        "christian": 4.277655076472544,
+        "independent": 2.545048804153244,
+        "farmer-front": 4.189321631229963,
+        "anti-commune": 3.5517806248135217,
+        "undecided": 2.549804184447341
       },
-      "rawWeight": 1.903423346422663,
+      "rawWeight": 1.9028788669124033,
       "weight": 1.9,
       "supportDisplay": {
         "syndicalist": 19.6,
         "anarchist": 19.4,
         "communist": 19.3,
         "jacobin": 6.7,
-        "sorelian": 7,
-        "social-republican": 3.4,
+        "sorelian": 6.9,
+        "social-republican": 3.3,
         "young-republican": 4.7,
         "taxpayer": 2.9,
-        "christian": 4.2,
+        "christian": 4.3,
         "independent": 2.5,
         "farmer-front": 4.2,
         "anti-commune": 3.6,
-        "undecided": 2.5
+        "undecided": 2.6
       },
       "leadingPartyId": "syndicalist"
     },
@@ -2697,10 +2926,11 @@
         "workers": 33,
         "farmers": 46,
         "petty-bourgeois": 9,
-        "old-middle": 4,
+        "old-middle": 3.5,
         "new-middle": 4,
         "unemployed": 2,
-        "military": 2
+        "military": 2,
+        "big-bourgeois": 0.5
       },
       "affinity": {
         "syndicalist": 1.06,
@@ -2710,16 +2940,17 @@
       "concern": "原料供应、山地农业与合作社信贷",
       "coverage": "中央高原的奥弗涅地区",
       "populationMillions": 1.3076400000000001,
-      "participationIndex": 0.9993000000000001,
-      "mass": 3.3976200000000003,
+      "participationIndex": 0.99955,
+      "mass": 3.39847,
       "effectiveClassMix": {
-        "workers": 37.976583608525964,
-        "farmers": 40.50835584909436,
-        "petty-bourgeois": 9.006304413089161,
-        "old-middle": 3.8026618633043126,
-        "new-middle": 4.803362353647553,
-        "unemployed": 1.7011908335835082,
-        "military": 2.2015410787551284
+        "workers": 37.96708518833474,
+        "farmers": 40.4982242008904,
+        "petty-bourgeois": 9.004051823320493,
+        "old-middle": 3.3264969236156268,
+        "big-bourgeois": 0.500225101295583,
+        "new-middle": 4.802160972437597,
+        "unemployed": 1.7007653444049822,
+        "military": 2.2009904457005653
       },
       "classSupport": {
         "workers": {
@@ -2782,6 +3013,21 @@
           "anti-commune": 17.960486928756737,
           "undecided": 2.9934144881261227
         },
+        "big-bourgeois": {
+          "syndicalist": 1.0593643813711773,
+          "anarchist": 0.4997001798920648,
+          "communist": 0,
+          "jacobin": 1.4991005396761943,
+          "sorelian": 1.998800719568259,
+          "social-republican": 2.9982010793523886,
+          "young-republican": 2.9982010793523886,
+          "taxpayer": 44.973016190285826,
+          "christian": 31.980811513092146,
+          "independent": 2.9982010793523886,
+          "farmer-front": 0,
+          "anti-commune": 6.995802518488907,
+          "undecided": 1.998800719568259
+        },
         "new-middle": {
           "syndicalist": 74.96177370030581,
           "anarchist": 1.91131498470948,
@@ -2829,33 +3075,33 @@
         }
       },
       "support": {
-        "syndicalist": 22.38898327783315,
-        "anarchist": 18.318115934332397,
-        "communist": 16.631294293109846,
-        "jacobin": 7.171682906107684,
-        "sorelian": 7.513783322053296,
-        "social-republican": 3.4911359171888017,
-        "young-republican": 4.7279843386842595,
-        "taxpayer": 2.839379216341588,
-        "christian": 4.128250005350168,
-        "independent": 2.5547635221673746,
-        "farmer-front": 4.032062237494657,
-        "anti-commune": 3.6356771152178964,
-        "undecided": 2.566887914118863
+        "syndicalist": 22.37863030044892,
+        "anarchist": 18.29706714253383,
+        "communist": 16.617177013587764,
+        "jacobin": 7.129970988321203,
+        "sorelian": 7.488710586512901,
+        "social-republican": 3.462585134298169,
+        "young-republican": 4.713349324602817,
+        "taxpayer": 2.973542940313592,
+        "christian": 4.220809631092413,
+        "independent": 2.5454137645950228,
+        "farmer-front": 4.026312061416515,
+        "anti-commune": 3.584411826239902,
+        "undecided": 2.562019286036939
       },
-      "rawWeight": 3.2761444935524664,
+      "rawWeight": 3.2755289180143823,
       "weight": 3.3,
       "supportDisplay": {
         "syndicalist": 22.4,
         "anarchist": 18.3,
         "communist": 16.6,
-        "jacobin": 7.2,
+        "jacobin": 7.1,
         "sorelian": 7.5,
         "social-republican": 3.5,
         "young-republican": 4.7,
-        "taxpayer": 2.9,
-        "christian": 4.1,
-        "independent": 2.6,
+        "taxpayer": 3,
+        "christian": 4.2,
+        "independent": 2.5,
         "farmer-front": 4,
         "anti-commune": 3.6,
         "undecided": 2.6
@@ -2881,10 +3127,11 @@
         "workers": 30,
         "farmers": 48,
         "petty-bourgeois": 10,
-        "old-middle": 4,
+        "old-middle": 3.6,
         "new-middle": 4,
         "unemployed": 2,
-        "military": 2
+        "military": 2,
+        "big-bourgeois": 0.4
       },
       "affinity": {
         "independent": 1.12,
@@ -2894,16 +3141,17 @@
       "concern": "粮食运价、军工订单与地方财政",
       "coverage": "卢瓦尔中游、博斯、图赖讷及贝里",
       "populationMillions": 1.80762,
-      "participationIndex": 0.9924000000000001,
-      "mass": 4.664280000000001,
+      "participationIndex": 0.9926,
+      "mass": 4.665220000000001,
       "effectiveClassMix": {
-        "workers": 34.76420798065296,
-        "farmers": 42.56348246674728,
-        "petty-bourgeois": 10.07658202337767,
-        "old-middle": 3.8291011688835144,
-        "new-middle": 4.836759371221281,
-        "unemployed": 1.7130189439742038,
-        "military": 2.2168480451430876
+        "workers": 34.75720330445295,
+        "farmers": 42.55490630666935,
+        "petty-bourgeois": 10.07455168245013,
+        "old-middle": 3.4454966753979446,
+        "big-bourgeois": 0.40298206729800523,
+        "new-middle": 4.835784807576062,
+        "unemployed": 1.7126737860165222,
+        "military": 2.216401370139029
       },
       "classSupport": {
         "workers": {
@@ -2966,6 +3214,21 @@
           "anti-commune": 17.864231838030967,
           "undecided": 2.977371973005161
         },
+        "big-bourgeois": {
+          "syndicalist": 0.9964129135113591,
+          "anarchist": 0.49820645675567954,
+          "communist": 0,
+          "jacobin": 1.4946193702670387,
+          "sorelian": 1.9928258270227182,
+          "social-republican": 2.9892387405340775,
+          "young-republican": 2.9892387405340775,
+          "taxpayer": 44.83858110801116,
+          "christian": 31.88521323236349,
+          "independent": 3.347947389398167,
+          "farmer-front": 0,
+          "anti-commune": 6.974890394579514,
+          "undecided": 1.9928258270227182
+        },
         "new-middle": {
           "syndicalist": 73.587907716786,
           "anarchist": 1.9888623707239463,
@@ -3013,32 +3276,32 @@
         }
       },
       "support": {
-        "syndicalist": 20.467296006136742,
-        "anarchist": 18.206577452219424,
-        "communist": 17.07661799545815,
-        "jacobin": 7.362659166426156,
-        "sorelian": 7.566840326596705,
-        "social-republican": 3.612348934538476,
-        "young-republican": 4.896162280153605,
-        "taxpayer": 2.9312891401744325,
-        "christian": 4.27765185966147,
-        "independent": 2.9515939938829816,
-        "farmer-front": 4.207622342611336,
-        "anti-commune": 3.82013234764845,
-        "undecided": 2.623208154492068
+        "syndicalist": 20.459588487285114,
+        "anarchist": 18.18971885762612,
+        "communist": 17.06497038985949,
+        "jacobin": 7.329204166751614,
+        "sorelian": 7.546750230299565,
+        "social-republican": 3.589472090576124,
+        "young-republican": 4.884425120684802,
+        "taxpayer": 3.0392003307718722,
+        "christian": 4.352089289545508,
+        "independent": 2.943213960533159,
+        "farmer-front": 4.202975090645796,
+        "anti-commune": 3.779080014507477,
+        "undecided": 2.6193119709133583
       },
-      "rawWeight": 4.497517449975836,
+      "rawWeight": 4.496453703842923,
       "weight": 4.5,
       "supportDisplay": {
         "syndicalist": 20.5,
         "anarchist": 18.2,
         "communist": 17.1,
-        "jacobin": 7.4,
-        "sorelian": 7.6,
+        "jacobin": 7.3,
+        "sorelian": 7.5,
         "social-republican": 3.6,
         "young-republican": 4.9,
-        "taxpayer": 2.9,
-        "christian": 4.3,
+        "taxpayer": 3,
+        "christian": 4.4,
         "independent": 2.9,
         "farmer-front": 4.2,
         "anti-commune": 3.8,
@@ -3065,10 +3328,11 @@
         "workers": 36,
         "farmers": 42,
         "petty-bourgeois": 9,
-        "old-middle": 4,
+        "old-middle": 3.3,
         "new-middle": 4,
         "unemployed": 3,
-        "military": 2
+        "military": 2,
+        "big-bourgeois": 0.7
       },
       "affinity": {
         "sorelian": 1.1,
@@ -3078,16 +3342,17 @@
       "concern": "重建工程、农产品价格与边境安全",
       "coverage": "香槟及公社实控阿登，不含北部割让边区",
       "populationMillions": 1.11534,
-      "participationIndex": 1.0070999999999999,
-      "mass": 2.9205899999999994,
+      "participationIndex": 1.00745,
+      "mass": 2.9216049999999996,
       "effectiveClassMix": {
-        "workers": 41.10813226094728,
-        "farmers": 36.69943401846888,
-        "petty-bourgeois": 8.936550491510278,
-        "old-middle": 3.773210207526562,
-        "new-middle": 4.766160262138815,
-        "unemployed": 2.5320226392612453,
-        "military": 2.184490120146957
+        "workers": 41.093850811454665,
+        "farmers": 36.68668420268996,
+        "petty-bourgeois": 8.933445828577101,
+        "old-middle": 3.111816963621023,
+        "big-bourgeois": 0.6948235644448856,
+        "new-middle": 4.764504441907787,
+        "unemployed": 2.5311429847635116,
+        "military": 2.183731202541069
       },
       "classSupport": {
         "workers": {
@@ -3150,6 +3415,21 @@
           "anti-commune": 17.733990147783253,
           "undecided": 2.955665024630542
         },
+        "big-bourgeois": {
+          "syndicalist": 0.9968102073365231,
+          "anarchist": 0.4984051036682616,
+          "communist": 0,
+          "jacobin": 1.6148325358851676,
+          "sorelian": 2.192982456140351,
+          "social-republican": 2.9904306220095696,
+          "young-republican": 2.9904306220095696,
+          "taxpayer": 44.856459330143544,
+          "christian": 31.89792663476874,
+          "independent": 2.9904306220095696,
+          "farmer-front": 0,
+          "anti-commune": 6.977671451355662,
+          "undecided": 1.9936204146730463
+        },
         "new-middle": {
           "syndicalist": 73.23832145684877,
           "anarchist": 1.979414093428345,
@@ -3197,35 +3477,35 @@
         }
       },
       "support": {
-        "syndicalist": 22.53518348959832,
-        "anarchist": 18.476164496774658,
-        "communist": 16.007468055644022,
-        "jacobin": 7.839623297677732,
-        "sorelian": 8.493499598549095,
-        "social-republican": 3.4369843090729906,
-        "young-republican": 4.545882599148767,
-        "taxpayer": 2.694601900783027,
-        "christian": 3.860768384973246,
-        "independent": 2.448969925800143,
-        "farmer-front": 3.687406633049575,
-        "anti-commune": 3.4805519813213657,
-        "undecided": 2.492895327607076
+        "syndicalist": 22.521274024070635,
+        "anarchist": 18.447195596680434,
+        "communist": 15.98890032315572,
+        "jacobin": 7.7778845899575995,
+        "sorelian": 8.455711000079118,
+        "social-republican": 3.398039004198814,
+        "young-republican": 4.526061874166661,
+        "taxpayer": 2.881776793854683,
+        "christian": 3.990015573000051,
+        "independent": 2.43638096772816,
+        "farmer-front": 3.6796223097982983,
+        "anti-commune": 3.410766356708002,
+        "undecided": 2.4863715866018206
       },
-      "rawWeight": 2.8161698031046423,
+      "rawWeight": 2.8159147100063877,
       "weight": 2.8,
       "supportDisplay": {
         "syndicalist": 22.5,
-        "anarchist": 18.5,
+        "anarchist": 18.4,
         "communist": 16,
         "jacobin": 7.8,
         "sorelian": 8.5,
         "social-republican": 3.4,
         "young-republican": 4.5,
-        "taxpayer": 2.7,
-        "christian": 3.9,
-        "independent": 2.5,
+        "taxpayer": 2.9,
+        "christian": 4,
+        "independent": 2.4,
         "farmer-front": 3.7,
-        "anti-commune": 3.5,
+        "anti-commune": 3.4,
         "undecided": 2.5
       },
       "leadingPartyId": "syndicalist"
@@ -3249,10 +3529,11 @@
         "workers": 42,
         "farmers": 33,
         "petty-bourgeois": 9,
-        "old-middle": 5,
+        "old-middle": 4.4,
         "new-middle": 5,
         "unemployed": 3,
-        "military": 3
+        "military": 3,
+        "big-bourgeois": 0.6
       },
       "affinity": {
         "sorelian": 1.2,
@@ -3262,16 +3543,17 @@
       "concern": "边境防务、供应链与工业重建",
       "coverage": "南锡及公社控制的洛林；排除摩泽尔、朗维—布里伊与割让边区",
       "populationMillions": 0.92304,
-      "participationIndex": 1.0293999999999999,
-      "mass": 2.4705599999999994,
+      "participationIndex": 1.0296999999999998,
+      "mass": 2.4712799999999997,
       "effectiveClassMix": {
-        "workers": 46.92053623469983,
-        "farmers": 28.210608121235673,
-        "petty-bourgeois": 8.742957062366429,
-        "old-middle": 4.614338449582282,
-        "new-middle": 5.8286380415776184,
-        "unemployed": 2.477171167670488,
-        "military": 3.2057509228676904
+        "workers": 46.90686607749831,
+        "farmers": 28.20238904535302,
+        "petty-bourgeois": 8.740409828105275,
+        "old-middle": 4.059434786831116,
+        "big-bourgeois": 0.5826939885403516,
+        "new-middle": 5.826939885403516,
+        "unemployed": 2.4764494512964945,
+        "military": 3.2048169369719344
       },
       "classSupport": {
         "workers": {
@@ -3334,6 +3616,21 @@
           "anti-commune": 17.54385964912281,
           "undecided": 2.9239766081871346
         },
+        "big-bourgeois": {
+          "syndicalist": 0.9942334460131239,
+          "anarchist": 0.49711672300656196,
+          "communist": 0,
+          "jacobin": 1.6703121893020483,
+          "sorelian": 2.3861602704314975,
+          "social-republican": 2.982700338039372,
+          "young-republican": 2.982700338039372,
+          "taxpayer": 44.74050507059057,
+          "christian": 31.815470272419965,
+          "independent": 2.982700338039372,
+          "farmer-front": 0,
+          "anti-commune": 6.959634122091868,
+          "undecided": 1.9884668920262478
+        },
         "new-middle": {
           "syndicalist": 72.72012578616352,
           "anarchist": 1.9654088050314464,
@@ -3381,35 +3678,35 @@
         }
       },
       "support": {
-        "syndicalist": 24.758699280882283,
-        "anarchist": 17.727375738082284,
-        "communist": 15.390293104554708,
-        "jacobin": 8.473248388813882,
-        "sorelian": 9.771599648790025,
-        "social-republican": 3.3603016277656033,
-        "young-republican": 4.093092053278732,
-        "taxpayer": 2.532485689354886,
-        "christian": 3.310615533734041,
-        "independent": 2.213013365658498,
-        "farmer-front": 2.8392102040931064,
-        "anti-commune": 3.2642192811673936,
-        "undecided": 2.265846083824565
+        "syndicalist": 24.74648861736933,
+        "anarchist": 17.703526330870858,
+        "communist": 15.375018559500344,
+        "jacobin": 8.420085017343498,
+        "sorelian": 9.737336091502744,
+        "social-republican": 3.3281447971740783,
+        "young-republican": 4.076907670525425,
+        "taxpayer": 2.6899371112847503,
+        "christian": 3.4195034226304397,
+        "independent": 2.2027720528885277,
+        "farmer-front": 2.8329876940253356,
+        "anti-commune": 3.2067059655882946,
+        "undecided": 2.260586669296395
       },
-      "rawWeight": 2.3822297784893482,
+      "rawWeight": 2.3818804063330212,
       "weight": 2.4,
       "supportDisplay": {
-        "syndicalist": 24.7,
+        "syndicalist": 24.8,
         "anarchist": 17.7,
         "communist": 15.4,
-        "jacobin": 8.5,
-        "sorelian": 9.8,
-        "social-republican": 3.4,
+        "jacobin": 8.4,
+        "sorelian": 9.7,
+        "social-republican": 3.3,
         "young-republican": 4.1,
-        "taxpayer": 2.5,
-        "christian": 3.3,
+        "taxpayer": 2.7,
+        "christian": 3.4,
         "independent": 2.2,
         "farmer-front": 2.8,
-        "anti-commune": 3.3,
+        "anti-commune": 3.2,
         "undecided": 2.3
       },
       "leadingPartyId": "syndicalist"
@@ -3433,10 +3730,11 @@
         "workers": 39,
         "farmers": 39,
         "petty-bourgeois": 10,
-        "old-middle": 4,
+        "old-middle": 3.4,
         "new-middle": 4,
         "unemployed": 2,
-        "military": 2
+        "military": 2,
+        "big-bourgeois": 0.6
       },
       "affinity": {
         "syndicalist": 1.08,
@@ -3446,16 +3744,17 @@
       "concern": "工厂自治、乡村信贷与运输",
       "coverage": "勃艮第与弗朗什孔泰的公社实控部分，排除德控边区",
       "populationMillions": 1.7307,
-      "participationIndex": 1.0167,
-      "mass": 4.57515,
+      "participationIndex": 1.017,
+      "mass": 4.576499999999999,
       "effectiveClassMix": {
-        "workers": 44.1133077604013,
-        "farmers": 33.75627028622013,
-        "petty-bourgeois": 9.83574309039048,
-        "old-middle": 3.7375823743483823,
-        "new-middle": 4.72115668338743,
-        "unemployed": 1.6720763253663815,
-        "military": 2.1638634798859058
+        "workers": 44.100294985250734,
+        "farmers": 33.74631268436578,
+        "petty-bourgeois": 9.832841691248772,
+        "old-middle": 3.1760078662733533,
+        "big-bourgeois": 0.5899705014749262,
+        "new-middle": 4.71976401179941,
+        "unemployed": 1.6715830875122912,
+        "military": 2.16322517207473
       },
       "classSupport": {
         "workers": {
@@ -3518,6 +3817,21 @@
           "anti-commune": 17.881978939002583,
           "undecided": 2.9803298231670974
         },
+        "big-bourgeois": {
+          "syndicalist": 1.0759115361625822,
+          "anarchist": 0.49810719266786213,
+          "communist": 0,
+          "jacobin": 1.4943215780035866,
+          "sorelian": 1.9924287706714485,
+          "social-republican": 2.988643156007173,
+          "young-republican": 2.988643156007173,
+          "taxpayer": 44.82964734010759,
+          "christian": 31.878860330743176,
+          "independent": 3.2875074716078903,
+          "farmer-front": 0,
+          "anti-commune": 6.97350069735007,
+          "undecided": 1.9924287706714485
+        },
         "new-middle": {
           "syndicalist": 75.31096871466264,
           "anarchist": 1.8846588767433095,
@@ -3565,35 +3879,35 @@
         }
       },
       "support": {
-        "syndicalist": 24.665991495478668,
-        "anarchist": 18.152817475155985,
-        "communist": 15.56584080053487,
-        "jacobin": 7.518347043640565,
-        "sorelian": 8.006521926891581,
-        "social-republican": 3.4927108420610486,
-        "young-republican": 4.457171392115502,
-        "taxpayer": 2.6161356926247694,
-        "christian": 3.6420168075973,
-        "independent": 2.608195427392261,
-        "farmer-front": 3.380659909516308,
-        "anti-commune": 3.486546673957739,
-        "undecided": 2.4070445130334073
+        "syndicalist": 24.653036134784518,
+        "anarchist": 18.128129462626372,
+        "communist": 15.550113164774602,
+        "jacobin": 7.469265587116232,
+        "sorelian": 7.976939064942554,
+        "social-republican": 3.459200916502806,
+        "young-republican": 4.440080878383252,
+        "taxpayer": 2.774054214469927,
+        "christian": 3.751066742352398,
+        "independent": 2.596197531177249,
+        "farmer-front": 3.3740946935508487,
+        "anti-commune": 3.426436310368356,
+        "undecided": 2.4013852989508764
       },
-      "rawWeight": 4.411574125322009,
+      "rawWeight": 4.410943187167407,
       "weight": 4.4,
       "supportDisplay": {
         "syndicalist": 24.7,
         "anarchist": 18.1,
-        "communist": 15.6,
+        "communist": 15.5,
         "jacobin": 7.5,
         "sorelian": 8,
         "social-republican": 3.5,
-        "young-republican": 4.5,
-        "taxpayer": 2.6,
-        "christian": 3.6,
+        "young-republican": 4.4,
+        "taxpayer": 2.8,
+        "christian": 3.7,
         "independent": 2.6,
         "farmer-front": 3.4,
-        "anti-commune": 3.5,
+        "anti-commune": 3.4,
         "undecided": 2.4
       },
       "leadingPartyId": "syndicalist"
@@ -3617,10 +3931,11 @@
         "workers": 60,
         "farmers": 13,
         "petty-bourgeois": 11,
-        "old-middle": 5,
+        "old-middle": 3.6,
         "new-middle": 6,
         "unemployed": 3,
-        "military": 2
+        "military": 2,
+        "big-bourgeois": 1.4
       },
       "affinity": {
         "syndicalist": 1.1,
@@ -3631,16 +3946,17 @@
       "concern": "工业标准、工人待遇与原料供应",
       "coverage": "里昂、卢瓦尔工业盆地及罗讷中游腹地",
       "populationMillions": 2.46144,
-      "participationIndex": 1.0814000000000001,
-      "mass": 6.920960000000001,
+      "participationIndex": 1.0821,
+      "mass": 6.925440000000001,
       "effectiveClassMix": {
-        "workers": 63.80617717773256,
-        "farmers": 10.578879230626963,
-        "petty-bourgeois": 10.171999260218234,
-        "old-middle": 4.392454226003329,
-        "new-middle": 6.6580358794155705,
-        "unemployed": 2.3580543739596815,
-        "military": 2.034399852043647
+        "workers": 63.7649015802606,
+        "farmers": 10.572035856205526,
+        "petty-bourgeois": 10.165419092505314,
+        "old-middle": 3.1605212087607426,
+        "big-bourgeois": 1.2937806117734034,
+        "new-middle": 6.653728860548932,
+        "unemployed": 2.3565289714444133,
+        "military": 2.033083818501063
       },
       "classSupport": {
         "workers": {
@@ -3703,6 +4019,21 @@
           "anti-commune": 17.864231838030964,
           "undecided": 2.9773719730051607
         },
+        "big-bourgeois": {
+          "syndicalist": 1.0983524712930606,
+          "anarchist": 0.5491762356465303,
+          "communist": 0,
+          "jacobin": 1.4977533699450822,
+          "sorelian": 1.9970044932601096,
+          "social-republican": 2.9955067398901645,
+          "young-republican": 2.9955067398901645,
+          "taxpayer": 44.93260109835247,
+          "christian": 31.952071892161754,
+          "independent": 2.9955067398901645,
+          "farmer-front": 0,
+          "anti-commune": 6.989515726410383,
+          "undecided": 1.9970044932601096
+        },
         "new-middle": {
           "syndicalist": 75.42624166048924,
           "anarchist": 2.0385470719051146,
@@ -3750,35 +4081,35 @@
         }
       },
       "support": {
-        "syndicalist": 31.819213336364825,
-        "anarchist": 18.28117194177355,
-        "communist": 15.07809774882209,
-        "jacobin": 8.11034094450004,
-        "sorelian": 8.99007549514157,
-        "social-republican": 3.2605891391050092,
-        "young-republican": 3.2516308106253784,
-        "taxpayer": 1.9133950100287014,
-        "christian": 1.9597916897923822,
-        "independent": 1.6841477361021422,
-        "farmer-front": 1.0549583608950253,
-        "anti-commune": 2.811802714870866,
-        "undecided": 1.7847850719784073
+        "syndicalist": 31.78600400631456,
+        "anarchist": 18.222779043076322,
+        "communist": 15.04199574120942,
+        "jacobin": 8.002489992075608,
+        "sorelian": 8.924709293462845,
+        "social-republican": 3.1874512962422266,
+        "young-republican": 3.2150933910792068,
+        "taxpayer": 2.2617205557365354,
+        "christian": 2.201138698863839,
+        "independent": 1.6608225155817744,
+        "farmer-front": 1.042077709137995,
+        "anti-commune": 2.680845016713139,
+        "undecided": 1.7728727405065365
       },
-      "rawWeight": 6.673514105196249,
+      "rawWeight": 6.6749092944688435,
       "weight": 6.7,
       "supportDisplay": {
         "syndicalist": 31.8,
-        "anarchist": 18.3,
-        "communist": 15.1,
-        "jacobin": 8.1,
-        "sorelian": 9,
-        "social-republican": 3.3,
+        "anarchist": 18.2,
+        "communist": 15,
+        "jacobin": 8,
+        "sorelian": 8.9,
+        "social-republican": 3.2,
         "young-republican": 3.2,
-        "taxpayer": 1.9,
-        "christian": 2,
+        "taxpayer": 2.3,
+        "christian": 2.2,
         "independent": 1.7,
         "farmer-front": 1,
-        "anti-commune": 2.8,
+        "anti-commune": 2.7,
         "undecided": 1.8
       },
       "leadingPartyId": "syndicalist"
@@ -3802,10 +4133,11 @@
         "workers": 39,
         "farmers": 37,
         "petty-bourgeois": 10,
-        "old-middle": 5,
+        "old-middle": 4.4,
         "new-middle": 4,
         "unemployed": 2,
-        "military": 3
+        "military": 3,
+        "big-bourgeois": 0.6
       },
       "affinity": {
         "jacobin": 1.12,
@@ -3815,16 +4147,17 @@
       "concern": "电力工程、山地运输与地方自治",
       "coverage": "多菲内及公社实控下萨瓦；排除瑞士控制的上萨瓦",
       "populationMillions": 1.11534,
-      "participationIndex": 1.0196,
-      "mass": 2.95684,
+      "participationIndex": 1.0199,
+      "mass": 2.95771,
       "effectiveClassMix": {
-        "workers": 43.987838367987436,
-        "farmers": 31.93409180070616,
-        "petty-bourgeois": 9.80776775205963,
-        "old-middle": 4.658689682228324,
-        "new-middle": 4.707728520988622,
-        "unemployed": 1.6673205178501371,
-        "military": 3.236563358179678
+        "workers": 43.97489949995097,
+        "farmers": 31.924698499852926,
+        "petty-bourgeois": 9.804882831650161,
+        "old-middle": 4.098441023629767,
+        "big-bourgeois": 0.5882929698990097,
+        "new-middle": 4.706343759192078,
+        "unemployed": 1.6668300813805275,
+        "military": 3.2356113344445534
       },
       "classSupport": {
         "workers": {
@@ -3887,6 +4220,21 @@
           "anti-commune": 17.62977473065622,
           "undecided": 2.9382957884427032
         },
+        "big-bourgeois": {
+          "syndicalist": 0.9952229299363057,
+          "anarchist": 0.49761146496815284,
+          "communist": 0,
+          "jacobin": 1.6719745222929936,
+          "sorelian": 1.9904458598726114,
+          "social-republican": 3.284235668789809,
+          "young-republican": 2.9856687898089174,
+          "taxpayer": 44.78503184713375,
+          "christian": 31.84713375796178,
+          "independent": 2.9856687898089174,
+          "farmer-front": 0,
+          "anti-commune": 6.96656050955414,
+          "undecided": 1.9904458598726114
+        },
         "new-middle": {
           "syndicalist": 73.15144325820482,
           "anarchist": 1.9770660340055355,
@@ -3934,33 +4282,33 @@
         }
       },
       "support": {
-        "syndicalist": 23.305665635030756,
-        "anarchist": 18.021511902204793,
-        "communist": 15.590771902283885,
-        "jacobin": 8.68971983054791,
-        "sorelian": 8.256288974754753,
-        "social-republican": 3.890714187827253,
-        "young-republican": 4.40302718233059,
-        "taxpayer": 2.714062106610292,
-        "christian": 3.630689948721306,
-        "independent": 2.356158838343641,
-        "farmer-front": 3.218099566556525,
-        "anti-commune": 3.5414025879135695,
-        "undecided": 2.3818873368747218
+        "syndicalist": 23.29371751648288,
+        "anarchist": 17.99724302018399,
+        "communist": 15.575238266077623,
+        "jacobin": 8.635692962037794,
+        "sorelian": 8.227253240349931,
+        "social-republican": 3.8546997314842617,
+        "young-republican": 4.386453530596016,
+        "taxpayer": 2.8727281468966317,
+        "christian": 3.740342784872476,
+        "independent": 2.345661098464383,
+        "farmer-front": 3.211679141154026,
+        "anti-commune": 3.4828156934300023,
+        "undecided": 2.3764748679699763
       },
-      "rawWeight": 2.8511237526020197,
+      "rawWeight": 2.8507135964420223,
       "weight": 2.9,
       "supportDisplay": {
         "syndicalist": 23.3,
         "anarchist": 18,
         "communist": 15.6,
-        "jacobin": 8.7,
-        "sorelian": 8.3,
+        "jacobin": 8.6,
+        "sorelian": 8.2,
         "social-republican": 3.9,
         "young-republican": 4.4,
-        "taxpayer": 2.7,
-        "christian": 3.6,
-        "independent": 2.4,
+        "taxpayer": 2.9,
+        "christian": 3.7,
+        "independent": 2.3,
         "farmer-front": 3.2,
         "anti-commune": 3.5,
         "undecided": 2.4
@@ -3986,10 +4334,11 @@
         "workers": 31,
         "farmers": 46,
         "petty-bourgeois": 10,
-        "old-middle": 5,
+        "old-middle": 4.4,
         "new-middle": 4,
         "unemployed": 2,
-        "military": 2
+        "military": 2,
+        "big-bourgeois": 0.6
       },
       "affinity": {
         "anarchist": 1.18,
@@ -3999,16 +4348,17 @@
       "concern": "葡萄酒销售、农业合作社与地方自由",
       "coverage": "地中海西岸及塞文山麓",
       "populationMillions": 1.61532,
-      "participationIndex": 0.9958,
-      "mass": 4.18236,
+      "participationIndex": 0.9961,
+      "mass": 4.18362,
       "effectiveClassMix": {
-        "workers": 35.80036151837718,
-        "farmers": 40.65073307893151,
-        "petty-bourgeois": 10.04217714400482,
-        "old-middle": 4.77003414340229,
-        "new-middle": 4.820245029122313,
-        "unemployed": 1.7071701144808193,
-        "military": 2.209278971681061
+        "workers": 35.789579359502056,
+        "farmers": 40.63849011143459,
+        "petty-bourgeois": 10.039152695512499,
+        "old-middle": 4.196365826724224,
+        "big-bourgeois": 0.6023491617307499,
+        "new-middle": 4.818793293845999,
+        "unemployed": 1.7066559582371248,
+        "military": 2.2086135930127497
       },
       "classSupport": {
         "workers": {
@@ -4071,6 +4421,21 @@
           "anti-commune": 17.81825381112651,
           "undecided": 2.969708968521085
         },
+        "big-bourgeois": {
+          "syndicalist": 0.9991008092716555,
+          "anarchist": 0.5894694774702767,
+          "communist": 0,
+          "jacobin": 1.4986512139074832,
+          "sorelian": 1.998201618543311,
+          "social-republican": 2.9973024278149665,
+          "young-republican": 2.9973024278149665,
+          "taxpayer": 44.95953641722449,
+          "christian": 31.971225896692975,
+          "independent": 2.9973024278149665,
+          "farmer-front": 0,
+          "anti-commune": 6.993705664901588,
+          "undecided": 1.998201618543311
+        },
         "new-middle": {
           "syndicalist": 73.29635499207608,
           "anarchist": 2.337559429477021,
@@ -4118,32 +4483,32 @@
         }
       },
       "support": {
-        "syndicalist": 19.924293375895886,
-        "anarchist": 20.312876241946608,
-        "communist": 17.1640794547973,
-        "jacobin": 7.2525038691344275,
-        "sorelian": 7.416824870814226,
-        "social-republican": 3.5533985881183865,
-        "young-republican": 4.662273511028434,
-        "taxpayer": 2.9491346331618082,
-        "christian": 4.099696615926283,
-        "independent": 2.5197231028101563,
-        "farmer-front": 3.841388309142281,
-        "anti-commune": 3.817600961619805,
-        "undecided": 2.4862064656043947
+        "syndicalist": 19.91298168305629,
+        "anarchist": 20.283572561555626,
+        "communist": 17.145881631256618,
+        "jacobin": 7.202701324932845,
+        "sorelian": 7.386975491202425,
+        "social-republican": 3.5194017721649113,
+        "young-republican": 4.644936346358661,
+        "taxpayer": 3.1114335834175932,
+        "christian": 4.211736760322146,
+        "independent": 2.5086957586028436,
+        "farmer-front": 3.834566841887053,
+        "anti-commune": 3.7566160273536693,
+        "undecided": 2.4805002178893143
       },
-      "rawWeight": 4.032827592271676,
+      "rawWeight": 4.032275786451942,
       "weight": 4,
       "supportDisplay": {
         "syndicalist": 19.9,
         "anarchist": 20.3,
         "communist": 17.2,
-        "jacobin": 7.3,
+        "jacobin": 7.2,
         "sorelian": 7.4,
-        "social-republican": 3.6,
-        "young-republican": 4.7,
-        "taxpayer": 2.9,
-        "christian": 4.1,
+        "social-republican": 3.5,
+        "young-republican": 4.6,
+        "taxpayer": 3.1,
+        "christian": 4.2,
         "independent": 2.5,
         "farmer-front": 3.8,
         "anti-commune": 3.8,
@@ -4170,10 +4535,11 @@
         "workers": 50,
         "farmers": 15,
         "petty-bourgeois": 13,
-        "old-middle": 6,
+        "old-middle": 4.6,
         "new-middle": 7,
         "unemployed": 3,
-        "military": 6
+        "military": 6,
+        "big-bourgeois": 1.4
       },
       "affinity": {
         "sorelian": 2.2,
@@ -4184,16 +4550,17 @@
       "concern": "战备订单、军队供给与港口就业",
       "coverage": "普罗旺斯及公社实控地中海东岸；不含科西嘉",
       "populationMillions": 2.15376,
-      "participationIndex": 1.0695,
-      "mass": 5.989199999999999,
+      "participationIndex": 1.0702,
+      "mass": 5.99312,
       "effectiveClassMix": {
-        "workers": 53.763440860215056,
-        "farmers": 12.342215988779804,
-        "petty-bourgeois": 12.155212716222534,
-        "old-middle": 5.329593267882188,
-        "new-middle": 7.85413744740533,
-        "unemployed": 2.3842917251051894,
-        "military": 6.171107994389903
+        "workers": 53.72827508876845,
+        "farmers": 12.334143150812931,
+        "petty-bourgeois": 12.147262193982433,
+        "old-middle": 4.0833489067464015,
+        "big-bourgeois": 1.3081666978134927,
+        "new-middle": 7.849000186880957,
+        "unemployed": 2.3827321995888617,
+        "military": 6.167071575406466
       },
       "classSupport": {
         "workers": {
@@ -4256,6 +4623,21 @@
           "anti-commune": 16.498625114573784,
           "undecided": 2.7497708524289637
         },
+        "big-bourgeois": {
+          "syndicalist": 0.927100614814092,
+          "anarchist": 0.4879476920074168,
+          "communist": 0,
+          "jacobin": 1.5809505221040305,
+          "sorelian": 4.293939689665268,
+          "social-republican": 2.927686152044501,
+          "young-republican": 2.927686152044501,
+          "taxpayer": 43.915292280667515,
+          "christian": 31.228652288474674,
+          "independent": 2.927686152044501,
+          "farmer-front": 0,
+          "anti-commune": 6.831267688103836,
+          "undecided": 1.9517907680296671
+        },
         "new-middle": {
           "syndicalist": 69.09770001965795,
           "anarchist": 1.9657951641438964,
@@ -4303,40 +4685,40 @@
         }
       },
       "support": {
-        "syndicalist": 25.279872966568977,
-        "anarchist": 14.961463649731128,
-        "communist": 13.22024796022295,
-        "jacobin": 8.912999231341237,
-        "sorelian": 19.299279572740733,
-        "social-republican": 3.2410046248874393,
-        "young-republican": 3.255643627016868,
-        "taxpayer": 2.0624263940432432,
-        "christian": 2.1439608680916895,
-        "independent": 1.7230393300825406,
-        "farmer-front": 1.2414503977147942,
-        "anti-commune": 2.900162358419051,
-        "undecided": 1.7584490191393543
+        "syndicalist": 25.253822939518425,
+        "anarchist": 14.912496765052449,
+        "communist": 13.188818811343904,
+        "jacobin": 8.80482802916708,
+        "sorelian": 19.16740668725786,
+        "social-republican": 3.1746647312967884,
+        "young-republican": 3.2234671655284544,
+        "taxpayer": 2.41913357835513,
+        "christian": 2.391607334662009,
+        "independent": 1.7032563219551407,
+        "farmer-front": 1.2292473832712298,
+        "anti-commune": 2.7825917360669,
+        "undecided": 1.7486585165246207
       },
-      "rawWeight": 5.775067429784505,
+      "rawWeight": 5.77631636269567,
       "weight": 5.8,
       "supportDisplay": {
         "syndicalist": 25.3,
-        "anarchist": 15,
+        "anarchist": 14.9,
         "communist": 13.2,
-        "jacobin": 8.9,
-        "sorelian": 19.3,
+        "jacobin": 8.8,
+        "sorelian": 19.2,
         "social-republican": 3.2,
-        "young-republican": 3.3,
-        "taxpayer": 2.1,
-        "christian": 2.1,
+        "young-republican": 3.2,
+        "taxpayer": 2.4,
+        "christian": 2.4,
         "independent": 1.7,
         "farmer-front": 1.2,
-        "anti-commune": 2.9,
-        "undecided": 1.8
+        "anti-commune": 2.8,
+        "undecided": 1.7
       },
       "leadingPartyId": "syndicalist"
     }
   ],
-  "sourceNote": "依据用户DOCX、KPF经济与公社简介日志设计阶层与地方政治倾向，实控范围参考KR；人口配置、产业配置、权重、修正系数和民调百分比均为文游参数。",
+  "sourceNote": "依据用户DOCX及大资产阶级补充设定、KPF经济与公社简介日志设计阶层与地方政治倾向，实控范围参考KR；人口配置、产业配置、权重、修正系数和民调百分比均为文游参数。",
   "visibleScope": "全国综合支持度与20区支持度地图；各区人口、权重、产业与主要诉求；阶层卡片只展示文字取向。"
 }
