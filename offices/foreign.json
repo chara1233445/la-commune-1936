@@ -1,0 +1,3297 @@
+{
+  "id": "foreign",
+  "office": "对外事务",
+  "fr": "DÉLÉGATION AUX AFFAIRES EXTÉRIEURES",
+  "theme": "dispatch",
+  "style": "对外事务署 · 外交电函",
+  "motto": "第三国际与对外联络",
+  "mandate": "承办对外谈判、第三国际联络和驻外机构的行政事务，审核海外援助协议与拨款用途。拟订条约和重大承诺，交有权机构批准。",
+  "powers": [
+    "派遣经授权的谈判与联络代表，接收驻外报告。",
+    "在获批援助用途内核验项目、提出分期付款。",
+    "与财政、工业和国防会签涉及资源的国际协议。"
+  ],
+  "limit": "不能单独宣布战争、签订无限财政担保或将其他部门资源作为外交赠与。",
+  "local": "地方公社自办对外贸易与团结活动时，中央只能通过合同、结算和公开协商协调。",
+  "pendingMatters": [
+    {
+      "title": "清点援助承诺与可用拨款",
+      "detail": "核查对革命组织作出的援助承诺、已签付款与现有拨款，明确仍需财政会签的项目。",
+      "priority": "优先办理",
+      "status": "待办理"
+    },
+    {
+      "title": "商定援助条件与核验方式",
+      "detail": "整理援助接受方的生产、运输及使用报告，提出交付条件和共同采购的协商方案。",
+      "priority": "日常办理",
+      "status": "待办理"
+    }
+  ],
+  "intelligence": [],
+  "publicActions": [
+    {
+      "title": "先核承诺再拨款",
+      "measure": "按协议收集项目账目和交付凭据，编成待付清单。",
+      "authority": "获批援助的行政审核",
+      "partners": "财政与受援方授权联系人",
+      "resources": "核验人员；不得冻结没有违约依据的付款",
+      "time": "六周",
+      "result": "减少重复承诺，保障已经签署的项目。",
+      "resistance": "受援方可能缺乏文书能力，需协商可接受的证明。",
+      "status": "可提出，未实施",
+      "id": "foreign-public-1",
+      "category": "public",
+      "actor": "对外事务代表",
+      "knownTo": [
+        "office-holder:foreign",
+        "host"
+      ]
+    },
+    {
+      "title": "提出三国共同采购",
+      "measure": "向英意提交原料和机床的联合询价方案。",
+      "authority": "谈判授权；合同须会签",
+      "partners": "工业、财政和英意联络机构",
+      "resources": "谈判人员与询价；采购资金另行核准",
+      "time": "首季",
+      "result": "减少各国重复采购与运输竞争。",
+      "resistance": "盟方可能优先本国供应，报价不代表合同成立。",
+      "status": "可提出，未实施",
+      "id": "foreign-public-2",
+      "category": "public",
+      "actor": "对外事务代表",
+      "knownTo": [
+        "office-holder:foreign",
+        "host"
+      ]
+    }
+  ],
+  "politicalActions": [
+    {
+      "title": "提出工会国际联络席位",
+      "measure": "在法国参与的公开国际会议中提议纳入生产者代表。",
+      "authority": "会议议程建议",
+      "partners": "本派公开代表与国际会议秘书处",
+      "resources": "已批差旅与会议名额",
+      "time": "两个月",
+      "result": "保留工团派在国际路线中的发言权。",
+      "resistance": "其他社会主义组织要求同等席位；不得替其指定内部代表。",
+      "status": "可提出，未实施",
+      "id": "foreign-political-1",
+      "category": "political",
+      "actor": "对外事务代表",
+      "knownTo": [
+        "office-holder:foreign",
+        "host"
+      ]
+    },
+    {
+      "title": "将援助报告提交公开辩论",
+      "measure": "说明已批准项目的受益、代价和法国承担的义务。",
+      "authority": "公开政策报告",
+      "partners": "总议会及有关部门",
+      "resources": "整理可公开项目资料",
+      "time": "首季",
+      "result": "争取国内对工团派国际主义路线的支持。",
+      "resistance": "秘密联系人与未完成谈判须删去；不得伪造国外拥护声明。",
+      "status": "可提出，未实施",
+      "id": "foreign-political-2",
+      "category": "political",
+      "actor": "对外事务代表",
+      "knownTo": [
+        "office-holder:foreign",
+        "host"
+      ]
+    }
+  ],
+  "foreignRelations": {
+    "period": "1936年一月",
+    "scope": "department:foreign",
+    "groups": [
+      {
+        "id": "international",
+        "name": "第三国际",
+        "fr": "TROISIÈME INTERNATIONALE",
+        "color": "#a3483d",
+        "type": "革命联盟",
+        "leader": "巴黎",
+        "members": [
+          "FRA",
+          "ENG",
+          "SRI"
+        ],
+        "associates": [],
+        "opinion": null,
+        "status": "法国主持联络；英、法、意共同协作",
+        "trade": "共同采购与相互供货",
+        "security": "共同防务，成员保有本国指挥",
+        "text": "巴黎承担国际联络与革命援助的主要工作。英国的海上力量和意大利的工业生产是法国的重要依托；共同的革命立场，并不取消各国自行决定资源用途的权利。",
+        "economy": "法国提供机械、军需与技术协作；英国承担煤炭、航运和海上采购；意大利社会主义共和国的北部工场参与工业交换。共同采购仍须各方同意。",
+        "military": "法国陆军是不列颠与意大利的大陆防务支点；英国舰队保障海路。意大利仍处于分裂状态，不能将整个半岛的兵力计入国际。",
+        "diplomacy": "成员间优先会商。对外援助须兼顾革命组织的需要、法国现有拨款和盟国自身的义务。印度公社及南美同志另有本地组织，不一概计作欧洲军事同盟成员。"
+      },
+      {
+        "id": "reichspakt",
+        "name": "帝国公约",
+        "fr": "REICHSPAKT",
+        "color": "#546f80",
+        "type": "德国领导的军事体系",
+        "leader": "柏林",
+        "members": [
+          "GER",
+          "BEL",
+          "POL",
+          "LIT",
+          "BLR",
+          "BAT",
+          "UKR",
+          "FIN",
+          "GEO"
+        ],
+        "associates": [
+          "MAF",
+          "GEA",
+          "MOR"
+        ],
+        "opinion": -12,
+        "status": "关系一般 · 相互戒备",
+        "trade": "正常贸易",
+        "security": "互设假想敌",
+        "text": "德国维持战后欧洲秩序，公社则反对这一秩序。两国参谋机关彼此戒备；外贸往来仍按合同、结算与海运条件进行，没有因意识形态争执而一概中止。",
+        "economy": "德国的机械、化工和金融体系联系东欧农产与海外原料。中欧经济圈与帝国公约有关联，但参加经济圈不等于参加军事同盟。法国继续购买所需设备和原料。",
+        "military": "德国以本国军队为核心，东欧盟国构成对俄屏障；殖民驻军与远洋基地保障海外通路。法国须同时注意东北边境和海外采购线。",
+        "diplomacy": "贸易维持正常，重大安全争议尚未消除。柏林反对法国向其势力范围内的革命组织提供支持；使节接触、商业合同与军事戒备分别记录。"
+      },
+      {
+        "id": "danube",
+        "name": "多瑙—亚德里亚联邦",
+        "fr": "FÉDÉRATION DANUBIENNE ET ADRIATIQUE",
+        "color": "#ab8850",
+        "type": "奥地利主持的中欧联合",
+        "leader": "维也纳",
+        "members": [
+          "AUS",
+          "HUN",
+          "CZE",
+          "CRO",
+          "GAL"
+        ],
+        "associates": [
+          "ITA"
+        ],
+        "opinion": -5,
+        "status": "关系一般 · 保持距离",
+        "trade": "正常贸易",
+        "security": "互设假想敌",
+        "text": "维也纳维护多民族的中欧秩序，对公社的革命活动抱有戒心。法国同样将这一联合列入安全预案，但两方仍保留商业往来，不以战争准备代替日常外交。",
+        "economy": "波希米亚的机械、军工与奥地利城市工业，联系匈牙利粮食和亚德里亚海的运输通路。对法贸易以设备、工艺制品和农产为主，付款与转运仍逐项协商。",
+        "military": "联合的兵员、工业与港口分布在不同组成地区；共同部署有赖维也纳与各地方政府协作。意大利共和国另以受奥地利保护的合作对象列出。",
+        "diplomacy": "维也纳同柏林保持密切联系，同时维护自身的中欧利益。联邦各组成地区保有各自的行政与军事机关，共同行动仍须协商。"
+      },
+      {
+        "id": "entente",
+        "name": "流亡协约国",
+        "fr": "ENTENTE EN EXIL",
+        "color": "#7b6383",
+        "type": "复国联盟",
+        "leader": "渥太华／阿尔及尔",
+        "members": [
+          "IMP",
+          "NFA",
+          "AST",
+          "SAF",
+          "WIF"
+        ],
+        "associates": [
+          "SRD"
+        ],
+        "opinion": -92,
+        "status": "极端敌对",
+        "trade": "官方往来受限",
+        "security": "复国与干涉威胁",
+        "text": "阿尔及尔当局否认公社的合法地位，英王流亡政权谋求重返英国。双方争执涉及政权存续与旧共和国的继承；这一敌意远超过法国同德国、奥地利之间的普通外交争执。",
+        "economy": "加拿大的工业和粮食、澳大拉西亚的农牧与矿产，以及非洲属地的资源支撑联盟。各地相隔遥远，运输成本和海上通路制约可供欧洲复国战争使用的资源。",
+        "military": "流亡舰队和殖民驻军提供远征基础；要在法国登陆，仍须集结兵员、护航和登陆物资。撒丁受协约国支持，在地中海具有据点价值，单独标为合作对象。",
+        "diplomacy": "阿尔及尔是直接的政权竞争者，加拿大是联盟的主要协调者。法国对其复国准备保持警戒；不将殖民地居民一概视为流亡政府的政治支持者。"
+      },
+      {
+        "id": "japan",
+        "name": "共荣圈",
+        "fr": "SPHÈRE DE COPROSPÉRITÉ",
+        "color": "#648579",
+        "type": "日本主导的东亚体系",
+        "leader": "东京",
+        "members": [
+          "JAP"
+        ],
+        "associates": [
+          "FNG"
+        ],
+        "opinion": -24,
+        "status": "关系冷淡",
+        "trade": "有限商业往来",
+        "security": "东亚利益冲突",
+        "text": "日本扩大在东亚的经济与军事影响，与德国的亚洲秩序争夺空间。法国支持中国国民党，因此不能把日本反对德国的行动直接视为对公社的友好。",
+        "economy": "日本的工业依赖外来燃料、矿石和市场，航运与东亚投资是其对外政策的重要工具。奉天同日本有密切经济联系，仍是单独的中国政权。",
+        "military": "海军和沿海基地支持日本在西太平洋行动。朝鲜、台湾等地按开局管辖归入日本领土；奉天军队不直接计作日本本国军队。",
+        "diplomacy": "共荣圈目前以日本为中心，奉天是重要合作对象；法国在中国的革命援助，同日本维护当地既得利益存在冲突。"
+      },
+      {
+        "id": "southern",
+        "name": "南美工人同盟",
+        "fr": "ALLIANCE OUVRIÈRE SUD-AMÉRICAINE",
+        "color": "#b86848",
+        "type": "南美革命合作",
+        "leader": "圣地亚哥",
+        "members": [
+          "CHL",
+          "FOP"
+        ],
+        "associates": [],
+        "opinion": 72,
+        "status": "友好 · 支持革命",
+        "trade": "援助与航运协作",
+        "security": "区域战事压力",
+        "text": "智利与巴塔哥尼亚工人阵线共同面对南美的反革命势力。法国同其保持政治与军事联络；这一地方同盟并非欧洲第三国际军事体系的同一指挥机关。",
+        "economy": "智利的矿业、港口与巴塔哥尼亚的畜牧地区提供各自的经济基础。军需采购和跨洋运输都受距离、承保及港口条件约束。",
+        "military": "区域战事以陆军、地方动员和有限的工业供应为基础。法国提供训练、技术与获批物资，不将当地部队计入法国常备军。",
+        "diplomacy": "援助须经对外事务与财政、国防等部门会签。南美革命者有本国目标；法国的联络优势不意味着可以任命其政府或指挥全部部队。"
+      },
+      {
+        "id": "bombay",
+        "name": "孟买协定",
+        "fr": "PACTE DE BOMBAY",
+        "color": "#a69367",
+        "type": "印度地方联合",
+        "leader": "孟买",
+        "members": [
+          "RAJ",
+          "PRF"
+        ],
+        "associates": [],
+        "opinion": -38,
+        "status": "关系不睦",
+        "trade": "间接与有限往来",
+        "security": "与印度公社相对",
+        "text": "印度自治领同土邦联盟在开局有自己的联合安排。法国支持印度革命事业，但不能把英国流亡体系、印度地方联合与整个次大陆视作同一个政府。",
+        "economy": "港口、纺织、农产和地方土邦收入是经济基础。联合并未消除不同地区的利益和财政差别。",
+        "military": "地区军队和土邦部队分属各自机关，共同对付印度公社的压力使其寻求合作。",
+        "diplomacy": "对法关系受印度公社问题影响。孟买协定办理印度区域合作，同加拿大的联系另依各自协议。"
+      },
+      {
+        "id": "russia",
+        "name": "俄罗斯",
+        "fr": "RUSSIE",
+        "color": "#7b8261",
+        "type": "未结盟国家",
+        "leader": "莫斯科",
+        "members": [
+          "RUS"
+        ],
+        "associates": [],
+        "opinion": 8,
+        "status": "谨慎接触",
+        "trade": "正常商业往来",
+        "security": "有共同对德利益，尚无同盟",
+        "text": "俄罗斯尚未组织自己的国际阵营。它反对德国主导的东欧秩序，法国可就共同关切进行接触；俄国内的反社会主义力量和流亡革命者问题，仍使双方互有疑虑。",
+        "economy": "农业、矿产和能源构成重要资源基础；铁路、工业布局和国际结算决定其能否把这些资源用于出口或扩军。",
+        "military": "陆上纵深与兵员基础可观，装备、交通和动员组织仍是实际限制。法国不能将共同的假想敌写成已经签署的共同作战计划。",
+        "diplomacy": "未结盟；本页不出现莫斯科协约。保持使节和商业接触，重大军事承诺另经授权。"
+      },
+      {
+        "id": "china",
+        "name": "中国诸政权",
+        "fr": "GOUVERNEMENTS DE CHINE",
+        "color": "#a89d7c",
+        "type": "分立政权 · 非统一阵营",
+        "leader": "北京及各地方政府",
+        "members": [
+          "QIE",
+          "LEP",
+          "SHD",
+          "SHX",
+          "GXC",
+          "HNN",
+          "SZC",
+          "YUN",
+          "XSM",
+          "SIK",
+          "KUM",
+          "TIB"
+        ],
+        "associates": [
+          "LEC"
+        ],
+        "opinion": null,
+        "status": "分别办理；支持国民党革命组织",
+        "trade": "港口与地方合同往来",
+        "security": "革命尚未发动",
+        "text": "清政府、各地方军事政权与使馆城市分别控制不同地区。法国支持国民党，现阶段的联络对象仍是革命组织，不能据此宣称法国已经同一个国民党政府建交。",
+        "economy": "农业、沿海商业与轻工业分布不均；关税、军政征收和外资权益牵涉多个机关。采购与援助须区分正式政府合同和对革命组织的支持。",
+        "military": "各地军队彼此独立，外国驻军与使馆城市另有条约地位。国民党仍在进行革命准备，尚未建立公开的革命政权。",
+        "diplomacy": "对国民党的支持通过组织联络办理；清政府与地方政权另记往来。奉天按日本合作对象着色，使馆城市属于多国条约体系，不是国民党或第三国际成员。"
+      },
+      {
+        "id": "unaffiliated",
+        "name": "其他未结盟国家",
+        "fr": "ÉTATS NON ALIGNÉS",
+        "color": "#c0b8a4",
+        "type": "国别档案 · 非单一阵营",
+        "leader": "分别办理",
+        "members": [
+          "AFG",
+          "ALB",
+          "ARG",
+          "AZR",
+          "BHU",
+          "BOL",
+          "BRA",
+          "BRM",
+          "BUK",
+          "BUL",
+          "COL",
+          "COS",
+          "CUB",
+          "DEI",
+          "DEN",
+          "DOM",
+          "ECU",
+          "EGY",
+          "ELS",
+          "ETH",
+          "GRE",
+          "GUA",
+          "HAI",
+          "HND",
+          "HOL",
+          "HON",
+          "ICE",
+          "IRE",
+          "JBS",
+          "KHI",
+          "LBA",
+          "LIB",
+          "MEX",
+          "MON",
+          "NEP",
+          "NIC",
+          "NOR",
+          "OMA",
+          "PAL",
+          "PAN",
+          "PAP",
+          "PAR",
+          "PER",
+          "PHI",
+          "POR",
+          "PRU",
+          "ROM",
+          "SAU",
+          "SER",
+          "SIA",
+          "SIC",
+          "SOM",
+          "SPA",
+          "SWE",
+          "SWI",
+          "TRK",
+          "TUR",
+          "URG",
+          "USA",
+          "VEN",
+          "YEM"
+        ],
+        "associates": [],
+        "opinion": null,
+        "status": "按国别查阅",
+        "trade": "以各国条约和合同为准",
+        "security": "无统一对法方针",
+        "text": "未加入上述阵营的国家与属地不能合算成一个政治集团。选择国家后分别查看对法往来；奥斯曼的属地、荷属殖民地和小国的保障关系，也不自动构成同一个军事联盟。",
+        "economy": "商业、原料和结算条件须逐国核查，不作未结盟国家的统一经济估算。",
+        "military": "各国军队自行组织；保护、自治或殖民关系另列在所属国别条目。",
+        "diplomacy": "埃及与巴尔干各国的合作仍分别办理，尚无开罗或贝尔格莱德的共同条约集团。未结盟国家各有自己的对法方针。"
+      }
+    ],
+    "countries": [
+      {
+        "tag": "AFG",
+        "name": "阿富汗",
+        "group": "unaffiliated",
+        "membership": "未结盟",
+        "associate": false,
+        "dependency": null,
+        "opinion": null,
+        "status": "按国别查阅",
+        "trade": "以各国条约和合同为准",
+        "security": "无统一对法方针",
+        "economy": "尚无同口径的国别总量；经济往来先按商业合同、港口与结算条件核验。",
+        "military": "尚未编成可比兵力总表；不将地方驻军、属地部队与盟国兵力重复合计。",
+        "diplomacy": "未加入本页所列主要阵营。往来按国别办理，不据此推定永久中立。",
+        "bounds": [
+          931.9,
+          188.4,
+          57.2,
+          39.3
+        ],
+        "centre": [
+          960.5,
+          208.1
+        ]
+      },
+      {
+        "tag": "ALB",
+        "name": "阿尔巴尼亚",
+        "group": "unaffiliated",
+        "membership": "未结盟",
+        "associate": false,
+        "dependency": null,
+        "opinion": null,
+        "status": "按国别查阅",
+        "trade": "以各国条约和合同为准",
+        "security": "无统一对法方针",
+        "economy": "尚无同口径的国别总量；经济往来先按商业合同、港口与结算条件核验。",
+        "military": "尚未编成可比兵力总表；不将地方驻军、属地部队与盟国兵力重复合计。",
+        "diplomacy": "未加入本页所列主要阵营。往来按国别办理，不据此推定永久中立。",
+        "bounds": [
+          771.8,
+          167.8,
+          7.5,
+          13.9
+        ],
+        "centre": [
+          775.6,
+          174.8
+        ]
+      },
+      {
+        "tag": "ARG",
+        "name": "阿根廷",
+        "group": "unaffiliated",
+        "membership": "未结盟",
+        "associate": false,
+        "dependency": null,
+        "opinion": null,
+        "status": "按国别查阅",
+        "trade": "以各国条约和合同为准",
+        "security": "无统一对法方针",
+        "economy": "尚无同口径的国别总量；经济往来先按商业合同、港口与结算条件核验。",
+        "military": "尚未编成可比兵力总表；不将地方驻军、属地部队与盟国兵力重复合计。",
+        "diplomacy": "未加入本页所列主要阵营。往来按国别办理，不据此推定永久中立。",
+        "bounds": [
+          424.1,
+          380.8,
+          65.4,
+          80.8
+        ],
+        "centre": [
+          456.8,
+          421.2
+        ]
+      },
+      {
+        "tag": "AST",
+        "name": "澳大拉西亚邦联",
+        "group": "entente",
+        "membership": "成员／组成地区",
+        "associate": false,
+        "dependency": null,
+        "opinion": -92,
+        "status": "极端敌对",
+        "trade": "官方往来受限",
+        "security": "复国与干涉威胁",
+        "economy": "尚无同口径的国别总量；经济往来先按商业合同、港口与结算条件核验。",
+        "military": "尚未编成可比兵力总表；不将地方驻军、属地部队与盟国兵力重复合计。",
+        "diplomacy": "属于本组的开局成员或组成地区，成员间共同义务以本组档案为准。",
+        "bounds": [
+          1149.4,
+          390.3,
+          135.2,
+          103.7
+        ],
+        "centre": [
+          1217,
+          442.1
+        ]
+      },
+      {
+        "tag": "AUS",
+        "name": "奥地利",
+        "group": "danube",
+        "membership": "成员／组成地区",
+        "associate": false,
+        "dependency": null,
+        "opinion": -5,
+        "status": "关系一般",
+        "trade": "正常贸易",
+        "security": "互设假想敌",
+        "economy": "中欧机械、军工、粮食和港口交换；对法外贸正常。",
+        "military": "联合各组成地区的军队与工业，法国将其列入安全预案。",
+        "diplomacy": "维也纳办理联邦的对外联络；同法国保持商业往来，双方互有军事戒备。",
+        "bounds": [
+          734.1,
+          136.7,
+          29.6,
+          20.9
+        ],
+        "centre": [
+          748.8,
+          147.2
+        ]
+      },
+      {
+        "tag": "AZR",
+        "name": "阿塞拜疆",
+        "group": "unaffiliated",
+        "membership": "未结盟",
+        "associate": false,
+        "dependency": [
+          "GER",
+          "德意志帝国所属／保护关系"
+        ],
+        "opinion": null,
+        "status": "按国别查阅",
+        "trade": "以各国条约和合同为准",
+        "security": "无统一对法方针",
+        "economy": "尚无同口径的国别总量；经济往来先按商业合同、港口与结算条件核验。",
+        "military": "尚未编成可比兵力总表；不将地方驻军、属地部队与盟国兵力重复合计。",
+        "diplomacy": "未加入本页所列主要阵营。往来按国别办理，不据此推定永久中立。",
+        "bounds": [
+          870.3,
+          171.5,
+          22.6,
+          16.2
+        ],
+        "centre": [
+          881.6,
+          179.6
+        ]
+      },
+      {
+        "tag": "BAT",
+        "name": "波罗的海联合公国",
+        "group": "reichspakt",
+        "membership": "成员／组成地区",
+        "associate": false,
+        "dependency": [
+          "GER",
+          "德意志帝国所属／保护关系"
+        ],
+        "opinion": -12,
+        "status": "关系一般 · 相互戒备",
+        "trade": "正常贸易",
+        "security": "互设假想敌",
+        "economy": "尚无同口径的国别总量；经济往来先按商业合同、港口与结算条件核验。",
+        "military": "尚未编成可比兵力总表；不将地方驻军、属地部队与盟国兵力重复合计。",
+        "diplomacy": "属于本组的开局成员或组成地区，成员间共同义务以本组档案为准。",
+        "bounds": [
+          778.8,
+          79.5,
+          27.6,
+          22.9
+        ],
+        "centre": [
+          792.6,
+          91
+        ]
+      },
+      {
+        "tag": "BEL",
+        "name": "法兰德斯—瓦隆",
+        "group": "reichspakt",
+        "membership": "成员／组成地区",
+        "associate": false,
+        "dependency": [
+          "GER",
+          "德意志帝国所属／保护关系"
+        ],
+        "opinion": -12,
+        "status": "关系一般 · 相互戒备",
+        "trade": "正常贸易",
+        "security": "互设假想敌",
+        "economy": "尚无同口径的国别总量；经济往来先按商业合同、港口与结算条件核验。",
+        "military": "尚未编成可比兵力总表；不将地方驻军、属地部队与盟国兵力重复合计。",
+        "diplomacy": "属于本组的开局成员或组成地区，成员间共同义务以本组档案为准。",
+        "bounds": [
+          705.7,
+          124.3,
+          14.4,
+          10.2
+        ],
+        "centre": [
+          712.9,
+          129.4
+        ]
+      },
+      {
+        "tag": "BHU",
+        "name": "不丹",
+        "group": "unaffiliated",
+        "membership": "未结盟",
+        "associate": false,
+        "dependency": null,
+        "opinion": null,
+        "status": "按国别查阅",
+        "trade": "以各国条约和合同为准",
+        "security": "无统一对法方针",
+        "economy": "尚无同口径的国别总量；经济往来先按商业合同、港口与结算条件核验。",
+        "military": "尚未编成可比兵力总表；不将地方驻军、属地部队与盟国兵力重复合计。",
+        "diplomacy": "未加入本页所列主要阵营。往来按国别办理，不据此推定永久中立。",
+        "bounds": [
+          1042.3,
+          232.4,
+          12.4,
+          7
+        ],
+        "centre": [
+          1048.5,
+          235.9
+        ]
+      },
+      {
+        "tag": "BLR",
+        "name": "白鲁塞尼亚",
+        "group": "reichspakt",
+        "membership": "成员／组成地区",
+        "associate": false,
+        "dependency": [
+          "GER",
+          "德意志帝国所属／保护关系"
+        ],
+        "opinion": -12,
+        "status": "关系一般 · 相互戒备",
+        "trade": "正常贸易",
+        "security": "互设假想敌",
+        "economy": "尚无同口径的国别总量；经济往来先按商业合同、港口与结算条件核验。",
+        "military": "尚未编成可比兵力总表；不将地方驻军、属地部队与盟国兵力重复合计。",
+        "diplomacy": "属于本组的开局成员或组成地区，成员间共同义务以本组档案为准。",
+        "bounds": [
+          794,
+          101.4,
+          25.4,
+          24.6
+        ],
+        "centre": [
+          806.6,
+          113.7
+        ]
+      },
+      {
+        "tag": "BOL",
+        "name": "玻利维亚",
+        "group": "unaffiliated",
+        "membership": "未结盟",
+        "associate": false,
+        "dependency": null,
+        "opinion": null,
+        "status": "按国别查阅",
+        "trade": "以各国条约和合同为准",
+        "security": "无统一对法方针",
+        "economy": "尚无同口径的国别总量；经济往来先按商业合同、港口与结算条件核验。",
+        "military": "尚未编成可比兵力总表；不将地方驻军、属地部队与盟国兵力重复合计。",
+        "diplomacy": "未加入本页所列主要阵营。往来按国别办理，不据此推定永久中立。",
+        "bounds": [
+          427.6,
+          329.9,
+          44,
+          55.4
+        ],
+        "centre": [
+          449.6,
+          357.6
+        ]
+      },
+      {
+        "tag": "BRA",
+        "name": "巴西",
+        "group": "unaffiliated",
+        "membership": "未结盟",
+        "associate": false,
+        "dependency": null,
+        "opinion": null,
+        "status": "按国别查阅",
+        "trade": "以各国条约和合同为准",
+        "security": "无统一对法方针",
+        "economy": "尚无同口径的国别总量；经济往来先按商业合同、港口与结算条件核验。",
+        "military": "尚未编成可比兵力总表；不将地方驻军、属地部队与盟国兵力重复合计。",
+        "diplomacy": "未加入本页所列主要阵营。往来按国别办理，不据此推定永久中立。",
+        "bounds": [
+          410.2,
+          272.2,
+          152.4,
+          159.1
+        ],
+        "centre": [
+          486.3,
+          351.7
+        ]
+      },
+      {
+        "tag": "BRM",
+        "name": "缅甸",
+        "group": "unaffiliated",
+        "membership": "未结盟",
+        "associate": false,
+        "dependency": null,
+        "opinion": null,
+        "status": "按国别查阅",
+        "trade": "以各国条约和合同为准",
+        "security": "无统一对法方针",
+        "economy": "尚无同口径的国别总量；经济往来先按商业合同、港口与结算条件核验。",
+        "military": "尚未编成可比兵力总表；不将地方驻军、属地部队与盟国兵力重复合计。",
+        "diplomacy": "未加入本页所列主要阵营。往来按国别办理，不据此推定永久中立。",
+        "bounds": [
+          1056,
+          232.2,
+          28.3,
+          52.9
+        ],
+        "centre": [
+          1070.1,
+          258.6
+        ]
+      },
+      {
+        "tag": "BUK",
+        "name": "布哈拉",
+        "group": "unaffiliated",
+        "membership": "未结盟",
+        "associate": false,
+        "dependency": [
+          "RUS",
+          "俄罗斯所属／保护关系"
+        ],
+        "opinion": null,
+        "status": "按国别查阅",
+        "trade": "以各国条约和合同为准",
+        "security": "无统一对法方针",
+        "economy": "尚无同口径的国别总量；经济往来先按商业合同、港口与结算条件核验。",
+        "military": "尚未编成可比兵力总表；不将地方驻军、属地部队与盟国兵力重复合计。",
+        "diplomacy": "未加入本页所列主要阵营。往来按国别办理，不据此推定永久中立。",
+        "bounds": [
+          938.4,
+          174.8,
+          41.5,
+          19.6
+        ],
+        "centre": [
+          959.1,
+          184.6
+        ]
+      },
+      {
+        "tag": "BUL",
+        "name": "保加利亚",
+        "group": "unaffiliated",
+        "membership": "未结盟",
+        "associate": false,
+        "dependency": null,
+        "opinion": null,
+        "status": "按国别查阅",
+        "trade": "以各国条约和合同为准",
+        "security": "无统一对法方针",
+        "economy": "尚无同口径的国别总量；经济往来先按商业合同、港口与结算条件核验。",
+        "military": "尚未编成可比兵力总表；不将地方驻军、属地部队与盟国兵力重复合计。",
+        "diplomacy": "未加入本页所列主要阵营。往来按国别办理，不据此推定永久中立。",
+        "bounds": [
+          777.3,
+          154.6,
+          35.3,
+          23.4
+        ],
+        "centre": [
+          795,
+          166.3
+        ]
+      },
+      {
+        "tag": "CHL",
+        "name": "智利",
+        "group": "southern",
+        "membership": "成员／组成地区",
+        "associate": false,
+        "dependency": null,
+        "opinion": 72,
+        "status": "友好 · 支持革命",
+        "trade": "援助与航运协作",
+        "security": "区域战事压力",
+        "economy": "尚无同口径的国别总量；经济往来先按商业合同、港口与结算条件核验。",
+        "military": "尚未编成可比兵力总表；不将地方驻军、属地部队与盟国兵力重复合计。",
+        "diplomacy": "属于本组的开局成员或组成地区，成员间共同义务以本组档案为准。",
+        "bounds": [
+          414.9,
+          361.9,
+          22.6,
+          138
+        ],
+        "centre": [
+          426.2,
+          430.9
+        ]
+      },
+      {
+        "tag": "COL",
+        "name": "哥伦比亚",
+        "group": "unaffiliated",
+        "membership": "未结盟",
+        "associate": false,
+        "dependency": null,
+        "opinion": null,
+        "status": "按国别查阅",
+        "trade": "以各国条约和合同为准",
+        "security": "无统一对法方针",
+        "economy": "尚无同口径的国别总量；经济往来先按商业合同、港口与结算条件核验。",
+        "military": "尚未编成可比兵力总表；不将地方驻军、属地部队与盟国兵力重复合计。",
+        "diplomacy": "未加入本页所列主要阵营。往来按国别办理，不据此推定永久中立。",
+        "bounds": [
+          391,
+          243.4,
+          47.2,
+          66.1
+        ],
+        "centre": [
+          414.6,
+          276.4
+        ]
+      },
+      {
+        "tag": "COS",
+        "name": "哥斯达黎加",
+        "group": "unaffiliated",
+        "membership": "未结盟",
+        "associate": false,
+        "dependency": null,
+        "opinion": null,
+        "status": "按国别查阅",
+        "trade": "以各国条约和合同为准",
+        "security": "无统一对法方针",
+        "economy": "尚无同口径的国别总量；经济往来先按商业合同、港口与结算条件核验。",
+        "military": "尚未编成可比兵力总表；不将地方驻军、属地部队与盟国兵力重复合计。",
+        "diplomacy": "未加入本页所列主要阵营。往来按国别办理，不据此推定永久中立。",
+        "bounds": [
+          364.4,
+          248.3,
+          12.7,
+          11.4
+        ],
+        "centre": [
+          370.8,
+          254
+        ]
+      },
+      {
+        "tag": "CRO",
+        "name": "伊利里亚",
+        "group": "danube",
+        "membership": "成员／组成地区",
+        "associate": false,
+        "dependency": [
+          "AUS",
+          "奥地利所属／保护关系"
+        ],
+        "opinion": -5,
+        "status": "关系一般 · 保持距离",
+        "trade": "正常贸易",
+        "security": "互设假想敌",
+        "economy": "尚无同口径的国别总量；经济往来先按商业合同、港口与结算条件核验。",
+        "military": "尚未编成可比兵力总表；不将地方驻军、属地部队与盟国兵力重复合计。",
+        "diplomacy": "属于本组的开局成员或组成地区，成员间共同义务以本组档案为准。",
+        "bounds": [
+          752.9,
+          150.1,
+          23.6,
+          20.6
+        ],
+        "centre": [
+          764.8,
+          160.5
+        ]
+      },
+      {
+        "tag": "CUB",
+        "name": "古巴",
+        "group": "unaffiliated",
+        "membership": "未结盟",
+        "associate": false,
+        "dependency": null,
+        "opinion": null,
+        "status": "按国别查阅",
+        "trade": "以各国条约和合同为准",
+        "security": "无统一对法方针",
+        "economy": "尚无同口径的国别总量；经济往来先按商业合同、港口与结算条件核验。",
+        "military": "尚未编成可比兵力总表；不将地方驻军、属地部队与盟国兵力重复合计。",
+        "diplomacy": "未加入本页所列主要阵营。往来按国别办理，不据此推定永久中立。",
+        "bounds": [
+          367.9,
+          199.4,
+          42,
+          14.2
+        ],
+        "centre": [
+          388.9,
+          206.4
+        ]
+      },
+      {
+        "tag": "CZE",
+        "name": "波希米亚",
+        "group": "danube",
+        "membership": "成员／组成地区",
+        "associate": false,
+        "dependency": [
+          "AUS",
+          "奥地利所属／保护关系"
+        ],
+        "opinion": -5,
+        "status": "关系一般 · 保持距离",
+        "trade": "正常贸易",
+        "security": "互设假想敌",
+        "economy": "尚无同口径的国别总量；经济往来先按商业合同、港口与结算条件核验。",
+        "military": "尚未编成可比兵力总表；不将地方驻军、属地部队与盟国兵力重复合计。",
+        "diplomacy": "属于本组的开局成员或组成地区，成员间共同义务以本组档案为准。",
+        "bounds": [
+          744.5,
+          126.5,
+          26.8,
+          12.7
+        ],
+        "centre": [
+          757.9,
+          132.9
+        ]
+      },
+      {
+        "tag": "DEI",
+        "name": "荷属东印度",
+        "group": "unaffiliated",
+        "membership": "未结盟",
+        "associate": false,
+        "dependency": [
+          "HOL",
+          "荷兰所属／保护关系"
+        ],
+        "opinion": null,
+        "status": "按国别查阅",
+        "trade": "以各国条约和合同为准",
+        "security": "无统一对法方针",
+        "economy": "尚无同口径的国别总量；经济往来先按商业合同、港口与结算条件核验。",
+        "military": "尚未编成可比兵力总表；不将地方驻军、属地部队与盟国兵力重复合计。",
+        "diplomacy": "未加入本页所列主要阵营。往来按国别办理，不据此推定永久中立。",
+        "bounds": [
+          1119.9,
+          331.4,
+          39.5,
+          32.6
+        ],
+        "centre": [
+          1139.6,
+          347.6
+        ]
+      },
+      {
+        "tag": "DEN",
+        "name": "丹麦",
+        "group": "unaffiliated",
+        "membership": "未结盟",
+        "associate": false,
+        "dependency": null,
+        "opinion": null,
+        "status": "按国别查阅",
+        "trade": "以各国条约和合同为准",
+        "security": "无统一对法方针",
+        "economy": "尚无同口径的国别总量；经济往来先按商业合同、港口与结算条件核验。",
+        "military": "尚未编成可比兵力总表；不将地方驻军、属地部队与盟国兵力重复合计。",
+        "diplomacy": "未加入本页所列主要阵营。往来按国别办理，不据此推定永久中立。",
+        "bounds": [
+          488.5,
+          0,
+          85.3,
+          51
+        ],
+        "centre": [
+          531.1,
+          25.5
+        ]
+      },
+      {
+        "tag": "DOM",
+        "name": "多米尼加",
+        "group": "unaffiliated",
+        "membership": "未结盟",
+        "associate": false,
+        "dependency": null,
+        "opinion": null,
+        "status": "按国别查阅",
+        "trade": "以各国条约和合同为准",
+        "security": "无统一对法方针",
+        "economy": "尚无同口径的国别总量；经济往来先按商业合同、港口与结算条件核验。",
+        "military": "尚未编成可比兵力总表；不将地方驻军、属地部队与盟国兵力重复合计。",
+        "diplomacy": "未加入本页所列主要阵营。往来按国别办理，不据此推定永久中立。",
+        "bounds": [
+          418.1,
+          213,
+          14.4,
+          9.4
+        ],
+        "centre": [
+          425.3,
+          217.8
+        ]
+      },
+      {
+        "tag": "ECU",
+        "name": "厄瓜多尔",
+        "group": "unaffiliated",
+        "membership": "未结盟",
+        "associate": false,
+        "dependency": null,
+        "opinion": null,
+        "status": "按国别查阅",
+        "trade": "以各国条约和合同为准",
+        "security": "无统一对法方针",
+        "economy": "尚无同口径的国别总量；经济往来先按商业合同、港口与结算条件核验。",
+        "military": "尚未编成可比兵力总表；不将地方驻军、属地部队与盟国兵力重复合计。",
+        "diplomacy": "未加入本页所列主要阵营。往来按国别办理，不据此推定永久中立。",
+        "bounds": [
+          383.6,
+          287.4,
+          42,
+          28.6
+        ],
+        "centre": [
+          404.6,
+          301.7
+        ]
+      },
+      {
+        "tag": "EGY",
+        "name": "埃及",
+        "group": "unaffiliated",
+        "membership": "未结盟",
+        "associate": false,
+        "dependency": null,
+        "opinion": 12,
+        "status": "有限接触",
+        "trade": "以各国条约和合同为准",
+        "security": "无统一对法方针",
+        "economy": "棉花、尼罗河农业与航运通路具有商业价值。",
+        "military": "地区军队主要面对自身的东地中海和中东安全问题。",
+        "diplomacy": "尚无开罗协约；法国可接触反殖民诉求，未作共同战争承诺。",
+        "bounds": [
+          781.8,
+          217.5,
+          64.4,
+          115.6
+        ],
+        "centre": [
+          814,
+          275.3
+        ]
+      },
+      {
+        "tag": "ELS",
+        "name": "萨尔瓦多",
+        "group": "unaffiliated",
+        "membership": "未结盟",
+        "associate": false,
+        "dependency": null,
+        "opinion": null,
+        "status": "按国别查阅",
+        "trade": "以各国条约和合同为准",
+        "security": "无统一对法方针",
+        "economy": "尚无同口径的国别总量；经济往来先按商业合同、港口与结算条件核验。",
+        "military": "尚未编成可比兵力总表；不将地方驻军、属地部队与盟国兵力重复合计。",
+        "diplomacy": "未加入本页所列主要阵营。往来按国别办理，不据此推定永久中立。",
+        "bounds": [
+          348,
+          235.4,
+          9.2,
+          5
+        ],
+        "centre": [
+          352.6,
+          237.9
+        ]
+      },
+      {
+        "tag": "ENG",
+        "name": "不列颠联盟",
+        "group": "international",
+        "membership": "成员／组成地区",
+        "associate": false,
+        "dependency": null,
+        "opinion": null,
+        "status": "盟友",
+        "trade": "共同采购与相互供货",
+        "security": "共同防务，成员保有本国指挥",
+        "economy": "煤炭、机械工业、造船与海运是共同采购的重要来源。",
+        "military": "海军承担北海、大西洋方向的重要防务；陆空军维持本土防卫。",
+        "diplomacy": "参与第三国际，保有自己的资源安排与军队指挥。",
+        "bounds": [
+          668.9,
+          82.3,
+          33.1,
+          46.5
+        ],
+        "centre": [
+          685.5,
+          105.5
+        ]
+      },
+      {
+        "tag": "ETH",
+        "name": "埃塞俄比亚",
+        "group": "unaffiliated",
+        "membership": "未结盟",
+        "associate": false,
+        "dependency": null,
+        "opinion": null,
+        "status": "按国别查阅",
+        "trade": "以各国条约和合同为准",
+        "security": "无统一对法方针",
+        "economy": "尚无同口径的国别总量；经济往来先按商业合同、港口与结算条件核验。",
+        "military": "尚未编成可比兵力总表；不将地方驻军、属地部队与盟国兵力重复合计。",
+        "diplomacy": "未加入本页所列主要阵营。往来按国别办理，不据此推定永久中立。",
+        "bounds": [
+          825.3,
+          274.4,
+          39,
+          59.2
+        ],
+        "centre": [
+          844.8,
+          304
+        ]
+      },
+      {
+        "tag": "FIN",
+        "name": "芬兰",
+        "group": "reichspakt",
+        "membership": "成员／组成地区",
+        "associate": false,
+        "dependency": [
+          "GER",
+          "德意志帝国所属／保护关系"
+        ],
+        "opinion": -12,
+        "status": "关系一般 · 相互戒备",
+        "trade": "正常贸易",
+        "security": "互设假想敌",
+        "economy": "尚无同口径的国别总量；经济往来先按商业合同、港口与结算条件核验。",
+        "military": "尚未编成可比兵力总表；不将地方驻军、属地部队与盟国兵力重复合计。",
+        "diplomacy": "属于本组的开局成员或组成地区，成员间共同义务以本组档案为准。",
+        "bounds": [
+          778.1,
+          13.9,
+          46.7,
+          64.9
+        ],
+        "centre": [
+          801.4,
+          46.4
+        ]
+      },
+      {
+        "tag": "FNG",
+        "name": "奉天政府",
+        "group": "japan",
+        "membership": "日本合作对象 · 非正式成员",
+        "associate": true,
+        "dependency": null,
+        "opinion": -32,
+        "status": "关系冷淡",
+        "trade": "对日经济联系为主",
+        "security": "东亚利益冲突",
+        "economy": "满洲铁路、矿产和工业投资与日本资本密切相连。",
+        "military": "奉天军队受日本装备和顾问影响，仍有本地指挥体系。",
+        "diplomacy": "不等同日本领土；国民党革命目标与奉天的统治利益相冲突。",
+        "bounds": [
+          1145.5,
+          113.6,
+          75.1,
+          70.3
+        ],
+        "centre": [
+          1183,
+          148.8
+        ]
+      },
+      {
+        "tag": "FOP",
+        "name": "巴塔哥尼亚工人阵线",
+        "group": "southern",
+        "membership": "成员／组成地区",
+        "associate": false,
+        "dependency": null,
+        "opinion": 72,
+        "status": "友好 · 支持革命",
+        "trade": "援助与航运协作",
+        "security": "区域战事压力",
+        "economy": "尚无同口径的国别总量；经济往来先按商业合同、港口与结算条件核验。",
+        "military": "尚未编成可比兵力总表；不将地方驻军、属地部队与盟国兵力重复合计。",
+        "diplomacy": "属于本组的开局成员或组成地区，成员间共同义务以本组档案为准。",
+        "bounds": [
+          422.6,
+          453.9,
+          31.1,
+          40
+        ],
+        "centre": [
+          438.1,
+          473.9
+        ]
+      },
+      {
+        "tag": "FRA",
+        "name": "法兰西公社联邦",
+        "group": "international",
+        "membership": "成员／组成地区",
+        "associate": false,
+        "dependency": null,
+        "opinion": null,
+        "status": "本国",
+        "trade": "共同采购与本国供给",
+        "security": "联邦本级军务",
+        "economy": "GDP560亿帝国马克；1936年基准价格。世界革命援助年度用途4.2亿，包含在公共合并支出中。",
+        "military": "常备军52.4万：陆军43万、海军6.4万、航空军3万；陆军38个师。",
+        "diplomacy": "巴黎是第三国际联络中心。对外承诺须遵守联邦拨款、部门会签与地方自治的权限。",
+        "bounds": [
+          679.1,
+          126.8,
+          48,
+          42.3
+        ],
+        "centre": [
+          703.1,
+          147.9
+        ]
+      },
+      {
+        "tag": "GAL",
+        "name": "加利西亚—洛多梅里亚",
+        "group": "danube",
+        "membership": "成员／组成地区",
+        "associate": false,
+        "dependency": [
+          "AUS",
+          "奥地利所属／保护关系"
+        ],
+        "opinion": -5,
+        "status": "关系一般 · 保持距离",
+        "trade": "正常贸易",
+        "security": "互设假想敌",
+        "economy": "尚无同口径的国别总量；经济往来先按商业合同、港口与结算条件核验。",
+        "military": "尚未编成可比兵力总表；不将地方驻军、属地部队与盟国兵力重复合计。",
+        "diplomacy": "属于本组的开局成员或组成地区，成员间共同义务以本组档案为准。",
+        "bounds": [
+          771.1,
+          127.8,
+          29.6,
+          19.9
+        ],
+        "centre": [
+          785.9,
+          137.7
+        ]
+      },
+      {
+        "tag": "GEA",
+        "name": "德属东亚",
+        "group": "reichspakt",
+        "membership": "德国属地／保护关系",
+        "associate": true,
+        "dependency": [
+          "GER",
+          "德意志帝国所属／保护关系"
+        ],
+        "opinion": -12,
+        "status": "关系一般 · 相互戒备",
+        "trade": "正常贸易",
+        "security": "互设假想敌",
+        "economy": "尚无同口径的国别总量；经济往来先按商业合同、港口与结算条件核验。",
+        "military": "尚未编成可比兵力总表；不将地方驻军、属地部队与盟国兵力重复合计。",
+        "diplomacy": "按德国对外体系列示；殖民与保护关系不是主权盟国的平等成员资格。",
+        "bounds": [
+          1086,
+          253.6,
+          36.3,
+          60.7
+        ],
+        "centre": [
+          1104.2,
+          283.9
+        ]
+      },
+      {
+        "tag": "GEO",
+        "name": "格鲁吉亚",
+        "group": "reichspakt",
+        "membership": "成员／组成地区",
+        "associate": false,
+        "dependency": [
+          "GER",
+          "德意志帝国所属／保护关系"
+        ],
+        "opinion": -12,
+        "status": "关系一般 · 相互戒备",
+        "trade": "正常贸易",
+        "security": "互设假想敌",
+        "economy": "尚无同口径的国别总量；经济往来先按商业合同、港口与结算条件核验。",
+        "military": "尚未编成可比兵力总表；不将地方驻军、属地部队与盟国兵力重复合计。",
+        "diplomacy": "属于本组的开局成员或组成地区，成员间共同义务以本组档案为准。",
+        "bounds": [
+          852.1,
+          162.8,
+          26.6,
+          12.4
+        ],
+        "centre": [
+          865.4,
+          169
+        ]
+      },
+      {
+        "tag": "GER",
+        "name": "德意志帝国",
+        "group": "reichspakt",
+        "membership": "成员／组成地区",
+        "associate": false,
+        "dependency": null,
+        "opinion": -12,
+        "status": "关系一般",
+        "trade": "正常贸易",
+        "security": "互设假想敌",
+        "economy": "机械、化工和东欧供应网络；对法外贸保持正常。",
+        "military": "与法国互设假想敌；大陆军和远洋驻地构成帝国公约的主要力量。",
+        "diplomacy": "维持贸易与外交接触，战后领土和革命活动仍是争端。",
+        "bounds": [
+          719.1,
+          100.9,
+          67.4,
+          45
+        ],
+        "centre": [
+          752.8,
+          123.4
+        ]
+      },
+      {
+        "tag": "GRE",
+        "name": "希腊",
+        "group": "unaffiliated",
+        "membership": "未结盟",
+        "associate": false,
+        "dependency": null,
+        "opinion": null,
+        "status": "按国别查阅",
+        "trade": "以各国条约和合同为准",
+        "security": "无统一对法方针",
+        "economy": "尚无同口径的国别总量；经济往来先按商业合同、港口与结算条件核验。",
+        "military": "尚未编成可比兵力总表；不将地方驻军、属地部队与盟国兵力重复合计。",
+        "diplomacy": "未加入本页所列主要阵营。往来按国别办理，不据此推定永久中立。",
+        "bounds": [
+          775.8,
+          177,
+          17.2,
+          19.6
+        ],
+        "centre": [
+          784.4,
+          186.8
+        ]
+      },
+      {
+        "tag": "GUA",
+        "name": "危地马拉",
+        "group": "unaffiliated",
+        "membership": "未结盟",
+        "associate": false,
+        "dependency": null,
+        "opinion": null,
+        "status": "按国别查阅",
+        "trade": "以各国条约和合同为准",
+        "security": "无统一对法方针",
+        "economy": "尚无同口径的国别总量；经济往来先按商业合同、港口与结算条件核验。",
+        "military": "尚未编成可比兵力总表；不将地方驻军、属地部队与盟国兵力重复合计。",
+        "diplomacy": "未加入本页所列主要阵营。往来按国别办理，不据此推定永久中立。",
+        "bounds": [
+          339.8,
+          221.2,
+          15.4,
+          16.7
+        ],
+        "centre": [
+          347.5,
+          229.6
+        ]
+      },
+      {
+        "tag": "GXC",
+        "name": "两广",
+        "group": "china",
+        "membership": "分立政权 · 非共同阵营",
+        "associate": false,
+        "dependency": null,
+        "opinion": null,
+        "status": "分别办理；支持国民党革命组织",
+        "trade": "港口与地方合同往来",
+        "security": "革命尚未发动",
+        "economy": "尚无同口径的国别总量；经济往来先按商业合同、港口与结算条件核验。",
+        "military": "尚未编成可比兵力总表；不将地方驻军、属地部队与盟国兵力重复合计。",
+        "diplomacy": "中国的地方政权；列于同一地区索引，不表示彼此已经组成联盟。",
+        "bounds": [
+          1103.2,
+          241.4,
+          48.2,
+          25.1
+        ],
+        "centre": [
+          1127.3,
+          253.9
+        ]
+      },
+      {
+        "tag": "HAI",
+        "name": "海地",
+        "group": "unaffiliated",
+        "membership": "未结盟",
+        "associate": false,
+        "dependency": null,
+        "opinion": null,
+        "status": "按国别查阅",
+        "trade": "以各国条约和合同为准",
+        "security": "无统一对法方针",
+        "economy": "尚无同口径的国别总量；经济往来先按商业合同、港口与结算条件核验。",
+        "military": "尚未编成可比兵力总表；不将地方驻军、属地部队与盟国兵力重复合计。",
+        "diplomacy": "未加入本页所列主要阵营。往来按国别办理，不据此推定永久中立。",
+        "bounds": [
+          408.7,
+          213,
+          10.9,
+          7.7
+        ],
+        "centre": [
+          414.1,
+          216.9
+        ]
+      },
+      {
+        "tag": "HND",
+        "name": "印度公社",
+        "group": "unaffiliated",
+        "membership": "未结盟",
+        "associate": false,
+        "dependency": null,
+        "opinion": 64,
+        "status": "友好",
+        "trade": "革命联络与有限援助",
+        "security": "印度区域防务",
+        "economy": "农业、纺织与地方合作生产；机械和军需供应仍需扩大。",
+        "military": "在印度同自治领和土邦势力相对峙；不是法国直接指挥的军队。",
+        "diplomacy": "与第三国际保持革命联系，尚未参加欧洲军事同盟。",
+        "bounds": [
+          962,
+          221,
+          111.6,
+          59.2
+        ],
+        "centre": [
+          1017.8,
+          250.6
+        ]
+      },
+      {
+        "tag": "HNN",
+        "name": "湖南",
+        "group": "china",
+        "membership": "分立政权 · 非共同阵营",
+        "associate": false,
+        "dependency": null,
+        "opinion": null,
+        "status": "分别办理；支持国民党革命组织",
+        "trade": "港口与地方合同往来",
+        "security": "革命尚未发动",
+        "economy": "尚无同口径的国别总量；经济往来先按商业合同、港口与结算条件核验。",
+        "military": "尚未编成可比兵力总表；不将地方驻军、属地部队与盟国兵力重复合计。",
+        "diplomacy": "中国的地方政权；列于同一地区索引，不表示彼此已经组成联盟。",
+        "bounds": [
+          1114.4,
+          223.5,
+          26.1,
+          24.6
+        ],
+        "centre": [
+          1127.4,
+          235.8
+        ]
+      },
+      {
+        "tag": "HOL",
+        "name": "荷兰",
+        "group": "unaffiliated",
+        "membership": "未结盟",
+        "associate": false,
+        "dependency": null,
+        "opinion": -8,
+        "status": "正常往来",
+        "trade": "以各国条约和合同为准",
+        "security": "无统一对法方针",
+        "economy": "港口、商业与荷属东印度原料联系，可为法国提供转口与原料采购。",
+        "military": "本土与殖民防务分开，不能以商业伙伴关系代替军事同盟。",
+        "diplomacy": "未结盟；同德国的经济联系不等于已经加入帝国公约。",
+        "bounds": [
+          472.3,
+          269,
+          15.9,
+          16.2
+        ],
+        "centre": [
+          480.3,
+          277
+        ]
+      },
+      {
+        "tag": "HON",
+        "name": "洪都拉斯",
+        "group": "unaffiliated",
+        "membership": "未结盟",
+        "associate": false,
+        "dependency": null,
+        "opinion": null,
+        "status": "按国别查阅",
+        "trade": "以各国条约和合同为准",
+        "security": "无统一对法方针",
+        "economy": "尚无同口径的国别总量；经济往来先按商业合同、港口与结算条件核验。",
+        "military": "尚未编成可比兵力总表；不将地方驻军、属地部队与盟国兵力重复合计。",
+        "diplomacy": "未加入本页所列主要阵营。往来按国别办理，不据此推定永久中立。",
+        "bounds": [
+          351,
+          228.9,
+          23.9,
+          12.4
+        ],
+        "centre": [
+          362.9,
+          235.2
+        ]
+      },
+      {
+        "tag": "HUN",
+        "name": "匈牙利",
+        "group": "danube",
+        "membership": "成员／组成地区",
+        "associate": false,
+        "dependency": [
+          "AUS",
+          "奥地利所属／保护关系"
+        ],
+        "opinion": -5,
+        "status": "关系一般 · 保持距离",
+        "trade": "正常贸易",
+        "security": "互设假想敌",
+        "economy": "尚无同口径的国别总量；经济往来先按商业合同、港口与结算条件核验。",
+        "military": "尚未编成可比兵力总表；不将地方驻军、属地部队与盟国兵力重复合计。",
+        "diplomacy": "属于本组的开局成员或组成地区，成员间共同义务以本组档案为准。",
+        "bounds": [
+          759.7,
+          133.7,
+          41,
+          25.1
+        ],
+        "centre": [
+          780.2,
+          146.3
+        ]
+      },
+      {
+        "tag": "ICE",
+        "name": "冰岛",
+        "group": "unaffiliated",
+        "membership": "未结盟",
+        "associate": false,
+        "dependency": [
+          "DEN",
+          "丹麦所属／保护关系"
+        ],
+        "opinion": null,
+        "status": "按国别查阅",
+        "trade": "以各国条约和合同为准",
+        "security": "无统一对法方针",
+        "economy": "尚无同口径的国别总量；经济往来先按商业合同、港口与结算条件核验。",
+        "military": "尚未编成可比兵力总表；不将地方驻军、属地部队与盟国兵力重复合计。",
+        "diplomacy": "未加入本页所列主要阵营。往来按国别办理，不据此推定永久中立。",
+        "bounds": [
+          602.6,
+          27.1,
+          42.5,
+          19.9
+        ],
+        "centre": [
+          623.8,
+          37
+        ]
+      },
+      {
+        "tag": "IMP",
+        "name": "加拿大自治领",
+        "group": "entente",
+        "membership": "成员／组成地区",
+        "associate": false,
+        "dependency": null,
+        "opinion": -88,
+        "status": "敌对",
+        "trade": "官方往来受限",
+        "security": "复国与干涉威胁",
+        "economy": "工业、粮食出口与大西洋航运支撑英王流亡政权。",
+        "military": "流亡海军和远征军可协助联盟，但跨洋投入受兵员和运输限制。",
+        "diplomacy": "协约国主要协调者，支持英法旧政权复国。",
+        "bounds": [
+          150.6,
+          0,
+          331.1,
+          116.1
+        ],
+        "centre": [
+          316.2,
+          58
+        ]
+      },
+      {
+        "tag": "IRE",
+        "name": "爱尔兰",
+        "group": "unaffiliated",
+        "membership": "未结盟",
+        "associate": false,
+        "dependency": null,
+        "opinion": null,
+        "status": "按国别查阅",
+        "trade": "以各国条约和合同为准",
+        "security": "无统一对法方针",
+        "economy": "尚无同口径的国别总量；经济往来先按商业合同、港口与结算条件核验。",
+        "military": "尚未编成可比兵力总表；不将地方驻军、属地部队与盟国兵力重复合计。",
+        "diplomacy": "未加入本页所列主要阵营。往来按国别办理，不据此推定永久中立。",
+        "bounds": [
+          654.5,
+          100.7,
+          19.4,
+          20.6
+        ],
+        "centre": [
+          664.2,
+          111
+        ]
+      },
+      {
+        "tag": "ITA",
+        "name": "意大利共和国",
+        "group": "danube",
+        "membership": "合作对象 · 非正式成员",
+        "associate": true,
+        "dependency": [
+          "AUS",
+          "奥地利所属／保护关系"
+        ],
+        "opinion": -5,
+        "status": "关系一般 · 保持距离",
+        "trade": "正常贸易",
+        "security": "互设假想敌",
+        "economy": "尚无同口径的国别总量；经济往来先按商业合同、港口与结算条件核验。",
+        "military": "尚未编成可比兵力总表；不将地方驻军、属地部队与盟国兵力重复合计。",
+        "diplomacy": "与本组存在合作或支持关系，尚不能据此推定共同参战义务。",
+        "bounds": [
+          731.1,
+          148.7,
+          19.1,
+          8.5
+        ],
+        "centre": [
+          740.6,
+          152.9
+        ]
+      },
+      {
+        "tag": "JAP",
+        "name": "日本帝国",
+        "group": "japan",
+        "membership": "成员／组成地区",
+        "associate": false,
+        "dependency": null,
+        "opinion": -24,
+        "status": "关系冷淡",
+        "trade": "有限商业往来",
+        "security": "东亚利益冲突",
+        "economy": "工业与航运依赖海外市场和原料。",
+        "military": "海军、岛屿基地和东亚驻军支持地区扩张。",
+        "diplomacy": "同德国有竞争；对中国的政策与法国支持国民党的立场冲突。",
+        "bounds": [
+          1205.4,
+          172.8,
+          43.5,
+          37.3
+        ],
+        "centre": [
+          1227.1,
+          191.4
+        ]
+      },
+      {
+        "tag": "JBS",
+        "name": "杰拜勒舍迈尔",
+        "group": "unaffiliated",
+        "membership": "未结盟",
+        "associate": false,
+        "dependency": [
+          "TUR",
+          "奥斯曼帝国所属／保护关系"
+        ],
+        "opinion": null,
+        "status": "按国别查阅",
+        "trade": "以各国条约和合同为准",
+        "security": "无统一对法方针",
+        "economy": "尚无同口径的国别总量；经济往来先按商业合同、港口与结算条件核验。",
+        "military": "尚未编成可比兵力总表；不将地方驻军、属地部队与盟国兵力重复合计。",
+        "diplomacy": "未加入本页所列主要阵营。往来按国别办理，不据此推定永久中立。",
+        "bounds": [
+          839,
+          206.6,
+          42,
+          43.3
+        ],
+        "centre": [
+          860,
+          228.2
+        ]
+      },
+      {
+        "tag": "KHI",
+        "name": "希瓦",
+        "group": "unaffiliated",
+        "membership": "未结盟",
+        "associate": false,
+        "dependency": [
+          "RUS",
+          "俄罗斯所属／保护关系"
+        ],
+        "opinion": null,
+        "status": "按国别查阅",
+        "trade": "以各国条约和合同为准",
+        "security": "无统一对法方针",
+        "economy": "尚无同口径的国别总量；经济往来先按商业合同、港口与结算条件核验。",
+        "military": "尚未编成可比兵力总表；不将地方驻军、属地部队与盟国兵力重复合计。",
+        "diplomacy": "未加入本页所列主要阵营。往来按国别办理，不据此推定永久中立。",
+        "bounds": [
+          901.8,
+          156.9,
+          51.7,
+          45
+        ],
+        "centre": [
+          927.7,
+          179.4
+        ]
+      },
+      {
+        "tag": "KUM",
+        "name": "哈密",
+        "group": "china",
+        "membership": "分立政权 · 非共同阵营",
+        "associate": false,
+        "dependency": null,
+        "opinion": null,
+        "status": "分别办理；支持国民党革命组织",
+        "trade": "港口与地方合同往来",
+        "security": "革命尚未发动",
+        "economy": "尚无同口径的国别总量；经济往来先按商业合同、港口与结算条件核验。",
+        "military": "尚未编成可比兵力总表；不将地方驻军、属地部队与盟国兵力重复合计。",
+        "diplomacy": "中国的地方政权；列于同一地区索引，不表示彼此已经组成联盟。",
+        "bounds": [
+          1051,
+          156.6,
+          22.4,
+          18.9
+        ],
+        "centre": [
+          1062.2,
+          166.1
+        ]
+      },
+      {
+        "tag": "LBA",
+        "name": "昔兰尼加",
+        "group": "unaffiliated",
+        "membership": "未结盟",
+        "associate": false,
+        "dependency": [
+          "TUR",
+          "奥斯曼帝国所属／保护关系"
+        ],
+        "opinion": null,
+        "status": "按国别查阅",
+        "trade": "以各国条约和合同为准",
+        "security": "无统一对法方针",
+        "economy": "尚无同口径的国别总量；经济往来先按商业合同、港口与结算条件核验。",
+        "military": "尚未编成可比兵力总表；不将地方驻军、属地部队与盟国兵力重复合计。",
+        "diplomacy": "未加入本页所列主要阵营。往来按国别办理，不据此推定永久中立。",
+        "bounds": [
+          758.9,
+          212,
+          36,
+          55.9
+        ],
+        "centre": [
+          776.9,
+          240
+        ]
+      },
+      {
+        "tag": "LEC",
+        "name": "使馆城市",
+        "group": "china",
+        "membership": "多国条约地带 · 非成员",
+        "associate": true,
+        "dependency": null,
+        "opinion": -10,
+        "status": "条约机关往来",
+        "trade": "港口与地方合同往来",
+        "security": "革命尚未发动",
+        "economy": "通商口岸、关税与金融业务受多国安排制约。",
+        "military": "外国驻军和港口保障分属不同国家。",
+        "diplomacy": "不归入法国支持的国民党组织，也不作为中国统一阵营成员。",
+        "bounds": [
+          1166.1,
+          217,
+          4.5,
+          4.7
+        ],
+        "centre": [
+          1168.3,
+          219.4
+        ]
+      },
+      {
+        "tag": "LEP",
+        "name": "八省联合",
+        "group": "china",
+        "membership": "分立政权 · 非共同阵营",
+        "associate": false,
+        "dependency": [
+          "QIE",
+          "清政府所属／保护关系"
+        ],
+        "opinion": -38,
+        "status": "政治不睦",
+        "trade": "港口与地方合同往来",
+        "security": "革命尚未发动",
+        "economy": "长江下游的商业、轻工业和外资联系密集，地方财政负担不一。",
+        "military": "联合各地方实力派，并非一致受中央命令的常备军。",
+        "diplomacy": "国民党仍在地下准备；闽赣联络以组织标记显示，不作为独立国家疆界。",
+        "bounds": [
+          1137.7,
+          202.1,
+          32.8,
+          50.2
+        ],
+        "centre": [
+          1154.2,
+          227.2
+        ]
+      },
+      {
+        "tag": "LIB",
+        "name": "利比里亚",
+        "group": "unaffiliated",
+        "membership": "未结盟",
+        "associate": false,
+        "dependency": [
+          "USA",
+          "美利坚合众国所属／保护关系"
+        ],
+        "opinion": null,
+        "status": "按国别查阅",
+        "trade": "以各国条约和合同为准",
+        "security": "无统一对法方针",
+        "economy": "尚无同口径的国别总量；经济往来先按商业合同、港口与结算条件核验。",
+        "military": "尚未编成可比兵力总表；不将地方驻军、属地部队与盟国兵力重复合计。",
+        "diplomacy": "未加入本页所列主要阵营。往来按国别办理，不据此推定永久中立。",
+        "bounds": [
+          653.5,
+          314,
+          15.7,
+          16.4
+        ],
+        "centre": [
+          661.3,
+          322.2
+        ]
+      },
+      {
+        "tag": "LIT",
+        "name": "立陶宛",
+        "group": "reichspakt",
+        "membership": "成员／组成地区",
+        "associate": false,
+        "dependency": [
+          "GER",
+          "德意志帝国所属／保护关系"
+        ],
+        "opinion": -12,
+        "status": "关系一般 · 相互戒备",
+        "trade": "正常贸易",
+        "security": "互设假想敌",
+        "economy": "尚无同口径的国别总量；经济往来先按商业合同、港口与结算条件核验。",
+        "military": "尚未编成可比兵力总表；不将地方驻军、属地部队与盟国兵力重复合计。",
+        "diplomacy": "属于本组的开局成员或组成地区，成员间共同义务以本组档案为准。",
+        "bounds": [
+          779.3,
+          97.7,
+          21.1,
+          23.1
+        ],
+        "centre": [
+          789.9,
+          109.3
+        ]
+      },
+      {
+        "tag": "MAF",
+        "name": "德属中央非洲",
+        "group": "reichspakt",
+        "membership": "德国属地／保护关系",
+        "associate": true,
+        "dependency": [
+          "GER",
+          "德意志帝国所属／保护关系"
+        ],
+        "opinion": -12,
+        "status": "关系一般 · 相互戒备",
+        "trade": "正常贸易",
+        "security": "互设假想敌",
+        "economy": "尚无同口径的国别总量；经济往来先按商业合同、港口与结算条件核验。",
+        "military": "尚未编成可比兵力总表；不将地方驻军、属地部队与盟国兵力重复合计。",
+        "diplomacy": "按德国对外体系列示；殖民与保护关系不是主权盟国的平等成员资格。",
+        "bounds": [
+          685.6,
+          292.3,
+          177.7,
+          172.5
+        ],
+        "centre": [
+          774.4,
+          378.6
+        ]
+      },
+      {
+        "tag": "MEX",
+        "name": "墨西哥",
+        "group": "unaffiliated",
+        "membership": "未结盟",
+        "associate": false,
+        "dependency": null,
+        "opinion": null,
+        "status": "按国别查阅",
+        "trade": "以各国条约和合同为准",
+        "security": "无统一对法方针",
+        "economy": "尚无同口径的国别总量；经济往来先按商业合同、港口与结算条件核验。",
+        "military": "尚未编成可比兵力总表；不将地方驻军、属地部队与盟国兵力重复合计。",
+        "diplomacy": "未加入本页所列主要阵营。往来按国别办理，不据此推定永久中立。",
+        "bounds": [
+          243.1,
+          158.6,
+          117.8,
+          76.3
+        ],
+        "centre": [
+          302,
+          196.8
+        ]
+      },
+      {
+        "tag": "MON",
+        "name": "蒙古",
+        "group": "unaffiliated",
+        "membership": "未结盟",
+        "associate": false,
+        "dependency": null,
+        "opinion": null,
+        "status": "按国别查阅",
+        "trade": "以各国条约和合同为准",
+        "security": "无统一对法方针",
+        "economy": "尚无同口径的国别总量；经济往来先按商业合同、港口与结算条件核验。",
+        "military": "尚未编成可比兵力总表；不将地方驻军、属地部队与盟国兵力重复合计。",
+        "diplomacy": "未加入本页所列主要阵营。往来按国别办理，不据此推定永久中立。",
+        "bounds": [
+          1045.5,
+          120.6,
+          117.1,
+          55.9
+        ],
+        "centre": [
+          1104.1,
+          148.5
+        ]
+      },
+      {
+        "tag": "MOR",
+        "name": "摩洛哥",
+        "group": "reichspakt",
+        "membership": "德国属地／保护关系",
+        "associate": true,
+        "dependency": [
+          "GER",
+          "德意志帝国所属／保护关系"
+        ],
+        "opinion": -12,
+        "status": "关系一般 · 相互戒备",
+        "trade": "正常贸易",
+        "security": "互设假想敌",
+        "economy": "尚无同口径的国别总量；经济往来先按商业合同、港口与结算条件核验。",
+        "military": "尚未编成可比兵力总表；不将地方驻军、属地部队与盟国兵力重复合计。",
+        "diplomacy": "按德国对外体系列示；殖民与保护关系不是主权盟国的平等成员资格。",
+        "bounds": [
+          654.5,
+          202.3,
+          39.3,
+          30.8
+        ],
+        "centre": [
+          674.1,
+          217.8
+        ]
+      },
+      {
+        "tag": "NEP",
+        "name": "尼泊尔",
+        "group": "unaffiliated",
+        "membership": "未结盟",
+        "associate": false,
+        "dependency": null,
+        "opinion": null,
+        "status": "按国别查阅",
+        "trade": "以各国条约和合同为准",
+        "security": "无统一对法方针",
+        "economy": "尚无同口径的国别总量；经济往来先按商业合同、港口与结算条件核验。",
+        "military": "尚未编成可比兵力总表；不将地方驻军、属地部队与盟国兵力重复合计。",
+        "diplomacy": "未加入本页所列主要阵营。往来按国别办理，不据此推定永久中立。",
+        "bounds": [
+          1000,
+          217.8,
+          46.7,
+          24.9
+        ],
+        "centre": [
+          1023.4,
+          230.2
+        ]
+      },
+      {
+        "tag": "NFA",
+        "name": "流亡法兰西共和国",
+        "group": "entente",
+        "membership": "成员／组成地区",
+        "associate": false,
+        "dependency": null,
+        "opinion": -98,
+        "status": "直接敌对",
+        "trade": "官方往来中断；转口另核",
+        "security": "直接复国威胁",
+        "economy": "非洲属地资源与殖民税收维持流亡机关，欧洲工业基础已经失去。",
+        "military": "殖民驻军、流亡军官与舰队构成复国准备；北非与科西嘉位置直接影响法国南部。",
+        "diplomacy": "阿尔及尔当局宣称代表法国，公社拒绝其复国主张。",
+        "bounds": [
+          629.7,
+          192.2,
+          160.8,
+          138.2
+        ],
+        "centre": [
+          710.1,
+          261.3
+        ]
+      },
+      {
+        "tag": "NIC",
+        "name": "尼加拉瓜",
+        "group": "unaffiliated",
+        "membership": "未结盟",
+        "associate": false,
+        "dependency": null,
+        "opinion": null,
+        "status": "按国别查阅",
+        "trade": "以各国条约和合同为准",
+        "security": "无统一对法方针",
+        "economy": "尚无同口径的国别总量；经济往来先按商业合同、港口与结算条件核验。",
+        "military": "尚未编成可比兵力总表；不将地方驻军、属地部队与盟国兵力重复合计。",
+        "diplomacy": "未加入本页所列主要阵营。往来按国别办理，不据此推定永久中立。",
+        "bounds": [
+          357.5,
+          233.2,
+          17.4,
+          16.9
+        ],
+        "centre": [
+          366.2,
+          241.6
+        ]
+      },
+      {
+        "tag": "NOR",
+        "name": "挪威",
+        "group": "unaffiliated",
+        "membership": "未结盟",
+        "associate": false,
+        "dependency": null,
+        "opinion": null,
+        "status": "按国别查阅",
+        "trade": "以各国条约和合同为准",
+        "security": "无统一对法方针",
+        "economy": "尚无同口径的国别总量；经济往来先按商业合同、港口与结算条件核验。",
+        "military": "尚未编成可比兵力总表；不将地方驻军、属地部队与盟国兵力重复合计。",
+        "diplomacy": "未加入本页所列主要阵营。往来按国别办理，不据此推定永久中立。",
+        "bounds": [
+          716.4,
+          6.2,
+          101.7,
+          83
+        ],
+        "centre": [
+          767.2,
+          47.7
+        ]
+      },
+      {
+        "tag": "OMA",
+        "name": "阿曼",
+        "group": "unaffiliated",
+        "membership": "未结盟",
+        "associate": false,
+        "dependency": null,
+        "opinion": null,
+        "status": "按国别查阅",
+        "trade": "以各国条约和合同为准",
+        "security": "无统一对法方针",
+        "economy": "尚无同口径的国别总量；经济往来先按商业合同、港口与结算条件核验。",
+        "military": "尚未编成可比兵力总表；不将地方驻军、属地部队与盟国兵力重复合计。",
+        "diplomacy": "未加入本页所列主要阵营。往来按国别办理，不据此推定永久中立。",
+        "bounds": [
+          900.4,
+          246.8,
+          29.3,
+          34.1
+        ],
+        "centre": [
+          915,
+          263.9
+        ]
+      },
+      {
+        "tag": "PAL",
+        "name": "耶路撒冷特别行政区",
+        "group": "unaffiliated",
+        "membership": "未结盟",
+        "associate": false,
+        "dependency": [
+          "TUR",
+          "奥斯曼帝国所属／保护关系"
+        ],
+        "opinion": null,
+        "status": "按国别查阅",
+        "trade": "以各国条约和合同为准",
+        "security": "无统一对法方针",
+        "economy": "尚无同口径的国别总量；经济往来先按商业合同、港口与结算条件核验。",
+        "military": "尚未编成可比兵力总表；不将地方驻军、属地部队与盟国兵力重复合计。",
+        "diplomacy": "未加入本页所列主要阵营。往来按国别办理，不据此推定永久中立。",
+        "bounds": [
+          821.1,
+          213.3,
+          14.4,
+          21.4
+        ],
+        "centre": [
+          828.3,
+          224
+        ]
+      },
+      {
+        "tag": "PAN",
+        "name": "巴拿马",
+        "group": "unaffiliated",
+        "membership": "未结盟",
+        "associate": false,
+        "dependency": null,
+        "opinion": null,
+        "status": "按国别查阅",
+        "trade": "以各国条约和合同为准",
+        "security": "无统一对法方针",
+        "economy": "尚无同口径的国别总量；经济往来先按商业合同、港口与结算条件核验。",
+        "military": "尚未编成可比兵力总表；不将地方驻军、属地部队与盟国兵力重复合计。",
+        "diplomacy": "未加入本页所列主要阵营。往来按国别办理，不据此推定永久中立。",
+        "bounds": [
+          375.4,
+          254.8,
+          11.9,
+          9.7
+        ],
+        "centre": [
+          381.3,
+          259.6
+        ]
+      },
+      {
+        "tag": "PAP",
+        "name": "教宗国",
+        "group": "unaffiliated",
+        "membership": "未结盟",
+        "associate": false,
+        "dependency": [
+          "SIC",
+          "两西西里所属／保护关系"
+        ],
+        "opinion": null,
+        "status": "按国别查阅",
+        "trade": "以各国条约和合同为准",
+        "security": "无统一对法方针",
+        "economy": "尚无同口径的国别总量；经济往来先按商业合同、港口与结算条件核验。",
+        "military": "尚未编成可比兵力总表；不将地方驻军、属地部队与盟国兵力重复合计。",
+        "diplomacy": "未加入本页所列主要阵营。往来按国别办理，不据此推定永久中立。",
+        "bounds": [
+          743.3,
+          168,
+          6.7,
+          6.2
+        ],
+        "centre": [
+          746.6,
+          171.1
+        ]
+      },
+      {
+        "tag": "PAR",
+        "name": "巴拉圭",
+        "group": "unaffiliated",
+        "membership": "未结盟",
+        "associate": false,
+        "dependency": null,
+        "opinion": null,
+        "status": "按国别查阅",
+        "trade": "以各国条约和合同为准",
+        "security": "无统一对法方针",
+        "economy": "尚无同口径的国别总量；经济往来先按商业合同、港口与结算条件核验。",
+        "military": "尚未编成可比兵力总表；不将地方驻军、属地部队与盟国兵力重复合计。",
+        "diplomacy": "未加入本页所列主要阵营。往来按国别办理，不据此推定永久中立。",
+        "bounds": [
+          449.7,
+          361.2,
+          37.8,
+          44.2
+        ],
+        "centre": [
+          468.6,
+          383.3
+        ]
+      },
+      {
+        "tag": "PER",
+        "name": "波斯",
+        "group": "unaffiliated",
+        "membership": "未结盟",
+        "associate": false,
+        "dependency": null,
+        "opinion": null,
+        "status": "按国别查阅",
+        "trade": "以各国条约和合同为准",
+        "security": "无统一对法方针",
+        "economy": "尚无同口径的国别总量；经济往来先按商业合同、港口与结算条件核验。",
+        "military": "尚未编成可比兵力总表；不将地方驻军、属地部队与盟国兵力重复合计。",
+        "diplomacy": "未加入本页所列主要阵营。往来按国别办理，不据此推定永久中立。",
+        "bounds": [
+          868.3,
+          181,
+          75.3,
+          65.1
+        ],
+        "centre": [
+          905.9,
+          213.5
+        ]
+      },
+      {
+        "tag": "PHI",
+        "name": "菲律宾",
+        "group": "unaffiliated",
+        "membership": "未结盟",
+        "associate": false,
+        "dependency": [
+          "USA",
+          "美利坚合众国所属／保护关系"
+        ],
+        "opinion": null,
+        "status": "按国别查阅",
+        "trade": "以各国条约和合同为准",
+        "security": "无统一对法方针",
+        "economy": "尚无同口径的国别总量；经济往来先按商业合同、港口与结算条件核验。",
+        "military": "尚未编成可比兵力总表；不将地方驻军、属地部队与盟国兵力重复合计。",
+        "diplomacy": "未加入本页所列主要阵营。往来按国别办理，不据此推定永久中立。",
+        "bounds": [
+          1162.1,
+          273.2,
+          17.4,
+          24.9
+        ],
+        "centre": [
+          1170.8,
+          285.6
+        ]
+      },
+      {
+        "tag": "POL",
+        "name": "波兰",
+        "group": "reichspakt",
+        "membership": "成员／组成地区",
+        "associate": false,
+        "dependency": [
+          "GER",
+          "德意志帝国所属／保护关系"
+        ],
+        "opinion": -12,
+        "status": "关系一般 · 相互戒备",
+        "trade": "正常贸易",
+        "security": "互设假想敌",
+        "economy": "尚无同口径的国别总量；经济往来先按商业合同、港口与结算条件核验。",
+        "military": "尚未编成可比兵力总表；不将地方驻军、属地部队与盟国兵力重复合计。",
+        "diplomacy": "属于本组的开局成员或组成地区，成员间共同义务以本组档案为准。",
+        "bounds": [
+          766.1,
+          112.4,
+          25.1,
+          19.1
+        ],
+        "centre": [
+          778.7,
+          121.9
+        ]
+      },
+      {
+        "tag": "POR",
+        "name": "葡萄牙",
+        "group": "unaffiliated",
+        "membership": "未结盟",
+        "associate": false,
+        "dependency": null,
+        "opinion": null,
+        "status": "按国别查阅",
+        "trade": "以各国条约和合同为准",
+        "security": "无统一对法方针",
+        "economy": "尚无同口径的国别总量；经济往来先按商业合同、港口与结算条件核验。",
+        "military": "尚未编成可比兵力总表；不将地方驻军、属地部队与盟国兵力重复合计。",
+        "diplomacy": "未加入本页所列主要阵营。往来按国别办理，不据此推定永久中立。",
+        "bounds": [
+          743,
+          371.1,
+          48,
+          47.7
+        ],
+        "centre": [
+          767,
+          395
+        ]
+      },
+      {
+        "tag": "PRF",
+        "name": "印度土邦联盟",
+        "group": "bombay",
+        "membership": "成员／组成地区",
+        "associate": false,
+        "dependency": null,
+        "opinion": -38,
+        "status": "关系不睦",
+        "trade": "间接与有限往来",
+        "security": "与印度公社相对",
+        "economy": "尚无同口径的国别总量；经济往来先按商业合同、港口与结算条件核验。",
+        "military": "尚未编成可比兵力总表；不将地方驻军、属地部队与盟国兵力重复合计。",
+        "diplomacy": "属于本组的开局成员或组成地区，成员间共同义务以本组档案为准。",
+        "bounds": [
+          979.4,
+          260.5,
+          37.8,
+          55.7
+        ],
+        "centre": [
+          998.3,
+          288.4
+        ]
+      },
+      {
+        "tag": "PRU",
+        "name": "秘鲁",
+        "group": "unaffiliated",
+        "membership": "未结盟",
+        "associate": false,
+        "dependency": null,
+        "opinion": null,
+        "status": "按国别查阅",
+        "trade": "以各国条约和合同为准",
+        "security": "无统一对法方针",
+        "economy": "尚无同口径的国别总量；经济往来先按商业合同、港口与结算条件核验。",
+        "military": "尚未编成可比兵力总表；不将地方驻军、属地部队与盟国兵力重复合计。",
+        "diplomacy": "未加入本页所列主要阵营。往来按国别办理，不据此推定永久中立。",
+        "bounds": [
+          382.1,
+          306.5,
+          49,
+          57.9
+        ],
+        "centre": [
+          406.6,
+          335.5
+        ]
+      },
+      {
+        "tag": "QIE",
+        "name": "清政府",
+        "group": "china",
+        "membership": "分立政权 · 非共同阵营",
+        "associate": false,
+        "dependency": null,
+        "opinion": -36,
+        "status": "政治不睦",
+        "trade": "地方及港口合同往来",
+        "security": "革命尚未发动",
+        "economy": "农业与关税体系受地方割据和外国权益限制。",
+        "military": "北京政府与地方军政机关不能视作统一可调动的全国军队。",
+        "diplomacy": "法国支持国民党革命组织，对北京政府另办商业与正式交涉。",
+        "bounds": [
+          1107.4,
+          174.5,
+          55.4,
+          54.7
+        ],
+        "centre": [
+          1135.1,
+          201.8
+        ]
+      },
+      {
+        "tag": "RAJ",
+        "name": "印度自治领",
+        "group": "bombay",
+        "membership": "成员／组成地区",
+        "associate": false,
+        "dependency": null,
+        "opinion": -38,
+        "status": "关系不睦",
+        "trade": "间接与有限往来",
+        "security": "与印度公社相对",
+        "economy": "尚无同口径的国别总量；经济往来先按商业合同、港口与结算条件核验。",
+        "military": "尚未编成可比兵力总表；不将地方驻军、属地部队与盟国兵力重复合计。",
+        "diplomacy": "属于本组的开局成员或组成地区，成员间共同义务以本组档案为准。",
+        "bounds": [
+          933.9,
+          193.6,
+          72.3,
+          58.2
+        ],
+        "centre": [
+          970.1,
+          222.7
+        ]
+      },
+      {
+        "tag": "ROM",
+        "name": "罗马尼亚",
+        "group": "unaffiliated",
+        "membership": "未结盟",
+        "associate": false,
+        "dependency": null,
+        "opinion": null,
+        "status": "按国别查阅",
+        "trade": "以各国条约和合同为准",
+        "security": "无统一对法方针",
+        "economy": "尚无同口径的国别总量；经济往来先按商业合同、港口与结算条件核验。",
+        "military": "尚未编成可比兵力总表；不将地方驻军、属地部队与盟国兵力重复合计。",
+        "diplomacy": "未加入本页所列主要阵营。往来按国别办理，不据此推定永久中立。",
+        "bounds": [
+          784.8,
+          139,
+          31.1,
+          23.9
+        ],
+        "centre": [
+          800.3,
+          150.9
+        ]
+      },
+      {
+        "tag": "RUS",
+        "name": "俄罗斯",
+        "group": "russia",
+        "membership": "未结盟",
+        "associate": false,
+        "dependency": null,
+        "opinion": 8,
+        "status": "谨慎接触",
+        "trade": "正常商业往来",
+        "security": "有共同对德利益，尚无同盟",
+        "economy": "粮食、矿产和能源；对法贸易照常办理。",
+        "military": "陆上战略纵深大，对德国东欧体系有强烈安全关切。",
+        "diplomacy": "尚无所属阵营，也未与法国签署共同战争义务。",
+        "bounds": [
+          797.4,
+          0,
+          598.1,
+          174.5
+        ],
+        "centre": [
+          1096.5,
+          87.3
+        ]
+      },
+      {
+        "tag": "SAF",
+        "name": "南非联邦",
+        "group": "entente",
+        "membership": "成员／组成地区",
+        "associate": false,
+        "dependency": null,
+        "opinion": -92,
+        "status": "极端敌对",
+        "trade": "官方往来受限",
+        "security": "复国与干涉威胁",
+        "economy": "尚无同口径的国别总量；经济往来先按商业合同、港口与结算条件核验。",
+        "military": "尚未编成可比兵力总表；不将地方驻军、属地部队与盟国兵力重复合计。",
+        "diplomacy": "属于本组的开局成员或组成地区，成员间共同义务以本组档案为准。",
+        "bounds": [
+          761.4,
+          409.4,
+          64.4,
+          81.5
+        ],
+        "centre": [
+          793.6,
+          450.2
+        ]
+      },
+      {
+        "tag": "SAU",
+        "name": "内志与哈萨",
+        "group": "unaffiliated",
+        "membership": "未结盟",
+        "associate": false,
+        "dependency": null,
+        "opinion": null,
+        "status": "按国别查阅",
+        "trade": "以各国条约和合同为准",
+        "security": "无统一对法方针",
+        "economy": "尚无同口径的国别总量；经济往来先按商业合同、港口与结算条件核验。",
+        "military": "尚未编成可比兵力总表；不将地方驻军、属地部队与盟国兵力重复合计。",
+        "diplomacy": "未加入本页所列主要阵营。往来按国别办理，不据此推定永久中立。",
+        "bounds": [
+          855.1,
+          229.7,
+          59.7,
+          47
+        ],
+        "centre": [
+          884.9,
+          253.2
+        ]
+      },
+      {
+        "tag": "SER",
+        "name": "塞尔维亚",
+        "group": "unaffiliated",
+        "membership": "未结盟",
+        "associate": false,
+        "dependency": null,
+        "opinion": null,
+        "status": "按国别查阅",
+        "trade": "以各国条约和合同为准",
+        "security": "无统一对法方针",
+        "economy": "尚无同口径的国别总量；经济往来先按商业合同、港口与结算条件核验。",
+        "military": "尚未编成可比兵力总表；不将地方驻军、属地部队与盟国兵力重复合计。",
+        "diplomacy": "未加入本页所列主要阵营。往来按国别办理，不据此推定永久中立。",
+        "bounds": [
+          769.4,
+          156.9,
+          11.7,
+          13.4
+        ],
+        "centre": [
+          775.2,
+          163.6
+        ]
+      },
+      {
+        "tag": "SHD",
+        "name": "山东",
+        "group": "china",
+        "membership": "分立政权 · 非共同阵营",
+        "associate": false,
+        "dependency": null,
+        "opinion": null,
+        "status": "分别办理；支持国民党革命组织",
+        "trade": "港口与地方合同往来",
+        "security": "革命尚未发动",
+        "economy": "尚无同口径的国别总量；经济往来先按商业合同、港口与结算条件核验。",
+        "military": "尚未编成可比兵力总表；不将地方驻军、属地部队与盟国兵力重复合计。",
+        "diplomacy": "中国的地方政权；列于同一地区索引，不表示彼此已经组成联盟。",
+        "bounds": [
+          1143.2,
+          189.4,
+          29.8,
+          15.7
+        ],
+        "centre": [
+          1158.1,
+          197.2
+        ]
+      },
+      {
+        "tag": "SHX",
+        "name": "山西",
+        "group": "china",
+        "membership": "分立政权 · 非共同阵营",
+        "associate": false,
+        "dependency": null,
+        "opinion": null,
+        "status": "分别办理；支持国民党革命组织",
+        "trade": "港口与地方合同往来",
+        "security": "革命尚未发动",
+        "economy": "尚无同口径的国别总量；经济往来先按商业合同、港口与结算条件核验。",
+        "military": "尚未编成可比兵力总表；不将地方驻军、属地部队与盟国兵力重复合计。",
+        "diplomacy": "中国的地方政权；列于同一地区索引，不表示彼此已经组成联盟。",
+        "bounds": [
+          1110.4,
+          178.7,
+          27.8,
+          28.1
+        ],
+        "centre": [
+          1124.3,
+          192.8
+        ]
+      },
+      {
+        "tag": "SIA",
+        "name": "暹罗",
+        "group": "unaffiliated",
+        "membership": "未结盟",
+        "associate": false,
+        "dependency": null,
+        "opinion": null,
+        "status": "按国别查阅",
+        "trade": "以各国条约和合同为准",
+        "security": "无统一对法方针",
+        "economy": "尚无同口径的国别总量；经济往来先按商业合同、港口与结算条件核验。",
+        "military": "尚未编成可比兵力总表；不将地方驻军、属地部队与盟国兵力重复合计。",
+        "diplomacy": "未加入本页所列主要阵营。往来按国别办理，不据此推定永久中立。",
+        "bounds": [
+          1074.9,
+          256.5,
+          34.3,
+          75.8
+        ],
+        "centre": [
+          1092,
+          294.4
+        ]
+      },
+      {
+        "tag": "SIC",
+        "name": "两西西里",
+        "group": "unaffiliated",
+        "membership": "未结盟",
+        "associate": false,
+        "dependency": null,
+        "opinion": null,
+        "status": "按国别查阅",
+        "trade": "以各国条约和合同为准",
+        "security": "无统一对法方针",
+        "economy": "尚无同口径的国别总量；经济往来先按商业合同、港口与结算条件核验。",
+        "military": "尚未编成可比兵力总表；不将地方驻军、属地部队与盟国兵力重复合计。",
+        "diplomacy": "未加入本页所列主要阵营。往来按国别办理，不据此推定永久中立。",
+        "bounds": [
+          747.5,
+          166.3,
+          21.9,
+          23.4
+        ],
+        "centre": [
+          758.4,
+          178
+        ]
+      },
+      {
+        "tag": "SIK",
+        "name": "新疆",
+        "group": "china",
+        "membership": "分立政权 · 非共同阵营",
+        "associate": false,
+        "dependency": null,
+        "opinion": null,
+        "status": "分别办理；支持国民党革命组织",
+        "trade": "港口与地方合同往来",
+        "security": "革命尚未发动",
+        "economy": "尚无同口径的国别总量；经济往来先按商业合同、港口与结算条件核验。",
+        "military": "尚未编成可比兵力总表；不将地方驻军、属地部队与盟国兵力重复合计。",
+        "diplomacy": "中国的地方政权；列于同一地区索引，不表示彼此已经组成联盟。",
+        "bounds": [
+          984.4,
+          133.2,
+          81.3,
+          75.1
+        ],
+        "centre": [
+          1025,
+          170.8
+        ]
+      },
+      {
+        "tag": "SOM",
+        "name": "索马里",
+        "group": "unaffiliated",
+        "membership": "未结盟",
+        "associate": false,
+        "dependency": null,
+        "opinion": null,
+        "status": "按国别查阅",
+        "trade": "以各国条约和合同为准",
+        "security": "无统一对法方针",
+        "economy": "尚无同口径的国别总量；经济往来先按商业合同、港口与结算条件核验。",
+        "military": "尚未编成可比兵力总表；不将地方驻军、属地部队与盟国兵力重复合计。",
+        "diplomacy": "未加入本页所列主要阵营。往来按国别办理，不据此推定永久中立。",
+        "bounds": [
+          859.6,
+          299.8,
+          37,
+          48.5
+        ],
+        "centre": [
+          878.1,
+          324
+        ]
+      },
+      {
+        "tag": "SPA",
+        "name": "西班牙",
+        "group": "unaffiliated",
+        "membership": "未结盟",
+        "associate": false,
+        "dependency": null,
+        "opinion": -18,
+        "status": "政治戒备",
+        "trade": "以各国条约和合同为准",
+        "security": "无统一对法方针",
+        "economy": "农业、矿业与有限工业；对外市场受政治与经济不稳影响。",
+        "military": "军队与国内政治矛盾有关，国内危机尚未演为内战。",
+        "diplomacy": "法国同西班牙革命组织的联系，不等于同现政府结盟。",
+        "bounds": [
+          661.5,
+          162.3,
+          49,
+          36
+        ],
+        "centre": [
+          686,
+          180.3
+        ]
+      },
+      {
+        "tag": "SRD",
+        "name": "撒丁王国",
+        "group": "entente",
+        "membership": "协约国支持对象 · 非正式成员",
+        "associate": true,
+        "dependency": null,
+        "opinion": -72,
+        "status": "敌对合作对象",
+        "trade": "官方往来受限",
+        "security": "复国与干涉威胁",
+        "economy": "岛屿经济与复国机关依赖外部支持。",
+        "military": "地中海据点，军备和援助同协约国有联系。",
+        "diplomacy": "向意大利社会主义共和国提出复国挑战，单列为协约国合作对象。",
+        "bounds": [
+          729.1,
+          174,
+          6.5,
+          11.2
+        ],
+        "centre": [
+          732.3,
+          179.6
+        ]
+      },
+      {
+        "tag": "SRI",
+        "name": "意大利社会主义共和国",
+        "group": "international",
+        "membership": "成员／组成地区",
+        "associate": false,
+        "dependency": null,
+        "opinion": null,
+        "status": "盟友",
+        "trade": "共同采购与相互供货",
+        "security": "共同防务，成员保有本国指挥",
+        "economy": "北部工业工场参与军需与机械生产；半岛分裂限制市场与交通。",
+        "military": "陆军面对半岛内其他政权，兵力不能按全意大利计算。",
+        "diplomacy": "同法国、不列颠维持革命同盟；与半岛其他政权争夺意大利的政治代表权。",
+        "bounds": [
+          722.9,
+          149.4,
+          28.6,
+          20.9
+        ],
+        "centre": [
+          737.2,
+          159.8
+        ]
+      },
+      {
+        "tag": "SWE",
+        "name": "瑞典",
+        "group": "unaffiliated",
+        "membership": "未结盟",
+        "associate": false,
+        "dependency": null,
+        "opinion": null,
+        "status": "按国别查阅",
+        "trade": "以各国条约和合同为准",
+        "security": "无统一对法方针",
+        "economy": "尚无同口径的国别总量；经济往来先按商业合同、港口与结算条件核验。",
+        "military": "尚未编成可比兵力总表；不将地方驻军、属地部队与盟国兵力重复合计。",
+        "diplomacy": "未加入本页所列主要阵营。往来按国别办理，不据此推定永久中立。",
+        "bounds": [
+          740.8,
+          20.9,
+          50,
+          83
+        ],
+        "centre": [
+          765.7,
+          62.4
+        ]
+      },
+      {
+        "tag": "SWI",
+        "name": "瑞士",
+        "group": "unaffiliated",
+        "membership": "未结盟",
+        "associate": false,
+        "dependency": null,
+        "opinion": 8,
+        "status": "正常往来",
+        "trade": "以各国条约和合同为准",
+        "security": "无统一对法方针",
+        "economy": "精密工业、金融与阿尔卑斯转运提供对法商业渠道。",
+        "military": "以本土防御为主，尚未加入任何主要阵营。",
+        "diplomacy": "中立往来，法语地区问题与正式国家关系分别处理。",
+        "bounds": [
+          720.1,
+          144.2,
+          18.1,
+          9.2
+        ],
+        "centre": [
+          729.2,
+          148.8
+        ]
+      },
+      {
+        "tag": "SZC",
+        "name": "四川",
+        "group": "china",
+        "membership": "分立政权 · 非共同阵营",
+        "associate": false,
+        "dependency": null,
+        "opinion": null,
+        "status": "分别办理；支持国民党革命组织",
+        "trade": "港口与地方合同往来",
+        "security": "革命尚未发动",
+        "economy": "尚无同口径的国别总量；经济往来先按商业合同、港口与结算条件核验。",
+        "military": "尚未编成可比兵力总表；不将地方驻军、属地部队与盟国兵力重复合计。",
+        "diplomacy": "中国的地方政权；列于同一地区索引，不表示彼此已经组成联盟。",
+        "bounds": [
+          1074.4,
+          205.6,
+          55.2,
+          37.3
+        ],
+        "centre": [
+          1102,
+          224.2
+        ]
+      },
+      {
+        "tag": "TIB",
+        "name": "西藏",
+        "group": "china",
+        "membership": "分立政权 · 非共同阵营",
+        "associate": false,
+        "dependency": null,
+        "opinion": null,
+        "status": "分别办理；支持国民党革命组织",
+        "trade": "港口与地方合同往来",
+        "security": "革命尚未发动",
+        "economy": "尚无同口径的国别总量；经济往来先按商业合同、港口与结算条件核验。",
+        "military": "尚未编成可比兵力总表；不将地方驻军、属地部队与盟国兵力重复合计。",
+        "diplomacy": "中国的地方政权；列于同一地区索引，不表示彼此已经组成联盟。",
+        "bounds": [
+          1003,
+          195.6,
+          79,
+          42
+        ],
+        "centre": [
+          1042.5,
+          216.6
+        ]
+      },
+      {
+        "tag": "TRK",
+        "name": "突厥斯坦共和国",
+        "group": "unaffiliated",
+        "membership": "未结盟",
+        "associate": false,
+        "dependency": null,
+        "opinion": null,
+        "status": "按国别查阅",
+        "trade": "以各国条约和合同为准",
+        "security": "无统一对法方针",
+        "economy": "尚无同口径的国别总量；经济往来先按商业合同、港口与结算条件核验。",
+        "military": "尚未编成可比兵力总表；不将地方驻军、属地部队与盟国兵力重复合计。",
+        "diplomacy": "未加入本页所列主要阵营。往来按国别办理，不据此推定永久中立。",
+        "bounds": [
+          935.2,
+          151.6,
+          73.8,
+          43.5
+        ],
+        "centre": [
+          972.1,
+          173.4
+        ]
+      },
+      {
+        "tag": "TUR",
+        "name": "奥斯曼帝国",
+        "group": "unaffiliated",
+        "membership": "未结盟",
+        "associate": false,
+        "dependency": null,
+        "opinion": -18,
+        "status": "保持距离",
+        "trade": "以各国条约和合同为准",
+        "security": "无统一对法方针",
+        "economy": "帝国内部的农业、贸易通路与石油资源开发并不均衡。",
+        "military": "驻军分布于广大帝国，铁路与地方政治影响集中兵力。",
+        "diplomacy": "不将其同德国的传统联系画成帝国公约成员资格。",
+        "bounds": [
+          798.7,
+          170.3,
+          87,
+          97.9
+        ],
+        "centre": [
+          842.2,
+          219.2
+        ]
+      },
+      {
+        "tag": "UKR",
+        "name": "乌克兰",
+        "group": "reichspakt",
+        "membership": "成员／组成地区",
+        "associate": false,
+        "dependency": [
+          "GER",
+          "德意志帝国所属／保护关系"
+        ],
+        "opinion": -12,
+        "status": "关系一般 · 相互戒备",
+        "trade": "正常贸易",
+        "security": "互设假想敌",
+        "economy": "尚无同口径的国别总量；经济往来先按商业合同、港口与结算条件核验。",
+        "military": "尚未编成可比兵力总表；不将地方驻军、属地部队与盟国兵力重复合计。",
+        "diplomacy": "属于本组的开局成员或组成地区，成员间共同义务以本组档案为准。",
+        "bounds": [
+          789,
+          115.8,
+          64.6,
+          43.5
+        ],
+        "centre": [
+          821.3,
+          137.6
+        ]
+      },
+      {
+        "tag": "URG",
+        "name": "乌拉圭",
+        "group": "unaffiliated",
+        "membership": "未结盟",
+        "associate": false,
+        "dependency": null,
+        "opinion": null,
+        "status": "按国别查阅",
+        "trade": "以各国条约和合同为准",
+        "security": "无统一对法方针",
+        "economy": "尚无同口径的国别总量；经济往来先按商业合同、港口与结算条件核验。",
+        "military": "尚未编成可比兵力总表；不将地方驻军、属地部队与盟国兵力重复合计。",
+        "diplomacy": "未加入本页所列主要阵营。往来按国别办理，不据此推定永久中立。",
+        "bounds": [
+          469.3,
+          415.9,
+          21.9,
+          21.6
+        ],
+        "centre": [
+          480.3,
+          426.7
+        ]
+      },
+      {
+        "tag": "USA",
+        "name": "美利坚合众国",
+        "group": "unaffiliated",
+        "membership": "未结盟",
+        "associate": false,
+        "dependency": null,
+        "opinion": 4,
+        "status": "维持往来",
+        "trade": "以各国条约和合同为准",
+        "security": "无统一对法方针",
+        "economy": "工业和金融规模大，经济危机与国内政治争执影响贸易。",
+        "military": "目前仍是统一的联邦国家，国内政治争执尚未演为内战。",
+        "diplomacy": "未结盟。政府关系与法国对美国劳工运动的态度分别记录。",
+        "bounds": [
+          213.8,
+          81.8,
+          224,
+          109.6
+        ],
+        "centre": [
+          325.8,
+          136.6
+        ]
+      },
+      {
+        "tag": "VEN",
+        "name": "委内瑞拉",
+        "group": "unaffiliated",
+        "membership": "未结盟",
+        "associate": false,
+        "dependency": null,
+        "opinion": null,
+        "status": "按国别查阅",
+        "trade": "以各国条约和合同为准",
+        "security": "无统一对法方针",
+        "economy": "尚无同口径的国别总量；经济往来先按商业合同、港口与结算条件核验。",
+        "military": "尚未编成可比兵力总表；不将地方驻军、属地部队与盟国兵力重复合计。",
+        "diplomacy": "未加入本页所列主要阵营。往来按国别办理，不据此推定永久中立。",
+        "bounds": [
+          413.1,
+          244.4,
+          52.5,
+          46
+        ],
+        "centre": [
+          439.4,
+          267.3
+        ]
+      },
+      {
+        "tag": "WIF",
+        "name": "西印度联邦",
+        "group": "entente",
+        "membership": "成员／组成地区",
+        "associate": false,
+        "dependency": [
+          "IMP",
+          "加拿大自治领所属／保护关系"
+        ],
+        "opinion": -92,
+        "status": "极端敌对",
+        "trade": "官方往来受限",
+        "security": "复国与干涉威胁",
+        "economy": "尚无同口径的国别总量；经济往来先按商业合同、港口与结算条件核验。",
+        "military": "尚未编成可比兵力总表；不将地方驻军、属地部队与盟国兵力重复合计。",
+        "diplomacy": "属于本组的开局成员或组成地区，成员间共同义务以本组档案为准。",
+        "bounds": [
+          459.4,
+          259.5,
+          18.9,
+          28.8
+        ],
+        "centre": [
+          468.8,
+          273.9
+        ]
+      },
+      {
+        "tag": "XSM",
+        "name": "马家军",
+        "group": "china",
+        "membership": "分立政权 · 非共同阵营",
+        "associate": false,
+        "dependency": null,
+        "opinion": null,
+        "status": "分别办理；支持国民党革命组织",
+        "trade": "港口与地方合同往来",
+        "security": "革命尚未发动",
+        "economy": "尚无同口径的国别总量；经济往来先按商业合同、港口与结算条件核验。",
+        "military": "尚未编成可比兵力总表；不将地方驻军、属地部队与盟国兵力重复合计。",
+        "diplomacy": "中国的地方政权；列于同一地区索引，不表示彼此已经组成联盟。",
+        "bounds": [
+          1044,
+          164.1,
+          96,
+          53.2
+        ],
+        "centre": [
+          1092,
+          190.7
+        ]
+      },
+      {
+        "tag": "YEM",
+        "name": "也门",
+        "group": "unaffiliated",
+        "membership": "未结盟",
+        "associate": false,
+        "dependency": [
+          "TUR",
+          "奥斯曼帝国所属／保护关系"
+        ],
+        "opinion": null,
+        "status": "按国别查阅",
+        "trade": "以各国条约和合同为准",
+        "security": "无统一对法方针",
+        "economy": "尚无同口径的国别总量；经济往来先按商业合同、港口与结算条件核验。",
+        "military": "尚未编成可比兵力总表；不将地方驻军、属地部队与盟国兵力重复合计。",
+        "diplomacy": "未加入本页所列主要阵营。往来按国别办理，不据此推定永久中立。",
+        "bounds": [
+          855.9,
+          263.2,
+          48,
+          34.1
+        ],
+        "centre": [
+          879.8,
+          280.3
+        ]
+      },
+      {
+        "tag": "YUN",
+        "name": "云南",
+        "group": "china",
+        "membership": "分立政权 · 非共同阵营",
+        "associate": false,
+        "dependency": null,
+        "opinion": null,
+        "status": "分别办理；支持国民党革命组织",
+        "trade": "港口与地方合同往来",
+        "security": "革命尚未发动",
+        "economy": "尚无同口径的国别总量；经济往来先按商业合同、港口与结算条件核验。",
+        "military": "尚未编成可比兵力总表；不将地方驻军、属地部队与盟国兵力重复合计。",
+        "diplomacy": "中国的地方政权；列于同一地区索引，不表示彼此已经组成联盟。",
+        "bounds": [
+          1076.1,
+          228.4,
+          43,
+          33.8
+        ],
+        "centre": [
+          1097.6,
+          245.3
+        ]
+      }
+    ],
+    "mechanisms": {
+      "internationalism": {
+        "value": 64,
+        "name": "国际主义",
+        "fr": "INTERNATIONALISME",
+        "description": "争取将资源投入国外革命与盟国协作。数值越高，可提出的援助投入越多；拨款仍须核准。"
+      },
+      "chauvinism": {
+        "value": 28,
+        "name": "沙文主义",
+        "fr": "CHAUVINISME",
+        "description": "要求受援组织承担符合法国利益的条件。数值越高，对援助用途和政治协作的约束越强。"
+      },
+      "revolutionAid": 4.2,
+      "unit": "亿帝国马克／年",
+      "note": "两个指标各按0—100独立衡量；并非相加为100的份额。"
+    },
+    "supportedMovement": {
+      "id": "kmt",
+      "name": "中国国民党",
+      "fr": "KUOMINTANG",
+      "opinion": 65,
+      "status": "支持 · 尚未革命",
+      "territory": false,
+      "locationTag": "LEP",
+      "text": "法国支持国民党的革命准备。此为组织联络，并非国家外交承认；尚无国民党政府或国家领土可列入国际。",
+      "economy": "训练、印刷、通信与经核准物资为援助重点；未提供独立国库或全国财政资料。",
+      "military": "干部训练与组织准备，尚未发动新一轮革命；不显示已经建立的全国军队。",
+      "diplomacy": "不将对国民党的支持扩写为对所有中国军政机关的友好。"
+    },
+    "provenance": {
+      "snapshot": "1936-01-01",
+      "reference": {
+        "repository": "https://github.com/Kaiserreich/Kaiserreich-HOI4",
+        "commit": "c5ca9aadf4abebf3741d05f8ce93f650d0c6d65c",
+        "version": "1.7a",
+        "territory": "1936 initial state owners; CHI underground area displayed under League of Eight Provinces by project setting",
+        "date": "1936-01-01"
+      },
+      "priority": "用户设定优先于KR；英法意三国列为第三国际核心，俄罗斯未结盟，中国国民党尚未革命。",
+      "mechanisms": "64／28为本次拟定开局机制值，各自独立；援助用途4.2亿沿用既有财政基准。",
+      "opinions": "－100至＋100的文游关系基准，不是KR游戏分数；本组关系不替代各国专属关系。无国别资料保留待核，不编造GDP或兵员。",
+      "borders": "从官方州省资料生成国家与属地轮廓；闽赣地下区域不作为国民党国家疆界。正式成员实色，合作对象斜纹；中国地区索引与未结盟不是军事联盟。",
+      "sources": [
+        {
+          "name": "KR官方开局州省与国家资料（1.7a）",
+          "url": "https://github.com/Kaiserreich/Kaiserreich-HOI4/tree/c5ca9aadf4abebf3741d05f8ce93f650d0c6d65c/history"
+        },
+        {
+          "name": "国民党革命准备：开发报告136",
+          "url": "https://www.reddit.com/r/Kaiserreich/comments/14bbltx/"
+        },
+        {
+          "name": "第三国际资料",
+          "url": "https://kaiserreich.wiki/Third_International"
+        },
+        {
+          "name": "帝国公约资料",
+          "url": "https://kaiserreich.wiki/Reichspakt"
+        }
+      ]
+    }
+  },
+  "number": 4,
+  "year": 1936,
+  "period": "1936年一月",
+  "holder": {
+    "party": "syndicalist",
+    "name": "革命工团委员会",
+    "votes": 6820000,
+    "percent": 31
+  },
+  "informationScope": {
+    "owner": "department:foreign",
+    "worldAudience": [
+      "office-holder:foreign",
+      "authorised-secretariat:foreign",
+      "host"
+    ],
+    "visibility": "restricted",
+    "otherFactionInternalAllowed": false
+  },
+  "goals": [],
+  "goalStatus": "暂未设定",
+  "provenance": {
+    "mandate": "沿用1921年宪制边界补定的部门分工",
+    "pendingMatters": "根据公开事件和部门职责整理的当前办理事项",
+    "actions": "未实施的候选方案，不构成回合结果",
+    "reports": "既有公共基准与本部门应取得的报表；缺件明确列出"
+  }
+}
