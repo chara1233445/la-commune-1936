@@ -1,0 +1,632 @@
+{
+  "title": "万民的安乐",
+  "fr": "LE BIEN-ÊTRE POUR TOUS",
+  "year": 1936,
+  "date": "一九三六年一月",
+  "organisation": "联邦无政府主义者协会",
+  "factions": {
+    "agrarian": {
+      "name": "农业无政府主义者",
+      "short": "农业派",
+      "fr": "LES LIBERTAIRES AGRARIENS",
+      "color": "#64764b",
+      "delegates": 130,
+      "position": "以乡村协会和农业合作社为基础。主张由公社联合购置农机、整合耕作与灌溉，保留村社对土地使用和收购办法的决定权。",
+      "after": "愿与温和工团派协商运输、农机和合作社信贷；反对由全国机关直接规定村社的生产与分配。",
+      "organisation": "村社讨论会、农业合作社、巡回讲习与共用农机组。",
+      "press": "合作社经验、农业技术、地方预算；以具体改革争取农民。"
+    },
+    "syndicalist": {
+      "name": "无政府工团主义者",
+      "short": "无政府工团派",
+      "fr": "LES ANARCHO-SYNDICALISTES",
+      "color": "#426f78",
+      "delegates": 50,
+      "position": "保留下来的骨干多为车间代表、印刷工人、港口互助组和工人教育组织。主张工会受会员大会监督，工会职务与公社公职分别选举。",
+      "after": "诉CGT案后，一部分温和骨干回到工团建制派，另一部分退出协会。留任者仍参加CGT基层工会，但拒绝接受革命工团委员会的政治指挥；报社、读书会与独立工会成为补充阵地。",
+      "organisation": "车间讨论组、工会反对派、劳工会馆、失业互助和工人图书室。",
+      "press": "公开工会账目、限制兼任、保障支部自主；针对CGT上层，不要求工人退会。"
+    },
+    "makhnovist": {
+      "name": "马赫诺派",
+      "short": "马赫诺派",
+      "fr": "LES MAKHNOVISTES",
+      "color": "#a66c42",
+      "delegates": 20,
+      "position": "以俄罗斯革命流亡者为绝大多数，另有少量民兵支持者。注重公社武装的自治、民兵选举军官以及军事组织对参加者的责任。",
+      "after": "在巴黎、里昂与马赛保有流亡者小组和民兵联络，但没有主导任何地方协会。军事经验使他们获得发言资格，尚不足以形成全国性的基层组织。",
+      "organisation": "流亡者互助圈、译文小组、民兵联络与军事讲习。",
+      "press": "流亡者遭遇、革命防卫、反对军官特权；不把地方争论一概作为军事问题处理。"
+    },
+    "individual": {
+      "name": "个人派",
+      "short": "个人派",
+      "fr": "LES ADHÉRENTS INDIVIDUELS",
+      "color": "#8b7a91",
+      "delegates": 10,
+      "position": "以个人身份加入的成员，包括个人主义者、施蒂纳思想的读者，以及未加入稳定地方团体的边缘流派。对于统一纲领与代表授权尤为谨慎。",
+      "after": "有个人代表和读书圈，没有控制任何地方协会。共同活动常限于出版、教育、个人自由及反对行政强制。",
+      "organisation": "个人入会、通信圈、独立小刊物和自由讨论会。",
+      "press": "思想与出版自由、个人选择；在理论栏目保留异议。"
+    }
+  },
+  "regions": [
+    {
+      "id": "paris",
+      "name": "巴黎—法兰西岛",
+      "fr": "PARIS · ÎLE-DE-FRANCE",
+      "cities": [
+        "巴黎",
+        "圣但尼",
+        "布洛涅"
+      ],
+      "industries": [
+        "汽车与机械",
+        "印刷出版",
+        "联邦机关与商贸"
+      ],
+      "support": 13.2,
+      "composition": {
+        "agrarian": 30,
+        "syndicalist": 45,
+        "makhnovist": 16,
+        "individual": 9
+      },
+      "leader": "syndicalist",
+      "enthusiasm": 72,
+      "radicalism": 67,
+      "network": "印刷工人讨论组、圣但尼互助会、流亡者通信圈",
+      "note": "印刷业的独立工会为协会提供讲坛。汽车工人中的成员仍多在CGT名册上；如何监督工会代表，是地方会议争论最多的事项。"
+    },
+    {
+      "id": "calais",
+      "name": "加莱—阿图瓦",
+      "fr": "CALAIS · ARTOIS",
+      "cities": [
+        "加莱",
+        "布洛涅",
+        "朗斯"
+      ],
+      "industries": [
+        "花边纺织",
+        "煤炭",
+        "海峡航运"
+      ],
+      "support": 29.4,
+      "composition": {
+        "agrarian": 44,
+        "syndicalist": 46,
+        "makhnovist": 7,
+        "individual": 3
+      },
+      "leader": "syndicalist",
+      "enthusiasm": 88,
+      "radicalism": 79,
+      "network": "港口互助组、纺织工人读书室、失业救济委员会",
+      "note": "支持率较高，海峡航运与花边业的互助网仍在运作。协会能召集基层会议，但码头工会的多数掌握在索雷尔派手中。"
+    },
+    {
+      "id": "lille",
+      "name": "里尔—北部工业区",
+      "fr": "LILLE · NORD",
+      "cities": [
+        "里尔",
+        "鲁贝",
+        "图尔宽"
+      ],
+      "industries": [
+        "毛棉纺织",
+        "煤炭与冶金",
+        "机械制造"
+      ],
+      "support": 16.6,
+      "composition": {
+        "agrarian": 40,
+        "syndicalist": 47,
+        "makhnovist": 9,
+        "individual": 4
+      },
+      "leader": "syndicalist",
+      "enthusiasm": 66,
+      "radicalism": 73,
+      "network": "纺织工人小组、矿区读书会、工人夜校",
+      "note": "工团建制派与共产党均有强大组织。留下的无政府工团骨干主张撤换兼任公职的工会负责人，工厂支部对此意见不一。"
+    },
+    {
+      "id": "picardie",
+      "name": "皮卡第",
+      "fr": "PICARDIE",
+      "cities": [
+        "亚眠",
+        "博韦",
+        "圣康坦"
+      ],
+      "industries": [
+        "粮食与甜菜",
+        "食品加工",
+        "纺织"
+      ],
+      "support": 19.6,
+      "composition": {
+        "agrarian": 77,
+        "syndicalist": 14,
+        "makhnovist": 6,
+        "individual": 3
+      },
+      "leader": "agrarian",
+      "enthusiasm": 63,
+      "radicalism": 38,
+      "network": "甜菜合作社联络会、村社农业讲习组",
+      "note": "农业派以共同采购和收购议价维系支持。机械化需要跨村安排，地方协会仍反对由全国机关包办。"
+    },
+    {
+      "id": "normandie",
+      "name": "诺曼底",
+      "fr": "NORMANDIE",
+      "cities": [
+        "鲁昂",
+        "勒阿弗尔",
+        "卡昂"
+      ],
+      "industries": [
+        "港口与造船",
+        "纺织",
+        "乳业与畜牧"
+      ],
+      "support": 17.8,
+      "composition": {
+        "agrarian": 73,
+        "syndicalist": 18,
+        "makhnovist": 6,
+        "individual": 3
+      },
+      "leader": "agrarian",
+      "enthusiasm": 61,
+      "radicalism": 47,
+      "network": "乳业合作社、勒阿弗尔互助组、鲁昂读书会",
+      "note": "乡村协会已占明显多数。乳品运输与合作社信贷是共同议题，港口小组保留城市联络与工会监督工作。"
+    },
+    {
+      "id": "bretagne",
+      "name": "布列塔尼",
+      "fr": "BRETAGNE",
+      "cities": [
+        "雷恩",
+        "布雷斯特",
+        "坎佩尔"
+      ],
+      "industries": [
+        "渔业与罐头",
+        "海军船厂",
+        "畜牧与粮食"
+      ],
+      "support": 16.4,
+      "composition": {
+        "agrarian": 85,
+        "syndicalist": 8,
+        "makhnovist": 3,
+        "individual": 4
+      },
+      "leader": "agrarian",
+      "enthusiasm": 47,
+      "radicalism": 29,
+      "network": "渔村互助会、农村合作社、布雷斯特读书组",
+      "note": "宗教与地方习俗影响深厚。协会以渔获销路、农机共享和救济事务开展活动，避免把反教权宣传作为入会条件。"
+    },
+    {
+      "id": "loire",
+      "name": "南特—卢瓦尔下游",
+      "fr": "NANTES · BASSE-LOIRE",
+      "cities": [
+        "南特",
+        "圣纳泽尔",
+        "昂热",
+        "勒芒"
+      ],
+      "industries": [
+        "造船与港口",
+        "机械与食品加工",
+        "粮食与畜牧"
+      ],
+      "support": 18.6,
+      "composition": {
+        "agrarian": 60,
+        "syndicalist": 28,
+        "makhnovist": 8,
+        "individual": 4
+      },
+      "leader": "agrarian",
+      "enthusiasm": 74,
+      "radicalism": 61,
+      "network": "圣纳泽尔船厂讨论组、南特劳工读书室、村社采购组",
+      "note": "造船工人提供城市骨干，农村协会关注运输价格。双方同意保留与CGT基层的合作，反对恢复旧政府的联合纪律。"
+    },
+    {
+      "id": "poitou",
+      "name": "普瓦图—夏朗德",
+      "fr": "POITOU · CHARENTES",
+      "cities": [
+        "普瓦捷",
+        "拉罗谢尔",
+        "昂古莱姆"
+      ],
+      "industries": [
+        "粮食与乳业",
+        "干邑与葡萄种植",
+        "港口与造纸"
+      ],
+      "support": 18.5,
+      "composition": {
+        "agrarian": 85,
+        "syndicalist": 8,
+        "makhnovist": 3,
+        "individual": 4
+      },
+      "leader": "agrarian",
+      "enthusiasm": 58,
+      "radicalism": 32,
+      "network": "乳业与农机合作组、拉罗谢尔互助会",
+      "note": "农业派重视共同购机和合作社账目。地方活动稳定，但参加者对全国性的政治动员较少响应。"
+    },
+    {
+      "id": "bordeaux",
+      "name": "波尔多—阿基坦",
+      "fr": "BORDEAUX · AQUITAINE",
+      "cities": [
+        "波尔多",
+        "佩里格",
+        "巴约讷"
+      ],
+      "industries": [
+        "港口与造船",
+        "葡萄酒",
+        "林业与木材"
+      ],
+      "support": 16.2,
+      "composition": {
+        "agrarian": 64,
+        "syndicalist": 22,
+        "makhnovist": 8,
+        "individual": 6
+      },
+      "leader": "agrarian",
+      "enthusiasm": 55,
+      "radicalism": 50,
+      "network": "港口互助会、林业劳工小组、葡萄种植合作组",
+      "note": "雅各宾派在工程与技术人员中声势较大。城市协会以工会监督回应，乡村成员则关注酒业收购与合作社经营。"
+    },
+    {
+      "id": "toulouse",
+      "name": "图卢兹—西南内陆",
+      "fr": "TOULOUSE · MIDI-PYRÉNÉES",
+      "cities": [
+        "图卢兹",
+        "蒙托邦",
+        "塔布"
+      ],
+      "industries": [
+        "航空与机械",
+        "粮食与畜牧",
+        "水电"
+      ],
+      "support": 18.9,
+      "composition": {
+        "agrarian": 78,
+        "syndicalist": 12,
+        "makhnovist": 7,
+        "individual": 3
+      },
+      "leader": "agrarian",
+      "enthusiasm": 77,
+      "radicalism": 47,
+      "network": "乡村农机联合组、工人夜校、铁路联络组",
+      "note": "农业派吸引合作社农民，城市骨干负责印刷和铁路联络。共同农机和地方工程的表决办法，是当前工作重点。"
+    },
+    {
+      "id": "limousin",
+      "name": "利穆赞",
+      "fr": "LIMOUSIN",
+      "cities": [
+        "利摩日",
+        "盖雷",
+        "蒂勒"
+      ],
+      "industries": [
+        "瓷器与制鞋",
+        "畜牧",
+        "林业"
+      ],
+      "support": 19.4,
+      "composition": {
+        "agrarian": 85,
+        "syndicalist": 9,
+        "makhnovist": 3,
+        "individual": 3
+      },
+      "leader": "agrarian",
+      "enthusiasm": 78,
+      "radicalism": 43,
+      "network": "村社合作会、陶瓷工人讨论组、巡回农业讲习队",
+      "note": "农民与手工业者关系紧密。协会要求设备和生产改良经成员会议批准，反对把自治解释为拒绝一切联合经营。"
+    },
+    {
+      "id": "auvergne",
+      "name": "奥弗涅",
+      "fr": "AUVERGNE",
+      "cities": [
+        "克莱蒙费朗",
+        "欧里亚克",
+        "勒皮"
+      ],
+      "industries": [
+        "橡胶与轮胎",
+        "畜牧",
+        "采矿与食品加工"
+      ],
+      "support": 18.3,
+      "composition": {
+        "agrarian": 79,
+        "syndicalist": 13,
+        "makhnovist": 5,
+        "individual": 3
+      },
+      "leader": "agrarian",
+      "enthusiasm": 64,
+      "radicalism": 42,
+      "network": "山地村社互助组、农产品合作会",
+      "note": "活动依靠村社互助与收购合作。农村分散、交通不便限制了联邦联络，成员更重视当地议事。"
+    },
+    {
+      "id": "centre",
+      "name": "中央—卢瓦尔中游",
+      "fr": "CENTRE · VAL DE LOIRE",
+      "cities": [
+        "奥尔良",
+        "图尔",
+        "布尔日"
+      ],
+      "industries": [
+        "粮食与葡萄酒",
+        "军械与机械",
+        "铁路运输"
+      ],
+      "support": 18.2,
+      "composition": {
+        "agrarian": 82,
+        "syndicalist": 10,
+        "makhnovist": 5,
+        "individual": 3
+      },
+      "leader": "agrarian",
+      "enthusiasm": 62,
+      "radicalism": 36,
+      "network": "谷物合作社联络会、农业夜校、村社议事组",
+      "note": "粮食收购与农机分配是协会的立足点。农业派愿意谈判联邦运输协议，但要求先交村社会议审议。"
+    },
+    {
+      "id": "champagne",
+      "name": "香槟—阿登",
+      "fr": "CHAMPAGNE · ARDENNES",
+      "cities": [
+        "兰斯",
+        "特鲁瓦",
+        "沙隆"
+      ],
+      "industries": [
+        "谷物与葡萄酒",
+        "纺织",
+        "冶金"
+      ],
+      "support": 18.4,
+      "composition": {
+        "agrarian": 80,
+        "syndicalist": 12,
+        "makhnovist": 5,
+        "individual": 3
+      },
+      "leader": "agrarian",
+      "enthusiasm": 57,
+      "radicalism": 37,
+      "network": "葡萄种植合作社、农业雇工互助组",
+      "note": "葡萄酒经营者与雇工的利益并不一致。协会的主要支持来自合作社农民和农业雇工，尚难代表整个地方产业。"
+    },
+    {
+      "id": "nancy",
+      "name": "南锡—公社洛林",
+      "fr": "NANCY · LORRAINE COMMUNARDE",
+      "cities": [
+        "南锡",
+        "图勒",
+        "巴勒迪克"
+      ],
+      "industries": [
+        "玻璃与机械",
+        "残存冶金",
+        "粮食与林业"
+      ],
+      "support": 17.7,
+      "composition": {
+        "agrarian": 46,
+        "syndicalist": 34,
+        "makhnovist": 15,
+        "individual": 5
+      },
+      "leader": "agrarian",
+      "enthusiasm": 68,
+      "radicalism": 72,
+      "network": "冶金工人读书组、地方民兵联络、流亡者互助会",
+      "note": "边境压力强化了民兵议题。农业派凭乡村团体取得地方协调会首位，工业支部仍以无政府工团派为主；马赫诺派通过流亡者与民兵联络参与军官选任的讨论。"
+    },
+    {
+      "id": "bourgogne",
+      "name": "勃艮第—弗朗什孔泰",
+      "fr": "BOURGOGNE · FRANCHE-COMTÉ",
+      "cities": [
+        "第戎",
+        "贝桑松",
+        "勒克勒佐"
+      ],
+      "industries": [
+        "冶金与机械",
+        "钟表",
+        "葡萄酒与畜牧"
+      ],
+      "support": 18.1,
+      "composition": {
+        "agrarian": 78,
+        "syndicalist": 13,
+        "makhnovist": 5,
+        "individual": 4
+      },
+      "leader": "agrarian",
+      "enthusiasm": 60,
+      "radicalism": 39,
+      "network": "葡萄与粮食合作组、铁路工人联络会",
+      "note": "农业派主张共同仓储与运输。铁路成员帮助地方协会同城市工会保持联系，双方对全国统筹的范围仍有分歧。"
+    },
+    {
+      "id": "lyon",
+      "name": "里昂—罗讷工业带",
+      "fr": "LYON · RHÔNE",
+      "cities": [
+        "里昂",
+        "圣艾蒂安",
+        "圣沙蒙"
+      ],
+      "industries": [
+        "丝绸与纺织",
+        "化工",
+        "煤炭、冶金与军械"
+      ],
+      "support": 18.2,
+      "composition": {
+        "agrarian": 36,
+        "syndicalist": 43,
+        "makhnovist": 14,
+        "individual": 7
+      },
+      "leader": "syndicalist",
+      "enthusiasm": 81,
+      "radicalism": 76,
+      "network": "纺织工人讨论会、工人图书室、流亡者翻译组",
+      "note": "城市骨干较完整，诉CGT案使成员更要求公开工会账目。流亡者提供理论译文和民兵讲习，没有取得地方协会多数。"
+    },
+    {
+      "id": "dauphine",
+      "name": "多菲内—下萨瓦",
+      "fr": "DAUPHINÉ · BASSE-SAVOIE",
+      "cities": [
+        "格勒诺布尔",
+        "尚贝里",
+        "瓦朗斯"
+      ],
+      "industries": [
+        "水电与电化学",
+        "铝业与机械",
+        "山地畜牧"
+      ],
+      "support": 18,
+      "composition": {
+        "agrarian": 71,
+        "syndicalist": 19,
+        "makhnovist": 7,
+        "individual": 3
+      },
+      "leader": "agrarian",
+      "enthusiasm": 70,
+      "radicalism": 54,
+      "network": "山区合作社、水电工人讨论组、格勒诺布尔读书会",
+      "note": "山区合作社使农业派取得多数，水电工人的小组仍由无政府工团骨干维持。山地水利工程需要数个公社合作，争论主要在授权期限与工程账目。"
+    },
+    {
+      "id": "languedoc",
+      "name": "朗格多克—鲁西永",
+      "fr": "LANGUEDOC · ROUSSILLON",
+      "cities": [
+        "蒙彼利埃",
+        "尼姆",
+        "佩皮尼昂"
+      ],
+      "industries": [
+        "葡萄种植",
+        "煤炭与纺织",
+        "港口与食品加工"
+      ],
+      "support": 20.3,
+      "composition": {
+        "agrarian": 80,
+        "syndicalist": 12,
+        "makhnovist": 5,
+        "individual": 3
+      },
+      "leader": "agrarian",
+      "enthusiasm": 87,
+      "radicalism": 57,
+      "network": "葡萄合作社会议、农业雇工互助会、地方公社联络组",
+      "note": "协会在进步农民与农业雇工中影响较强。农业派支持集中使用农机和联合酿造，要求经理由成员选任并接受账目审查。"
+    },
+    {
+      "id": "marseille",
+      "name": "马赛—普罗旺斯",
+      "fr": "MARSEILLE · PROVENCE",
+      "cities": [
+        "马赛",
+        "土伦",
+        "尼斯"
+      ],
+      "industries": [
+        "军舰与军工",
+        "港口运输",
+        "肥皂、油脂与化工"
+      ],
+      "support": 14.9,
+      "composition": {
+        "agrarian": 31,
+        "syndicalist": 42,
+        "makhnovist": 21,
+        "individual": 6
+      },
+      "leader": "syndicalist",
+      "enthusiasm": 82,
+      "radicalism": 82,
+      "network": "港口失业互助会、工人读书组、流亡者与民兵联络圈",
+      "note": "马赫诺派在流亡者与部分民兵中有支持，地方首位仍属无政府工团派。港口索雷尔派工会限制了协会在行业组织中的实际权力。"
+    }
+  ],
+  "nationalSupport": 17.5,
+  "congress": {
+    "delegates": 210,
+    "relativeWeights": {
+      "agrarian": 65,
+      "syndicalist": 25,
+      "makhnovist": 10,
+      "individual": 5
+    },
+    "basis": "授权代表资格册；包括地方协会、流亡者团体和个人会员的代表。派系归属按本次大会的立场登记，各代表仍须向授权团体交代。"
+  },
+  "editorial": {
+    "paper": "自由人报",
+    "fr": "LE LIBERTAIRE",
+    "line": "地方公社自治、工会会员监督、工农合作；反对将行业工会置于政治组织的支配之下。"
+  },
+  "notes": [
+    "20个地区的协会外部支持率直接采用现有民调基准，指当地民众对联邦无政府主义者协会的支持。",
+    "地区内四派比例是当地协会成员的倾向构成，不是当地民众的政治支持率；主导表示在协会内部居首，并不表示控制地方政府或行业工会。",
+    "热忱为0—100的组织活动评分，衡量参与会议、报刊发行、互助工作与志愿服务的积极性。激进度为0—100的行动路线评分，衡量对罢工、不合作、抵制行政强制与自治民兵的倾向；不表示集权程度，也不是犯罪或暴力概率。",
+    "大会210名代表与劳工总议会的125个协会席位是两套机构。大会各派支持按授权代表归属计算，不能由全国民调或地域面积推导。",
+    "四派全国相对权重依用户指定65∶25∶10∶5归一化，约61.9%／23.8%／9.5%／4.8%；大会210名代表对应130／50／20／10人。地方构成与活动评分为补充设定，马赫诺派与个人派不主导任何地方协会。",
+    "地图沿用公社民调的KR实控范围与统计区示意，南锡计入；割让边区、敦刻尔克、上萨瓦、科西嘉及海外不计。"
+  ],
+  "sources": [
+    {
+      "title": "现有公社民调基准",
+      "file": "法兰西公社联邦_民调基准.json",
+      "use": "全国与地区支持率"
+    },
+    {
+      "title": "Le Libertaire，1919—1939馆藏目录",
+      "url": "https://bianco.ficedl.info/article1319.html",
+      "use": "报刊名称与历史刊物形式；网页内容为架空编务设定"
+    }
+  ]
+}
