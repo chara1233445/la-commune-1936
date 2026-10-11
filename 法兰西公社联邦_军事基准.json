@@ -1,5 +1,5 @@
 {
-  "version": "1936-opening-military-v4-bolshevik-influence",
+  "version": "1936-opening-military-v5-public-scope",
   "year": 1936,
   "status": "文游拟定；不是MOD官方兵力统计",
   "reference": "https://zhuanlan.zhihu.com/p/1965551403289261355",
@@ -279,8 +279,8 @@
       "fr": "LES MAKHNOVISTES",
       "color": "#2c3033",
       "party": "联邦无政府主义者协会",
-      "base": "黑军旧部与部分地方民兵",
-      "text": "拥护公社武装自治，接受有期限的共同作战指挥。马赫诺返法后恢复训练与联络工作；这一小股军事力量未主导地方协会。"
+      "base": "乌克兰黑军流亡者与部分地方民兵",
+      "text": "拥护公社武装自治，接受有期限的共同作战指挥。马赫诺返法后恢复训练与联络工作。"
     }
   ],
   "commanders": [
@@ -412,6 +412,11 @@
       "kind": "驻外军官 · 南美"
     }
   ],
+  "informationScope": {
+    "worldAudience": "public",
+    "otherFactionInternalAllowed": false,
+    "includes": "公开制度、历史事件、选举与民调、已公开的任职和军事资料"
+  },
   "sources": [
     {
       "title": "法伦施泰尔之梦 开发日志#3 公社军队",
@@ -436,7 +441,7 @@
         "id": "makhnovist",
         "name": "马赫诺派",
         "station": "法国",
-        "text": "马赫诺已返法。黑军旧部与少量地方民兵保持联系，参与轻装机动训练；未控制任何地方协会。"
+        "text": "马赫诺已返法。乌克兰黑军流亡者参与轻装机动训练，并与部分地方民兵保持联系。"
       },
       {
         "id": "bolshevik",

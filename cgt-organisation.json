@@ -633,5 +633,16 @@
     "行业主导指组织及代表权，不能代替生产资料产权或政府行政权限。",
     "索雷尔派和独立工会不计入CGT；未入会者不计入工会化人口。",
     "三派行业代表权按CGT组织就业权重配置；各行业仍有少数派支部。"
-  ]
+  ],
+  "informationScope": {
+    "worldAudience": "cgt",
+    "publicBaselineAllowed": true,
+    "otherFactionInternalAllowed": false,
+    "exclusiveFields": [
+      "factions.influence",
+      "sectors",
+      "workforceControl",
+      "cgtOrganisedShare"
+    ]
+  }
 }
