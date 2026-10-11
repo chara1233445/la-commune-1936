@@ -1,10 +1,10 @@
 {
-  "version": "1936-opening-military-v3-postings",
+  "version": "1936-opening-military-v4-bolshevik-influence",
   "year": 1936,
   "status": "文游拟定；不是MOD官方兵力统计",
   "reference": "https://zhuanlan.zhihu.com/p/1965551403289261355",
   "referenceTitle": "法伦施泰尔之梦 开发日志#3 公社军队",
-  "sourceBasis": "采用原文的联邦军与地方民兵并存、士兵委员会改革及军中四派争论。沿用用户政党名称；未移植原文新增党派。 革命流亡者沿用KR背景，驻地依本文游设定：马赫诺已返法，布尔什维克流亡军人均在南美。",
+  "sourceBasis": "采用原文的联邦军与地方民兵并存、士兵委员会改革及军中四派争论。沿用用户政党名称；未移植原文新增党派。 革命流亡者沿用KR背景，驻地依本文游设定：马赫诺已返法，图哈切夫斯基在法国任职，其他布尔什维克流亡军官均驻南美。",
   "additions": "人数、编制、军工产量、工程、人物现职和政治倾向为本次补充设定。将领选用KR及法国历史人物；职位与派系并非史实或MOD官方名单。",
   "currency": "帝国马克",
   "budgetYiMark": 33.6,
@@ -265,6 +265,15 @@
       "text": "以革命军队传统凝聚支持，反对取消士兵委员会的政治影响。"
     },
     {
+      "id": "bolshevik",
+      "name": "布尔什维克流亡派",
+      "fr": "LES BOLCHEVIKS EN EXIL",
+      "color": "#ad3030",
+      "party": "与法国共产党的列宁主义者保持联系",
+      "base": "图哈切夫斯基与受旧红军经验影响的军官",
+      "text": "主张集中军令、统一训练与步炮协同。驻南美军官通过教材、通信与旧同僚维系法国军中的影响；图哈切夫斯基在法国承担参谋研究与教学。"
+    },
+    {
       "id": "makhnovist",
       "name": "马赫诺派",
       "fr": "LES MAKHNOVISTES",
@@ -348,6 +357,16 @@
       "brief": "本次拟定为与雅各宾派接近的军中激进改革者。"
     },
     {
+      "name": "米哈伊尔·图哈切夫斯基",
+      "fr": "Mikhaïl Toukhatchevski",
+      "office": "参谋研究局军事顾问",
+      "faction": "bolshevik",
+      "station": "法国",
+      "kind": "流亡军官 · 法国驻勤",
+      "note": "在法国从事参谋研究与军官教学，参与步炮协同和机动部队演习。",
+      "brief": "主张统一指挥与集中训练，保持与南美布尔什维克军官的联系；军事方案须经联邦参谋机关批准。"
+    },
+    {
       "name": "内斯托尔·马赫诺",
       "fr": "Nestor Makhno",
       "office": "轻装机动顾问兼民兵联络",
@@ -355,6 +374,42 @@
       "kind": "返法驻勤 · 法国",
       "note": "已返回法国，参与轻装机动训练，联络黑军旧部与地方民兵。",
       "brief": "以乌克兰内战经验指导侦察、行军与游击训练。军职由联邦授予，地方民兵仍由各公社组织。"
+    },
+    {
+      "name": "亚历山大·叶戈罗夫",
+      "fr": "Alexandre Iegorov",
+      "station": "南美",
+      "faction": "bolshevik",
+      "abroad": true,
+      "office": "南美革命军事任务",
+      "kind": "驻外军官 · 南美"
+    },
+    {
+      "name": "约瑟夫·朱加什维利",
+      "fr": "Iossif Djougachvili",
+      "station": "南美",
+      "faction": "bolshevik",
+      "abroad": true,
+      "office": "南美革命军事任务",
+      "kind": "驻外军官 · 南美"
+    },
+    {
+      "name": "格奥尔基·朱可夫",
+      "fr": "Gueorgui Joukov",
+      "station": "南美",
+      "faction": "bolshevik",
+      "abroad": true,
+      "office": "南美革命军事任务",
+      "kind": "驻外军官 · 南美"
+    },
+    {
+      "name": "瓦西里·崔可夫",
+      "fr": "Vassili Tchouïkov",
+      "station": "南美",
+      "faction": "bolshevik",
+      "abroad": true,
+      "office": "南美革命军事任务",
+      "kind": "驻外军官 · 南美"
     }
   ],
   "sources": [
@@ -375,7 +430,7 @@
     }
   ],
   "exiles": {
-    "posting": "马赫诺已经返法；布尔什维克流亡军人均在南美，不列入法国本土指挥机关。",
+    "posting": "马赫诺已返法；图哈切夫斯基在法国任职，其余布尔什维克流亡军官均驻南美，仍与法国军中保持联系。",
     "groups": [
       {
         "id": "makhnovist",
@@ -386,17 +441,11 @@
       {
         "id": "bolshevik",
         "name": "布尔什维克流亡派",
-        "station": "南美",
-        "text": "流亡军官及其军事人员均留在南美，参与当地革命军的训练与组织工作。"
+        "station": "法国／南美",
+        "text": "图哈切夫斯基在法国任职，其余流亡军官驻南美。旧红军的训练经验、参谋学说与军官联系，仍在法国军中保有影响。"
       }
     ],
     "overseasCommanders": [
-      {
-        "name": "米哈伊尔·图哈切夫斯基",
-        "fr": "Mikhaïl Toukhatchevski",
-        "station": "南美",
-        "faction": "bolshevik"
-      },
       {
         "name": "亚历山大·叶戈罗夫",
         "fr": "Alexandre Iegorov",
