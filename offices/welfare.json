@@ -1,0 +1,187 @@
+{
+  "id": "welfare",
+  "office": "社会保障",
+  "fr": "DÉLÉGATION À LA PRÉVOYANCE SOCIALE",
+  "theme": "mutual",
+  "style": "社会保障局 · 互助登记卡",
+  "motto": "救济、伤害赔付与公共保障",
+  "mandate": "办理联邦社会救济协作、职业伤害保障与补助核验，提出可携带的跨公社权益登记。地方互助会、公社和工会仍承担各自承诺的服务。",
+  "powers": [
+    "核验联邦救济拨款与委托服务的受理记录。",
+    "拟订跨地区保障转接协议和共同资格标准。",
+    "与劳动、卫生部门建立职业伤害转介程序。"
+  ],
+  "limit": "不能把公共救济作为党派入会奖励，不能把互助会全部储备计作联邦可用款。",
+  "local": "统一资格与地方互助习惯须协调；全国通用制度需要资金、登记和立法支持。",
+  "pendingMatters": [
+    {
+      "title": "核对救济受理入口",
+      "detail": "清点各地保障机关的受理要求，处理申请人在工会、合作社和公社之间反复转交的问题。",
+      "priority": "优先办理",
+      "status": "待办理"
+    },
+    {
+      "title": "办理跨公社权益转接",
+      "detail": "核对迁居、转业人员的已有保障记录，与相关公社商定接续和支付责任。",
+      "priority": "日常办理",
+      "status": "待办理"
+    }
+  ],
+  "intelligence": [
+    {
+      "title": "现金补贴",
+      "source": "救济估计与核准补贴表",
+      "known": "年化现金补贴约12.923亿帝国马克，已经包含在49亿民生与社会服务大项内。",
+      "gap": "需分辨核准额、应付额与已付额，不能再把补贴叠加到总支出。",
+      "period": "1936年一月",
+      "reliability": "部门判断，待原始报表核验"
+    },
+    {
+      "title": "申请覆盖",
+      "source": "本部门与地方移送的受理登记",
+      "known": "公共经济资料给出生活水平分布，不能等同为实际受领人名册。",
+      "gap": "缺少拒绝申请、重复申请和跨地区转介记录。",
+      "period": "1936年一月",
+      "reliability": "部门判断，待原始报表核验"
+    },
+    {
+      "title": "互助储备",
+      "source": "委托协议中的财政摘要",
+      "known": "地方互助组织的独立储备不属于部门余额。",
+      "gap": "只有获授权的委托摘要可用；内部会员与党务名册不得要求全量移交。",
+      "period": "1936年一月",
+      "reliability": "部门判断，待原始报表核验"
+    }
+  ],
+  "publicActions": [
+    {
+      "title": "发布保障受理目录",
+      "measure": "把申请入口、资格和申诉办法集中刊列。",
+      "authority": "行政服务公告",
+      "partners": "劳动、卫生、邮政及地方互助机构",
+      "resources": "文书与少量印刷、邮递经费",
+      "time": "一个月",
+      "result": "降低未入会者和迁居者寻找保障的成本。",
+      "resistance": "地方资格不一致时只能标明，不能提前宣称全国统一。",
+      "status": "可提出，未实施",
+      "id": "welfare-public-1",
+      "category": "public",
+      "actor": "社会保障事务代表",
+      "knownTo": [
+        "office-holder:welfare",
+        "host"
+      ]
+    },
+    {
+      "title": "核对重复与漏付事项",
+      "measure": "对已获同意共享的个案进行最少必要信息比对。",
+      "authority": "补助核验与依法共享",
+      "partners": "财政及受托服务机构",
+      "resources": "核验人员；仅使用获授权字段",
+      "time": "首季",
+      "result": "减少重复拨付，并给漏付申请人复核机会。",
+      "resistance": "资料不全会产生误判，不得自动停发全部待核补贴。",
+      "status": "可提出，未实施",
+      "id": "welfare-public-2",
+      "category": "public",
+      "actor": "社会保障事务代表",
+      "knownTo": [
+        "office-holder:welfare",
+        "host"
+      ]
+    }
+  ],
+  "politicalActions": [
+    {
+      "title": "提出保障不以党派入会为条件",
+      "measure": "将受理原则写进联邦议案，邀请工会与互助代表说明承办条件。",
+      "authority": "法案建议",
+      "partners": "共产党与其他改革派公开议员",
+      "resources": "起草与听证人员",
+      "time": "首季",
+      "result": "为共产党争取未入会劳动者支持。",
+      "resistance": "CGT可能担心资金责任转移，须列明保障来源。",
+      "status": "可提出，未实施",
+      "id": "welfare-political-1",
+      "category": "political",
+      "actor": "社会保障事务代表",
+      "knownTo": [
+        "office-holder:welfare",
+        "host"
+      ]
+    },
+    {
+      "title": "以城乡转接争取改革合作",
+      "measure": "邀请农业与卫生共同提出保障转接试点。",
+      "authority": "协作与预算建议",
+      "partners": "农业、卫生和地方参与公社",
+      "resources": "既有试点核准额；新增部分另批",
+      "time": "半年",
+      "result": "使共产党在农村与流动劳动者中形成施政成绩。",
+      "resistance": "服务须对所有符合条件者开放，不能按政党支持决定转接。",
+      "status": "可提出，未实施",
+      "id": "welfare-political-2",
+      "category": "political",
+      "actor": "社会保障事务代表",
+      "knownTo": [
+        "office-holder:welfare",
+        "host"
+      ]
+    }
+  ],
+  "operatingRegister": {
+    "title": "补助复核登记",
+    "unit": "件",
+    "rows": [
+      [
+        "收到复核申请",
+        312,
+        "本部门本期申请，不代表全国受领人数"
+      ],
+      [
+        "完成复核",
+        50,
+        "包含在312件内"
+      ],
+      [
+        "尚待办理",
+        262,
+        "其中72件待跨公社移送，其余待核材料"
+      ]
+    ],
+    "period": "1936年一月",
+    "source": "本部门秘书处工作登记",
+    "status": "新增开局模型，待主持人确认",
+    "knownTo": [
+      "office-holder:welfare",
+      "host"
+    ]
+  },
+  "number": 9,
+  "year": 1936,
+  "period": "1936年一月",
+  "holder": {
+    "party": "communist",
+    "name": "法国共产党",
+    "votes": 6600000,
+    "percent": 30
+  },
+  "informationScope": {
+    "owner": "department:welfare",
+    "worldAudience": [
+      "office-holder:welfare",
+      "authorised-secretariat:welfare",
+      "host"
+    ],
+    "visibility": "restricted",
+    "otherFactionInternalAllowed": false
+  },
+  "goals": [],
+  "goalStatus": "暂未设定",
+  "provenance": {
+    "mandate": "沿用1921年宪制边界补定的部门分工",
+    "pendingMatters": "根据公开事件和部门职责整理的当前办理事项",
+    "actions": "未实施的候选方案，不构成回合结果",
+    "reports": "既有公共基准与本部门应取得的报表；缺件明确列出"
+  }
+}

@@ -1,0 +1,126 @@
+{
+  "period": "1936年一月",
+  "visibility": "host",
+  "departments": [
+    {
+      "id": "labour",
+      "office": "劳动",
+      "party": "革命工团委员会",
+      "page": "labour.html",
+      "data": "labour.json",
+      "design": "工会办事处 · 红黑公函"
+    },
+    {
+      "id": "industry",
+      "office": "工业",
+      "party": "革命工团委员会",
+      "page": "industry.html",
+      "data": "industry.json",
+      "design": "工业技术局 · 蓝晒图纸"
+    },
+    {
+      "id": "transport",
+      "office": "交通",
+      "party": "革命工团委员会",
+      "page": "transport.html",
+      "data": "transport.json",
+      "design": "铁路调度所 · 时刻表"
+    },
+    {
+      "id": "foreign",
+      "office": "对外事务",
+      "party": "革命工团委员会",
+      "page": "foreign.html",
+      "data": "foreign.json",
+      "design": "对外事务署 · 外交电函"
+    },
+    {
+      "id": "interior",
+      "office": "内政与自治",
+      "party": "联邦无政府主义者协会",
+      "page": "interior.html",
+      "data": "interior.json",
+      "design": "公社联络局 · 分册登记"
+    },
+    {
+      "id": "health",
+      "office": "公共卫生",
+      "party": "联邦无政府主义者协会",
+      "page": "health.html",
+      "data": "health.json",
+      "design": "公共卫生署 · 诊疗登记"
+    },
+    {
+      "id": "posts",
+      "office": "邮政通讯",
+      "party": "联邦无政府主义者协会",
+      "page": "posts.html",
+      "data": "posts.json",
+      "design": "邮电总局 · 电报与邮戳"
+    },
+    {
+      "id": "agriculture",
+      "office": "农业",
+      "party": "法国共产党",
+      "page": "agriculture.html",
+      "data": "agriculture.json",
+      "design": "农业事务局 · 田间工作簿"
+    },
+    {
+      "id": "welfare",
+      "office": "社会保障",
+      "party": "法国共产党",
+      "page": "welfare.html",
+      "data": "welfare.json",
+      "design": "社会保障局 · 互助登记卡"
+    },
+    {
+      "id": "finance",
+      "office": "财政",
+      "party": "法国人民党",
+      "page": "finance.html",
+      "data": "finance.json",
+      "design": "财政事务局 · 复式账簿"
+    },
+    {
+      "id": "works",
+      "office": "公共工程",
+      "party": "法国人民党",
+      "page": "works.html",
+      "data": "works.json",
+      "design": "公共工程局 · 测量图册"
+    },
+    {
+      "id": "defence",
+      "office": "国防",
+      "party": "法国国家工团主义者联盟",
+      "page": "defence.html",
+      "data": "defence.json",
+      "design": "国防事务局 · 军务卷宗"
+    },
+    {
+      "id": "education",
+      "office": "基础教育",
+      "party": "青年共和联盟",
+      "page": "education.html",
+      "data": "education.json",
+      "design": "公共教育局 · 学务簿"
+    },
+    {
+      "id": "justice",
+      "office": "司法",
+      "party": "社会主义共和联盟",
+      "page": "justice.html",
+      "data": "justice.json",
+      "design": "司法事务局 · 法律卷宗"
+    },
+    {
+      "id": "research",
+      "office": "科研与高教",
+      "party": "独立人士",
+      "page": "research.html",
+      "data": "research.json",
+      "design": "科研学务局 · 实验记录"
+    }
+  ]
+}

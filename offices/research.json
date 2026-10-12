@@ -1,0 +1,187 @@
+{
+  "id": "research",
+  "office": "科研与高教",
+  "fr": "DÉLÉGATION À LA RECHERCHE ET À L’ENSEIGNEMENT SUPÉRIEUR",
+  "theme": "notebook",
+  "style": "科研学务局 · 实验记录",
+  "motto": "大学、研究与技术人才",
+  "mandate": "协调高等教育、研究补助和跨机构技术合作，支持产业与公共服务所需的专业人才。组织同行评议和项目报告，不把大学直接变成某党的附属机构。",
+  "powers": [
+    "核验获批研究补助，组织专业评议与成果记录。",
+    "提出奖学金、技师培训和实验设备共同采购方案。",
+    "与工业、国防、卫生等部门签订范围明确的研究委托。"
+  ],
+  "limit": "不能自行处分学术观点、秘密挪用其他部门的研究资料或把独立人士视为统一党组织。",
+  "local": "大学、专业学校和研究团体保持各自管理；联邦补助可约定成果和财务责任，不能据此取得全部机构资料。",
+  "pendingMatters": [
+    {
+      "title": "安排研究申请评议",
+      "detail": "整理项目申请、拨款及设备条件，邀请专业人员评议并登记回避关系。",
+      "priority": "优先办理",
+      "status": "待办理"
+    },
+    {
+      "title": "汇总技术人才与设备需求",
+      "detail": "核对院校和研究机构报送的人才、设备与工业协作需求，明确尚未取得的地方资料。",
+      "priority": "日常办理",
+      "status": "待办理"
+    }
+  ],
+  "intelligence": [
+    {
+      "title": "高等教育基础",
+      "source": "经济统计处年度报告",
+      "known": "3.2%为25岁以上人口接受过高等教育的比例，不是大学当前招生率。",
+      "gap": "缺在校人数、专业结构、毕业去向与可参加培训的人数。",
+      "period": "1936年一月",
+      "reliability": "部门判断，待原始报表核验"
+    },
+    {
+      "title": "研究委托",
+      "source": "正式研究合同与补助登记",
+      "known": "原料替代、设备更新与军工研究有明确公共需求。",
+      "gap": "各部门须正式提交任务；未授权军事资料不进入普通评议包。",
+      "period": "1936年一月",
+      "reliability": "部门判断，待原始报表核验"
+    },
+    {
+      "title": "实验设备",
+      "source": "大学与研究机构自愿报表",
+      "known": "设备更新受到采购、维修和人才条件限制。",
+      "gap": "缺仪器可用率、耗材、检修与共享条件，尚不能核定全国研究能力。",
+      "period": "1936年一月",
+      "reliability": "部门判断，待原始报表核验"
+    }
+  ],
+  "publicActions": [
+    {
+      "title": "征集共同设备与培训需求",
+      "measure": "由学校、工场和公共服务机构列出具体用途与人员条件。",
+      "authority": "自愿协作与项目征询",
+      "partners": "工业、卫生、农业和参与院校",
+      "resources": "学务与技术人员",
+      "time": "首季",
+      "result": "形成可采购、可培训的方案，减少重复设备申请。",
+      "resistance": "仪器买到不等于研究成功，需耗材、维护和受训人员。",
+      "status": "可提出，未实施",
+      "id": "research-public-1",
+      "category": "public",
+      "actor": "科研与高教事务代表",
+      "knownTo": [
+        "office-holder:research",
+        "host"
+      ]
+    },
+    {
+      "title": "试行补助同行评议",
+      "measure": "将专家利益关系与评价理由登记，公布可公开摘要。",
+      "authority": "获批研究补助的管理",
+      "partners": "科研机构、财政与独立专家",
+      "resources": "现有评议与补助管理经费",
+      "time": "两个月",
+      "result": "使补助依据可检验，减少政治关系影响。",
+      "resistance": "专家间存在学术争论，须保留异议与复核。",
+      "status": "可提出，未实施",
+      "id": "research-public-2",
+      "category": "public",
+      "actor": "科研与高教事务代表",
+      "knownTo": [
+        "office-holder:research",
+        "host"
+      ]
+    }
+  ],
+  "politicalActions": [
+    {
+      "title": "组织专业人员的政策听证",
+      "measure": "向总议会报告人才、设备和技术合同的实际限制。",
+      "authority": "部门报告与听证",
+      "partners": "独立代表、各派议员和专业团体",
+      "resources": "会务与报告人员",
+      "time": "首季",
+      "result": "提高独立专业代表的政策影响；不形成虚构的统一党组织。",
+      "resistance": "不能把专业意见写成唯一政治选择，各派仍决定预算取舍。",
+      "status": "可提出，未实施",
+      "id": "research-political-1",
+      "category": "political",
+      "actor": "科研与高教事务代表",
+      "knownTo": [
+        "office-holder:research",
+        "host"
+      ]
+    },
+    {
+      "title": "争取研究评议独立条款",
+      "measure": "向不同政治组织征询学术评议、经费审查与保密的分工。",
+      "authority": "联邦规则建议",
+      "partners": "青年共和、社会共和与其他愿意支持的代表",
+      "resources": "法务和学务起草员",
+      "time": "半年",
+      "result": "保护独立代表及专业机构在政策中的发言位置。",
+      "resistance": "独立评议不能免除财务审计和合法的军工保密义务。",
+      "status": "可提出，未实施",
+      "id": "research-political-2",
+      "category": "political",
+      "actor": "科研与高教事务代表",
+      "knownTo": [
+        "office-holder:research",
+        "host"
+      ]
+    }
+  ],
+  "operatingRegister": {
+    "title": "研究补助申请",
+    "unit": "份",
+    "rows": [
+      [
+        "已受理申请",
+        22,
+        "研究项目，不包括学校所有经费"
+      ],
+      [
+        "同行评议完成",
+        8,
+        "包含在22份内，未自动批准拨款"
+      ],
+      [
+        "评议尚待安排",
+        14,
+        "包含在22份内"
+      ]
+    ],
+    "period": "1936年一月",
+    "source": "本部门秘书处工作登记",
+    "status": "新增开局模型，待主持人确认",
+    "knownTo": [
+      "office-holder:research",
+      "host"
+    ]
+  },
+  "number": 15,
+  "year": 1936,
+  "period": "1936年一月",
+  "holder": {
+    "party": "independent",
+    "name": "独立人士",
+    "votes": 5940000,
+    "percent": 27
+  },
+  "informationScope": {
+    "owner": "department:research",
+    "worldAudience": [
+      "office-holder:research",
+      "authorised-secretariat:research",
+      "host"
+    ],
+    "visibility": "restricted",
+    "otherFactionInternalAllowed": false
+  },
+  "goals": [],
+  "goalStatus": "暂未设定",
+  "provenance": {
+    "mandate": "沿用1921年宪制边界补定的部门分工",
+    "pendingMatters": "根据公开事件和部门职责整理的当前办理事项",
+    "actions": "未实施的候选方案，不构成回合结果",
+    "reports": "既有公共基准与本部门应取得的报表；缺件明确列出"
+  }
+}

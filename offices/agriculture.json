@@ -1,0 +1,187 @@
+{
+  "id": "agriculture",
+  "office": "农业",
+  "fr": "DÉLÉGATION À L’AGRICULTURE",
+  "theme": "field",
+  "style": "农业事务局 · 田间工作簿",
+  "motto": "土地、合作经营与粮食",
+  "mandate": "协调粮食供应、农业技术和农村建设补助，支持自愿合作经营及机械共用。调查农业产出与土地使用，提出联邦层面的农业投资和城乡交易办法。",
+  "powers": [
+    "组织作物、库存和农业机械需求调查。",
+    "核验获批农业补助，建立自愿农机共用项目。",
+    "与交通、工业和地方公社协商粮食运输与设备供给。"
+  ],
+  "limit": "不能直接改写地方土地制度、强迫农户入社或因宗教与政治立场取消一般服务资格。",
+  "local": "土地安排与农村协作须经地方公社参与；共产党掌握事务职位不等于掌握各村协会。",
+  "pendingMatters": [
+    {
+      "title": "整理春耕与农机共用申请",
+      "detail": "汇总农具、种子、运输和农机共用申请，核实各公社愿意参加的合作安排。",
+      "priority": "优先办理",
+      "status": "待办理"
+    },
+    {
+      "title": "征询合作经营与财产安排",
+      "detail": "收集合作社、农户和地方议会的公开意见，明确机械化项目的自愿参加条件与财产责任。",
+      "priority": "日常办理",
+      "status": "待办理"
+    }
+  ],
+  "intelligence": [
+    {
+      "title": "农业经济与建设",
+      "source": "公共经济基准",
+      "known": "农业增加值123.2亿帝国马克；乡村建设与农业支出11.2亿，为公共合并口径。",
+      "gap": "尚缺农业部门可支配拨款及按作物、地区拆分的实物产量。",
+      "period": "1936年一月",
+      "reliability": "部门判断，待原始报表核验"
+    },
+    {
+      "title": "土地和经营",
+      "source": "地方自愿报送的土地与合作登记",
+      "known": "家庭农场与合作经营并存，部分财产受到尊重。",
+      "gap": "土地面积、租佃、抵押和入社情况需原始登记；未取得村社党务册。",
+      "period": "1936年一月",
+      "reliability": "部门判断，待原始报表核验"
+    },
+    {
+      "title": "春耕供给",
+      "source": "农机、种子与运输申请",
+      "known": "机械化、加工和物流为已知薄弱环节。",
+      "gap": "库存、维修能力与农户接受共用的条件尚须征询。",
+      "period": "1936年一月",
+      "reliability": "部门判断，待原始报表核验"
+    }
+  ],
+  "publicActions": [
+    {
+      "title": "组织春耕联合询价",
+      "measure": "按村社需求汇总种子、农具和维修件，不强制购入统一型号。",
+      "authority": "自愿采购与技术支持",
+      "partners": "工业、交通和地方农业委员会",
+      "resources": "农艺师；采购由参与者及批准补助承担",
+      "time": "首季",
+      "result": "减少小批采购与无维修配套的机器购入。",
+      "resistance": "大订单可能延后小农交货，须公开分配规则。",
+      "status": "可提出，未实施",
+      "id": "agriculture-public-1",
+      "category": "public",
+      "actor": "农业事务代表",
+      "knownTo": [
+        "office-holder:agriculture",
+        "host"
+      ]
+    },
+    {
+      "title": "试办农机共用站",
+      "measure": "先在自愿公社签署调度、收费与维修协议。",
+      "authority": "批准补助与地方同意",
+      "partners": "公共工程、工业与参与农户",
+      "resources": "从核准农业额度内列试点，不另占同笔公共支出",
+      "time": "半年",
+      "result": "使小农可获得机械服务。",
+      "resistance": "需要技师和零件；强迫入社将使试点失去支持。",
+      "status": "可提出，未实施",
+      "id": "agriculture-public-2",
+      "category": "public",
+      "actor": "农业事务代表",
+      "knownTo": [
+        "office-holder:agriculture",
+        "host"
+      ]
+    }
+  ],
+  "politicalActions": [
+    {
+      "title": "以农民听证完善改革案",
+      "measure": "邀请未入社农民、合作社与农村专业人员陈述费用和财产权顾虑。",
+      "authority": "听证与政策建议",
+      "partners": "共产党公开议员与地方农业代表",
+      "resources": "巡回征询与记录经费",
+      "time": "首季",
+      "result": "争取未与工会合作的农村选民支持共产党。",
+      "resistance": "必须允许宗教和财产方面的异议，不能预设农民接受集体经营。",
+      "status": "可提出，未实施",
+      "id": "agriculture-political-1",
+      "category": "political",
+      "actor": "农业事务代表",
+      "knownTo": [
+        "office-holder:agriculture",
+        "host"
+      ]
+    },
+    {
+      "title": "提出农村预算专项表决",
+      "measure": "将已有乡村建设用途拆分成可审议项目，寻求跨派支持。",
+      "authority": "预算建议；不自批追加额",
+      "partners": "财政、总议会和其他改革派议员",
+      "resources": "预算人员与项目测算",
+      "time": "半年",
+      "result": "增强共产党作为农民代表的议会地位。",
+      "resistance": "城市代表会质疑挤占民生资金，需明确项目回报与支出来源。",
+      "status": "可提出，未实施",
+      "id": "agriculture-political-2",
+      "category": "political",
+      "actor": "农业事务代表",
+      "knownTo": [
+        "office-holder:agriculture",
+        "host"
+      ]
+    }
+  ],
+  "operatingRegister": {
+    "title": "农机共用申请",
+    "unit": "个公社",
+    "rows": [
+      [
+        "提出申请",
+        14,
+        "本期自愿参加者"
+      ],
+      [
+        "维修与操作条件齐备",
+        6,
+        "包含在14个内"
+      ],
+      [
+        "技师或零件待落实",
+        8,
+        "包含在14个内"
+      ]
+    ],
+    "period": "1936年一月",
+    "source": "本部门秘书处工作登记",
+    "status": "新增开局模型，待主持人确认",
+    "knownTo": [
+      "office-holder:agriculture",
+      "host"
+    ]
+  },
+  "number": 8,
+  "year": 1936,
+  "period": "1936年一月",
+  "holder": {
+    "party": "communist",
+    "name": "法国共产党",
+    "votes": 6380000,
+    "percent": 29
+  },
+  "informationScope": {
+    "owner": "department:agriculture",
+    "worldAudience": [
+      "office-holder:agriculture",
+      "authorised-secretariat:agriculture",
+      "host"
+    ],
+    "visibility": "restricted",
+    "otherFactionInternalAllowed": false
+  },
+  "goals": [],
+  "goalStatus": "暂未设定",
+  "provenance": {
+    "mandate": "沿用1921年宪制边界补定的部门分工",
+    "pendingMatters": "根据公开事件和部门职责整理的当前办理事项",
+    "actions": "未实施的候选方案，不构成回合结果",
+    "reports": "既有公共基准与本部门应取得的报表；缺件明确列出"
+  }
+}

@@ -1,0 +1,193 @@
+{
+  "id": "finance",
+  "office": "财政",
+  "fr": "DÉLÉGATION AUX FINANCES",
+  "theme": "ledger",
+  "style": "财政事务局 · 复式账簿",
+  "motto": "预算、税收、债务与结算",
+  "mandate": "编制联邦预算、核验联邦收支、管理获授权的公共债务和跨公社财政协作。收集地方账目形成公共合并统计，但合并总额不是中央代表可以自由调拨的现金。",
+  "powers": [
+    "执行获批拨款与国库付款，审查联邦合同的财政条件。",
+    "提出税收、借款和预算修订案，交有权机构审议。",
+    "征集地方账目，抵销转移支付后汇编公共收支。"
+  ],
+  "limit": "不能自行增税、取消地方预算或把全部地方收入并入中央账户。货币平价也不能当成实际黄金储备。",
+  "local": "地方财政拥有独立的收支安排；统一报表、分担支出与转移支付须有协议和合法预算。",
+  "pendingMatters": [
+    {
+      "title": "编制到期付款与缺口方案",
+      "detail": "对照128.8亿收入与140亿年度支出方案，核实到期付款、现金余量和11.2亿缺口的筹资条件。",
+      "priority": "优先办理",
+      "status": "待办理"
+    },
+    {
+      "title": "拆分联邦与地方账目",
+      "detail": "把公共合并收支拆成联邦本级、地方与转移支付记录，核对403.2亿开局债务的持有人及期限。",
+      "priority": "日常办理",
+      "status": "待办理"
+    }
+  ],
+  "intelligence": [
+    {
+      "title": "1933—1936公共账目",
+      "source": "财政事务局历年公共账目汇编",
+      "known": "上表汇编1933—1935回溯值及1936年度方案；全部按1936基准价格以帝国马克记账。",
+      "gap": "早期年度原始账册不齐，不能把估计数当成已经审定的决算。",
+      "period": "1933—1936",
+      "reliability": "部门判断，待原始报表核验"
+    },
+    {
+      "title": "现有债务与平价",
+      "source": "经济统计处年度报告",
+      "known": "开局公共债务403.2亿；1帝国马克对应0.3584克黄金、6公社法郎的记账平价。",
+      "gap": "需要分机关的到期表、债权人结构和实际黄金储备；平价不能推导储备。",
+      "period": "1936年一月",
+      "reliability": "部门判断，待原始报表核验"
+    },
+    {
+      "title": "部门承诺与国库现金",
+      "source": "联邦合同登记与地方报表",
+      "known": "预算大项包含国防33.6亿、城市建设与交通21亿等用途。",
+      "gap": "未收到联邦与地方拆分、账面余额和未付款合同，中央现金余额待核。",
+      "period": "1936年一月",
+      "reliability": "部门判断，待原始报表核验"
+    }
+  ],
+  "financeHistory": [
+    {
+      "year": 1933,
+      "revenue": 113.4,
+      "spending": 120.8,
+      "deficit": 7.4,
+      "debt": 384.3,
+      "status": "回溯估计 · 年末债务"
+    },
+    {
+      "year": 1934,
+      "revenue": 118.6,
+      "spending": 128.9,
+      "deficit": 10.3,
+      "debt": 394.6,
+      "status": "回溯估计 · 年末债务"
+    },
+    {
+      "year": 1935,
+      "revenue": 124.2,
+      "spending": 132.8,
+      "deficit": 8.6,
+      "debt": 403.2,
+      "status": "回溯估计 · 年末债务"
+    },
+    {
+      "year": 1936,
+      "revenue": 128.8,
+      "spending": 140,
+      "deficit": 11.2,
+      "debt": 403.2,
+      "status": "年度方案 · 开局债务"
+    }
+  ],
+  "publicActions": [
+    {
+      "title": "编制到期付款与现金表",
+      "measure": "分别列出联邦、各参与公社和已抵销转移支付的汇总。",
+      "authority": "财务核验与付款管理",
+      "partners": "各部门、地方财政及公社银行",
+      "resources": "国库承办员；先核已收到的账目",
+      "time": "一个月",
+      "result": "及时发现付款拥堵，不以总收入掩盖资金缺口。",
+      "resistance": "地方迟报时只能标注未核，不能替其推造余额。",
+      "status": "可提出，未实施",
+      "id": "finance-public-1",
+      "category": "public",
+      "actor": "财政事务代表",
+      "knownTo": [
+        "office-holder:finance",
+        "host"
+      ]
+    },
+    {
+      "title": "提出分期融资与支出修订",
+      "measure": "按到期合同安排借款与可延后项目，列明利息和民生影响。",
+      "authority": "预算与借款建议，须批准",
+      "partners": "总议会、公社银行和有关部门",
+      "resources": "预算人员；借款额度经批准后才生效",
+      "time": "首季",
+      "result": "为缺口提供可审议办法，避免无来源的新承诺。",
+      "resistance": "延期工程和加税可能遭反对；不能擅改已签合同。",
+      "status": "可提出，未实施",
+      "id": "finance-public-2",
+      "category": "public",
+      "actor": "财政事务代表",
+      "knownTo": [
+        "office-holder:finance",
+        "host"
+      ]
+    }
+  ],
+  "politicalActions": [
+    {
+      "title": "提出联邦拨款统一审计",
+      "measure": "以公开规则要求领取联邦款项的项目提交同口径报告。",
+      "authority": "拨款条件与法案建议",
+      "partners": "人民党公开议员和审计承办人员",
+      "resources": "现有核验人员；增员须预算",
+      "time": "首季",
+      "result": "推动人民党重视的财政统筹，扩大技术官僚作用。",
+      "resistance": "规则只约束授权范围，不能藉审计接管全部地方财政。",
+      "status": "可提出，未实施",
+      "id": "finance-political-1",
+      "category": "political",
+      "actor": "财政事务代表",
+      "knownTo": [
+        "office-holder:finance",
+        "host"
+      ]
+    },
+    {
+      "title": "就预算能力召开专家听证",
+      "measure": "展示承诺、到期和融资成本，提出按项目编制预算的办法。",
+      "authority": "部门报告与议会听证",
+      "partners": "技术人员、各派议员和地方财政代表",
+      "resources": "既有会务经费",
+      "time": "六周",
+      "result": "争取对多头财政不满的中产与专业人员支持人民党。",
+      "resistance": "不得以部门资料为本派竞选专用；反对意见须列入记录。",
+      "status": "可提出，未实施",
+      "id": "finance-political-2",
+      "category": "political",
+      "actor": "财政事务代表",
+      "knownTo": [
+        "office-holder:finance",
+        "host"
+      ]
+    }
+  ],
+  "number": 10,
+  "year": 1936,
+  "period": "1936年一月",
+  "holder": {
+    "party": "jacobin",
+    "name": "法国人民党",
+    "votes": 6600000,
+    "percent": 30
+  },
+  "informationScope": {
+    "owner": "department:finance",
+    "worldAudience": [
+      "office-holder:finance",
+      "authorised-secretariat:finance",
+      "host"
+    ],
+    "visibility": "restricted",
+    "otherFactionInternalAllowed": false
+  },
+  "goals": [],
+  "goalStatus": "暂未设定",
+  "provenance": {
+    "mandate": "沿用1921年宪制边界补定的部门分工",
+    "pendingMatters": "根据公开事件和部门职责整理的当前办理事项",
+    "actions": "未实施的候选方案，不构成回合结果",
+    "reports": "既有公共基准与本部门应取得的报表；缺件明确列出"
+  }
+}

@@ -1,0 +1,187 @@
+{
+  "id": "posts",
+  "office": "邮政通讯",
+  "fr": "DÉLÉGATION AUX POSTES ET TÉLÉGRAPHES",
+  "theme": "telegraph",
+  "style": "邮电总局 · 电报与邮戳",
+  "motto": "邮政、电报与通信",
+  "mandate": "协调联邦邮路、电报网络和跨公社通信标准，办理公共通信合同与邮电服务申诉。维护通信保密，组织地方自愿参加的基础网络建设。",
+  "powers": [
+    "编订跨区邮路交接、电报资费建议与服务标准。",
+    "安排已有拨款内的设备维护和邮电人员培训。",
+    "依法办理司法授权的通信协查与部门公函传递。"
+  ],
+  "limit": "不能因所属政党要求截取私人通信，也不能将公共邮资补助专供本派报刊。",
+  "local": "地方邮局与通信合作组织掌握投递人员和线路维护；统一邮路需明确费用与交接责任。",
+  "pendingMatters": [
+    {
+      "title": "核对偏远邮路与维修需求",
+      "detail": "汇总地方邮局和电报站提出的线路检修、人员及转运申请，协调交通衔接。",
+      "priority": "优先办理",
+      "status": "待办理"
+    },
+    {
+      "title": "审查通信协查授权",
+      "detail": "逐件核对行政机关的通信协查请求，补齐法定依据、范围和保管责任。",
+      "priority": "日常办理",
+      "status": "待办理"
+    }
+  ],
+  "intelligence": [
+    {
+      "title": "邮路可靠性",
+      "source": "各邮局服务报表",
+      "known": "已有跨公社公函与公共邮路。",
+      "gap": "需实测投递天数、积压量和线路故障；不把未记录延迟写成准确全国值。",
+      "period": "1936年一月",
+      "reliability": "部门判断，待原始报表核验"
+    },
+    {
+      "title": "电报设备",
+      "source": "线路巡检",
+      "known": "技师可以报告设备状况和维修需求。",
+      "gap": "缺少线路长度、供电中断、备用器材和可用机位的统一清册。",
+      "period": "1936年一月",
+      "reliability": "部门判断，待原始报表核验"
+    },
+    {
+      "title": "协查申请",
+      "source": "本部门正式收文",
+      "known": "只有依法移交的协查请求进入本部门记录。",
+      "gap": "无司法授权的监听要求应列为不予办理，不登记未经核实的党派通信。",
+      "period": "1936年一月",
+      "reliability": "部门判断，待原始报表核验"
+    }
+  ],
+  "publicActions": [
+    {
+      "title": "核对跨区邮路交接",
+      "measure": "记录每一段的责任局、交接时刻与费用。",
+      "authority": "邮路合同协调",
+      "partners": "交通与参加联运的邮局",
+      "resources": "既有邮路人员和记录簿",
+      "time": "一个月",
+      "result": "找到延迟集中环节，减少责任相互推诿。",
+      "resistance": "某段无协议时须重新谈判，不能直接处罚地方公社。",
+      "status": "可提出，未实施",
+      "id": "posts-public-1",
+      "category": "public",
+      "actor": "邮政通讯事务代表",
+      "knownTo": [
+        "office-holder:posts",
+        "host"
+      ]
+    },
+    {
+      "title": "建立协查授权登记",
+      "measure": "由文书处核验授权范围，保留办理和拒绝理由。",
+      "authority": "通信行政与依法协查",
+      "partners": "司法、内政与自治",
+      "resources": "文书与法务人员",
+      "time": "六周",
+      "result": "保障合法调查，防止无依据截取。",
+      "resistance": "治安机关可能要求简化程序，紧急规则仍需另行授权。",
+      "status": "可提出，未实施",
+      "id": "posts-public-2",
+      "category": "public",
+      "actor": "邮政通讯事务代表",
+      "knownTo": [
+        "office-holder:posts",
+        "host"
+      ]
+    }
+  ],
+  "politicalActions": [
+    {
+      "title": "提出通信自由保障案",
+      "measure": "将邮政保密与协查程序交总议会讨论。",
+      "authority": "联邦议案建议",
+      "partners": "协会、社会共和与青年共和公开议员",
+      "resources": "起草人员与听证经费",
+      "time": "首季",
+      "result": "扩大协会在公民自由议题上的支持。",
+      "resistance": "安全派会提出异议；法案不能庇护有明确司法授权的案件。",
+      "status": "可提出，未实施",
+      "id": "posts-political-1",
+      "category": "political",
+      "actor": "邮政通讯事务代表",
+      "knownTo": [
+        "office-holder:posts",
+        "host"
+      ]
+    },
+    {
+      "title": "邀请通信合作组织参加建设",
+      "measure": "对所有符合技术条件的地方组织开放试点申请。",
+      "authority": "公开建设征询",
+      "partners": "地方通信合作组织与公共工程",
+      "resources": "已有试点经费，申请一视同仁",
+      "time": "半年",
+      "result": "以合作建设证明协会自治路线可运行。",
+      "resistance": "不得排除异党地区；技术责任与维护费用必须落到合同。",
+      "status": "可提出，未实施",
+      "id": "posts-political-2",
+      "category": "political",
+      "actor": "邮政通讯事务代表",
+      "knownTo": [
+        "office-holder:posts",
+        "host"
+      ]
+    }
+  ],
+  "operatingRegister": {
+    "title": "跨区邮路交接",
+    "unit": "段",
+    "rows": [
+      [
+        "完成登记",
+        23,
+        "试办邮路段，不代表全国全部线路"
+      ],
+      [
+        "交接责任已会签",
+        16,
+        "包含在23段内"
+      ],
+      [
+        "责任与费用待会签",
+        7,
+        "包含在23段内"
+      ]
+    ],
+    "period": "1936年一月",
+    "source": "本部门秘书处工作登记",
+    "status": "新增开局模型，待主持人确认",
+    "knownTo": [
+      "office-holder:posts",
+      "host"
+    ]
+  },
+  "number": 7,
+  "year": 1936,
+  "period": "1936年一月",
+  "holder": {
+    "party": "anarchist",
+    "name": "联邦无政府主义者协会",
+    "votes": 7040000,
+    "percent": 32
+  },
+  "informationScope": {
+    "owner": "department:posts",
+    "worldAudience": [
+      "office-holder:posts",
+      "authorised-secretariat:posts",
+      "host"
+    ],
+    "visibility": "restricted",
+    "otherFactionInternalAllowed": false
+  },
+  "goals": [],
+  "goalStatus": "暂未设定",
+  "provenance": {
+    "mandate": "沿用1921年宪制边界补定的部门分工",
+    "pendingMatters": "根据公开事件和部门职责整理的当前办理事项",
+    "actions": "未实施的候选方案，不构成回合结果",
+    "reports": "既有公共基准与本部门应取得的报表；缺件明确列出"
+  }
+}

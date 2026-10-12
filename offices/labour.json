@@ -1,0 +1,187 @@
+{
+  "id": "labour",
+  "office": "劳动",
+  "fr": "DÉLÉGATION AU TRAVAIL",
+  "theme": "union",
+  "style": "工会办事处 · 红黑公函",
+  "motto": "劳动关系与职业保障",
+  "mandate": "办理联邦劳动规则、行业协商、职业安全与劳动争议调解。受理未加入工会者的申诉；对跨公社争议提出统一办法。工场日常管理仍由其经营组织与所在地公社承担。",
+  "powers": [
+    "拟订联邦工时与职业安全标准，提交总议会审议。",
+    "在已有拨款内委派劳动调查员、组织跨行业协商。",
+    "为双方自愿接受的劳动争议提供调解。"
+  ],
+  "limit": "无权凭部门通令授予CGT独占地位，也不能直接撤换地方工场委员会。",
+  "local": "地方劳动委员会可参加联邦调解；拒绝参加时，需要当地议会或双方代表重新授权。",
+  "pendingMatters": [
+    {
+      "title": "厘清工会公共职能",
+      "detail": "整理诉CGT案后有关行业代表、行政委托与利益冲突的公开意见，向总议会提出需要重新界定的职能清单。",
+      "priority": "优先办理",
+      "status": "待办理"
+    },
+    {
+      "title": "协调跨公社劳动协议",
+      "detail": "核对不同公社关于工资、工时与职业保障的协议，登记尚未达成一致的条款。",
+      "priority": "日常办理",
+      "status": "待办理"
+    }
+  ],
+  "intelligence": [
+    {
+      "title": "劳动市场",
+      "source": "经济统计处年度报告",
+      "known": "登记失业率4.5%；该数值不能说明未登记失业或各行业缺工。",
+      "gap": "缺少按行业、年龄与地区拆分的求职登记。",
+      "period": "1936年一月",
+      "reliability": "部门判断，待原始报表核验"
+    },
+    {
+      "title": "劳动争议卷宗",
+      "source": "本部门受理记录与地方自愿移送",
+      "known": "已知诉CGT案引发代表资格争论；各地未移送的申诉尚未列入本部门卷宗。",
+      "gap": "需要未入会者申诉、工场申诉与司法移送三份分类清册。",
+      "period": "1936年一月",
+      "reliability": "部门判断，待原始报表核验"
+    },
+    {
+      "title": "职业安全",
+      "source": "调查员的检查报告",
+      "known": "具备派出安全调查员的行政渠道。",
+      "gap": "缺少同口径的伤亡率、赔偿拖欠与防护设备清单。",
+      "period": "1936年一月",
+      "reliability": "部门判断，待原始报表核验"
+    }
+  ],
+  "publicActions": [
+    {
+      "title": "设立统一申诉簿",
+      "measure": "开设邮寄与到访受理窗口，向申请人出具案件编号。",
+      "authority": "行政受理；不代替地方裁决",
+      "partners": "邮政通讯、司法及愿意参与的地方委员会",
+      "resources": "秘书处调配两组承办员；新增经费另列申请",
+      "time": "一个月",
+      "result": "未入会劳动者可追踪申诉，重复移送减少。",
+      "resistance": "地方不回函时只能记录和协调，不能宣告当地已执行。",
+      "status": "可提出，未实施",
+      "id": "labour-public-1",
+      "category": "public",
+      "actor": "劳动事务代表",
+      "knownTo": [
+        "office-holder:labour",
+        "host"
+      ]
+    },
+    {
+      "title": "召开跨行业安全会议",
+      "measure": "邀请事故较多行业提交规程与赔偿办法。",
+      "authority": "调查与协商；新法须总议会批准",
+      "partners": "工业、交通、社会保障和行业代表",
+      "resources": "现有调查员与会议经费",
+      "time": "两个月",
+      "result": "形成共同检查条款和伤害赔付转介程序。",
+      "resistance": "工场会担心停工成本，地方会反对无预算的检查任务。",
+      "status": "可提出，未实施",
+      "id": "labour-public-2",
+      "category": "public",
+      "actor": "劳动事务代表",
+      "knownTo": [
+        "office-holder:labour",
+        "host"
+      ]
+    }
+  ],
+  "politicalActions": [
+    {
+      "title": "争取工会参与改革起草",
+      "measure": "提出由工会、未入会劳动者与地方代表共同审议劳动规则。",
+      "authority": "公开听证与法案建议",
+      "partners": "CGT的公开代表、独立工会和总议会劳动委员会",
+      "resources": "听证记录员；使用部门既有会务经费",
+      "time": "六周",
+      "result": "为革命工团委员会保留制度化协商位置，回应垄断指控。",
+      "resistance": "席位不能全部交给本派；司法可能要求回避利益冲突。",
+      "status": "可提出，未实施",
+      "id": "labour-political-1",
+      "category": "political",
+      "actor": "劳动事务代表",
+      "knownTo": [
+        "office-holder:labour",
+        "host"
+      ]
+    },
+    {
+      "title": "以劳动保障争取单项合作",
+      "measure": "向共产党与社会共和派递交职业赔偿草案，争取共同署名。",
+      "authority": "提出政策草案；不代表已经结盟",
+      "partners": "本派议员与受邀政治组织",
+      "resources": "起草员；不追加公共补贴",
+      "time": "一个月",
+      "result": "增加工团派改革议案在总议会获支持的机会。",
+      "resistance": "对方可能要求限制行政委托；不得以办事优先交换党派支持。",
+      "status": "可提出，未实施",
+      "id": "labour-political-2",
+      "category": "political",
+      "actor": "劳动事务代表",
+      "knownTo": [
+        "office-holder:labour",
+        "host"
+      ]
+    }
+  ],
+  "operatingRegister": {
+    "title": "劳动申诉登记",
+    "unit": "件",
+    "rows": [
+      [
+        "已受理申诉",
+        168,
+        "本部门登记案件"
+      ],
+      [
+        "未入会者申请",
+        72,
+        "包含在168件内"
+      ],
+      [
+        "待地方回函",
+        41,
+        "包含在168件内，可与未入会申请重叠"
+      ]
+    ],
+    "period": "1936年一月",
+    "source": "本部门秘书处工作登记",
+    "status": "新增开局模型，待主持人确认",
+    "knownTo": [
+      "office-holder:labour",
+      "host"
+    ]
+  },
+  "number": 1,
+  "year": 1936,
+  "period": "1936年一月",
+  "holder": {
+    "party": "syndicalist",
+    "name": "革命工团委员会",
+    "votes": 8800000,
+    "percent": 40
+  },
+  "informationScope": {
+    "owner": "department:labour",
+    "worldAudience": [
+      "office-holder:labour",
+      "authorised-secretariat:labour",
+      "host"
+    ],
+    "visibility": "restricted",
+    "otherFactionInternalAllowed": false
+  },
+  "goals": [],
+  "goalStatus": "暂未设定",
+  "provenance": {
+    "mandate": "沿用1921年宪制边界补定的部门分工",
+    "pendingMatters": "根据公开事件和部门职责整理的当前办理事项",
+    "actions": "未实施的候选方案，不构成回合结果",
+    "reports": "既有公共基准与本部门应取得的报表；缺件明确列出"
+  }
+}

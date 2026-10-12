@@ -1,0 +1,187 @@
+{
+  "id": "health",
+  "office": "公共卫生",
+  "fr": "DÉLÉGATION À LA SANTÉ PUBLIQUE",
+  "theme": "clinic",
+  "style": "公共卫生署 · 诊疗登记",
+  "motto": "医疗、卫生与防疫",
+  "mandate": "制定联邦公共卫生建议与协作标准，协调跨公社防疫、药品采购和卫生补助。地方医院、互助诊所与公社卫生委员会仍各负日常管理责任。",
+  "powers": [
+    "组织参加合作的医疗机构报送疫情与药品需求。",
+    "核验卫生补助用途，安排获批的跨区医疗支援。",
+    "提出卫生人员培训和基础防疫设施投资方案。"
+  ],
+  "limit": "不能以防疫名义无期限关闭地方机构；强制措施需要适当授权、证据与期限。",
+  "local": "诊所、互助组织与地方卫生委员会须就病例通报、运输和费用共同订立办法。",
+  "pendingMatters": [
+    {
+      "title": "核查农村诊疗申请",
+      "detail": "汇总乡村诊所提出的人员、药品与交通需求，安排现有补助的受理次序。",
+      "priority": "优先办理",
+      "status": "待办理"
+    },
+    {
+      "title": "整理药品与卫生补助需求",
+      "detail": "核对药品采购、医院补助和防疫收文，取得地方卫生机关的用量与缺额记录。",
+      "priority": "日常办理",
+      "status": "待办理"
+    }
+  ],
+  "intelligence": [
+    {
+      "title": "卫生经费",
+      "source": "公共财政用途表",
+      "known": "医疗属于民生与社会服务49亿帝国马克的大项，不能将整项视为卫生预算。",
+      "gap": "需财政拆分医疗核准额与地方配套额。",
+      "period": "1936年一月",
+      "reliability": "部门判断，待原始报表核验"
+    },
+    {
+      "title": "医疗供给",
+      "source": "医院、互助诊所自愿汇报",
+      "known": "城市互助与工会组织提供部分医疗渠道。",
+      "gap": "尚缺按地区的医护人数、床位、就诊距离和急救运输时间。",
+      "period": "1936年一月",
+      "reliability": "部门判断，待原始报表核验"
+    },
+    {
+      "title": "疾病与药品",
+      "source": "卫生委员会通报",
+      "known": "近期未收到全国性疫情通报；巡回诊疗与基础防疫仍需持续办理。",
+      "gap": "需要近期病例趋势、药品库存和采购交期；实名病历须限制访问。",
+      "period": "1936年一月",
+      "reliability": "部门判断，待原始报表核验"
+    }
+  ],
+  "publicActions": [
+    {
+      "title": "安排自愿巡回诊疗",
+      "measure": "先征询农村公社接诊场所和医师轮驻条件。",
+      "authority": "卫生服务协作",
+      "partners": "交通、地方卫生委员会与互助诊所",
+      "resources": "已批卫生支援额；增加人员需申请",
+      "time": "两个月",
+      "result": "减少偏远地区首次就诊困难。",
+      "resistance": "城市医院可能缺人，不能无偿抽调医师。",
+      "status": "可提出，未实施",
+      "id": "health-public-1",
+      "category": "public",
+      "actor": "公共卫生事务代表",
+      "knownTo": [
+        "office-holder:health",
+        "host"
+      ]
+    },
+    {
+      "title": "统一基础药品验收",
+      "measure": "组织参加采购的机构采用共同质量与发放记录。",
+      "authority": "采购与卫生标准",
+      "partners": "工业、财政和药剂人员",
+      "resources": "现有采购核验人员",
+      "time": "六周",
+      "result": "减少重复采购与劣质药品流入。",
+      "resistance": "小诊所文书能力有限，需提供简式表格。",
+      "status": "可提出，未实施",
+      "id": "health-public-2",
+      "category": "public",
+      "actor": "公共卫生事务代表",
+      "knownTo": [
+        "office-holder:health",
+        "host"
+      ]
+    }
+  ],
+  "politicalActions": [
+    {
+      "title": "提出地方互助参与卫生规划",
+      "measure": "让公社和互助诊所的授权代表参加需求审议。",
+      "authority": "咨询组织权",
+      "partners": "协会公开代表、医师与地方卫生机构",
+      "resources": "会议与征询经费",
+      "time": "首季",
+      "result": "使协会的自治医疗主张获得制度位置。",
+      "resistance": "不得只邀请协会控制的机构，也不能用参会资格换取选票。",
+      "status": "可提出，未实施",
+      "id": "health-political-1",
+      "category": "political",
+      "actor": "公共卫生事务代表",
+      "knownTo": [
+        "office-holder:health",
+        "host"
+      ]
+    },
+    {
+      "title": "以农村医疗提出改革合作",
+      "measure": "向其他部门提交联合巡诊与交通补助草案。",
+      "authority": "预算与政策建议",
+      "partners": "青年共和、共产党公开议员和交通部门",
+      "resources": "起草人员；支援经费须会签",
+      "time": "首季",
+      "result": "争取城乡基层对协会改革路线的支持。",
+      "resistance": "各派会争执补助管理；救治资格不得按政治态度划分。",
+      "status": "可提出，未实施",
+      "id": "health-political-2",
+      "category": "political",
+      "actor": "公共卫生事务代表",
+      "knownTo": [
+        "office-holder:health",
+        "host"
+      ]
+    }
+  ],
+  "operatingRegister": {
+    "title": "巡回诊疗申请",
+    "unit": "个公社",
+    "rows": [
+      [
+        "提出申请",
+        18,
+        "本期收到的自愿申请"
+      ],
+      [
+        "接诊场所已核",
+        7,
+        "包含在18个内"
+      ],
+      [
+        "接诊条件待核",
+        11,
+        "包含在18个内；仍需安排医护与运输"
+      ]
+    ],
+    "period": "1936年一月",
+    "source": "本部门秘书处工作登记",
+    "status": "新增开局模型，待主持人确认",
+    "knownTo": [
+      "office-holder:health",
+      "host"
+    ]
+  },
+  "number": 6,
+  "year": 1936,
+  "period": "1936年一月",
+  "holder": {
+    "party": "anarchist",
+    "name": "联邦无政府主义者协会",
+    "votes": 6600000,
+    "percent": 30
+  },
+  "informationScope": {
+    "owner": "department:health",
+    "worldAudience": [
+      "office-holder:health",
+      "authorised-secretariat:health",
+      "host"
+    ],
+    "visibility": "restricted",
+    "otherFactionInternalAllowed": false
+  },
+  "goals": [],
+  "goalStatus": "暂未设定",
+  "provenance": {
+    "mandate": "沿用1921年宪制边界补定的部门分工",
+    "pendingMatters": "根据公开事件和部门职责整理的当前办理事项",
+    "actions": "未实施的候选方案，不构成回合结果",
+    "reports": "既有公共基准与本部门应取得的报表；缺件明确列出"
+  }
+}

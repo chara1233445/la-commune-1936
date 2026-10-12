@@ -1,0 +1,187 @@
+{
+  "id": "interior",
+  "office": "内政与自治",
+  "fr": "DÉLÉGATION À L’INTÉRIEUR",
+  "theme": "registry",
+  "style": "公社联络局 · 分册登记",
+  "motto": "地方自治与联邦协作",
+  "mandate": "承办公社之间的行政联络、跨区纠纷和联邦委托事项的登记。汇总地方委员会回函，拟订合作协议；协调公共秩序事务，不把地方自治改作中央任命制。",
+  "powers": [
+    "发送联邦协商函，登记地方答复与未履行的行政委托。",
+    "组织跨公社争议调解，提出双方接受的执行办法。",
+    "依授权处理联邦机构的安全联络和灾害协作。"
+  ],
+  "limit": "不能撤销地方立法、直接任免地方委员会，不能仅因党派不同处分地方代表。",
+  "local": "地方委员会名义隶属公安委，但行政执行需要地方人员、经费和政治同意；登记未执行不等于强制执行。",
+  "pendingMatters": [
+    {
+      "title": "登记地方执行情况",
+      "detail": "收集地方委员会对联邦政策的正式回函，区分已接受、待协商和未执行事项。",
+      "priority": "优先办理",
+      "status": "待办理"
+    },
+    {
+      "title": "清理重复行政委托",
+      "detail": "核对各公社与联邦机关的委托文书，整理权限重叠和无人承办的事项。",
+      "priority": "日常办理",
+      "status": "待办理"
+    }
+  ],
+  "intelligence": [
+    {
+      "title": "地方回函",
+      "source": "地方委员会行政收文",
+      "known": "地方配合程度因项目和经费而异，不能由全国党派支持率推算。",
+      "gap": "缺少逐项委托的答复、拒绝理由和承办人登记。",
+      "period": "1936年一月",
+      "reliability": "部门判断，待原始报表核验"
+    },
+    {
+      "title": "行政委托",
+      "source": "联邦部门的现行委托书",
+      "known": "仍存在工会、地方委员会与中央职责交错。",
+      "gap": "需取得委托原文；没有移交的党务会议与会员资料不在权限内。",
+      "period": "1936年一月",
+      "reliability": "部门判断，待原始报表核验"
+    },
+    {
+      "title": "公共秩序协作",
+      "source": "地方移送的跨区案件摘要",
+      "known": "只能使用地方正式移交、依法可共享的事项。",
+      "gap": "地方未移交案件的人员名单和证据不得自行补齐。",
+      "period": "1936年一月",
+      "reliability": "部门判断，待原始报表核验"
+    }
+  ],
+  "publicActions": [
+    {
+      "title": "编订行政委托目录",
+      "measure": "请各部门注明委托依据、经费和回函期限，再向地方征询。",
+      "authority": "中央行政登记",
+      "partners": "所有参与部门与地方委员会",
+      "resources": "文书人员；先处理现存委托",
+      "time": "六周",
+      "result": "减少重复指令，使地方清楚哪些事项须协作。",
+      "resistance": "分工争议需政治协商，目录不能自行扩大权限。",
+      "status": "可提出，未实施",
+      "id": "interior-public-1",
+      "category": "public",
+      "actor": "内政与自治事务代表",
+      "knownTo": [
+        "office-holder:interior",
+        "host"
+      ]
+    },
+    {
+      "title": "设跨区纠纷调解席",
+      "measure": "由争议公社各推代表，联邦提供文书与记录。",
+      "authority": "双方同意的行政调解",
+      "partners": "司法与有关地方议会、委员会",
+      "resources": "调解人员与交通经费",
+      "time": "两个月",
+      "result": "形成可追踪的协作协议。",
+      "resistance": "任何一方退出时，需另寻裁决依据，不能宣布强制和解。",
+      "status": "可提出，未实施",
+      "id": "interior-public-2",
+      "category": "public",
+      "actor": "内政与自治事务代表",
+      "knownTo": [
+        "office-holder:interior",
+        "host"
+      ]
+    }
+  ],
+  "politicalActions": [
+    {
+      "title": "提出自治执行公约",
+      "measure": "将地方同意、中央经费与申诉程序写成联邦议案。",
+      "authority": "法案建议与公开协商",
+      "partners": "协会公开代表、共产党及愿意合作的公社",
+      "resources": "起草与征询人员",
+      "time": "半年",
+      "result": "使无政府主义者的自治主张成为可讨论的制度条款。",
+      "resistance": "财政与公共工程可能反对新增审批环节。",
+      "status": "可提出，未实施",
+      "id": "interior-political-1",
+      "category": "political",
+      "actor": "内政与自治事务代表",
+      "knownTo": [
+        "office-holder:interior",
+        "host"
+      ]
+    },
+    {
+      "title": "以行政公开争取地方支持",
+      "measure": "按公社授权公开中央指令和地方回复，邀请各方解释争议。",
+      "authority": "行政公开；涉及个人资料须删节",
+      "partners": "地方议会与总议会",
+      "resources": "整理已同意公开的回函",
+      "time": "首季",
+      "result": "争取不满多头行政的地方代表支持协会路线。",
+      "resistance": "不能只刊有利回复；私人党务与治安证据不得公开。",
+      "status": "可提出，未实施",
+      "id": "interior-political-2",
+      "category": "political",
+      "actor": "内政与自治事务代表",
+      "knownTo": [
+        "office-holder:interior",
+        "host"
+      ]
+    }
+  ],
+  "operatingRegister": {
+    "title": "行政委托回函",
+    "unit": "项",
+    "rows": [
+      [
+        "已发出的委托",
+        47,
+        "秘书处登记的本期事项"
+      ],
+      [
+        "收到完整回函",
+        19,
+        "包含在47项内"
+      ],
+      [
+        "未收到完整回函",
+        28,
+        "包括拒绝、迟报与材料不齐，待分类"
+      ]
+    ],
+    "period": "1936年一月",
+    "source": "本部门秘书处工作登记",
+    "status": "新增开局模型，待主持人确认",
+    "knownTo": [
+      "office-holder:interior",
+      "host"
+    ]
+  },
+  "number": 5,
+  "year": 1936,
+  "period": "1936年一月",
+  "holder": {
+    "party": "anarchist",
+    "name": "联邦无政府主义者协会",
+    "votes": 7480000,
+    "percent": 34
+  },
+  "informationScope": {
+    "owner": "department:interior",
+    "worldAudience": [
+      "office-holder:interior",
+      "authorised-secretariat:interior",
+      "host"
+    ],
+    "visibility": "restricted",
+    "otherFactionInternalAllowed": false
+  },
+  "goals": [],
+  "goalStatus": "暂未设定",
+  "provenance": {
+    "mandate": "沿用1921年宪制边界补定的部门分工",
+    "pendingMatters": "根据公开事件和部门职责整理的当前办理事项",
+    "actions": "未实施的候选方案，不构成回合结果",
+    "reports": "既有公共基准与本部门应取得的报表；缺件明确列出"
+  }
+}

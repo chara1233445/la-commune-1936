@@ -1,0 +1,187 @@
+{
+  "id": "transport",
+  "office": "交通",
+  "fr": "DÉLÉGATION AUX TRANSPORTS",
+  "theme": "rail",
+  "style": "铁路调度所 · 时刻表",
+  "motto": "铁路、港口与联运",
+  "mandate": "办理跨公社铁路与港口联运，协调公共运输时刻、安全和联邦维修合同。通过运输组织协商运力，不将所有地方运输纳入中央直接经营。",
+  "powers": [
+    "协调已参加联运的线路、运价协议与货运时刻。",
+    "检查联邦运输合同、提出车辆维修和设施投资计划。",
+    "与国防协商军用运输，与农业协调食品运输。"
+  ],
+  "limit": "没有自动接管地方港口、征用私有车辆或无偿占用全部铁路的权力。",
+  "local": "铁路工会、港口管理组织和地方委员会分别掌握人员、装卸与设施，跨区安排须共同签署。",
+  "pendingMatters": [
+    {
+      "title": "协调军需与民用货运",
+      "detail": "汇总各枢纽的运输申请，商定军需、粮食和工业原料的运力与装卸时段。",
+      "priority": "优先办理",
+      "status": "待办理"
+    },
+    {
+      "title": "核对联运检修与交接规则",
+      "detail": "收集地方铁路、港口的检修与交接报告，列出尚待签订的跨区联运协议。",
+      "priority": "日常办理",
+      "status": "待办理"
+    }
+  ],
+  "intelligence": [
+    {
+      "title": "公共运输投资",
+      "source": "公共财政用途表",
+      "known": "城市建设与交通合计21亿帝国马克，包含地方支出，并非交通代表可单独支配。",
+      "gap": "缺少交通工程与城市建设拆分、联邦已批拨款和未付款合同。",
+      "period": "1936年一月",
+      "reliability": "部门判断，待原始报表核验"
+    },
+    {
+      "title": "联运运力",
+      "source": "线路和港口自愿汇报",
+      "known": "部门能够向参加联运的组织征集时刻和车辆登记。",
+      "gap": "尚未取得同口径的可用机车、货车、港口堆场和检修时数。",
+      "period": "1936年一月",
+      "reliability": "部门判断，待原始报表核验"
+    },
+    {
+      "title": "军用运输申请",
+      "source": "国防部门提出的运输需求",
+      "known": "常备军与六项建设工程存在持续运输需求。",
+      "gap": "具体班次、吨位与优先级需国防正式移交，不能由总兵力推算。",
+      "period": "1936年一月",
+      "reliability": "部门判断，待原始报表核验"
+    }
+  ],
+  "publicActions": [
+    {
+      "title": "召集枢纽联运会议",
+      "measure": "巴黎、北部工业区和地中海方向的运输组织共同编排交接时刻。",
+      "authority": "联运协商",
+      "partners": "铁路、港口组织与地方委员会",
+      "resources": "调度人员与线路资料",
+      "time": "一个月",
+      "result": "减少接口等待，保留地方经营责任。",
+      "resistance": "未加入协议的港口不受统一调度约束。",
+      "status": "可提出，未实施",
+      "id": "transport-public-1",
+      "category": "public",
+      "actor": "交通事务代表",
+      "knownTo": [
+        "office-holder:transport",
+        "host"
+      ]
+    },
+    {
+      "title": "先修关键机车和信号",
+      "measure": "根据检查记录排序，向财政提交最影响运输的维修清单。",
+      "authority": "已有维修合同；超额须申请",
+      "partners": "财政、工业、车辆检修单位",
+      "resources": "从核准维修额内重排工期，不新增总额",
+      "time": "首季",
+      "result": "提高现有线路的可用运力。",
+      "resistance": "检修期间可能暂时减少班次，需公布替代安排。",
+      "status": "可提出，未实施",
+      "id": "transport-public-2",
+      "category": "public",
+      "actor": "交通事务代表",
+      "knownTo": [
+        "office-holder:transport",
+        "host"
+      ]
+    }
+  ],
+  "politicalActions": [
+    {
+      "title": "由运输劳动者参加调度审议",
+      "measure": "在联运会议增设司机、装卸工和检修工代表。",
+      "authority": "会议组织权",
+      "partners": "公开铁路工会与地方运输组织",
+      "resources": "会务经费与代表释放工时",
+      "time": "六周",
+      "result": "巩固工团派参与交通治理的渠道。",
+      "resistance": "不能只邀CGT；排除其他运输组织会使协议失去效力。",
+      "status": "可提出，未实施",
+      "id": "transport-political-1",
+      "category": "political",
+      "actor": "交通事务代表",
+      "knownTo": [
+        "office-holder:transport",
+        "host"
+      ]
+    },
+    {
+      "title": "发布季度联运成绩公报",
+      "measure": "公开完成班次、维修项目与未能履行的合同。",
+      "authority": "部门公开报告",
+      "partners": "工业、农业和总议会",
+      "resources": "统计员与印刷预算",
+      "time": "首季",
+      "result": "以运输成绩为工团派争取地方支持。",
+      "resistance": "必须同口径刊出延期；不得把工程开工当成竣工。",
+      "status": "可提出，未实施",
+      "id": "transport-political-2",
+      "category": "political",
+      "actor": "交通事务代表",
+      "knownTo": [
+        "office-holder:transport",
+        "host"
+      ]
+    }
+  ],
+  "operatingRegister": {
+    "title": "联运接口登记",
+    "unit": "项",
+    "rows": [
+      [
+        "已登记交接协议",
+        12,
+        "参加联运的枢纽接口"
+      ],
+      [
+        "待续签协议",
+        4,
+        "包含在12项内"
+      ],
+      [
+        "关键车辆维修申请",
+        9,
+        "另册，尚待技术排序"
+      ]
+    ],
+    "period": "1936年一月",
+    "source": "本部门秘书处工作登记",
+    "status": "新增开局模型，待主持人确认",
+    "knownTo": [
+      "office-holder:transport",
+      "host"
+    ]
+  },
+  "number": 3,
+  "year": 1936,
+  "period": "1936年一月",
+  "holder": {
+    "party": "syndicalist",
+    "name": "革命工团委员会",
+    "votes": 7260000,
+    "percent": 33
+  },
+  "informationScope": {
+    "owner": "department:transport",
+    "worldAudience": [
+      "office-holder:transport",
+      "authorised-secretariat:transport",
+      "host"
+    ],
+    "visibility": "restricted",
+    "otherFactionInternalAllowed": false
+  },
+  "goals": [],
+  "goalStatus": "暂未设定",
+  "provenance": {
+    "mandate": "沿用1921年宪制边界补定的部门分工",
+    "pendingMatters": "根据公开事件和部门职责整理的当前办理事项",
+    "actions": "未实施的候选方案，不构成回合结果",
+    "reports": "既有公共基准与本部门应取得的报表；缺件明确列出"
+  }
+}

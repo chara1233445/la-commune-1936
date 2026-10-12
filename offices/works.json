@@ -1,0 +1,187 @@
+{
+  "id": "works",
+  "office": "公共工程",
+  "fr": "DÉLÉGATION AUX TRAVAUX PUBLICS",
+  "theme": "survey",
+  "style": "公共工程局 · 测量图册",
+  "motto": "跨区工程与公共设施",
+  "mandate": "筹划跨公社水利、道路、供电与公共设施工程，办理获批建设合同的勘测、施工和验收。协调土地使用与地方配套，不以技术设计取代当地同意。",
+  "powers": [
+    "在批准项目内组织勘测、招标建议与工程验收。",
+    "汇总跨地区设施需求，提出建设与维护计划。",
+    "会同财政、交通、工业和地方委员会签订项目协议。"
+  ],
+  "limit": "不能单方面征地、取消地方许可或把城市建设与交通21亿公共用途全当成工程局余额。",
+  "local": "线路穿越多个公社时，需逐段取得土地、配套资金和维护责任的授权。",
+  "pendingMatters": [
+    {
+      "title": "补齐跨区工程开工条件",
+      "detail": "逐项检查用地、供电、地方配套和维护责任，列出尚未签约的工程段。",
+      "priority": "优先办理",
+      "status": "待办理"
+    },
+    {
+      "title": "核对工程量与验收记录",
+      "detail": "分别登记已批准、已开工、已验收项目，复核付款凭据与实际完成工程量。",
+      "priority": "日常办理",
+      "status": "待办理"
+    }
+  ],
+  "intelligence": [
+    {
+      "title": "公共建设用途",
+      "source": "公共财政用途表",
+      "known": "城市建设与交通21亿，乡村建设与农业11.2亿；两项均非工程局专属预算。",
+      "gap": "需按项目核准额与地方配套拆分，不能加总作部门可用资金。",
+      "period": "1936年一月",
+      "reliability": "部门判断，待原始报表核验"
+    },
+    {
+      "title": "工程进展",
+      "source": "获批项目的勘测和验收记录",
+      "known": "本部门应能取得经正式委托的施工报告。",
+      "gap": "缺少逐段用地、工程量、材料到货、停工原因与维护责任。",
+      "period": "1936年一月",
+      "reliability": "部门判断，待原始报表核验"
+    },
+    {
+      "title": "军工基地接口",
+      "source": "国防公开工程清单",
+      "known": "六项军工与基地工程共4.6亿，已包含国防预算。",
+      "gap": "只能在获移交任务内查看基地接口，不能自动取得基地全部部署资料。",
+      "period": "1936年一月",
+      "reliability": "部门判断，待原始报表核验"
+    }
+  ],
+  "publicActions": [
+    {
+      "title": "重核跨区工程的开工条件",
+      "measure": "先列未签约段与未到资金，再与地方逐项解决。",
+      "authority": "获批工程的行政协调",
+      "partners": "地方议会、财政与建设承包组织",
+      "resources": "勘测和法务人员；先核现有项目",
+      "time": "六周",
+      "result": "减少无配套开工和后续停工。",
+      "resistance": "重新协商会推迟政治上承诺的日期，需说明具体原因。",
+      "status": "可提出，未实施",
+      "id": "works-public-1",
+      "category": "public",
+      "actor": "公共工程事务代表",
+      "knownTo": [
+        "office-holder:works",
+        "host"
+      ]
+    },
+    {
+      "title": "按工程量分期付款",
+      "measure": "将验收责任人与实测工程量对应，按合同办理支付。",
+      "authority": "工程验收；付款由财政执行",
+      "partners": "财政与独立验收人员",
+      "resources": "既有验收预算",
+      "time": "首季",
+      "result": "减少提前全额支付和无法追责的合同。",
+      "resistance": "不得追溯改写合同；需要先征得付款条件变更同意。",
+      "status": "可提出，未实施",
+      "id": "works-public-2",
+      "category": "public",
+      "actor": "公共工程事务代表",
+      "knownTo": [
+        "office-holder:works",
+        "host"
+      ]
+    }
+  ],
+  "politicalActions": [
+    {
+      "title": "提出跨区工程共同授权办法",
+      "measure": "由参与公社对同一工程和技术标准共同表决授权。",
+      "authority": "程序与法案建议",
+      "partners": "人民党、地方建设代表和总议会",
+      "resources": "起草员与地方征询",
+      "time": "半年",
+      "result": "为人民党争取集中项目管理的制度依据。",
+      "resistance": "共同授权并非取消地方议会，拒绝参加的公社仍须另行谈判。",
+      "status": "可提出，未实施",
+      "id": "works-political-1",
+      "category": "political",
+      "actor": "公共工程事务代表",
+      "knownTo": [
+        "office-holder:works",
+        "host"
+      ]
+    },
+    {
+      "title": "以技术验收组织公开考察",
+      "measure": "邀请议员与地方居民查看已验收段，并公布未完成部分。",
+      "authority": "部门考察与公开报告",
+      "partners": "工程技师、总议会及地方代表",
+      "resources": "既有考察经费",
+      "time": "首季",
+      "result": "展示技术统筹的实际成绩，争取人民党支持。",
+      "resistance": "不能将尚未投入使用的设施宣传为已服务全国。",
+      "status": "可提出，未实施",
+      "id": "works-political-2",
+      "category": "political",
+      "actor": "公共工程事务代表",
+      "knownTo": [
+        "office-holder:works",
+        "host"
+      ]
+    }
+  ],
+  "operatingRegister": {
+    "title": "跨区民用工程卷宗",
+    "unit": "项",
+    "rows": [
+      [
+        "登记项目",
+        17,
+        "不包括国防六项军工与基地工程"
+      ],
+      [
+        "地方协议齐备",
+        9,
+        "包含在17项内，不等于已经竣工"
+      ],
+      [
+        "地方授权待补",
+        8,
+        "包含在17项内"
+      ]
+    ],
+    "period": "1936年一月",
+    "source": "本部门秘书处工作登记",
+    "status": "新增开局模型，待主持人确认",
+    "knownTo": [
+      "office-holder:works",
+      "host"
+    ]
+  },
+  "number": 11,
+  "year": 1936,
+  "period": "1936年一月",
+  "holder": {
+    "party": "jacobin",
+    "name": "法国人民党",
+    "votes": 6820000,
+    "percent": 31
+  },
+  "informationScope": {
+    "owner": "department:works",
+    "worldAudience": [
+      "office-holder:works",
+      "authorised-secretariat:works",
+      "host"
+    ],
+    "visibility": "restricted",
+    "otherFactionInternalAllowed": false
+  },
+  "goals": [],
+  "goalStatus": "暂未设定",
+  "provenance": {
+    "mandate": "沿用1921年宪制边界补定的部门分工",
+    "pendingMatters": "根据公开事件和部门职责整理的当前办理事项",
+    "actions": "未实施的候选方案，不构成回合结果",
+    "reports": "既有公共基准与本部门应取得的报表；缺件明确列出"
+  }
+}

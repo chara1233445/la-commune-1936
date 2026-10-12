@@ -1,0 +1,187 @@
+{
+  "id": "education",
+  "office": "基础教育",
+  "fr": "DÉLÉGATION À L’INSTRUCTION PUBLIQUE",
+  "theme": "school",
+  "style": "公共教育局 · 学务簿",
+  "motto": "学校、教师与基础教育",
+  "mandate": "拟订联邦基础教育建议、教师培训和教育补助标准，协助地方公社办学。处理跨区学籍与课程衔接，兼顾公民教育、地方文化与信仰争议。",
+  "powers": [
+    "核验教育补助用途，组织教师培训与教材审议。",
+    "提出共同基础课程与学籍衔接协议。",
+    "征集学校、教师和儿童入学情况，协助缺额地区。"
+  ],
+  "limit": "不能凭部门决定关闭所有宗教背景学校，不能把教材审议变成某党入会教育。地方课程变更需相应授权。",
+  "local": "学校通常受地方公社、合作组织与教师群体共同影响，中央提供补助和建议不等于直接任命全部教师。",
+  "pendingMatters": [
+    {
+      "title": "征询课程与学校补助规则",
+      "detail": "听取教师、家长及地方议会对共同课程、信仰争议和学校补助条件的意见。",
+      "priority": "优先办理",
+      "status": "待办理"
+    },
+    {
+      "title": "核对教师和校舍申请",
+      "detail": "汇总教师缺额、校舍维修与教材需求，补齐学龄人口和在校登记。",
+      "priority": "日常办理",
+      "status": "待办理"
+    }
+  ],
+  "intelligence": [
+    {
+      "title": "教育人口",
+      "source": "经济统计处年度报告",
+      "known": "94%为15岁以上人口完成基础教育的比例，不是学龄儿童在校率。",
+      "gap": "缺学龄人口、在校、辍学和地区差异的原始登记。",
+      "period": "1936年一月",
+      "reliability": "部门判断，待原始报表核验"
+    },
+    {
+      "title": "学校与教师",
+      "source": "地方学校自愿报告",
+      "known": "地方办学条件受人口、交通和教师配置影响。",
+      "gap": "需要教师缺额、校舍安全、教材库存与教学语言记录。",
+      "period": "1936年一月",
+      "reliability": "部门判断，待原始报表核验"
+    },
+    {
+      "title": "信仰争议",
+      "source": "家长与地方议会公开意见",
+      "known": "天主教群体存在，青年共和联盟主张三种传统相容。",
+      "gap": "不持有各宗教团体内部会员或政治动员名册。",
+      "period": "1936年一月",
+      "reliability": "部门判断，待原始报表核验"
+    }
+  ],
+  "publicActions": [
+    {
+      "title": "先补教师培训与校舍急修",
+      "measure": "按地方申请核查缺额和安全问题，再提出拨款。",
+      "authority": "已批补助；新增投资须批准",
+      "partners": "公共工程、财政与地方学校",
+      "resources": "培训教师与工程核查员",
+      "time": "首季",
+      "result": "优先解决学校无法正常开课的具体原因。",
+      "resistance": "培训期间需代课安排，急修也须地方同意。",
+      "status": "可提出，未实施",
+      "id": "education-public-1",
+      "category": "public",
+      "actor": "基础教育事务代表",
+      "knownTo": [
+        "office-holder:education",
+        "host"
+      ]
+    },
+    {
+      "title": "订立跨公社学籍转接办法",
+      "measure": "统一必要字段和学业衔接，不强制地方采用完全相同教材。",
+      "authority": "教育行政协作",
+      "partners": "邮政、地方学务与教师代表",
+      "resources": "文书与课程人员",
+      "time": "两个月",
+      "result": "减少迁居儿童失学和重复审查。",
+      "resistance": "地方课程差异需补课安排，不能以统一字段消除。",
+      "status": "可提出，未实施",
+      "id": "education-public-2",
+      "category": "public",
+      "actor": "基础教育事务代表",
+      "knownTo": [
+        "office-holder:education",
+        "host"
+      ]
+    }
+  ],
+  "politicalActions": [
+    {
+      "title": "举行学校与信仰公开听证",
+      "measure": "请教师、家长及不同教育组织提出可接受的补助规则。",
+      "authority": "听证与政策建议",
+      "partners": "青年共和公开议员及地方教育代表",
+      "resources": "会务与征询人员",
+      "time": "首季",
+      "result": "争取温和共和、社会主义和信仰群体支持。",
+      "resistance": "各方可能要求相反规则；不得把某一信仰写成入学资格。",
+      "status": "可提出，未实施",
+      "id": "education-political-1",
+      "category": "political",
+      "actor": "基础教育事务代表",
+      "knownTo": [
+        "office-holder:education",
+        "host"
+      ]
+    },
+    {
+      "title": "提出共和教育合作案",
+      "measure": "围绕基础课程、地方参与和良心自由寻求共同署名。",
+      "authority": "联邦议案建议",
+      "partners": "社会共和及其他愿意合作的议员",
+      "resources": "起草人员",
+      "time": "半年",
+      "result": "加强青年共和联盟的改革合作地位。",
+      "resistance": "教育经费与课程不能仅服务本派宣传。",
+      "status": "可提出，未实施",
+      "id": "education-political-2",
+      "category": "political",
+      "actor": "基础教育事务代表",
+      "knownTo": [
+        "office-holder:education",
+        "host"
+      ]
+    }
+  ],
+  "operatingRegister": {
+    "title": "教育补助申请",
+    "unit": "所学校",
+    "rows": [
+      [
+        "收到申请",
+        36,
+        "本期申请学校，不代表全国学校总数"
+      ],
+      [
+        "申请补充教师",
+        11,
+        "包含在36所内"
+      ],
+      [
+        "申请校舍急修",
+        9,
+        "包含在36所内，可与缺教师学校重叠"
+      ]
+    ],
+    "period": "1936年一月",
+    "source": "本部门秘书处工作登记",
+    "status": "新增开局模型，待主持人确认",
+    "knownTo": [
+      "office-holder:education",
+      "host"
+    ]
+  },
+  "number": 13,
+  "year": 1936,
+  "period": "1936年一月",
+  "holder": {
+    "party": "young-republican",
+    "name": "青年共和联盟",
+    "votes": 4840000,
+    "percent": 22
+  },
+  "informationScope": {
+    "owner": "department:education",
+    "worldAudience": [
+      "office-holder:education",
+      "authorised-secretariat:education",
+      "host"
+    ],
+    "visibility": "restricted",
+    "otherFactionInternalAllowed": false
+  },
+  "goals": [],
+  "goalStatus": "暂未设定",
+  "provenance": {
+    "mandate": "沿用1921年宪制边界补定的部门分工",
+    "pendingMatters": "根据公开事件和部门职责整理的当前办理事项",
+    "actions": "未实施的候选方案，不构成回合结果",
+    "reports": "既有公共基准与本部门应取得的报表；缺件明确列出"
+  }
+}
