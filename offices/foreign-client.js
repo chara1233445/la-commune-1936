@@ -41,7 +41,7 @@
   text('[data-dip-title]',item.name);text('[data-dip-type]',m?'受援革命组织 · 无国家领土':c?c.membership:g.type+' · '+g.leader);text('[data-dip-fr]',m?m.fr:c?c.fr:g.fr);
   const lead=board.querySelector('[data-dip-lead]');
   lead.textContent=m?m.text:c?(c.dependency?`${c.dependency[1]}。`:'')+(Array.isArray(c.diplomacy)?c.diplomacy[0]:c.diplomacy):g.text;
-  lead.hidden=!!c&&/属于本组|未加入本页|中国的地方政权|关系按本组/.test(lead.textContent);
+  lead.hidden=!!c||(movement&&tab==='assessment');
   text('[data-dip-status]',item.status);text('[data-dip-trade]',m?'经核准的组织援助':item.trade);text('[data-dip-security]',m?'组织准备；尚未革命':item.security);
   const name=m?m.name:c?c.name:g.name;
   text('[data-dip-map-status]',group==='international'?name+' · 国际主义64／沙文主义28':name+' · '+(item.opinion===null||item.opinion===undefined?item.status:signed(item.opinion)+' · '+item.trade));
@@ -61,23 +61,28 @@
  }
  function node(name,value,className){const n=document.createElement(name);if(value!==undefined)n.textContent=value;if(className)n.className=className;return n;}
  function paragraphs(parent,value){for(const p of Array.isArray(value)?value:[value])if(p)parent.append(node('p',p));}
- function assessment(parent,a){parent.append(node('p',a.conclusion,'dip-conclusion'));parent.append(node('p',a.confidence,'dip-confidence'));const columns=node('div',undefined,'dip-evidence-columns');for(const [title,values] of [['材料范围',a.known],['尚待核实',a.uncertainties]]){const part=node('section'),list=node('ul');part.append(node('h5',title));for(const v of values)list.append(node('li',v));part.append(list);columns.append(part);}parent.append(columns);parent.append(node('p',a.channels,'dip-material-scope'));}
+ function assessment(parent,a){
+  paragraphs(parent,a.conclusion);parent.firstElementChild.classList.add('dip-conclusion');
+  for(const [title,value] of [['利益与矛盾',a.interests],['对法政策',a.policy]])if(value){const section=node('section',undefined,'dip-assessment-section');section.append(node('h5',title));paragraphs(section,value);parent.append(section);}
+  const follow=node('details',undefined,'dip-followup'),list=node('ul');follow.append(node('summary','续报事项'));for(const v of a.uncertainties)list.append(node('li',v));follow.append(list,node('p',a.channels,'dip-material-scope'));parent.append(follow);parent.append(node('p',a.confidence,'dip-confidence'));
+ }
  function contacts(parent,c){
   parent.append(node('p',c.contactNote,'dip-contact-note'));
-  for(const org of c.contacts){const card=node('article',undefined,'dip-contact-card');card.append(node('h5',org.name));card.append(node('p',org.status,'dip-contact-status'));const facts=node('dl');for(const [title,value] of [['社会基础',org.constituency],['可合作事项',org.commonGround],['分歧与限制',org.reservation],['政治判断',org.alignment]])facts.append(node('dt',title),node('dd',value));card.append(facts);const source=node('details',undefined,'dip-contact-source');source.append(node('summary','资料依据'),node('p',org.sourceNote));card.append(source);parent.append(card);}
+  for(const org of c.contacts){const card=node('article',undefined,'dip-contact-card');card.append(node('h5',org.name));card.append(node('p',org.status,'dip-contact-status'));const facts=node('dl');for(const [title,value] of [['社会基础',org.constituency],['可合作事项',org.commonGround],['合作条件',org.reservation],['政治判断',org.alignment]])facts.append(node('dt',title),node('dd',value));card.append(facts);const source=node('details',undefined,'dip-contact-source');source.append(node('summary','资料依据'),node('p',org.sourceNote));card.append(source);parent.append(card);}
  }
  function showTab(){
   const item=movement?model.supportedMovement:country?countries.get(country):groups.get(group);
   text('[data-dip-section-title]',sectionNames[tab][0]);text('[data-dip-section-fr]',sectionNames[tab][1]);
   const content=board.querySelector('[data-dip-section-text]');content.replaceChildren();
   if(tab==='assessment'){
-   if(movement)assessment(content,{conclusion:'法国支持国民党的革命准备。它有自己的民族与社会纲领，援助不构成法国对中国的国家主权或组织指挥权。',confidence:'援助方向沿用既定设定；地方情况仍不完整。',known:['尚未建立公开革命政府','没有可列为国家疆界的领土'],uncertainties:['各地方组织的代表资格、资源需要与彼此协作条件。'],channels:'国民党联络对象与国家外交承认分别记载。'});
+   if(movement)assessment(content,model.supportedMovement.analysis);
    else assessment(content,item.analysis);
   }else if(tab==='contacts'){
-   if(movement){paragraphs(content,['既定联络对象：中国国民党。法国支持其尚未完成的革命准备。','组织援助与对中国各现政府的正式交涉分别办理；不推定所有地方国民党都采用同一社会纲领或接受统一指挥。']);}
+   if(movement){paragraphs(content,['既定联络对象：中国国民党。法国支持其革命准备，具体合作围绕民族自主、社会改革和核准的物资用途展开。','各地国民党、劳动及农业改革者的社会基础不同。共同民族目标有助于联合，土地、工会和未来国家制度的安排由中国有关代表议定。']);}
    else if(country)contacts(content,item);
-   else{paragraphs(content,'选择国别查阅可能接触的团体、合作议题和分歧。这里列的是联络评估，未据此记作已经拨款或接受法国指挥。');const list=node('div',undefined,'dip-contact-index');for(const c of model.countries.filter(c=>c.group===group)){const b=button(c.tag);b.className='dip-contact-index-item';b.replaceChildren(node('strong',c.name),node('span',c.revolutionCompleted?'已革命 · 政府及劳动机关协作':c.contacts.map(o=>o.name).join('；')));list.append(b);}content.append(list);}
+   else{paragraphs(content,'按国别查看拟接洽组织、共同议题与合作条件。现有援助关系在相应条目单列。');const list=node('div',undefined,'dip-contact-index');for(const c of model.countries.filter(c=>c.group===group)){const b=button(c.tag);b.className='dip-contact-index-item';b.replaceChildren(node('strong',c.name),node('span',c.revolutionCompleted?'已革命 · 政府及劳动机关协作':c.contacts.map(o=>o.name).join('；')));list.append(b);}content.append(list);}
   }else paragraphs(content,item[tab]);
+  board.querySelector('[data-dip-lead]').hidden=!!country||(movement&&tab==='assessment');
   board.querySelectorAll('[data-dip-tab]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.dipTab===tab)));
  }
  function selectCountry(tag){if(tag==='kmt'){group='china';country=null;movement=true;}else{const c=countries.get(tag);if(!c)return;group=c.group;country=tag;movement=false;}if(tab!=='contacts')tab='assessment';if(window.matchMedia('(max-width:800px)').matches&&view==='world')view='focus';show();}
