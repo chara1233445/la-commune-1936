@@ -26,32 +26,7 @@
       "status": "待办理"
     }
   ],
-  "intelligence": [
-    {
-      "title": "公共建设用途",
-      "source": "公共财政用途表",
-      "known": "城市建设与交通21亿，乡村建设与农业11.2亿；两项均非工程局专属预算。",
-      "gap": "需按项目核准额与地方配套拆分，不能加总作部门可用资金。",
-      "period": "1936年一月",
-      "reliability": "部门判断，待原始报表核验"
-    },
-    {
-      "title": "工程进展",
-      "source": "获批项目的勘测和验收记录",
-      "known": "本部门应能取得经正式委托的施工报告。",
-      "gap": "缺少逐段用地、工程量、材料到货、停工原因与维护责任。",
-      "period": "1936年一月",
-      "reliability": "部门判断，待原始报表核验"
-    },
-    {
-      "title": "军工基地接口",
-      "source": "国防公开工程清单",
-      "known": "六项军工与基地工程共4.6亿，已包含国防预算。",
-      "gap": "只能在获移交任务内查看基地接口，不能自动取得基地全部部署资料。",
-      "period": "1936年一月",
-      "reliability": "部门判断，待原始报表核验"
-    }
-  ],
+  "intelligence": [],
   "publicActions": [
     {
       "title": "重核跨区工程的开工条件",
@@ -104,32 +79,35 @@
       ]
     }
   ],
-  "operatingRegister": {
-    "title": "跨区民用工程卷宗",
-    "unit": "项",
-    "rows": [
-      [
-        "登记项目",
-        17,
-        "不包括国防六项军工与基地工程"
-      ],
-      [
-        "地方协议齐备",
-        9,
-        "包含在17项内，不等于已经竣工"
-      ],
-      [
-        "地方授权待补",
-        8,
-        "包含在17项内"
-      ]
-    ],
+  "nationalProjects": {
     "period": "1936年一月",
-    "source": "本部门秘书处工作登记",
-    "status": "新增开局模型，待主持人确认",
     "knownTo": [
       "office-holder:works",
       "host"
+    ],
+    "source": "主持人设定",
+    "projects": [
+      {
+        "id": "national-highways",
+        "name": "全法高速公路",
+        "fr": "PROGRAMME NATIONAL DES AUTOROUTES",
+        "progress": 20,
+        "status": "缓慢投入"
+      },
+      {
+        "id": "greater-paris",
+        "name": "大巴黎市政计划",
+        "fr": "PLAN D’AMÉNAGEMENT DU GRAND PARIS",
+        "progress": 0,
+        "status": "未启动"
+      },
+      {
+        "id": "rural-development",
+        "name": "乡村建设计划",
+        "fr": "PROGRAMME D’AMÉNAGEMENT RURAL",
+        "progress": 0,
+        "status": "未启动"
+      }
     ]
   },
   "number": 11,
