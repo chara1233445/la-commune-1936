@@ -76,6 +76,28 @@
       ]
     },
     {
+      "title": "法国共产党",
+      "fr": "Parti communiste français",
+      "group": "阵营资料",
+      "route": "communists.html",
+      "description": "中央书记处与核心圈玩家资料。",
+      "logo": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNDAgMjQwIj48cG9seWdvbiBwb2ludHM9IjEyMC4wMCwyMS4wMCAxMjcuNzcsMjEuMzEgMTMzLjc3LDMzLjA4IDE0MC41NCwzNC40MyAxNTAuNTksMjUuODUgMTU3Ljg5LDI4LjU0IDE1OS45NSw0MS41OSAxNjUuOTgsNDQuOTcgMTc4LjE5LDM5LjkxIDE4NC4zMCw0NC43MiAxODIuMjMsNTcuNzcgMTg2LjkyLDYyLjg1IDIwMC4wOSw2MS44MSAyMDQuNDEsNjguMjcgMTk4LjQxLDgwLjA1IDIwMS4zMCw4Ni4zMiAyMTQuMTUsODkuNDEgMjE2LjI2LDk2Ljg5IDIwNi45MiwxMDYuMjMgMjA3LjczLDExMy4xMCAyMTkuMDAsMTIwLjAwIDIxOC42OSwxMjcuNzcgMjA2LjkyLDEzMy43NyAyMDUuNTcsMTQwLjU0IDIxNC4xNSwxNTAuNTkgMjExLjQ2LDE1Ny44OSAxOTguNDEsMTU5Ljk1IDE5NS4wMywxNjUuOTggMjAwLjA5LDE3OC4xOSAxOTUuMjgsMTg0LjMwIDE4Mi4yMywxODIuMjMgMTc3LjE1LDE4Ni45MiAxNzguMTksMjAwLjA5IDE3MS43MywyMDQuNDEgMTU5Ljk1LDE5OC40MSAxNTMuNjgsMjAxLjMwIDE1MC41OSwyMTQuMTUgMTQzLjExLDIxNi4yNiAxMzMuNzcsMjA2LjkyIDEyNi45MCwyMDcuNzMgMTIwLjAwLDIxOS4wMCAxMTIuMjMsMjE4LjY5IDEwNi4yMywyMDYuOTIgOTkuNDYsMjA1LjU3IDg5LjQxLDIxNC4xNSA4Mi4xMSwyMTEuNDYgODAuMDUsMTk4LjQxIDc0LjAyLDE5NS4wMyA2MS44MSwyMDAuMDkgNTUuNzAsMTk1LjI4IDU3Ljc3LDE4Mi4yMyA1My4wOCwxNzcuMTUgMzkuOTEsMTc4LjE5IDM1LjU5LDE3MS43MyA0MS41OSwxNTkuOTUgMzguNzAsMTUzLjY4IDI1Ljg1LDE1MC41OSAyMy43NCwxNDMuMTEgMzMuMDgsMTMzLjc3IDMyLjI3LDEyNi45MCAyMS4wMCwxMjAuMDAgMjEuMzEsMTEyLjIzIDMzLjA4LDEwNi4yMyAzNC40Myw5OS40NiAyNS44NSw4OS40MSAyOC41NCw4Mi4xMSA0MS41OSw4MC4wNSA0NC45Nyw3NC4wMiAzOS45MSw2MS44MSA0NC43Miw1NS43MCA1Ny43Nyw1Ny43NyA2Mi44NSw1My4wOCA2MS44MSwzOS45MSA2OC4yNywzNS41OSA4MC4wNSw0MS41OSA4Ni4zMiwzOC43MCA4OS40MSwyNS44NSA5Ni44OSwyMy43NCAxMDYuMjMsMzMuMDggMTEzLjEwLDMyLjI3IiBmaWxsPSIjZDRiNjZiIi8+PGNpcmNsZSBjeD0iMTIwIiBjeT0iMTIwIiByPSI3NiIgZmlsbD0iIzk4MmEyZCIgc3Ryb2tlPSIjZjBkNzliIiBzdHJva2Utd2lkdGg9IjIiLz48cGF0aCBkPSJNMTEzIDU3bDctMTUgNyAxNSAxNyAyLTEyIDExIDMgMTctMTUtOC0xNSA4IDMtMTctMTItMTF6IiBmaWxsPSIjZWNkMjkzIi8+PHBhdGggZD0iTTc5IDE2MEwxMzkgOTlsOSA5LTU5IDYyek0xMzUgODVsMjcgMjctMTQgMTQtMjctMjd6IiBmaWxsPSIjZWNkMjkzIi8+PHBhdGggZD0iTTc3IDk0Yy0xOSAzMi04IDU5IDIzIDY2IDMxIDcgNTQtMTQgNDktNDAtMyAyNi0zNiAzNy01NiAxOC0xNC0xNC0xMy0zMi0xNi00NHoiIGZpbGw9IiNlY2QyOTMiLz48cGF0aCBkPSJNODAgMTgwaDI2djdIODB6IiBmaWxsPSIjMjEzYzU0Ii8+PHBhdGggZD0iTTEwNiAxODBoMjh2N2gtMjh6IiBmaWxsPSIjZjdlZmRiIi8+PHBhdGggZD0iTTEzNCAxODBoMjZ2N2gtMjZ6IiBmaWxsPSIjY2E0NDQ2Ii8+PC9zdmc+",
+      "shortcuts": [
+        [
+          "核心圈",
+          "core"
+        ],
+        [
+          "地区资料",
+          "regions"
+        ],
+        [
+          "布尔什维克联络",
+          "bolsheviks"
+        ]
+      ]
+    },
+    {
       "title": "司法之塔",
       "fr": "La Tour de la justice",
       "group": "独立机构",
@@ -400,7 +422,7 @@
           "actions"
         ],
         [
-          "部门情报",
+          "全国大型项目",
           "intelligence"
         ]
       ]
