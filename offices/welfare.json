@@ -56,7 +56,6 @@
     {
       "title": "发布保障受理目录",
       "measure": "把申请入口、资格和申诉办法集中刊列。",
-      "result": "降低未入会者和迁居者寻找保障的成本。",
       "status": "可提出，未实施",
       "id": "welfare-public-1",
       "category": "public",
@@ -69,7 +68,6 @@
     {
       "title": "核对重复与漏付事项",
       "measure": "对已获同意共享的个案进行最少必要信息比对。",
-      "result": "减少重复拨付，并给漏付申请人复核机会。",
       "status": "可提出，未实施",
       "id": "welfare-public-2",
       "category": "public",
@@ -84,7 +82,6 @@
     {
       "title": "提出保障不以党派入会为条件",
       "measure": "将受理原则写进联邦议案，邀请工会与互助代表说明承办条件。",
-      "result": "为共产党争取未入会劳动者支持。",
       "status": "可提出，未实施",
       "id": "welfare-political-1",
       "category": "political",
@@ -97,7 +94,6 @@
     {
       "title": "以城乡转接争取改革合作",
       "measure": "邀请农业与卫生共同提出保障转接试点。",
-      "result": "使共产党在农村与流动劳动者中形成施政成绩。",
       "status": "可提出，未实施",
       "id": "welfare-political-2",
       "category": "political",

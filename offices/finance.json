@@ -90,7 +90,6 @@
     {
       "title": "编制到期付款与现金表",
       "measure": "分别列出联邦、各参与公社和已抵销转移支付的汇总。",
-      "result": "及时发现付款拥堵，不以总收入掩盖资金缺口。",
       "status": "可提出，未实施",
       "id": "finance-public-1",
       "category": "public",
@@ -103,7 +102,6 @@
     {
       "title": "提出分期融资与支出修订",
       "measure": "按到期合同安排借款与可延后项目，列明利息和民生影响。",
-      "result": "为缺口提供可审议办法，避免无来源的新承诺。",
       "status": "可提出，未实施",
       "id": "finance-public-2",
       "category": "public",
@@ -118,7 +116,6 @@
     {
       "title": "提出联邦拨款统一审计",
       "measure": "以公开规则要求领取联邦款项的项目提交同口径报告。",
-      "result": "推动人民党重视的财政统筹，扩大技术官僚作用。",
       "status": "可提出，未实施",
       "id": "finance-political-1",
       "category": "political",
@@ -131,7 +128,6 @@
     {
       "title": "就预算能力召开专家听证",
       "measure": "展示承诺、到期和融资成本，提出按项目编制预算的办法。",
-      "result": "争取对多头财政不满的中产与专业人员支持人民党。",
       "status": "可提出，未实施",
       "id": "finance-political-2",
       "category": "political",

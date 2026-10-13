@@ -31,7 +31,6 @@
     {
       "title": "先核承诺再拨款",
       "measure": "按协议收集项目账目和交付凭据，编成待付清单。",
-      "result": "减少重复承诺，保障已经签署的项目。",
       "status": "可提出，未实施",
       "id": "foreign-public-1",
       "category": "public",
@@ -44,7 +43,6 @@
     {
       "title": "提出三国共同采购",
       "measure": "向英意提交原料和机床的联合询价方案。",
-      "result": "减少各国重复采购与运输竞争。",
       "status": "可提出，未实施",
       "id": "foreign-public-2",
       "category": "public",
@@ -59,7 +57,6 @@
     {
       "title": "提出工会国际联络席位",
       "measure": "在法国参与的公开国际会议中提议纳入生产者代表。",
-      "result": "保留工团派在国际路线中的发言权。",
       "status": "可提出，未实施",
       "id": "foreign-political-1",
       "category": "political",
@@ -72,7 +69,6 @@
     {
       "title": "将援助报告提交公开辩论",
       "measure": "说明已批准项目的受益、代价和法国承担的义务。",
-      "result": "争取国内对工团派国际主义路线的支持。",
       "status": "可提出，未实施",
       "id": "foreign-political-2",
       "category": "political",

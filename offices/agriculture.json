@@ -56,7 +56,6 @@
     {
       "title": "组织春耕联合询价",
       "measure": "按村社需求汇总种子、农具和维修件，不强制购入统一型号。",
-      "result": "减少小批采购与无维修配套的机器购入。",
       "status": "可提出，未实施",
       "id": "agriculture-public-1",
       "category": "public",
@@ -69,7 +68,6 @@
     {
       "title": "试办农机共用站",
       "measure": "先在自愿公社签署调度、收费与维修协议。",
-      "result": "使小农可获得机械服务。",
       "status": "可提出，未实施",
       "id": "agriculture-public-2",
       "category": "public",
@@ -84,7 +82,6 @@
     {
       "title": "以农民听证完善改革案",
       "measure": "邀请未入社农民、合作社与农村专业人员陈述费用和财产权顾虑。",
-      "result": "争取未与工会合作的农村选民支持共产党。",
       "status": "可提出，未实施",
       "id": "agriculture-political-1",
       "category": "political",
@@ -97,7 +94,6 @@
     {
       "title": "提出农村预算专项表决",
       "measure": "将已有乡村建设用途拆分成可审议项目，寻求跨派支持。",
-      "result": "增强共产党作为农民代表的议会地位。",
       "status": "可提出，未实施",
       "id": "agriculture-political-2",
       "category": "political",

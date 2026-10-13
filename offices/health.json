@@ -56,7 +56,6 @@
     {
       "title": "安排自愿巡回诊疗",
       "measure": "先征询农村公社接诊场所和医师轮驻条件。",
-      "result": "减少偏远地区首次就诊困难。",
       "status": "可提出，未实施",
       "id": "health-public-1",
       "category": "public",
@@ -69,7 +68,6 @@
     {
       "title": "统一基础药品验收",
       "measure": "组织参加采购的机构采用共同质量与发放记录。",
-      "result": "减少重复采购与劣质药品流入。",
       "status": "可提出，未实施",
       "id": "health-public-2",
       "category": "public",
@@ -84,7 +82,6 @@
     {
       "title": "提出地方互助参与卫生规划",
       "measure": "让公社和互助诊所的授权代表参加需求审议。",
-      "result": "使协会的自治医疗主张获得制度位置。",
       "status": "可提出，未实施",
       "id": "health-political-1",
       "category": "political",
@@ -97,7 +94,6 @@
     {
       "title": "以农村医疗提出改革合作",
       "measure": "向其他部门提交联合巡诊与交通补助草案。",
-      "result": "争取城乡基层对协会改革路线的支持。",
       "status": "可提出，未实施",
       "id": "health-political-2",
       "category": "political",

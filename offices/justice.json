@@ -56,7 +56,6 @@
     {
       "title": "制定移送卷宗的共同格式",
       "measure": "明确封存、接收、授权范围与进度回函。",
-      "result": "减少丢件、重复举证和责任不明。",
       "status": "可提出，未实施",
       "id": "justice-public-1",
       "category": "public",
@@ -69,7 +68,6 @@
     {
       "title": "提出行政委托回避规则",
       "measure": "将签约、受益、审核和裁定的利益关系分别登记。",
-      "result": "减少公共事务与组织利益混用，保留申诉程序。",
       "status": "可提出，未实施",
       "id": "justice-public-2",
       "category": "public",
@@ -84,7 +82,6 @@
     {
       "title": "争取程序改革共同署名",
       "measure": "向青年共和、协会及其他议员提出可分项表决的程序条款。",
-      "result": "恢复社会共和派作为改革协调者的作用。",
       "status": "可提出，未实施",
       "id": "justice-political-1",
       "category": "political",
@@ -97,7 +94,6 @@
     {
       "title": "以法律援助报告争取支持",
       "measure": "公开服务覆盖与拒绝理由，说明资金和程序不足。",
-      "result": "以权利保障成绩扩大社会共和派影响。",
       "status": "可提出，未实施",
       "id": "justice-political-2",
       "category": "political",

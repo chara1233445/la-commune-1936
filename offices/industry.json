@@ -56,7 +56,6 @@
     {
       "title": "核对军民订单交期",
       "measure": "按合同收集交货计划，查出重复占用同一设备的订单。",
-      "result": "降低交期冲突，提出分期验收方案。",
       "status": "可提出，未实施",
       "id": "industry-public-1",
       "category": "public",
@@ -69,7 +68,6 @@
     {
       "title": "联合采购替换设备",
       "measure": "组织愿意参与的公社合订机床与零件，统一验收。",
-      "result": "分摊小批量采购成本，改善设备通用性。",
       "status": "可提出，未实施",
       "id": "industry-public-2",
       "category": "public",
@@ -84,7 +82,6 @@
     {
       "title": "提出工场代表参加验收",
       "measure": "在公共采购规程中保留生产者的见证与质询席位。",
-      "result": "维护工团派在工业治理中的公开代表权。",
       "status": "可提出，未实施",
       "id": "industry-political-1",
       "category": "political",
@@ -97,7 +94,6 @@
     {
       "title": "推动工业订单公开听证",
       "measure": "由现任代表报告交期、价格与验收结果，邀请批评者质询。",
-      "result": "使工团派以履约成绩回应垄断争论。",
       "status": "可提出，未实施",
       "id": "industry-political-2",
       "category": "political",

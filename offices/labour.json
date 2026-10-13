@@ -56,7 +56,6 @@
     {
       "title": "设立统一申诉簿",
       "measure": "开设邮寄与到访受理窗口，向申请人出具案件编号。",
-      "result": "未入会劳动者可追踪申诉，重复移送减少。",
       "status": "可提出，未实施",
       "id": "labour-public-1",
       "category": "public",
@@ -69,7 +68,6 @@
     {
       "title": "召开跨行业安全会议",
       "measure": "邀请事故较多行业提交规程与赔偿办法。",
-      "result": "形成共同检查条款和伤害赔付转介程序。",
       "status": "可提出，未实施",
       "id": "labour-public-2",
       "category": "public",
@@ -84,7 +82,6 @@
     {
       "title": "争取工会参与改革起草",
       "measure": "提出由工会、未入会劳动者与地方代表共同审议劳动规则。",
-      "result": "为革命工团委员会保留制度化协商位置，回应垄断指控。",
       "status": "可提出，未实施",
       "id": "labour-political-1",
       "category": "political",
@@ -97,7 +94,6 @@
     {
       "title": "以劳动保障争取单项合作",
       "measure": "向共产党与社会共和派递交职业赔偿草案，争取共同署名。",
-      "result": "增加工团派改革议案在总议会获支持的机会。",
       "status": "可提出，未实施",
       "id": "labour-political-2",
       "category": "political",
