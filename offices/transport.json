@@ -26,32 +26,7 @@
       "status": "待办理"
     }
   ],
-  "intelligence": [
-    {
-      "title": "公共运输投资",
-      "source": "公共财政用途表",
-      "known": "城市建设与交通合计21亿帝国马克，包含地方支出，并非交通代表可单独支配。",
-      "gap": "缺少交通工程与城市建设拆分、联邦已批拨款和未付款合同。",
-      "period": "1936年一月",
-      "reliability": "部门判断，待原始报表核验"
-    },
-    {
-      "title": "联运运力",
-      "source": "线路和港口自愿汇报",
-      "known": "部门能够向参加联运的组织征集时刻和车辆登记。",
-      "gap": "尚未取得同口径的可用机车、货车、港口堆场和检修时数。",
-      "period": "1936年一月",
-      "reliability": "部门判断，待原始报表核验"
-    },
-    {
-      "title": "军用运输申请",
-      "source": "国防部门提出的运输需求",
-      "known": "常备军与六项建设工程存在持续运输需求。",
-      "gap": "具体班次、吨位与优先级需国防正式移交，不能由总兵力推算。",
-      "period": "1936年一月",
-      "reliability": "部门判断，待原始报表核验"
-    }
-  ],
+  "intelligence": [],
   "publicActions": [
     {
       "title": "召集枢纽联运会议",
@@ -104,33 +79,608 @@
       ]
     }
   ],
-  "operatingRegister": {
-    "title": "联运接口登记",
-    "unit": "项",
-    "rows": [
-      [
-        "已登记交接协议",
-        12,
-        "参加联运的枢纽接口"
-      ],
-      [
-        "待续签协议",
-        4,
-        "包含在12项内"
-      ],
-      [
-        "关键车辆维修申请",
-        9,
-        "另册，尚待技术排序"
-      ]
-    ],
+  "transportOverview": {
     "period": "1936年一月",
-    "source": "本部门秘书处工作登记",
-    "status": "新增开局模型，待主持人确认",
-    "knownTo": [
-      "office-holder:transport",
-      "host"
-    ]
+    "scope": "法兰西公社实控本土与对外民用运输",
+    "cities": [
+      {
+        "id": "paris",
+        "name": "巴黎",
+        "coord": [
+          2.35,
+          48.86
+        ]
+      },
+      {
+        "id": "calais",
+        "name": "加莱",
+        "coord": [
+          1.85,
+          50.95
+        ]
+      },
+      {
+        "id": "nantes",
+        "name": "南特",
+        "coord": [
+          -1.55,
+          47.22
+        ]
+      },
+      {
+        "id": "bordeaux",
+        "name": "波尔多",
+        "coord": [
+          -0.58,
+          44.84
+        ]
+      },
+      {
+        "id": "toulouse",
+        "name": "图卢兹",
+        "coord": [
+          1.44,
+          43.6
+        ]
+      },
+      {
+        "id": "lyon",
+        "name": "里昂",
+        "coord": [
+          4.84,
+          45.76
+        ]
+      },
+      {
+        "id": "marseille",
+        "name": "马赛",
+        "coord": [
+          5.37,
+          43.3
+        ]
+      },
+      {
+        "id": "nancy",
+        "name": "南锡",
+        "coord": [
+          6.18,
+          48.69
+        ]
+      }
+    ],
+    "highway": {
+      "name": "全法高速公路",
+      "investment": "较低",
+      "levels": [
+        "极低",
+        "较低",
+        "中等",
+        "较高",
+        "高"
+      ],
+      "stage": "勘测与试验筹备",
+      "summary": "计划以封闭式汽车专用路连接主要工业城市、港口与运输枢纽。现有资金先用于线路调查、地方协商和少量试验段准备，尚未形成连续的全国路网。",
+      "corridors": [
+        {
+          "id": "road-north",
+          "from": "paris",
+          "to": "calais",
+          "name": "巴黎—加莱",
+          "status": "初步勘测",
+          "phase": 0,
+          "note": "北部工业与海峡港口方向。优先核查城市出入口、桥梁与沿线用地。"
+        },
+        {
+          "id": "road-loire",
+          "from": "paris",
+          "to": "nantes",
+          "name": "巴黎—南特",
+          "status": "勘测中",
+          "phase": 0,
+          "note": "联系首都与卢瓦尔河口。铁路仍承担大宗货物，道路计划侧重汽车货运与枢纽接驳。"
+        },
+        {
+          "id": "road-rhone",
+          "from": "paris",
+          "to": "lyon",
+          "name": "巴黎—里昂",
+          "status": "方案审查",
+          "phase": 1,
+          "note": "干线用途明确，资金和地方协议尚未齐备；现阶段仍主要使用普通公路。"
+        },
+        {
+          "id": "road-south",
+          "from": "lyon",
+          "to": "marseille",
+          "name": "里昂—马赛",
+          "status": "试验段筹备",
+          "phase": 2,
+          "note": "在较易施工的路段准备验证路面、分流与出入口方案，尚未整线通车。"
+        },
+        {
+          "id": "road-atlantic",
+          "from": "nantes",
+          "to": "bordeaux",
+          "name": "南特—波尔多",
+          "status": "勘测待拨款",
+          "phase": 0,
+          "note": "连接大西洋沿岸港口与农业腹地；地方工程安排分散，联邦投入有限。"
+        },
+        {
+          "id": "road-garonne",
+          "from": "bordeaux",
+          "to": "toulouse",
+          "name": "波尔多—图卢兹",
+          "status": "地方协议待落实",
+          "phase": 1,
+          "note": "西南工业和农产运输走廊。路线与设施分担仍由沿线公社协商。"
+        }
+      ],
+      "phases": [
+        "线路调查",
+        "地方协议",
+        "试验建设",
+        "连续通车"
+      ]
+    },
+    "railway": {
+      "summary": "全国铁路仍是客运、大宗货运和公社间粮食调运的骨干。主要干线已恢复运行，蒸汽牵引为主，部分线路采用电力；机车检修、信号条件和跨区交接使各线通行状况不一。",
+      "lines": [
+        {
+          "id": "rail-north",
+          "from": "paris",
+          "to": "calais",
+          "name": "巴黎—加莱",
+          "status": "繁忙",
+          "kind": "busy",
+          "note": "工业货运与海峡港口接驳并重，枢纽时段紧张。"
+        },
+        {
+          "id": "rail-west",
+          "from": "paris",
+          "to": "nantes",
+          "name": "巴黎—南特",
+          "status": "顺畅",
+          "kind": "normal",
+          "note": "客货班次较稳定，卢瓦尔河口装卸可以接续铁路运输。"
+        },
+        {
+          "id": "rail-southwest",
+          "from": "paris",
+          "to": "bordeaux",
+          "name": "巴黎—波尔多",
+          "status": "繁忙",
+          "kind": "busy",
+          "note": "沿线农产、旅客与港口货物争用运力，需协调到发时刻。"
+        },
+        {
+          "id": "rail-rhone",
+          "from": "paris",
+          "to": "lyon",
+          "name": "巴黎—里昂",
+          "status": "繁忙",
+          "kind": "busy",
+          "note": "全国核心客货轴线，跨区交接和机车周转影响运行。"
+        },
+        {
+          "id": "rail-mediterranean",
+          "from": "lyon",
+          "to": "marseille",
+          "name": "里昂—马赛",
+          "status": "基本顺畅",
+          "kind": "normal",
+          "note": "罗讷河走廊联系工业城市与地中海港口，局部维护造成短时等待。"
+        },
+        {
+          "id": "rail-garonne",
+          "from": "bordeaux",
+          "to": "toulouse",
+          "name": "波尔多—图卢兹",
+          "status": "顺畅",
+          "kind": "normal",
+          "note": "承担西南农产、工业零件与旅客运输。"
+        },
+        {
+          "id": "rail-east",
+          "from": "paris",
+          "to": "nancy",
+          "name": "巴黎—南锡",
+          "status": "检修限制",
+          "kind": "restricted",
+          "note": "东部重建与设备维护尚未完全结束，部分交接区段仍需限速或等待。"
+        },
+        {
+          "id": "rail-cross",
+          "from": "nantes",
+          "to": "bordeaux",
+          "name": "南特—波尔多",
+          "status": "基本顺畅",
+          "kind": "normal",
+          "note": "外省间直接运输减少绕行巴黎的需要，但地方时刻和运价仍需联运协议。"
+        }
+      ]
+    },
+    "maritime": {
+      "summary": "法国港口保持与盟国、中立国家和德国势力圈的商业航运。线路是否顺畅主要取决于船期、港口装卸、天气与通行手续。",
+      "routes": [
+        {
+          "id": "channel",
+          "name": "海峡线",
+          "country": "不列颠联盟",
+          "origin": "勒阿弗尔",
+          "destination": "伦敦·蒂尔伯里",
+          "status": "顺畅",
+          "kind": "normal",
+          "cargo": "旅客、邮件、食品与工业品",
+          "notes": "航程较短，班次稳定；冬季风浪和两端装卸可造成短期等待。",
+          "waypoints": [
+            [
+              0.11,
+              49.49
+            ],
+            [
+              0.2,
+              50.1
+            ],
+            [
+              1.6,
+              50.3
+            ],
+            [
+              1.6,
+              51.2
+            ],
+            [
+              0.75,
+              51.45
+            ],
+            [
+              0.367,
+              51.46
+            ]
+          ],
+          "duration": 8
+        },
+        {
+          "id": "northsea",
+          "name": "北海线",
+          "country": "荷兰",
+          "origin": "加莱",
+          "destination": "鹿特丹",
+          "status": "基本顺畅",
+          "kind": "normal",
+          "cargo": "工业品、转口原料与加工食品",
+          "notes": "低地港口保留转口渠道，港口拥挤时需要等泊；商业联系不等于政治结盟。",
+          "waypoints": [
+            [
+              1.85,
+              50.95
+            ],
+            [
+              2.3,
+              51.2
+            ],
+            [
+              3.3,
+              51.8
+            ],
+            [
+              4.1,
+              52
+            ],
+            [
+              4.48,
+              51.94
+            ]
+          ],
+          "duration": 9
+        },
+        {
+          "id": "italy",
+          "name": "利古里亚线",
+          "country": "意大利社会主义共和国",
+          "origin": "马赛",
+          "destination": "热那亚",
+          "status": "顺畅",
+          "kind": "normal",
+          "cargo": "设备、农产品与公共采购物资",
+          "notes": "盟国港口间联系紧密，航路较短，货物交接仍按双方港口安排办理。",
+          "waypoints": [
+            [
+              5.37,
+              43.3
+            ],
+            [
+              5.8,
+              42.8
+            ],
+            [
+              7,
+              43.2
+            ],
+            [
+              8.4,
+              43.6
+            ],
+            [
+              8.93,
+              44.4
+            ]
+          ],
+          "duration": 8
+        },
+        {
+          "id": "atlantic",
+          "name": "北大西洋线",
+          "country": "美国",
+          "origin": "波尔多",
+          "destination": "纽约",
+          "status": "基本顺畅",
+          "kind": "normal",
+          "cargo": "进口谷物与油料；出口葡萄酒和加工食品",
+          "notes": "定期远洋运输维持通航。冬季海况和长航程使到港时间更容易波动。",
+          "waypoints": [
+            [
+              -0.58,
+              44.84
+            ],
+            [
+              -1.1,
+              45.6
+            ],
+            [
+              -2.5,
+              45
+            ],
+            [
+              -25,
+              45
+            ],
+            [
+              -50,
+              43
+            ],
+            [
+              -69,
+              40
+            ],
+            [
+              -73.9,
+              40.6
+            ]
+          ],
+          "duration": 15
+        },
+        {
+          "id": "laplata",
+          "name": "拉普拉塔线",
+          "country": "阿根廷",
+          "origin": "圣纳泽尔",
+          "destination": "布宜诺斯艾利斯",
+          "status": "通航，周转较慢",
+          "kind": "busy",
+          "cargo": "进口谷物与冷藏肉；出口机械和特色农产",
+          "notes": "远洋周转时间长，冷藏船与补给港安排影响班次，不能按近海线路的频率看待。",
+          "waypoints": [
+            [
+              -2.21,
+              47.28
+            ],
+            [
+              -3,
+              46.6
+            ],
+            [
+              -12,
+              40
+            ],
+            [
+              -22,
+              20
+            ],
+            [
+              -32,
+              0
+            ],
+            [
+              -40,
+              -20
+            ],
+            [
+              -50,
+              -32
+            ],
+            [
+              -56,
+              -35
+            ],
+            [
+              -58.38,
+              -34.6
+            ]
+          ],
+          "duration": 19
+        },
+        {
+          "id": "blacksea",
+          "name": "黑海粮运线",
+          "country": "乌克兰王国",
+          "origin": "马赛",
+          "destination": "敖德萨",
+          "status": "有限通航",
+          "kind": "restricted",
+          "cargo": "谷物、饲料与回程工业品",
+          "notes": "经地中海、达达尼尔海峡和博斯普鲁斯海峡。海峡手续、合同和中转安排使船期较不稳定。",
+          "waypoints": [
+            [
+              5.37,
+              43.3
+            ],
+            [
+              9,
+              39
+            ],
+            [
+              14,
+              36
+            ],
+            [
+              20,
+              36
+            ],
+            [
+              25,
+              38
+            ],
+            [
+              25.5,
+              40
+            ],
+            [
+              26,
+              40.3
+            ],
+            [
+              27.5,
+              40.7
+            ],
+            [
+              29.08,
+              41
+            ],
+            [
+              29.1,
+              41.25
+            ],
+            [
+              30,
+              43
+            ],
+            [
+              30.72,
+              46.48
+            ]
+          ],
+          "duration": 16
+        }
+      ]
+    },
+    "aviation": {
+      "summary": "民航规模仍小，邮件和紧急运输构成稳定业务，付费客运主要服务大城市及近邻市场。螺旋桨飞机与水上飞机并用；多站经停、天气、导航和维修条件限制了班次。铁路继续承担绝大多数普通旅客运输。",
+      "hubs": [
+        {
+          "id": "bourget",
+          "name": "巴黎·勒布尔歇",
+          "fr": "PARIS · LE BOURGET",
+          "coord": [
+            2.44,
+            48.97
+          ],
+          "role": "全国主要客运与对外联络枢纽",
+          "status": "常态运行",
+          "note": "联系国内大城市与欧洲近邻，兼具维修、邮件及旅客设施。"
+        },
+        {
+          "id": "montaudran",
+          "name": "图卢兹·蒙托德朗",
+          "fr": "TOULOUSE · MONTAUDRAN",
+          "coord": [
+            1.48,
+            43.57
+          ],
+          "role": "邮运、航空制造与技术维修",
+          "status": "邮运与试飞并重",
+          "note": "西南航空工业与邮运基地。远程邮件采用多站接续，不视为成熟的直达跨洋客运。"
+        },
+        {
+          "id": "marignane",
+          "name": "马赛·马里尼昂",
+          "fr": "MARSEILLE · MARIGNANE",
+          "coord": [
+            5.22,
+            43.44
+          ],
+          "role": "地中海航空与水上飞机节点",
+          "status": "陆机与水上机并用",
+          "note": "承担地中海方向的邮件、旅客及设备维修，海面与天气条件影响水上飞机运行。"
+        },
+        {
+          "id": "bron",
+          "name": "里昂·布龙",
+          "fr": "LYON · BRON",
+          "coord": [
+            4.95,
+            45.73
+          ],
+          "role": "东南内陆客运与中途接续",
+          "status": "区域班次",
+          "note": "联系巴黎、罗讷河走廊与邻近市场，为国内航线提供经停和技术服务。"
+        },
+        {
+          "id": "merignac",
+          "name": "波尔多·梅里尼亚克",
+          "fr": "BORDEAUX · MÉRIGNAC",
+          "coord": [
+            -0.7,
+            44.83
+          ],
+          "role": "大西洋沿岸与西南地区接驳",
+          "status": "区域班次",
+          "note": "承担区域客运、邮件与技术停靠；长途出行通常仍需经巴黎或图卢兹接续。"
+        }
+      ],
+      "observations": [
+        {
+          "name": "主力业务",
+          "value": "邮件、紧急运输与有限客运"
+        },
+        {
+          "name": "运行条件",
+          "value": "经停频繁，天气影响明显"
+        },
+        {
+          "name": "运输主体",
+          "value": "地方航空组织与邮运机构协作"
+        },
+        {
+          "name": "全国地位",
+          "value": "补充铁路，尚非大众出行方式"
+        }
+      ]
+    },
+    "provenance": {
+      "kind": "1936年开局新增交通模型",
+      "inherited": "公社间直接贸易与铁路重建；地方运输组织参与联运；法国与盟国及德国势力圈仍有商业航运。",
+      "added": "高速公路计划、各线通行状态、航运登记与民航组织状况为本次补定。港口和场站位置参考现实地理，不移植现实共和国的航空公司制度。",
+      "animation": "动画仅展示勘测方向与线路运行，不表示工程自动推进或实时船机位置。",
+      "knownTo": [
+        "office-holder:transport",
+        "host"
+      ],
+      "sources": [
+        {
+          "title": "《法伦施泰尔之梦》经济日志",
+          "url": "https://zhuanlan.zhihu.com/p/1932755189477147207"
+        },
+        {
+          "title": "Air France历史维修基地资料",
+          "url": "https://corporate.airfrance.com/en/maintenance"
+        },
+        {
+          "title": "波尔多机场历史",
+          "url": "https://www.bordeaux.aeroport.fr/en/airport/company/history-airport"
+        },
+        {
+          "title": "勒布尔歇航空场历史",
+          "url": "https://www.servicehistorique.sga.defense.gouv.fr/en/node/1009282"
+        },
+        {
+          "title": "TNO Hart公路项目界面参考",
+          "url": "https://www.reddit.com/r/TNOmod/comments/vqnvq9/"
+        }
+      ],
+      "landSource": "Natural Earth 1:110m land；仅作海岸线示意，不标示现代国家边界"
+    }
   },
   "number": 3,
   "year": 1936,
