@@ -178,7 +178,7 @@
       "fr": "UNION SOCIALISTE RÉPUBLICAINE",
       "group": "阵营资料",
       "route": "socialist-republicans.html",
-      "description": "改革协商 · 共和晨报",
+      "description": "党团协商案卷 · 共和晨报",
       "logo": "https://chara1233445.github.io/la-commune-1936/assets/party-logos/socialist-republicans-v1.svg",
       "shortcuts": [
         [
@@ -186,7 +186,7 @@
           "organisation"
         ],
         [
-          "改革协商",
+          "党团协商案卷",
           "mechanism"
         ],
         [
@@ -230,7 +230,7 @@
       "fr": "UNION NATIONALE DES CONTRIBUABLES",
       "group": "阵营资料",
       "route": "taxpayers.html",
-      "description": "财产与税负议程 · 纳税人报",
+      "description": "有产者组织与税负议程 · 纳税人报",
       "logo": "https://chara1233445.github.io/la-commune-1936/assets/party-logos/taxpayers-v1.svg",
       "shortcuts": [
         [
@@ -238,7 +238,7 @@
           "organisation"
         ],
         [
-          "财产与税负议程",
+          "有产者组织与税负议程",
           "mechanism"
         ],
         [
@@ -256,7 +256,7 @@
       "fr": "ALLIANCE CHRÉTIENNE FRANÇAISE",
       "group": "阵营资料",
       "route": "christians.html",
-      "description": "信仰与财产的联合基础 · 信仰与家庭报",
+      "description": "联盟的社会基础 · 信仰与家庭报",
       "logo": "https://chara1233445.github.io/la-commune-1936/assets/party-logos/christians-v1.svg",
       "shortcuts": [
         [
@@ -264,7 +264,7 @@
           "organisation"
         ],
         [
-          "信仰与财产的联合基础",
+          "联盟的社会基础",
           "mechanism"
         ],
         [
@@ -282,7 +282,7 @@
       "fr": "FRONT PAYSAN",
       "group": "阵营资料",
       "route": "farmer-front.html",
-      "description": "社会支持与代表权 · 乡土报",
+      "description": "乡村支持台账 · 乡土报",
       "logo": "https://chara1233445.github.io/la-commune-1936/assets/party-logos/farmer-front-v1.svg",
       "shortcuts": [
         [
@@ -290,7 +290,7 @@
           "organisation"
         ],
         [
-          "社会支持与代表权",
+          "乡村支持台账",
           "mechanism"
         ],
         [

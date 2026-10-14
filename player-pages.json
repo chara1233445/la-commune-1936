@@ -45,7 +45,7 @@
       "id": "social-republican",
       "title": "社会主义共和联盟",
       "route": "socialist-republicans.html",
-      "mechanism": "改革协商",
+      "mechanism": "党团协商案卷",
       "paper": "共和晨报",
       "voice": "共和国 · 社会改革 · 公民自由"
     },
@@ -61,7 +61,7 @@
       "id": "taxpayer",
       "title": "全国纳税人联合",
       "route": "taxpayers.html",
-      "mechanism": "财产与税负议程",
+      "mechanism": "有产者组织与税负议程",
       "paper": "纳税人报",
       "voice": "税负公开 · 财产保障 · 代表监督"
     },
@@ -69,7 +69,7 @@
       "id": "christian",
       "title": "法国基督徒联盟",
       "route": "christians.html",
-      "mechanism": "信仰与财产的联合基础",
+      "mechanism": "联盟的社会基础",
       "paper": "信仰与家庭报",
       "voice": "信仰自由 · 家庭财产 · 社会秩序"
     },
@@ -77,10 +77,11 @@
       "id": "farmer-front",
       "title": "农民阵线",
       "route": "farmer-front.html",
-      "mechanism": "社会支持与代表权",
+      "mechanism": "乡村支持台账",
       "paper": "乡土报",
       "voice": "土地 · 家庭 · 乡村利益"
     }
   ],
-  "independentPage": false
+  "independentPage": false,
+  "revision": "1936-newspaper-reset-20261014"
 }
