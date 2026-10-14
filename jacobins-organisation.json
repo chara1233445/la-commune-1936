@@ -17,7 +17,7 @@
     "nationalSupport": 8.3,
     "seats": 70,
     "totalSeats": 650,
-    "supportBase": "激进小市民、技术人员与部分基层官兵",
+    "supportBase": "技术官僚、工程师与专业管理人员，另有激进小市民和部分基层官兵",
     "offices": [
       "财政",
       "公共工程"
@@ -154,6 +154,275 @@
         "control": "主席裁决形成党的政策。联邦拨款与工程实施仍由公社制度中的有关机关决定。"
       }
     ]
+  },
+  "technicalNetwork": {
+    "title": "技术干部网络",
+    "fr": "RÉSEAUX DES CADRES TECHNIQUES",
+    "owner": "jacobin",
+    "knownTo": [
+      "jacobin-player",
+      "host"
+    ],
+    "period": "1936年一月",
+    "baseDescription": "本党的组织骨干多为技术官僚、工程师及专业管理人员。他们在选民中人数有限，却集中于设计、核算、调度和工程组织等岗位；本党借这些专业联系提出政策、汇集材料并联络干部。",
+    "definitions": {
+      "technical": "技术岗位覆盖：本党骨干与固定联络者占本行业技术及专业管理人员的比例。",
+      "workforce": "全行业覆盖：本党骨干与固定联络者占本行业全体从业者的比例。",
+      "scope": "两项均为组织联络覆盖，包含党员骨干与固定联络者；不是民调、工会份额、资产控制或部门任命权。"
+    },
+    "groups": [
+      "工程产业",
+      "公共与专业服务",
+      "一般行业"
+    ],
+    "sectors": [
+      {
+        "id": "civil",
+        "name": "土木与公共工程",
+        "group": "工程产业",
+        "technicalCoverage": 68,
+        "workforceCoverage": 16,
+        "technicalWorkforceShare": 18,
+        "roles": [
+          "勘测与设计",
+          "工程预算",
+          "施工组织"
+        ],
+        "channel": "工程师读书组、测绘人员联络与工程技术讨论会。",
+        "influence": "可以集中提出线路、技术标准和工程次序的意见，并为本党公职代表提供专业材料。",
+        "weakness": "普通施工班组中的联系较少，技术人员的意见还需取得施工组织与地方公社配合。"
+      },
+      {
+        "id": "power",
+        "name": "电力与水电",
+        "group": "工程产业",
+        "technicalCoverage": 61,
+        "workforceCoverage": 14,
+        "technicalWorkforceShare": 16,
+        "roles": [
+          "电网设计",
+          "水电工程",
+          "运行调度"
+        ],
+        "channel": "电气工程师、地方电力技师和水电项目的专业联络。",
+        "influence": "在供电规划、设备标准和跨地区调度问题上，能够组织较稳定的技术意见。",
+        "weakness": "运行人员与电站工人的政治归属较分散，专业联系不等于掌握电站管理。"
+      },
+      {
+        "id": "rail",
+        "name": "铁路与运输技术",
+        "group": "工程产业",
+        "technicalCoverage": 52,
+        "workforceCoverage": 10,
+        "technicalWorkforceShare": 14,
+        "roles": [
+          "线路工程",
+          "时刻编制",
+          "维修计划"
+        ],
+        "channel": "铁路工程与调度人员的专业学习小组。",
+        "influence": "能够汇集线路衔接、维修与运力编排的建议，参与全国运输方案的政策讨论。",
+        "weakness": "车站、车务和基层维修队中的组织覆盖较低，不能单凭调度人员的支持落实全国方案。"
+      },
+      {
+        "id": "metallurgy",
+        "name": "冶金与矿业技术",
+        "group": "工程产业",
+        "technicalCoverage": 47,
+        "workforceCoverage": 9,
+        "technicalWorkforceShare": 11,
+        "roles": [
+          "冶炼工艺",
+          "矿山测量",
+          "设备检验"
+        ],
+        "channel": "冶金技师、矿山工程师和技术学校毕业生的联络。",
+        "influence": "在设备更新、产能测算和生产标准的讨论中有一批可持续联系的专业人员。",
+        "weakness": "矿工与炉前工人中的基层联系较弱，生产安排仍须同企业及工人组织协商。"
+      },
+      {
+        "id": "machinery",
+        "name": "机械与汽车制造",
+        "group": "工程产业",
+        "technicalCoverage": 45,
+        "workforceCoverage": 9,
+        "technicalWorkforceShare": 16,
+        "roles": [
+          "设计室",
+          "工艺编制",
+          "生产计划"
+        ],
+        "channel": "机械设计人员、工艺工程师与厂内专业讨论组。",
+        "influence": "可以形成有关标准化、设备采购和生产编排的技术提案。",
+        "weakness": "设计室的集中支持未延伸到多数车间班组，工厂政治工作较薄弱。"
+      },
+      {
+        "id": "chemicals",
+        "name": "化学与电化学",
+        "group": "工程产业",
+        "technicalCoverage": 35,
+        "workforceCoverage": 7,
+        "technicalWorkforceShare": 15,
+        "roles": [
+          "试验室",
+          "工艺设计",
+          "技术安全"
+        ],
+        "channel": "化学工程师、试验人员与专业刊物作者的联络。",
+        "influence": "能够为化工、肥料和电化学建设提供工艺与技术评议。",
+        "weakness": "各厂之间的联系依靠少数专业人员，尚缺稳定的地方组织协作。"
+      },
+      {
+        "id": "shipbuilding",
+        "name": "造船与港务工程",
+        "group": "工程产业",
+        "technicalCoverage": 31,
+        "workforceCoverage": 6,
+        "technicalWorkforceShare": 12,
+        "roles": [
+          "船舶设计",
+          "船坞工程",
+          "港口规划"
+        ],
+        "channel": "船舶工程师和港务技师的通信与专业讨论。",
+        "influence": "在船坞、港口设备及工程衔接方面具有专业发言渠道。",
+        "weakness": "码头与造船工人的基层覆盖较低，专业网络不能替代港口劳动组织。"
+      },
+      {
+        "id": "communications",
+        "name": "通信与电报技术",
+        "group": "工程产业",
+        "technicalCoverage": 42,
+        "workforceCoverage": 11,
+        "technicalWorkforceShare": 20,
+        "roles": [
+          "线路规划",
+          "交换设备",
+          "技术维修"
+        ],
+        "channel": "通信工程师与电报技术人员的学习联络。",
+        "influence": "能够围绕跨地区通信标准、设备和维修提出共同意见。",
+        "weakness": "邮递、柜台和一般勤务岗位的联系不够集中，通信事务代表并非本党公职。"
+      },
+      {
+        "id": "finance",
+        "name": "财政、税务与统计",
+        "group": "公共与专业服务",
+        "technicalCoverage": 72,
+        "workforceCoverage": 41,
+        "technicalWorkforceShare": 50,
+        "roles": [
+          "预算编制",
+          "税务核算",
+          "统计整理"
+        ],
+        "channel": "财政研究会、会计与统计人员的专业小组。",
+        "influence": "本党在共同报表、预算编制和财政统筹方面有较密集的专业联络，能为财政事务代表提供政策研究。",
+        "weakness": "基层收受、文书和地方财务岗位的联系仍有空缺；联络覆盖不等于可以调拨地方资金。"
+      },
+      {
+        "id": "administration",
+        "name": "公共行政与专业文官",
+        "group": "公共与专业服务",
+        "technicalCoverage": 58,
+        "workforceCoverage": 24,
+        "technicalWorkforceShare": 35,
+        "roles": [
+          "制度起草",
+          "行政统计",
+          "专业审查"
+        ],
+        "channel": "专业文官的政策研讨与行政研究小组。",
+        "influence": "在统一报表、跨区行政和技术审查方面，能够汇集一批连贯的改革意见。",
+        "weakness": "一般文书和地方日常行政人员的组织联系较弱，中央方案的执行需要地方合作。"
+      },
+      {
+        "id": "education",
+        "name": "理工教育与研究",
+        "group": "公共与专业服务",
+        "technicalCoverage": 54,
+        "workforceCoverage": 21,
+        "technicalWorkforceShare": 30,
+        "roles": [
+          "工程教学",
+          "实验研究",
+          "技术评议"
+        ],
+        "channel": "理工教师、研究人员与技术学校校友的联络。",
+        "influence": "能够提供技术论证、培训课程和专业人才建议。",
+        "weakness": "对学生与一般校务人员的影响另须开展工作；本表只计算从业人员。"
+      },
+      {
+        "id": "military",
+        "name": "军队技术与军需体系",
+        "group": "公共与专业服务",
+        "technicalCoverage": 37,
+        "workforceCoverage": 6,
+        "technicalWorkforceShare": 12,
+        "roles": [
+          "军需核算",
+          "军械技术",
+          "工程勤务"
+        ],
+        "channel": "军队技术人员与军需专业人员的政治联络。",
+        "influence": "在技术标准、军需核算和工程勤务改革方面存在可利用的专业意见渠道。",
+        "weakness": "普通官兵与作战单位的覆盖有限，专业联系不赋予本党军令或兵力指挥权。"
+      },
+      {
+        "id": "agriculture",
+        "name": "农业与农产品加工",
+        "group": "一般行业",
+        "technicalCoverage": 24,
+        "workforceCoverage": 3,
+        "technicalWorkforceShare": 6,
+        "roles": [
+          "农艺技术",
+          "加工设备",
+          "农业统计"
+        ],
+        "channel": "农艺人员、加工技师与农业研究者的联络。",
+        "influence": "可为机械化、加工和农产品统计提供专业意见。",
+        "weakness": "农民、农业雇工及多数合作社中的组织联系薄弱，乡村动员不能依赖少数技术人员。"
+      },
+      {
+        "id": "textiles",
+        "name": "纺织与服装",
+        "group": "一般行业",
+        "technicalCoverage": 18,
+        "workforceCoverage": 3,
+        "technicalWorkforceShare": 8,
+        "roles": [
+          "设备检修",
+          "工艺检查",
+          "生产核算"
+        ],
+        "channel": "零散的检修技师与厂内技术人员联络。",
+        "influence": "能够获得部分设备与工艺方面的专业意见。",
+        "weakness": "专业岗位本身覆盖不高，普通工人与小作坊中的基层联系更少。"
+      },
+      {
+        "id": "commerce",
+        "name": "商业与流通",
+        "group": "一般行业",
+        "technicalCoverage": 13,
+        "workforceCoverage": 2,
+        "technicalWorkforceShare": 6,
+        "roles": [
+          "仓储技术",
+          "物流核算",
+          "商品统计"
+        ],
+        "channel": "少量物流、仓储与统计人员的联络。",
+        "influence": "在仓储与物流研究中有少量通信渠道。",
+        "weakness": "商店、市场和普通流通岗位缺少稳定的组织据点。"
+      }
+    ],
+    "provenance": {
+      "userCanon": "人民党基本盘主要为技术官僚与工程师较多的行业和岗位；不占选票多数，但聚集程度高。",
+      "supplement": "各行业覆盖比例、技术岗位占比、渠道与具体影响为本次补充开局设定，未使用CGT或其他阵营的内部登记。",
+      "denominator": "技术岗位为全行业从业者的子集，覆盖人数的子集关系必须成立。各行业不加总为全国支持率；固定联络者不自动等同党员。",
+      "technicalShare": "technicalWorkforceShare是检查子集关系的行业人员构成参数，不是党员比例。"
+    }
   },
   "regions": [
     {
@@ -542,7 +811,8 @@
   "provenance": {
     "userCanon": [
       "法国人民党比法国共产党更加专制",
-      "参考现有独立玩家主页制作"
+      "参考现有独立玩家主页制作",
+      "技术官僚与工程师是主要组织基本盘，选票有限但聚集程度高"
     ],
     "publicSource": "既有民调、总议会席位与公安委职务配置",
     "supplement": "无姓名党主席、主席裁决制、六个领导机关、处理程序和《共和报》为本次补定；未设置忠诚度、内部派系比例或新增国家权力。",
