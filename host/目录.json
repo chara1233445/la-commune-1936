@@ -50,6 +50,10 @@
         [
           "会务",
           "affairs"
+        ],
+        [
+          "工会之声",
+          "press"
         ]
       ]
     },
@@ -131,6 +135,170 @@
         ],
         [
           "共和报",
+          "press"
+        ]
+      ]
+    },
+    {
+      "title": "法国国家工团主义者联盟",
+      "fr": "Ligue nationale-syndicaliste française",
+      "group": "阵营资料",
+      "route": "sorelians.html",
+      "description": "索雷尔派国家工团主义纲领、领袖组织、青年及军中动员资料。",
+      "logo": "https://chara1233445.github.io/la-commune-1936/assets/party-logos/sorel-v1.svg",
+      "shortcuts": [
+        [
+          "领导中枢",
+          "leadership"
+        ],
+        [
+          "联盟纲领",
+          "revanche"
+        ],
+        [
+          "基层动员",
+          "mobilisation"
+        ],
+        [
+          "地区支持",
+          "regions"
+        ],
+        [
+          "国防与劳动",
+          "programme"
+        ],
+        [
+          "先锋报",
+          "press"
+        ]
+      ]
+    },
+    {
+      "title": "社会主义共和联盟",
+      "fr": "UNION SOCIALISTE RÉPUBLICAINE",
+      "group": "阵营资料",
+      "route": "socialist-republicans.html",
+      "description": "改革协商 · 共和晨报",
+      "logo": "https://chara1233445.github.io/la-commune-1936/assets/party-logos/socialist-republicans-v1.svg",
+      "shortcuts": [
+        [
+          "领导与组织",
+          "organisation"
+        ],
+        [
+          "改革协商",
+          "mechanism"
+        ],
+        [
+          "地区支持",
+          "regions"
+        ],
+        [
+          "共和晨报",
+          "press"
+        ]
+      ]
+    },
+    {
+      "title": "青年共和联盟",
+      "fr": "LIGUE DE LA JEUNE RÉPUBLIQUE",
+      "group": "阵营资料",
+      "route": "young-republicans.html",
+      "description": "学校与互助网络 · 曙光报",
+      "logo": "https://chara1233445.github.io/la-commune-1936/assets/party-logos/young-republicans-v1.svg",
+      "shortcuts": [
+        [
+          "领导与组织",
+          "organisation"
+        ],
+        [
+          "学校与互助网络",
+          "mechanism"
+        ],
+        [
+          "地区支持",
+          "regions"
+        ],
+        [
+          "曙光报",
+          "press"
+        ]
+      ]
+    },
+    {
+      "title": "全国纳税人联合",
+      "fr": "UNION NATIONALE DES CONTRIBUABLES",
+      "group": "阵营资料",
+      "route": "taxpayers.html",
+      "description": "财产与税负议程 · 纳税人报",
+      "logo": "https://chara1233445.github.io/la-commune-1936/assets/party-logos/taxpayers-v1.svg",
+      "shortcuts": [
+        [
+          "领导与组织",
+          "organisation"
+        ],
+        [
+          "财产与税负议程",
+          "mechanism"
+        ],
+        [
+          "地区支持",
+          "regions"
+        ],
+        [
+          "纳税人报",
+          "press"
+        ]
+      ]
+    },
+    {
+      "title": "法国基督徒联盟",
+      "fr": "ALLIANCE CHRÉTIENNE FRANÇAISE",
+      "group": "阵营资料",
+      "route": "christians.html",
+      "description": "信仰与财产的联合基础 · 信仰与家庭报",
+      "logo": "https://chara1233445.github.io/la-commune-1936/assets/party-logos/christians-v1.svg",
+      "shortcuts": [
+        [
+          "领导与组织",
+          "organisation"
+        ],
+        [
+          "信仰与财产的联合基础",
+          "mechanism"
+        ],
+        [
+          "地区支持",
+          "regions"
+        ],
+        [
+          "信仰与家庭报",
+          "press"
+        ]
+      ]
+    },
+    {
+      "title": "农民阵线",
+      "fr": "FRONT PAYSAN",
+      "group": "阵营资料",
+      "route": "farmer-front.html",
+      "description": "社会支持与代表权 · 乡土报",
+      "logo": "https://chara1233445.github.io/la-commune-1936/assets/party-logos/farmer-front-v1.svg",
+      "shortcuts": [
+        [
+          "领导与组织",
+          "organisation"
+        ],
+        [
+          "社会支持与代表权",
+          "mechanism"
+        ],
+        [
+          "地区支持",
+          "regions"
+        ],
+        [
+          "乡土报",
           "press"
         ]
       ]

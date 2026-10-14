@@ -1,0 +1,516 @@
+{
+  "id": "social-republican",
+  "route": "socialist-republicans.html",
+  "slug": "socialist-republicans",
+  "theme": "republican",
+  "title": "社会主义共和联盟",
+  "fr": "UNION SOCIALISTE RÉPUBLICAINE",
+  "motto": "共和国 · 社会改革 · 公民自由",
+  "heroLabel": "联盟执行委员会",
+  "heroText": "以议会协商推进社会改革，以公民自由约束行政权力。联盟的二十五席不足以独立组成多数，却能参与决定若干改革提案的走向。",
+  "leaderTitle": "联盟主席",
+  "system": "执行委员会集体讨论，主席协调议会党团与地方共和社团。重大路线交联盟会议讨论；地方组织保留提出意见的渠道。",
+  "leadership": [
+    [
+      "执行委员会",
+      "拟订改革提案，协调党团与地方组织。"
+    ],
+    [
+      "议会党团",
+      "围绕具体条款谈判，向执行委员会报告表决立场。"
+    ],
+    [
+      "公民权利委员会",
+      "整理诉讼程序、行政申诉与司法改革主张。"
+    ],
+    [
+      "地方共和社团",
+      "联络温和小市民、专业人士与民主派支持者。"
+    ]
+  ],
+  "mechanism": {
+    "type": "negotiation",
+    "title": "改革协商",
+    "fr": "LES ACCORDS DE RÉFORME",
+    "intro": "选择议题查看本联盟的主张与可讨论的议会组合。所列均为谈判方案，尚未成立联盟。",
+    "cases": [
+      {
+        "id": "labour",
+        "title": "劳动保障",
+        "demand": "支持失业救济与劳动保障，要求公共制度覆盖工会网络之外的劳动者。",
+        "condition": "救济须有统一的申请标准，行政决定可以申诉。",
+        "coalitions": [
+          {
+            "name": "工人改革协定",
+            "parties": [
+              "syndicalist",
+              "communist",
+              "social-republican"
+            ],
+            "note": "可谈劳动保障与农村投资；须协调工会建制与限制垄断两种主张。"
+          },
+          {
+            "name": "扩大共同反对派",
+            "parties": [
+              "anarchist",
+              "communist",
+              "social-republican",
+              "young-republican"
+            ],
+            "note": "改革诉求较接近，仍需就地方自治和宗教议题逐条协商。"
+          }
+        ]
+      },
+      {
+        "id": "rights",
+        "title": "公民与司法",
+        "demand": "维护公开审理、辩护与申诉，反对以政治组织的决定代替法院裁判。",
+        "condition": "党团只支持明确列出司法程序与个人救济办法的条款。",
+        "coalitions": [
+          {
+            "name": "共和与公民权利协作",
+            "parties": [
+              "social-republican",
+              "young-republican",
+              "taxpayer",
+              "christian",
+              "independent"
+            ],
+            "note": "不同组织可就程序保障协商；共同关切不等于形成统一政治路线。"
+          },
+          {
+            "name": "扩大共同反对派",
+            "parties": [
+              "anarchist",
+              "communist",
+              "social-republican",
+              "young-republican"
+            ],
+            "note": "可以讨论反官僚与公民救济，具体司法改革尚须争取更多支持。"
+          }
+        ]
+      },
+      {
+        "id": "local",
+        "title": "地方与公共服务",
+        "demand": "支持地方公共服务与联邦财政协调，主张明确各机关的责任和报告办法。",
+        "condition": "共同标准应保留地方陈述困难与提出修订的渠道。",
+        "coalitions": [
+          {
+            "name": "工人改革协定",
+            "parties": [
+              "syndicalist",
+              "communist",
+              "social-republican"
+            ],
+            "note": "可围绕公共服务提出共同条款，避免把单项合作扩写成长期执政协定。"
+          },
+          {
+            "name": "温和共和协作",
+            "parties": [
+              "social-republican",
+              "young-republican",
+              "independent"
+            ],
+            "note": "地方与公民权利议题较易讨论，组织规模不足以独自推动全案。"
+          }
+        ]
+      }
+    ]
+  },
+  "priorities": [
+    [
+      "社会改革",
+      "保障劳动者的救济与申诉，不将工会资格作为公共服务的前提。"
+    ],
+    [
+      "共和国制度",
+      "坚持代表机关的讨论、行政责任与公民救济，反对革命专制。"
+    ],
+    [
+      "渐进合作",
+      "围绕条款寻找多数，保留联盟自己的组织与报刊。"
+    ]
+  ],
+  "press": {
+    "name": "共和晨报",
+    "fr": "LE MATIN RÉPUBLICAIN",
+    "title": "改革须给公民以保障",
+    "titleFr": "DES GARANTIES POUR LES CITOYENS",
+    "paragraphs": [
+      "巴黎，一月。公共救济应当到达失业者，司法救济应当到达受处分者。一个人若在失去工会庇护以后，连申请和申诉的门也找不到，共和国的制度便有了缺口。社会主义共和联盟要求把这些缺口写进议案，逐一补上。",
+      "我们支持社会改革。银行和企业留下的旧权力，不能以尊重自由之名免于公共监督；新机关取得的权力，也不能以革命之名免于说明和追问。法院听取辩护，行政机关答复申诉，代表向议会报告责任，这些事情应当成为日常制度。",
+      "有二十五名议员并不使联盟成为全国的主人，却使我们有责任审读每一份提案。劳动保障可以同工团派和共产党谈，地方服务可以同自治派谈。谈判所得若只是几句共同声明，没有申请标准、负责机关和救济办法，本联盟的代表不应满足。",
+      "有人把协商称为软弱。请他们先说明，自己的办法怎样使一个普通公民得到答复。联盟的议员愿意承担改革的责任，也要求行政机关承担执行的责任。共和国须有力量；这力量应当受公民可以使用的制度约束。"
+    ],
+    "lines": [
+      [
+        "社论",
+        "支持社会改革，批评行政专断，论证应落到具体条款。"
+      ],
+      [
+        "司法与公民",
+        "刊载公开案件与程序争论，区分报道、意见与党团提案。"
+      ],
+      [
+        "地方通讯",
+        "征集公共服务、申诉和救济的具体困难。"
+      ]
+    ]
+  },
+  "period": "1936年一月",
+  "reader": [
+    "social-republican-player",
+    "host"
+  ],
+  "informationScope": {
+    "owner": "social-republican",
+    "visibility": "faction",
+    "publicBaselineAllowed": true,
+    "otherFactionInternalAllowed": false
+  },
+  "publicBaseline": {
+    "nationalSupport": 3.4,
+    "seats": 25,
+    "totalSeats": 650,
+    "supportBase": "温和小市民、部分旧中产与民主派将官",
+    "kind": "parliamentary"
+  },
+  "regions": [
+    {
+      "id": "paris",
+      "name": "巴黎—法兰西岛",
+      "fr": "PARIS · ÎLE-DE-FRANCE",
+      "cities": [
+        "巴黎",
+        "圣但尼",
+        "布洛涅"
+      ],
+      "industries": [
+        "汽车与机械",
+        "印刷出版",
+        "联邦机关与商贸"
+      ],
+      "support": 3.5
+    },
+    {
+      "id": "calais",
+      "name": "加莱—阿图瓦",
+      "fr": "CALAIS · ARTOIS",
+      "cities": [
+        "加莱",
+        "布洛涅",
+        "朗斯"
+      ],
+      "industries": [
+        "花边纺织",
+        "煤炭",
+        "海峡航运"
+      ],
+      "support": 3
+    },
+    {
+      "id": "lille",
+      "name": "里尔—北部工业区",
+      "fr": "LILLE · NORD",
+      "cities": [
+        "里尔",
+        "鲁贝",
+        "图尔宽"
+      ],
+      "industries": [
+        "毛棉纺织",
+        "煤炭与冶金",
+        "机械制造"
+      ],
+      "support": 2.9
+    },
+    {
+      "id": "picardie",
+      "name": "皮卡第",
+      "fr": "PICARDIE",
+      "cities": [
+        "亚眠",
+        "博韦",
+        "圣康坦"
+      ],
+      "industries": [
+        "粮食与甜菜",
+        "食品加工",
+        "纺织"
+      ],
+      "support": 3.3
+    },
+    {
+      "id": "normandie",
+      "name": "诺曼底",
+      "fr": "NORMANDIE",
+      "cities": [
+        "鲁昂",
+        "勒阿弗尔",
+        "卡昂"
+      ],
+      "industries": [
+        "港口与造船",
+        "纺织",
+        "乳业与畜牧"
+      ],
+      "support": 3.5
+    },
+    {
+      "id": "bretagne",
+      "name": "布列塔尼",
+      "fr": "BRETAGNE",
+      "cities": [
+        "雷恩",
+        "布雷斯特",
+        "坎佩尔"
+      ],
+      "industries": [
+        "渔业与罐头",
+        "海军船厂",
+        "畜牧与粮食"
+      ],
+      "support": 3.5
+    },
+    {
+      "id": "loire",
+      "name": "南特—卢瓦尔下游",
+      "fr": "NANTES · BASSE-LOIRE",
+      "cities": [
+        "南特",
+        "圣纳泽尔",
+        "昂热",
+        "勒芒"
+      ],
+      "industries": [
+        "造船与港口",
+        "机械与食品加工",
+        "粮食与畜牧"
+      ],
+      "support": 3.4
+    },
+    {
+      "id": "poitou",
+      "name": "普瓦图—夏朗德",
+      "fr": "POITOU · CHARENTES",
+      "cities": [
+        "普瓦捷",
+        "拉罗谢尔",
+        "昂古莱姆"
+      ],
+      "industries": [
+        "粮食与乳业",
+        "干邑与葡萄种植",
+        "港口与造纸"
+      ],
+      "support": 3.6
+    },
+    {
+      "id": "bordeaux",
+      "name": "波尔多—阿基坦",
+      "fr": "BORDEAUX · AQUITAINE",
+      "cities": [
+        "波尔多",
+        "佩里格",
+        "巴约讷"
+      ],
+      "industries": [
+        "港口与造船",
+        "葡萄酒",
+        "林业与木材"
+      ],
+      "support": 3.4
+    },
+    {
+      "id": "toulouse",
+      "name": "图卢兹—西南内陆",
+      "fr": "TOULOUSE · MIDI-PYRÉNÉES",
+      "cities": [
+        "图卢兹",
+        "蒙托邦",
+        "塔布"
+      ],
+      "industries": [
+        "航空与机械",
+        "粮食与畜牧",
+        "水电"
+      ],
+      "support": 3.9
+    },
+    {
+      "id": "limousin",
+      "name": "利穆赞",
+      "fr": "LIMOUSIN",
+      "cities": [
+        "利摩日",
+        "盖雷",
+        "蒂勒"
+      ],
+      "industries": [
+        "瓷器与制鞋",
+        "畜牧",
+        "林业"
+      ],
+      "support": 3.3
+    },
+    {
+      "id": "auvergne",
+      "name": "奥弗涅",
+      "fr": "AUVERGNE",
+      "cities": [
+        "克莱蒙费朗",
+        "欧里亚克",
+        "勒皮"
+      ],
+      "industries": [
+        "橡胶与轮胎",
+        "畜牧",
+        "采矿与食品加工"
+      ],
+      "support": 3.5
+    },
+    {
+      "id": "centre",
+      "name": "中央—卢瓦尔中游",
+      "fr": "CENTRE · VAL DE LOIRE",
+      "cities": [
+        "奥尔良",
+        "图尔",
+        "布尔日"
+      ],
+      "industries": [
+        "粮食与葡萄酒",
+        "军械与机械",
+        "铁路运输"
+      ],
+      "support": 3.6
+    },
+    {
+      "id": "champagne",
+      "name": "香槟—阿登",
+      "fr": "CHAMPAGNE · ARDENNES",
+      "cities": [
+        "兰斯",
+        "特鲁瓦",
+        "沙隆"
+      ],
+      "industries": [
+        "谷物与葡萄酒",
+        "纺织",
+        "冶金"
+      ],
+      "support": 3.4
+    },
+    {
+      "id": "nancy",
+      "name": "南锡—公社洛林",
+      "fr": "NANCY · LORRAINE COMMUNARDE",
+      "cities": [
+        "南锡",
+        "图勒",
+        "巴勒迪克"
+      ],
+      "industries": [
+        "玻璃与机械",
+        "残存冶金",
+        "粮食与林业"
+      ],
+      "support": 3.3
+    },
+    {
+      "id": "bourgogne",
+      "name": "勃艮第—弗朗什孔泰",
+      "fr": "BOURGOGNE · FRANCHE-COMTÉ",
+      "cities": [
+        "第戎",
+        "贝桑松",
+        "勒克勒佐"
+      ],
+      "industries": [
+        "冶金与机械",
+        "钟表",
+        "葡萄酒与畜牧"
+      ],
+      "support": 3.5
+    },
+    {
+      "id": "lyon",
+      "name": "里昂—罗讷工业带",
+      "fr": "LYON · RHÔNE",
+      "cities": [
+        "里昂",
+        "圣艾蒂安",
+        "圣沙蒙"
+      ],
+      "industries": [
+        "丝绸与纺织",
+        "化工",
+        "煤炭、冶金与军械"
+      ],
+      "support": 3.2
+    },
+    {
+      "id": "dauphine",
+      "name": "多菲内—下萨瓦",
+      "fr": "DAUPHINÉ · BASSE-SAVOIE",
+      "cities": [
+        "格勒诺布尔",
+        "尚贝里",
+        "瓦朗斯"
+      ],
+      "industries": [
+        "水电与电化学",
+        "铝业与机械",
+        "山地畜牧"
+      ],
+      "support": 3.9
+    },
+    {
+      "id": "languedoc",
+      "name": "朗格多克—鲁西永",
+      "fr": "LANGUEDOC · ROUSSILLON",
+      "cities": [
+        "蒙彼利埃",
+        "尼姆",
+        "佩皮尼昂"
+      ],
+      "industries": [
+        "葡萄种植",
+        "煤炭与纺织",
+        "港口与食品加工"
+      ],
+      "support": 3.5
+    },
+    {
+      "id": "marseille",
+      "name": "马赛—普罗旺斯",
+      "fr": "MARSEILLE · PROVENCE",
+      "cities": [
+        "马赛",
+        "土伦",
+        "尼斯"
+      ],
+      "industries": [
+        "军舰与军工",
+        "港口运输",
+        "肥皂、油脂与化工"
+      ],
+      "support": 3.2
+    }
+  ],
+  "publicOffices": [
+    {
+      "title": "司法事务代表",
+      "fr": "JUSTICE",
+      "votes": 5280000,
+      "percent": 24
+    }
+  ],
+  "provenance": {
+    "publicSource": "既有民调、650席总议会与公安委职位投票；用户关于阶层、财产及组织封禁的设定。",
+    "supplement": "匿名玩家领导席位、党内分工、专属机制与报刊内容为本次补充设定。机制中的工作权重不代表选票或国家统计；协商组合依据公开席位推演，尚未成立。",
+    "style": "五页分别采用共和议案、教育互助、纳税事务、宗教保守和乡村档案语气；原创中文译写与法语标题。",
+    "paper": "各报为文游机关报及待刊稿，不冒充真实法国报纸原文；编务与内部口径仅属本组织。"
+  }
+}

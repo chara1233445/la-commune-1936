@@ -1,0 +1,441 @@
+{
+  "id": "farmer-front",
+  "route": "farmer-front.html",
+  "slug": "farmer-front",
+  "theme": "farmer",
+  "title": "农民阵线",
+  "fr": "FRONT PAYSAN",
+  "motto": "土地 · 家庭 · 乡村利益",
+  "heroLabel": "乡村政治档案",
+  "heroText": "阵线得到部分富农与保守乡村群体支持，反对进一步处分土地与财产。组织已经被封禁：社会支持仍然存在，却不能转成合法参选资格和议会席位。",
+  "leaderTitle": "阵线负责人",
+  "system": "负责人汇集支持者对土地、家庭财产和乡村利益的主张。此页整理本组织政治立场及社会支持，不将被封禁组织设为合法的行政机关。",
+  "leadership": [
+    [
+      "乡村事务联络",
+      "汇集支持者对土地、经营和地方生活的诉求。"
+    ],
+    [
+      "农产议题研究",
+      "整理公开粮价与农业政策争论，提出本组织意见。"
+    ],
+    [
+      "家庭财产事务",
+      "关注土地再处分、继承与农户经营。"
+    ],
+    [
+      "报刊编辑",
+      "主持本组织的乡村立场稿件。"
+    ]
+  ],
+  "mechanism": {
+    "type": "restriction",
+    "title": "社会支持与代表权",
+    "fr": "SOUTIEN SOCIAL ET REPRÉSENTATION",
+    "intro": "地区支持属于政治态度。封禁状态下，支持意向不赋予阵线参选资格、议席或政府职位。",
+    "legalStatus": "已被封禁",
+    "representation": 0,
+    "issues": [
+      [
+        "土地与家产",
+        "反对进一步处分土地，主张保留农户经营与家庭财产。"
+      ],
+      [
+        "农产与税负",
+        "关注收购、税收和流通规则，批评忽视乡村经营条件的政策。"
+      ],
+      [
+        "乡村习惯",
+        "维护地方生活与保守家庭观念，反对强制改变经营组织。"
+      ]
+    ]
+  },
+  "priorities": [
+    [
+      "土地经营",
+      "维护所有者与家庭经营者的土地诉求，反对强制改组。"
+    ],
+    [
+      "乡村利益",
+      "要求农业政策听取经营者意见，不把全部乡村诉求归入工会。"
+    ],
+    [
+      "封禁状态",
+      "不能参加合法选举，没有总议会席位或公安委公职。"
+    ]
+  ],
+  "press": {
+    "name": "乡土报",
+    "fr": "LA TERRE ET LE FOYER",
+    "title": "乡村也有自己的意见",
+    "titleFr": "LA VOIX DES CAMPAGNES",
+    "paragraphs": [
+      "一月。农民阵线已被封禁，乡村中支持它的人却没有因此停止关心土地与家产。阵线的主张是维护农户经营，反对继续处分土地，要求制定农业政策的人听取经营者的意见。",
+      "同一片土地要安排耕作，要维持一家人的生活，也要承担税收与采购要求。行政机关若只问可以取得多少产品，不问农户怎样安排下一季，便不能得到乡村的信任。收购与征收应有明白的规则，经营者应有陈述的机会。",
+      "我们反对强制改变经营组织。合作可以商谈，机械可以采用；土地与劳动由谁安排，不能在农户没有发言的情况下决定。阵线维护的是这些所有者与家庭经营者的立场，不能自称代表全体农民。",
+      "支持阵线的态度不是议席。我们没有资格把社会不满宣布为选举胜利，也没有国家职务可以发出行政命令。这份报纸记录本组织的意见，并将土地、税负与乡村生活的争论保持在读者面前。"
+    ],
+    "lines": [
+      [
+        "土地与家庭",
+        "保持保守乡村立场，关注土地、经营和家产。"
+      ],
+      [
+        "农产争论",
+        "评论公开政策与流通规则，不移入农业部门内部情报。"
+      ],
+      [
+        "组织状态",
+        "明确封禁与零议席，不把支持意向报道成合法参选结果。"
+      ]
+    ]
+  },
+  "period": "1936年一月",
+  "reader": [
+    "farmer-front-player",
+    "host"
+  ],
+  "informationScope": {
+    "owner": "farmer-front",
+    "visibility": "faction",
+    "publicBaselineAllowed": true,
+    "otherFactionInternalAllowed": false
+  },
+  "publicBaseline": {
+    "nationalSupport": 2.7,
+    "seats": 0,
+    "totalSeats": 650,
+    "supportBase": "部分富农与反动乡村群体",
+    "kind": "banned"
+  },
+  "regions": [
+    {
+      "id": "paris",
+      "name": "巴黎—法兰西岛",
+      "fr": "PARIS · ÎLE-DE-FRANCE",
+      "cities": [
+        "巴黎",
+        "圣但尼",
+        "布洛涅"
+      ],
+      "industries": [
+        "汽车与机械",
+        "印刷出版",
+        "联邦机关与商贸"
+      ],
+      "support": 0.3
+    },
+    {
+      "id": "calais",
+      "name": "加莱—阿图瓦",
+      "fr": "CALAIS · ARTOIS",
+      "cities": [
+        "加莱",
+        "布洛涅",
+        "朗斯"
+      ],
+      "industries": [
+        "花边纺织",
+        "煤炭",
+        "海峡航运"
+      ],
+      "support": 1.1
+    },
+    {
+      "id": "lille",
+      "name": "里尔—北部工业区",
+      "fr": "LILLE · NORD",
+      "cities": [
+        "里尔",
+        "鲁贝",
+        "图尔宽"
+      ],
+      "industries": [
+        "毛棉纺织",
+        "煤炭与冶金",
+        "机械制造"
+      ],
+      "support": 0.8
+    },
+    {
+      "id": "picardie",
+      "name": "皮卡第",
+      "fr": "PICARDIE",
+      "cities": [
+        "亚眠",
+        "博韦",
+        "圣康坦"
+      ],
+      "industries": [
+        "粮食与甜菜",
+        "食品加工",
+        "纺织"
+      ],
+      "support": 3.4
+    },
+    {
+      "id": "normandie",
+      "name": "诺曼底",
+      "fr": "NORMANDIE",
+      "cities": [
+        "鲁昂",
+        "勒阿弗尔",
+        "卡昂"
+      ],
+      "industries": [
+        "港口与造船",
+        "纺织",
+        "乳业与畜牧"
+      ],
+      "support": 2.9
+    },
+    {
+      "id": "bretagne",
+      "name": "布列塔尼",
+      "fr": "BRETAGNE",
+      "cities": [
+        "雷恩",
+        "布雷斯特",
+        "坎佩尔"
+      ],
+      "industries": [
+        "渔业与罐头",
+        "海军船厂",
+        "畜牧与粮食"
+      ],
+      "support": 7.7
+    },
+    {
+      "id": "loire",
+      "name": "南特—卢瓦尔下游",
+      "fr": "NANTES · BASSE-LOIRE",
+      "cities": [
+        "南特",
+        "圣纳泽尔",
+        "昂热",
+        "勒芒"
+      ],
+      "industries": [
+        "造船与港口",
+        "机械与食品加工",
+        "粮食与畜牧"
+      ],
+      "support": 3.2
+    },
+    {
+      "id": "poitou",
+      "name": "普瓦图—夏朗德",
+      "fr": "POITOU · CHARENTES",
+      "cities": [
+        "普瓦捷",
+        "拉罗谢尔",
+        "昂古莱姆"
+      ],
+      "industries": [
+        "粮食与乳业",
+        "干邑与葡萄种植",
+        "港口与造纸"
+      ],
+      "support": 4.6
+    },
+    {
+      "id": "bordeaux",
+      "name": "波尔多—阿基坦",
+      "fr": "BORDEAUX · AQUITAINE",
+      "cities": [
+        "波尔多",
+        "佩里格",
+        "巴约讷"
+      ],
+      "industries": [
+        "港口与造船",
+        "葡萄酒",
+        "林业与木材"
+      ],
+      "support": 2.7
+    },
+    {
+      "id": "toulouse",
+      "name": "图卢兹—西南内陆",
+      "fr": "TOULOUSE · MIDI-PYRÉNÉES",
+      "cities": [
+        "图卢兹",
+        "蒙托邦",
+        "塔布"
+      ],
+      "industries": [
+        "航空与机械",
+        "粮食与畜牧",
+        "水电"
+      ],
+      "support": 3.8
+    },
+    {
+      "id": "limousin",
+      "name": "利穆赞",
+      "fr": "LIMOUSIN",
+      "cities": [
+        "利摩日",
+        "盖雷",
+        "蒂勒"
+      ],
+      "industries": [
+        "瓷器与制鞋",
+        "畜牧",
+        "林业"
+      ],
+      "support": 4.2
+    },
+    {
+      "id": "auvergne",
+      "name": "奥弗涅",
+      "fr": "AUVERGNE",
+      "cities": [
+        "克莱蒙费朗",
+        "欧里亚克",
+        "勒皮"
+      ],
+      "industries": [
+        "橡胶与轮胎",
+        "畜牧",
+        "采矿与食品加工"
+      ],
+      "support": 4
+    },
+    {
+      "id": "centre",
+      "name": "中央—卢瓦尔中游",
+      "fr": "CENTRE · VAL DE LOIRE",
+      "cities": [
+        "奥尔良",
+        "图尔",
+        "布尔日"
+      ],
+      "industries": [
+        "粮食与葡萄酒",
+        "军械与机械",
+        "铁路运输"
+      ],
+      "support": 4.2
+    },
+    {
+      "id": "champagne",
+      "name": "香槟—阿登",
+      "fr": "CHAMPAGNE · ARDENNES",
+      "cities": [
+        "兰斯",
+        "特鲁瓦",
+        "沙隆"
+      ],
+      "industries": [
+        "谷物与葡萄酒",
+        "纺织",
+        "冶金"
+      ],
+      "support": 3.7
+    },
+    {
+      "id": "nancy",
+      "name": "南锡—公社洛林",
+      "fr": "NANCY · LORRAINE COMMUNARDE",
+      "cities": [
+        "南锡",
+        "图勒",
+        "巴勒迪克"
+      ],
+      "industries": [
+        "玻璃与机械",
+        "残存冶金",
+        "粮食与林业"
+      ],
+      "support": 2.8
+    },
+    {
+      "id": "bourgogne",
+      "name": "勃艮第—弗朗什孔泰",
+      "fr": "BOURGOGNE · FRANCHE-COMTÉ",
+      "cities": [
+        "第戎",
+        "贝桑松",
+        "勒克勒佐"
+      ],
+      "industries": [
+        "冶金与机械",
+        "钟表",
+        "葡萄酒与畜牧"
+      ],
+      "support": 3.4
+    },
+    {
+      "id": "lyon",
+      "name": "里昂—罗讷工业带",
+      "fr": "LYON · RHÔNE",
+      "cities": [
+        "里昂",
+        "圣艾蒂安",
+        "圣沙蒙"
+      ],
+      "industries": [
+        "丝绸与纺织",
+        "化工",
+        "煤炭、冶金与军械"
+      ],
+      "support": 1
+    },
+    {
+      "id": "dauphine",
+      "name": "多菲内—下萨瓦",
+      "fr": "DAUPHINÉ · BASSE-SAVOIE",
+      "cities": [
+        "格勒诺布尔",
+        "尚贝里",
+        "瓦朗斯"
+      ],
+      "industries": [
+        "水电与电化学",
+        "铝业与机械",
+        "山地畜牧"
+      ],
+      "support": 3.2
+    },
+    {
+      "id": "languedoc",
+      "name": "朗格多克—鲁西永",
+      "fr": "LANGUEDOC · ROUSSILLON",
+      "cities": [
+        "蒙彼利埃",
+        "尼姆",
+        "佩皮尼昂"
+      ],
+      "industries": [
+        "葡萄种植",
+        "煤炭与纺织",
+        "港口与食品加工"
+      ],
+      "support": 3.8
+    },
+    {
+      "id": "marseille",
+      "name": "马赛—普罗旺斯",
+      "fr": "MARSEILLE · PROVENCE",
+      "cities": [
+        "马赛",
+        "土伦",
+        "尼斯"
+      ],
+      "industries": [
+        "军舰与军工",
+        "港口运输",
+        "肥皂、油脂与化工"
+      ],
+      "support": 1.2
+    }
+  ],
+  "publicOffices": [],
+  "provenance": {
+    "publicSource": "既有民调、650席总议会与公安委职位投票；用户关于阶层、财产及组织封禁的设定。",
+    "supplement": "匿名玩家领导席位、党内分工、专属机制与报刊内容为本次补充设定。机制中的工作权重不代表选票或国家统计；协商组合依据公开席位推演，尚未成立。",
+    "style": "五页分别采用共和议案、教育互助、纳税事务、宗教保守和乡村档案语气；原创中文译写与法语标题。",
+    "paper": "各报为文游机关报及待刊稿，不冒充真实法国报纸原文；编务与内部口径仅属本组织。"
+  }
+}

@@ -1,0 +1,455 @@
+{
+  "id": "young-republican",
+  "route": "young-republicans.html",
+  "slug": "young-republicans",
+  "theme": "young",
+  "title": "青年共和联盟",
+  "fr": "LIGUE DE LA JEUNE RÉPUBLIQUE",
+  "motto": "教育 · 互助 · 良心自由",
+  "heroLabel": "青年共和联盟联络处",
+  "heroText": "联盟将天主教社会思想与共和制度结合。它重视学校、互助事业和劳动者家庭，反对让信仰决定一个人能否接受公共教育与社会救济。",
+  "leaderTitle": "联盟主席",
+  "system": "主席协调全国委员会，地方小组通过教育与互助活动提出意见。教师、社会工作者和社会天主教主义者分别参与专业讨论。",
+  "leadership": [
+    [
+      "全国委员会",
+      "讨论教育、社会保障与公共立场。"
+    ],
+    [
+      "学校事务组",
+      "联络教师及家长，准备公共教育主张。"
+    ],
+    [
+      "互助事务组",
+      "汇集劳动者家庭与乡村互助活动的意见。"
+    ],
+    [
+      "良心自由事务组",
+      "协调信仰自由与公共制度的争议。"
+    ]
+  ],
+  "mechanism": {
+    "type": "network",
+    "title": "学校与互助网络",
+    "fr": "ÉCOLES ET ENTRAIDE",
+    "intro": "三种工作相互联系，学校网络较稳定，互助工作仍在扩展。点选查看各自承担的事务。",
+    "nodes": [
+      {
+        "id": "school",
+        "title": "学校",
+        "status": "较稳定",
+        "text": "教师与家长是本联盟的重要联络者。当前关心乡村学额、教材、教师待遇，以及家庭在公共教育中的表达渠道。",
+        "link": "学校活动能接触劳动者家庭，再由互助小组汇集生活困难。"
+      },
+      {
+        "id": "mutual",
+        "title": "互助",
+        "status": "扩展中",
+        "text": "互助小组联系贫困家庭、失业者和乡村支持者，主张把慈善中的临时帮助转成稳定的公共保障。",
+        "link": "互助事业扩大社会联系，也促使学校事务组重视营养、衣物与入学困难。"
+      },
+      {
+        "id": "conscience",
+        "title": "良心自由",
+        "status": "联系稳固",
+        "text": "社会天主教主义者构成联盟的思想基础。联盟维护个人信仰自由，同时主张公共学校与救济不按宗教身份排斥服务对象。",
+        "link": "信仰为部分成员提供社会责任观，共和原则决定公共服务的共同标准。"
+      }
+    ]
+  },
+  "priorities": [
+    [
+      "公共教育",
+      "扩大乡村与劳动者家庭的教育机会，维护教师的专业职责。"
+    ],
+    [
+      "社会互助",
+      "支持失业救济和家庭保障，使帮助不受党派与信仰资格限制。"
+    ],
+    [
+      "良心自由",
+      "维护个人信仰与公民平等，反对宗教压迫，也反对以信仰取代公共制度。"
+    ]
+  ],
+  "press": {
+    "name": "曙光报",
+    "fr": "L’AUBE",
+    "title": "学校应向每个孩子开放",
+    "titleFr": "L’ÉCOLE POUR TOUS LES ENFANTS",
+    "paragraphs": [
+      "巴黎，一月。学校门口不应询问一个孩子的父亲属于哪个工会，也不应询问他的母亲是否进教堂。公共教育既由全体公民共同维持，就应当接纳全体公民的孩子。青年共和联盟将以这个原则办理教育事务。",
+      "乡村家庭所遇到的困难很具体：学校远，教师少，孩子需要参加家里的劳动。只在议会上赞颂教育，不能使他们多上一天课。地方小组应把缺额和家庭困难报来，教育代表须同地方机关讨论办法。",
+      "社会天主教主义者相信，帮助贫困者是人的责任。我们支持互助，也要求公共救济成为稳定制度。接受帮助的人不须交出自己的良心，更不须为了领到衣物或食物而改变信仰。",
+      "我们愿同赞成教育与保障的组织合作。在公共学校的问题上，联盟坚持共同标准；在私人信仰的问题上，联盟坚持公民自由。这两项承诺应当同时做到，不能每逢争执便舍弃其中一项。"
+    ],
+    "lines": [
+      [
+        "学校通讯",
+        "关注教师、家长和乡村学额，以具体困难展开讨论。"
+      ],
+      [
+        "互助与劳动",
+        "强调社会责任和公共保障，不把贫困写成个人的道德过失。"
+      ],
+      [
+        "信仰与共和",
+        "保持温和、明确的社会天主教语气，维护良心自由及公民平等。"
+      ]
+    ]
+  },
+  "period": "1936年一月",
+  "reader": [
+    "young-republican-player",
+    "host"
+  ],
+  "informationScope": {
+    "owner": "young-republican",
+    "visibility": "faction",
+    "publicBaselineAllowed": true,
+    "otherFactionInternalAllowed": false
+  },
+  "publicBaseline": {
+    "nationalSupport": 4,
+    "seats": 20,
+    "totalSeats": 650,
+    "supportBase": "天主教社会主义者、温和小市民与部分乡村群体",
+    "kind": "parliamentary"
+  },
+  "regions": [
+    {
+      "id": "paris",
+      "name": "巴黎—法兰西岛",
+      "fr": "PARIS · ÎLE-DE-FRANCE",
+      "cities": [
+        "巴黎",
+        "圣但尼",
+        "布洛涅"
+      ],
+      "industries": [
+        "汽车与机械",
+        "印刷出版",
+        "联邦机关与商贸"
+      ],
+      "support": 3
+    },
+    {
+      "id": "calais",
+      "name": "加莱—阿图瓦",
+      "fr": "CALAIS · ARTOIS",
+      "cities": [
+        "加莱",
+        "布洛涅",
+        "朗斯"
+      ],
+      "industries": [
+        "花边纺织",
+        "煤炭",
+        "海峡航运"
+      ],
+      "support": 3
+    },
+    {
+      "id": "lille",
+      "name": "里尔—北部工业区",
+      "fr": "LILLE · NORD",
+      "cities": [
+        "里尔",
+        "鲁贝",
+        "图尔宽"
+      ],
+      "industries": [
+        "毛棉纺织",
+        "煤炭与冶金",
+        "机械制造"
+      ],
+      "support": 2.9
+    },
+    {
+      "id": "picardie",
+      "name": "皮卡第",
+      "fr": "PICARDIE",
+      "cities": [
+        "亚眠",
+        "博韦",
+        "圣康坦"
+      ],
+      "industries": [
+        "粮食与甜菜",
+        "食品加工",
+        "纺织"
+      ],
+      "support": 4.3
+    },
+    {
+      "id": "normandie",
+      "name": "诺曼底",
+      "fr": "NORMANDIE",
+      "cities": [
+        "鲁昂",
+        "勒阿弗尔",
+        "卡昂"
+      ],
+      "industries": [
+        "港口与造船",
+        "纺织",
+        "乳业与畜牧"
+      ],
+      "support": 4.2
+    },
+    {
+      "id": "bretagne",
+      "name": "布列塔尼",
+      "fr": "BRETAGNE",
+      "cities": [
+        "雷恩",
+        "布雷斯特",
+        "坎佩尔"
+      ],
+      "industries": [
+        "渔业与罐头",
+        "海军船厂",
+        "畜牧与粮食"
+      ],
+      "support": 4.9
+    },
+    {
+      "id": "loire",
+      "name": "南特—卢瓦尔下游",
+      "fr": "NANTES · BASSE-LOIRE",
+      "cities": [
+        "南特",
+        "圣纳泽尔",
+        "昂热",
+        "勒芒"
+      ],
+      "industries": [
+        "造船与港口",
+        "机械与食品加工",
+        "粮食与畜牧"
+      ],
+      "support": 4.1
+    },
+    {
+      "id": "poitou",
+      "name": "普瓦图—夏朗德",
+      "fr": "POITOU · CHARENTES",
+      "cities": [
+        "普瓦捷",
+        "拉罗谢尔",
+        "昂古莱姆"
+      ],
+      "industries": [
+        "粮食与乳业",
+        "干邑与葡萄种植",
+        "港口与造纸"
+      ],
+      "support": 5.5
+    },
+    {
+      "id": "bordeaux",
+      "name": "波尔多—阿基坦",
+      "fr": "BORDEAUX · AQUITAINE",
+      "cities": [
+        "波尔多",
+        "佩里格",
+        "巴约讷"
+      ],
+      "industries": [
+        "港口与造船",
+        "葡萄酒",
+        "林业与木材"
+      ],
+      "support": 4.1
+    },
+    {
+      "id": "toulouse",
+      "name": "图卢兹—西南内陆",
+      "fr": "TOULOUSE · MIDI-PYRÉNÉES",
+      "cities": [
+        "图卢兹",
+        "蒙托邦",
+        "塔布"
+      ],
+      "industries": [
+        "航空与机械",
+        "粮食与畜牧",
+        "水电"
+      ],
+      "support": 4.6
+    },
+    {
+      "id": "limousin",
+      "name": "利穆赞",
+      "fr": "LIMOUSIN",
+      "cities": [
+        "利摩日",
+        "盖雷",
+        "蒂勒"
+      ],
+      "industries": [
+        "瓷器与制鞋",
+        "畜牧",
+        "林业"
+      ],
+      "support": 4.7
+    },
+    {
+      "id": "auvergne",
+      "name": "奥弗涅",
+      "fr": "AUVERGNE",
+      "cities": [
+        "克莱蒙费朗",
+        "欧里亚克",
+        "勒皮"
+      ],
+      "industries": [
+        "橡胶与轮胎",
+        "畜牧",
+        "采矿与食品加工"
+      ],
+      "support": 4.7
+    },
+    {
+      "id": "centre",
+      "name": "中央—卢瓦尔中游",
+      "fr": "CENTRE · VAL DE LOIRE",
+      "cities": [
+        "奥尔良",
+        "图尔",
+        "布尔日"
+      ],
+      "industries": [
+        "粮食与葡萄酒",
+        "军械与机械",
+        "铁路运输"
+      ],
+      "support": 4.9
+    },
+    {
+      "id": "champagne",
+      "name": "香槟—阿登",
+      "fr": "CHAMPAGNE · ARDENNES",
+      "cities": [
+        "兰斯",
+        "特鲁瓦",
+        "沙隆"
+      ],
+      "industries": [
+        "谷物与葡萄酒",
+        "纺织",
+        "冶金"
+      ],
+      "support": 4.5
+    },
+    {
+      "id": "nancy",
+      "name": "南锡—公社洛林",
+      "fr": "NANCY · LORRAINE COMMUNARDE",
+      "cities": [
+        "南锡",
+        "图勒",
+        "巴勒迪克"
+      ],
+      "industries": [
+        "玻璃与机械",
+        "残存冶金",
+        "粮食与林业"
+      ],
+      "support": 4.1
+    },
+    {
+      "id": "bourgogne",
+      "name": "勃艮第—弗朗什孔泰",
+      "fr": "BOURGOGNE · FRANCHE-COMTÉ",
+      "cities": [
+        "第戎",
+        "贝桑松",
+        "勒克勒佐"
+      ],
+      "industries": [
+        "冶金与机械",
+        "钟表",
+        "葡萄酒与畜牧"
+      ],
+      "support": 4.4
+    },
+    {
+      "id": "lyon",
+      "name": "里昂—罗讷工业带",
+      "fr": "LYON · RHÔNE",
+      "cities": [
+        "里昂",
+        "圣艾蒂安",
+        "圣沙蒙"
+      ],
+      "industries": [
+        "丝绸与纺织",
+        "化工",
+        "煤炭、冶金与军械"
+      ],
+      "support": 3.2
+    },
+    {
+      "id": "dauphine",
+      "name": "多菲内—下萨瓦",
+      "fr": "DAUPHINÉ · BASSE-SAVOIE",
+      "cities": [
+        "格勒诺布尔",
+        "尚贝里",
+        "瓦朗斯"
+      ],
+      "industries": [
+        "水电与电化学",
+        "铝业与机械",
+        "山地畜牧"
+      ],
+      "support": 4.4
+    },
+    {
+      "id": "languedoc",
+      "name": "朗格多克—鲁西永",
+      "fr": "LANGUEDOC · ROUSSILLON",
+      "cities": [
+        "蒙彼利埃",
+        "尼姆",
+        "佩皮尼昂"
+      ],
+      "industries": [
+        "葡萄种植",
+        "煤炭与纺织",
+        "港口与食品加工"
+      ],
+      "support": 4.6
+    },
+    {
+      "id": "marseille",
+      "name": "马赛—普罗旺斯",
+      "fr": "MARSEILLE · PROVENCE",
+      "cities": [
+        "马赛",
+        "土伦",
+        "尼斯"
+      ],
+      "industries": [
+        "军舰与军工",
+        "港口运输",
+        "肥皂、油脂与化工"
+      ],
+      "support": 3.2
+    }
+  ],
+  "publicOffices": [
+    {
+      "title": "基础教育事务代表",
+      "fr": "INSTRUCTION",
+      "votes": 4840000,
+      "percent": 22
+    }
+  ],
+  "provenance": {
+    "publicSource": "既有民调、650席总议会与公安委职位投票；用户关于阶层、财产及组织封禁的设定。",
+    "supplement": "匿名玩家领导席位、党内分工、专属机制与报刊内容为本次补充设定。机制中的工作权重不代表选票或国家统计；协商组合依据公开席位推演，尚未成立。",
+    "style": "五页分别采用共和议案、教育互助、纳税事务、宗教保守和乡村档案语气；原创中文译写与法语标题。",
+    "paper": "各报为文游机关报及待刊稿，不冒充真实法国报纸原文；编务与内部口径仅属本组织。"
+  }
+}

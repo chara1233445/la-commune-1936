@@ -1,0 +1,86 @@
+{
+  "period": "1936年一月",
+  "entries": [
+    {
+      "id": "syndicalist",
+      "title": "革命工团委员会",
+      "route": "cgt.html",
+      "mechanism": "三派影响力、全国工会化与21行业组织台账",
+      "paper": "工会之声",
+      "voice": "生产者与行业联合会，支持改革而维护工会参与管理"
+    },
+    {
+      "id": "anarchist",
+      "title": "联邦无政府主义者协会",
+      "route": "anarchists.html",
+      "mechanism": "地方协会地图、派系大会与组织状态",
+      "paper": "自由人报",
+      "voice": "地方自治、自由联合与具体社会事务"
+    },
+    {
+      "id": "communist",
+      "title": "法国共产党",
+      "route": "communists.html",
+      "mechanism": "匿名第一书记、政治局核心圈、工农关系指针",
+      "paper": "红旗报",
+      "voice": "马克思列宁主义、布尔什维克组织原则与法国党报"
+    },
+    {
+      "id": "jacobin",
+      "title": "法国人民党",
+      "route": "jacobins.html",
+      "mechanism": "主席裁决制与技术干部行业网络",
+      "paper": "共和报",
+      "voice": "行政集中、全国计划和工程技术人员"
+    },
+    {
+      "id": "sorelian",
+      "title": "法国国家工团主义者联盟",
+      "route": "sorelians.html",
+      "mechanism": "激进度与影响力、两派影响力横条、团结与领袖权威",
+      "paper": "先锋报",
+      "voice": "国家工团主义、复仇、激进青年与领袖意志并存"
+    },
+    {
+      "id": "social-republican",
+      "title": "社会主义共和联盟",
+      "route": "socialist-republicans.html",
+      "mechanism": "改革协商",
+      "paper": "共和晨报",
+      "voice": "共和国 · 社会改革 · 公民自由"
+    },
+    {
+      "id": "young-republican",
+      "title": "青年共和联盟",
+      "route": "young-republicans.html",
+      "mechanism": "学校与互助网络",
+      "paper": "曙光报",
+      "voice": "教育 · 互助 · 良心自由"
+    },
+    {
+      "id": "taxpayer",
+      "title": "全国纳税人联合",
+      "route": "taxpayers.html",
+      "mechanism": "财产与税负议程",
+      "paper": "纳税人报",
+      "voice": "税负公开 · 财产保障 · 代表监督"
+    },
+    {
+      "id": "christian",
+      "title": "法国基督徒联盟",
+      "route": "christians.html",
+      "mechanism": "信仰与财产的联合基础",
+      "paper": "信仰与家庭报",
+      "voice": "信仰自由 · 家庭财产 · 社会秩序"
+    },
+    {
+      "id": "farmer-front",
+      "title": "农民阵线",
+      "route": "farmer-front.html",
+      "mechanism": "社会支持与代表权",
+      "paper": "乡土报",
+      "voice": "土地 · 家庭 · 乡村利益"
+    }
+  ],
+  "independentPage": false
+}

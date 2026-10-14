@@ -1,0 +1,451 @@
+{
+  "id": "taxpayer",
+  "route": "taxpayers.html",
+  "slug": "taxpayers",
+  "theme": "taxpayer",
+  "title": "全国纳税人联合",
+  "fr": "UNION NATIONALE DES CONTRIBUABLES",
+  "motto": "税负公开 · 财产保障 · 代表监督",
+  "heroLabel": "纳税人联合事务所",
+  "heroText": "有产者仍有投票权，部分财产也得到保留。联合以财产、税收和代表监督争取支持；它的选票有限，经营者与专业人士的联系较为集中。",
+  "leaderTitle": "联合主席",
+  "system": "主席协调全国理事会与地方纳税人团体。税务、财产和经营议题由专业委员会整理，议会代表依联合议案开展工作。",
+  "leadership": [
+    [
+      "全国理事会",
+      "确定税负与财产议题的共同立场。"
+    ],
+    [
+      "税务研究组",
+      "审读公开预算及税收提案，提出修订意见。"
+    ],
+    [
+      "财产事务组",
+      "汇集所有者对保留财产与再处分的诉求。"
+    ],
+    [
+      "地方纳税人团体",
+      "联系经营者、商贩、旧中产与大资产所有者。"
+    ]
+  ],
+  "mechanism": {
+    "type": "agenda",
+    "title": "财产与税负议程",
+    "fr": "PROPRIÉTÉ ET IMPÔTS",
+    "intro": "当前党内宣传与议案工作按下列议题安排。权重表示工作侧重，不是财政预算或不同阶层的选票。",
+    "items": [
+      {
+        "id": "property",
+        "title": "财产保障",
+        "weight": 40,
+        "text": "要求明确保留财产的法律地位，对再次处分列出公开程序与申诉办法。大资产所有者和旧中产对此最为关切。"
+      },
+      {
+        "id": "tax",
+        "title": "税负与预算",
+        "weight": 30,
+        "text": "要求公开税收用途和征收规则，反对临时加征与因组织关系而不同的待遇，主张代表机关监督支出。"
+      },
+      {
+        "id": "business",
+        "title": "经营与信贷",
+        "weight": 20,
+        "text": "关注商贩、经营者的周转和信用，要求公共机关说明采购、付款及经营管理规则。"
+      },
+      {
+        "id": "representation",
+        "title": "公民代表权",
+        "weight": 10,
+        "text": "维护保有的投票权，主张恢复更充分的议会监督；用联合议案联系不同的有产者团体。"
+      }
+    ]
+  },
+  "priorities": [
+    [
+      "部分财产保留",
+      "既有保留不等于免税或不受法律约束；联合要求处分规则可以预知和申诉。"
+    ],
+    [
+      "共同税收规则",
+      "反对依党派与工会关系区别征收，要求预算和税收相互对应。"
+    ],
+    [
+      "议会监督",
+      "用十二席提出审查和修订，在财产与程序问题上寻找协作。"
+    ]
+  ],
+  "press": {
+    "name": "纳税人报",
+    "fr": "LE CONTRIBUABLE",
+    "title": "征税须向纳税人说明",
+    "titleFr": "RENDRE COMPTE AUX CONTRIBUABLES",
+    "paragraphs": [
+      "巴黎，一月。国家需要收入，纳税人需要知道收入怎样使用。全国纳税人联合要求税收提案同时列出用途、征收办法与申诉途径。征收机关的方便，不能成为公民负担不断增加的唯一理由。",
+      "革命以后，一部分财产得到保留，所有者也没有失去投票权。既然公社承认这些安排，就应当使它们具有可预知的规则。今天获准经营，明天因一纸地方决定停业；今年缴清税款，次年又因组织关系另受处分，谁能在这样的条件下安排生产与周转？",
+      "联合代表大资产所有者，也联系商贩和旧中产。各家的规模不同，对公开规则的需要却相同。我们反对把有产者一概当作没有发言资格的人，也反对以熟识某个工会负责人作为获得便利的条件。",
+      "十二名议员将提出税收说明与代表监督的要求。本报欢迎纳税人寄来公开决定及经营困难，并注明适用机关。我们的论辩要有具体对象：哪项征收，哪条规则，怎样答复。"
+    ],
+    "lines": [
+      [
+        "税务论述",
+        "用公开规则和具体负担争辩，避免把本党诉求写成已经实施的税法。"
+      ],
+      [
+        "财产与经营",
+        "强调保留财产、经营信用与申诉，保持谨慎而锋利的有产者报刊语气。"
+      ],
+      [
+        "代表监督",
+        "刊列本党提案与公开答复，主张税负和政府责任同时受审查。"
+      ]
+    ]
+  },
+  "period": "1936年一月",
+  "reader": [
+    "taxpayer-player",
+    "host"
+  ],
+  "informationScope": {
+    "owner": "taxpayer",
+    "visibility": "faction",
+    "publicBaselineAllowed": true,
+    "otherFactionInternalAllowed": false
+  },
+  "publicBaseline": {
+    "nationalSupport": 2.8,
+    "seats": 12,
+    "totalSeats": 650,
+    "supportBase": "大资产阶级、旧中产、商贩及有产经营者",
+    "kind": "parliamentary"
+  },
+  "regions": [
+    {
+      "id": "paris",
+      "name": "巴黎—法兰西岛",
+      "fr": "PARIS · ÎLE-DE-FRANCE",
+      "cities": [
+        "巴黎",
+        "圣但尼",
+        "布洛涅"
+      ],
+      "industries": [
+        "汽车与机械",
+        "印刷出版",
+        "联邦机关与商贸"
+      ],
+      "support": 2.7
+    },
+    {
+      "id": "calais",
+      "name": "加莱—阿图瓦",
+      "fr": "CALAIS · ARTOIS",
+      "cities": [
+        "加莱",
+        "布洛涅",
+        "朗斯"
+      ],
+      "industries": [
+        "花边纺织",
+        "煤炭",
+        "海峡航运"
+      ],
+      "support": 1.9
+    },
+    {
+      "id": "lille",
+      "name": "里尔—北部工业区",
+      "fr": "LILLE · NORD",
+      "cities": [
+        "里尔",
+        "鲁贝",
+        "图尔宽"
+      ],
+      "industries": [
+        "毛棉纺织",
+        "煤炭与冶金",
+        "机械制造"
+      ],
+      "support": 1.8
+    },
+    {
+      "id": "picardie",
+      "name": "皮卡第",
+      "fr": "PICARDIE",
+      "cities": [
+        "亚眠",
+        "博韦",
+        "圣康坦"
+      ],
+      "industries": [
+        "粮食与甜菜",
+        "食品加工",
+        "纺织"
+      ],
+      "support": 2.7
+    },
+    {
+      "id": "normandie",
+      "name": "诺曼底",
+      "fr": "NORMANDIE",
+      "cities": [
+        "鲁昂",
+        "勒阿弗尔",
+        "卡昂"
+      ],
+      "industries": [
+        "港口与造船",
+        "纺织",
+        "乳业与畜牧"
+      ],
+      "support": 2.8
+    },
+    {
+      "id": "bretagne",
+      "name": "布列塔尼",
+      "fr": "BRETAGNE",
+      "cities": [
+        "雷恩",
+        "布雷斯特",
+        "坎佩尔"
+      ],
+      "industries": [
+        "渔业与罐头",
+        "海军船厂",
+        "畜牧与粮食"
+      ],
+      "support": 3.5
+    },
+    {
+      "id": "loire",
+      "name": "南特—卢瓦尔下游",
+      "fr": "NANTES · BASSE-LOIRE",
+      "cities": [
+        "南特",
+        "圣纳泽尔",
+        "昂热",
+        "勒芒"
+      ],
+      "industries": [
+        "造船与港口",
+        "机械与食品加工",
+        "粮食与畜牧"
+      ],
+      "support": 2.8
+    },
+    {
+      "id": "poitou",
+      "name": "普瓦图—夏朗德",
+      "fr": "POITOU · CHARENTES",
+      "cities": [
+        "普瓦捷",
+        "拉罗谢尔",
+        "昂古莱姆"
+      ],
+      "industries": [
+        "粮食与乳业",
+        "干邑与葡萄种植",
+        "港口与造纸"
+      ],
+      "support": 3.2
+    },
+    {
+      "id": "bordeaux",
+      "name": "波尔多—阿基坦",
+      "fr": "BORDEAUX · AQUITAINE",
+      "cities": [
+        "波尔多",
+        "佩里格",
+        "巴约讷"
+      ],
+      "industries": [
+        "港口与造船",
+        "葡萄酒",
+        "林业与木材"
+      ],
+      "support": 3.1
+    },
+    {
+      "id": "toulouse",
+      "name": "图卢兹—西南内陆",
+      "fr": "TOULOUSE · MIDI-PYRÉNÉES",
+      "cities": [
+        "图卢兹",
+        "蒙托邦",
+        "塔布"
+      ],
+      "industries": [
+        "航空与机械",
+        "粮食与畜牧",
+        "水电"
+      ],
+      "support": 3.1
+    },
+    {
+      "id": "limousin",
+      "name": "利穆赞",
+      "fr": "LIMOUSIN",
+      "cities": [
+        "利摩日",
+        "盖雷",
+        "蒂勒"
+      ],
+      "industries": [
+        "瓷器与制鞋",
+        "畜牧",
+        "林业"
+      ],
+      "support": 2.9
+    },
+    {
+      "id": "auvergne",
+      "name": "奥弗涅",
+      "fr": "AUVERGNE",
+      "cities": [
+        "克莱蒙费朗",
+        "欧里亚克",
+        "勒皮"
+      ],
+      "industries": [
+        "橡胶与轮胎",
+        "畜牧",
+        "采矿与食品加工"
+      ],
+      "support": 3
+    },
+    {
+      "id": "centre",
+      "name": "中央—卢瓦尔中游",
+      "fr": "CENTRE · VAL DE LOIRE",
+      "cities": [
+        "奥尔良",
+        "图尔",
+        "布尔日"
+      ],
+      "industries": [
+        "粮食与葡萄酒",
+        "军械与机械",
+        "铁路运输"
+      ],
+      "support": 3
+    },
+    {
+      "id": "champagne",
+      "name": "香槟—阿登",
+      "fr": "CHAMPAGNE · ARDENNES",
+      "cities": [
+        "兰斯",
+        "特鲁瓦",
+        "沙隆"
+      ],
+      "industries": [
+        "谷物与葡萄酒",
+        "纺织",
+        "冶金"
+      ],
+      "support": 2.9
+    },
+    {
+      "id": "nancy",
+      "name": "南锡—公社洛林",
+      "fr": "NANCY · LORRAINE COMMUNARDE",
+      "cities": [
+        "南锡",
+        "图勒",
+        "巴勒迪克"
+      ],
+      "industries": [
+        "玻璃与机械",
+        "残存冶金",
+        "粮食与林业"
+      ],
+      "support": 2.7
+    },
+    {
+      "id": "bourgogne",
+      "name": "勃艮第—弗朗什孔泰",
+      "fr": "BOURGOGNE · FRANCHE-COMTÉ",
+      "cities": [
+        "第戎",
+        "贝桑松",
+        "勒克勒佐"
+      ],
+      "industries": [
+        "冶金与机械",
+        "钟表",
+        "葡萄酒与畜牧"
+      ],
+      "support": 2.8
+    },
+    {
+      "id": "lyon",
+      "name": "里昂—罗讷工业带",
+      "fr": "LYON · RHÔNE",
+      "cities": [
+        "里昂",
+        "圣艾蒂安",
+        "圣沙蒙"
+      ],
+      "industries": [
+        "丝绸与纺织",
+        "化工",
+        "煤炭、冶金与军械"
+      ],
+      "support": 2.3
+    },
+    {
+      "id": "dauphine",
+      "name": "多菲内—下萨瓦",
+      "fr": "DAUPHINÉ · BASSE-SAVOIE",
+      "cities": [
+        "格勒诺布尔",
+        "尚贝里",
+        "瓦朗斯"
+      ],
+      "industries": [
+        "水电与电化学",
+        "铝业与机械",
+        "山地畜牧"
+      ],
+      "support": 2.9
+    },
+    {
+      "id": "languedoc",
+      "name": "朗格多克—鲁西永",
+      "fr": "LANGUEDOC · ROUSSILLON",
+      "cities": [
+        "蒙彼利埃",
+        "尼姆",
+        "佩皮尼昂"
+      ],
+      "industries": [
+        "葡萄种植",
+        "煤炭与纺织",
+        "港口与食品加工"
+      ],
+      "support": 3.1
+    },
+    {
+      "id": "marseille",
+      "name": "马赛—普罗旺斯",
+      "fr": "MARSEILLE · PROVENCE",
+      "cities": [
+        "马赛",
+        "土伦",
+        "尼斯"
+      ],
+      "industries": [
+        "军舰与军工",
+        "港口运输",
+        "肥皂、油脂与化工"
+      ],
+      "support": 2.4
+    }
+  ],
+  "publicOffices": [],
+  "provenance": {
+    "publicSource": "既有民调、650席总议会与公安委职位投票；用户关于阶层、财产及组织封禁的设定。",
+    "supplement": "匿名玩家领导席位、党内分工、专属机制与报刊内容为本次补充设定。机制中的工作权重不代表选票或国家统计；协商组合依据公开席位推演，尚未成立。",
+    "style": "五页分别采用共和议案、教育互助、纳税事务、宗教保守和乡村档案语气；原创中文译写与法语标题。",
+    "paper": "各报为文游机关报及待刊稿，不冒充真实法国报纸原文；编务与内部口径仅属本组织。"
+  }
+}
