@@ -106,6 +106,32 @@
       ]
     },
     {
+      "title": "法国人民党",
+      "fr": "Parti populaire français",
+      "group": "阵营资料",
+      "route": "jacobins.html",
+      "description": "主席裁决制与中央执行局玩家资料。",
+      "logo": "https://chara1233445.github.io/la-commune-1936/assets/party-logos/ppf-v1.svg",
+      "shortcuts": [
+        [
+          "领导机关",
+          "leadership"
+        ],
+        [
+          "地区支持",
+          "regions"
+        ],
+        [
+          "党务与公职",
+          "programme"
+        ],
+        [
+          "共和报",
+          "press"
+        ]
+      ]
+    },
+    {
       "title": "司法之塔",
       "fr": "La Tour de la justice",
       "group": "独立机构",
